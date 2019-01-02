@@ -8,9 +8,9 @@ relative_permalinks: true
 title:               Cesar Renteria
 tagline:             'Personal Website'
 description:         'Ph.D. Student in Public Administration & Policy'
-url:                 "http://crenteriam.github.io"
+url:                 "https://crenteriam.github.io"
 baseurl:             ''
-repository:         "crenteriam.github.io"
+#repository:         "crenteriam.github.io"
 paginate:            5
 
 # About/contact
