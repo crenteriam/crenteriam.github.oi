@@ -17,3 +17,8 @@ My research examines the patterns....
 <i class="ai ai-researchgate ai"></i> <a href = "https://researchgate.net/profile/Cesar_Renteria">rg</a>
 
 </center-->
+
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEyNDA3NTYxNjVdfQ==
+-->
