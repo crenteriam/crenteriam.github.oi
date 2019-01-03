@@ -5,10 +5,14 @@ title: Research
 My examines the patterns....
 
 
-<center> |[Google Scholar](https://scholar.google.com/citations?user=ezE8rPkAAAAJ&hl=en) | [ResearchGate](https://www.researchgate.net/profile/Cesar_Renteria) | [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2270101) | [Open Science Framework](https://osf.io/9y7n4/)| </center>
+----
+<center>  | [Google Scholar](https://scholar.google.com/citations?user=ezE8rPkAAAAJ&hl=en) | [ResearchGate](https://www.researchgate.net/profile/Cesar_Renteria) | [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2270101) | [Open Science Framework](https://osf.io/9y7n4/) | </center>
+----
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MzcwMTkyNCwtODkwNTA4MDIxLC01MD
+eyJoaXN0b3J5IjpbMTU0MjU3MTQwOCwtODkwNTA4MDIxLC01MD
 M2MDIxOTBdfQ==
 -->
