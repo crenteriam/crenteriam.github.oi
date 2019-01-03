@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Lanyon (To Be Deleted)
 ---
 
 <p class="message">
