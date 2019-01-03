@@ -7,7 +7,7 @@ permalink: "/:title/"
 title:               Cesar Renteria
 tagline:             Ph.D. Student
 description:         'Ph.D. Student in Public Administration & Policy'
-url:                 "https://crenteriam.github.io"         
+#url:                 "https://crenteriam.github.io"         
 paginate:            5
 
 # About/contact
@@ -19,4 +19,4 @@ author:
 # Custom vars
 version:             1.0
 github:
-  repo:              https://github.com/crenteriam/crenteriam.github.io
+#  repo:              https://github.com/crenteriam/crenteriam.github.io
