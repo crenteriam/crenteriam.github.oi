@@ -12,12 +12,10 @@ My examines the patterns....
 
 ### Open Source
 ----
-<center>
 | [GitHub](https://github.com/crenteriam) | [Open Science Framework](https://osf.io/9y7n4/) |
-</center>
 ----
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDU0Nzg3NTAsOTIxNjg0NDIyLDc2OD
-Q1ODExNCwtODkwNTA4MDIxLC01MDM2MDIxOTBdfQ==
+eyJoaXN0b3J5IjpbMTg5MzU4MzMzNSw5MjE2ODQ0MjIsNzY4ND
+U4MTE0LC04OTA1MDgwMjEsLTUwMzYwMjE5MF19
 -->
