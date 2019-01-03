@@ -4,17 +4,11 @@ title: Research
 ---
 My research examines the patterns....
 
-### Research sites
 
- | [Google Scholar](https://scholar.google.com/citations?user=ezE8rPkAAAAJ&hl=en) | [ResearchGate](https://www.researchgate.net/profile/Cesar_Renteria) | [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2270101) | 
-
-### Open Source
-
-| [GitHub](https://github.com/crenteriam) | [Open Science Framework](https://osf.io/9y7n4/) |
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5MDM0MTc0LDc4MTAxODc1NSw5MjE2OD
-Q0MjIsNzY4NDU4MTE0LC04OTA1MDgwMjEsLTUwMzYwMjE5MF19
-
+eyJoaXN0b3J5IjpbLTE0ODA1NTQxODMsNzgxMDE4NzU1LDkyMT
+Y4NDQyMiw3Njg0NTgxMTQsLTg5MDUwODAyMSwtNTAzNjAyMTkw
+XX0=
 -->
