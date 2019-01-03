@@ -5,7 +5,7 @@ permalink: "/:title/"
 
 # Setup
 title:               Cesar Renteria
-tagline:             Personal Website
+tagline:             Ph.D. Student
 description:         'Ph.D. Student in Public Administration & Policy'
 url:                 "https://crenteriam.github.io"         
 paginate:            5
@@ -17,6 +17,6 @@ author:
   email:             crenteria@albany.edu
 
 # Custom vars
-version:             1.0.0
+version:             1.0
 github:
   repo:              https://github.com/crenteriam/crenteriam.github.io
