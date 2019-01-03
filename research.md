@@ -11,9 +11,9 @@ My examines the patterns....
 ### Open Source
 
 | [GitHub](https://github.com/crenteriam) | [Open Science Framework](https://osf.io/9y7n4/) |
-----
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjI4NTI4Nyw5MjE2ODQ0MjIsNzY4ND
-U4MTE0LC04OTA1MDgwMjEsLTUwMzYwMjE5MF19
+eyJoaXN0b3J5IjpbLTE5ODI5NTk5NjEsOTIxNjg0NDIyLDc2OD
+Q1ODExNCwtODkwNTA4MDIxLC01MDM2MDIxOTBdfQ==
 -->
