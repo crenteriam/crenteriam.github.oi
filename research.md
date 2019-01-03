@@ -2,7 +2,7 @@
 layout: page
 title: Research
 ---
-My examines the patterns....
+My research examines the patterns....
 
 ### Research sites
 
@@ -14,7 +14,7 @@ My examines the patterns....
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODI5NTk5NjEsNzgxMDE4NzU1LDkyMT
-Y4NDQyMiw3Njg0NTgxMTQsLTg5MDUwODAyMSwtNTAzNjAyMTkw
-XX0=
+eyJoaXN0b3J5IjpbMjc5MDM0MTc0LDc4MTAxODc1NSw5MjE2OD
+Q0MjIsNzY4NDU4MTE0LC04OTA1MDgwMjEsLTUwMzYwMjE5MF19
+
 -->
