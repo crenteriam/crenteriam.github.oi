@@ -9,11 +9,11 @@ title: Research
 My research examines the patterns....
 
 
+<!--center>
+<i class="ai ai-google-scholar ai"></i> <a href = "https://scholar.google.com/citations?user=ezE8rPkAAAAJ&hl=en">scholar</a>
+<i class="ai ai-orcid ai"></i> <a href = "http://orcid.org/0000-0002-6125-5723">orcid</a>
+<i class="fab fa-github"></i> <a href = "https://github.com/crenteriam">github</a>
+<i class="ai ai-osf ai"></i> <a href = "https://osf.io/9y7n4/">osf</a>
+<i class="ai ai-researchgate ai"></i> <a href = "https://researchgate.net/profile/Cesar_Renteria">rg</a>
 
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1NTcxMzk4LC0xNDgwNTU0MTgzLDc4MT
-AxODc1NSw5MjE2ODQ0MjIsNzY4NDU4MTE0LC04OTA1MDgwMjEs
-LTUwMzYwMjE5MF19
--->
+</center-->
