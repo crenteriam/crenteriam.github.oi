@@ -7,7 +7,9 @@ My examines the patterns....
 ----
 <center> |[Google Scholar](https://scholar.google.com/citations?user=ezE8rPkAAAAJ&hl=en) | [ResearchGate](https://www.researchgate.net/profile/Cesar_Renteria) | [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2270101) | </center>
 ---
+
+:scream:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjYyMzk4MiwtODkwNTA4MDIxLC01MD
-M2MDIxOTBdfQ==
+eyJoaXN0b3J5IjpbLTE5ODQ5NDE5ODcsLTg5MDUwODAyMSwtNT
+AzNjAyMTkwXX0=
 -->
