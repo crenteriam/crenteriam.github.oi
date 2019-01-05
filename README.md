@@ -1,13 +1,13 @@
 Personal site based on:
 
-# Lanyon
+### Lanyon
 
 http://lanyon.getpoole.com/
 
 AND 
-# Vrepinblog
+### Vrepinblog
 https://github.com/vitalyrepin/vrepinblog
 
-# Another source for academic websites
+### Another source for academic websites
 
 <https://academicpages.github.io/>
