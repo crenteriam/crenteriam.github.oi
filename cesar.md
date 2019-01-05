@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Céesar
+title: César
 ---
 <!-- ACADEMICONS-->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -14,5 +14,6 @@ title: Céesar
 </center>
 Info about me.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzcxMTcxOSwtMTI5NTA4Mjk0Nl19
+eyJoaXN0b3J5IjpbLTE4MDE1MTM4NDgsLTEyOTUwODI5NDZdfQ
+==
 -->
