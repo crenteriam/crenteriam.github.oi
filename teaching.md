@@ -20,8 +20,8 @@ Jump to:
 # Teaching Statement
 
 [xxx](https://crenteriam.github.io/teaching/xx)
-
+Some stuff about teaching.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTgzNTQzMTAsLTYxNjkyOTgyLC0xNT
-Y1MTczOTkxLC0xODMwNDkwODYwXX0=
+eyJoaXN0b3J5IjpbLTY2ODg4OTY2MCwtMTQxODM1NDMxMCwtNj
+E2OTI5ODIsLTE1NjUxNzM5OTEsLTE4MzA0OTA4NjBdfQ==
 -->
