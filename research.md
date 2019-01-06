@@ -7,7 +7,7 @@ title: Research
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
 <!--TEXT STARTS HERE-->
-My research examines....
+My primary area of interest is the adoption and use of information technologies in organizations. Currently my research have focused on governments, where the use of information technologies can be used for improving citizen engagement, decision-making and the quality of public service delivery.
 
 
 <center>
@@ -21,6 +21,6 @@ My research examines....
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODUzMzEyNjUsLTEyNDA3NTYxNjVdfQ
+eyJoaXN0b3J5IjpbLTE1ODg4MzMzNDEsLTEyNDA3NTYxNjVdfQ
 ==
 -->
