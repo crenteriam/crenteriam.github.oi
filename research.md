@@ -6,6 +6,7 @@ title: Research
 <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
+<!--TEXT STARTS HERE-->
 My research examines....
 
 
@@ -20,5 +21,6 @@ My research examines....
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODI0OTQyOCwtMTI0MDc1NjE2NV19
+eyJoaXN0b3J5IjpbLTEzODUzMzEyNjUsLTEyNDA3NTYxNjVdfQ
+==
 -->
