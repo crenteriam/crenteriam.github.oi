@@ -9,7 +9,7 @@ title: Research
 <!--TEXT STARTS HERE-->
 My primary area of interest is the adoption and use of information technologies in organizations. Currently my research have focused on governments, where the use of information technologies can be used for improving citizen engagement, decision-making and the quality of public service delivery.
 
-
+<!--TEXT ENDS HERE-->
 <center>
 <i class="ai ai-google-scholar ai"></i> <a href = "https://scholar.google.com/citations?user=ezE8rPkAAAAJ&hl=en">scholar</a>
 <i class="ai ai-orcid ai"></i> <a href = "http://orcid.org/0000-0002-6125-5723">orcid</a>
@@ -21,6 +21,5 @@ My primary area of interest is the adoption and use of information technologies 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg4MzMzNDEsLTEyNDA3NTYxNjVdfQ
-==
+eyJoaXN0b3J5IjpbMjU2MTgxODY1LC0xMjQwNzU2MTY1XX0=
 -->
