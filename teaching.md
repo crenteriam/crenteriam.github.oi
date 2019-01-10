@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pagex
 title: Teaching
 ---
 
