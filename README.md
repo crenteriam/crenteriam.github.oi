@@ -1,9 +1,7 @@
 
-This is a personal website for academic purposes. The Website is based on [Lanyon](http://lanyon.getpoole.com/).
+This is a personal website for academic purposes. The Website is based on [Lanyon](http://lanyon.getpoole.com/). I also adapted some HTML code from [Vitaly Repin's blog](https://github.com/vitalyrepin/vrepinblog).
 
-AND 
-### Vrepinblog
-https://github.com/vitalyrepin/vrepinblog
+
 
 
 ### Also check out
@@ -12,10 +10,6 @@ https://github.com/vitalyrepin/vrepinblog
 https://github.com/uc-r/uc-r.github.io
 
 http://bradleyboehmke.github.io/
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwODI1NDU4Nyw4MzAxNzg2MjJdfQ==
--->
 
 Basic writing and formatting syntax>
 https://help.github.com/articles/basic-writing-and-formatting-syntax/
