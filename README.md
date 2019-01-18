@@ -1,8 +1,5 @@
-Personal site based on:
 
-### Lanyon
-
-http://lanyon.getpoole.com/
+This is a personal website for academic purposes. The Website is based on [Lanyon](http://lanyon.getpoole.com/).
 
 AND 
 ### Vrepinblog
