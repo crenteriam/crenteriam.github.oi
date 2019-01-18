@@ -3,6 +3,6 @@ This is a personal website for academic purposes. The Website is based on [Lanyo
 
 Other materials for an academic website: [Academicpage Template](https://academicpages.github.io/).
 
-[Basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+[Basic Markdwon Syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 [![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) 
