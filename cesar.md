@@ -7,12 +7,6 @@ title: César
 
 **César Rentería Marín.** Ph.D. Student in Public Administration & Policy at University at Albany, SUNY. Has been consultant for Inter-American Development Bank, Development Bank of Latin America, among others, and has authored articles on mobile banking, ICT4D and e-government. In 2012 was awarded with international grant for young researchers "Amy Mahan". Specializes in digital divide, telecommunications policy, and governance.
 
-
-Contents test.
-<!--p>xxx: <a href="{{site.baseurl}}/contents/test">test</a></p-->
-
-[Contents Test](/contents/test)
-
 <center>
 <i class="fas fa-at"></i><a href = "mailto: crenteria@albany.edu">crenteria@albany.edu</a>
 
@@ -20,7 +14,7 @@ Contents test.
 </center>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTgyOTc2OCwtMTk0ODA4NTY2NCwxNz
-M5NTE0MzEyLC0xNzY1MTg4MDUxLC0yMDIwOTE2NDk1LC0xODAx
-NTEzODQ4LC0xMjk1MDgyOTQ2XX0=
+eyJoaXN0b3J5IjpbLTIwMjA5MTY0OTUsLTE5NDgwODU2NjQsMT
+czOTUxNDMxMiwtMTc2NTE4ODA1MSwtMjAyMDkxNjQ5NSwtMTgw
+MTUxMzg0OCwtMTI5NTA4Mjk0Nl19
 -->
