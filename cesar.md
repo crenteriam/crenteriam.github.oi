@@ -16,6 +16,8 @@ XXXX.
 
 [Contents Test]({{site.baseurl}}/contents/test)
 
+[Contents Test](/contents/test)
+
 <center>
 <i class="fas fa-at"></i><a href = "mailto: crenteria@albany.edu">crenteria@albany.edu</a>
 
@@ -23,7 +25,7 @@ XXXX.
 </center>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODkyNjQ5OTIsLTE5NDgwODU2NjQsMT
-czOTUxNDMxMiwtMTc2NTE4ODA1MSwtMjAyMDkxNjQ5NSwtMTgw
-MTUxMzg0OCwtMTI5NTA4Mjk0Nl19
+eyJoaXN0b3J5IjpbLTY4OTA1ODAyNSwtMTk0ODA4NTY2NCwxNz
+M5NTE0MzEyLC0xNzY1MTg4MDUxLC0yMDIwOTE2NDk1LC0xODAx
+NTEzODQ4LC0xMjk1MDgyOTQ2XX0=
 -->
