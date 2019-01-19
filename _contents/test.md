@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Test
-permalin: /foldertest
+permalink: /foldertest
 ---
 
 
