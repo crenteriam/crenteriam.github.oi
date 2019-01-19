@@ -12,11 +12,7 @@ XXXX.
 
 [Research]({{site.baseurl}}/research)
 
-[Link 2]({{site.baseurl}}/folder)
-
-[Link 2]({{site.baseurl}}/test)
-
-[LinkA](({{site.baseurl}}/folder/test2)
+<p>xxx: <a href="{{site.baseurl}}/_contents/test">test</a></p>
 
 <center>
 <i class="fas fa-at"></i><a href = "mailto: crenteria@albany.edu">crenteria@albany.edu</a>
