@@ -12,7 +12,8 @@ XXXX.
 
 [Research]({{site.baseurl}}/research)
 
-<p>xxx: <a href="{{site.baseurl}}/_contents/test">test</a></p>
+<!--p>xxx: <a href="{{site.baseurl}}/_contents/test">test</a></p-->
+<p>xxx: <a href="{{site.baseurl}}/_contents/test2">test</a></p>
 
 <center>
 <i class="fas fa-at"></i><a href = "mailto: crenteria@albany.edu">crenteria@albany.edu</a>
