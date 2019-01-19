@@ -10,7 +10,7 @@ title: César
 
 XXXX.
 
-[Link to page]({{site.baseurl}}/_contents/test_link)
+[Research]({{site.baseurl}}/research)
 
 [Link 2](folder)
 
