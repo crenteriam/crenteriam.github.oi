@@ -9,11 +9,7 @@ title: César
 
 
 Contents test.
-
 <!--p>xxx: <a href="{{site.baseurl}}/contents/test">test</a></p-->
-```
-[comment]: <> 
-```[Contents Test]({{site.baseurl}}/contents/test)
 
 [Contents Test](/contents/test)
 
@@ -24,7 +20,7 @@ Contents test.
 </center>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1Mzc0NzM4NywtMTk0ODA4NTY2NCwxNz
+eyJoaXN0b3J5IjpbMjAyNTgyOTc2OCwtMTk0ODA4NTY2NCwxNz
 M5NTE0MzEyLC0xNzY1MTg4MDUxLC0yMDIwOTE2NDk1LC0xODAx
 NTEzODQ4LC0xMjk1MDgyOTQ2XX0=
 -->
