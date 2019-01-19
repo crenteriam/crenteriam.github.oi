@@ -1,7 +1,6 @@
 ---
-title: Test2
+title: test2
 layout: page
-permalink: /foldertest/test2
 ---
 
 
