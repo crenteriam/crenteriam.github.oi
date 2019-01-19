@@ -1,7 +1,6 @@
 ---
-layout: pagecontents
-title: tTest
-permalink: /foldertest_link
+layout: page
+title: test
 ---
 
 
@@ -11,5 +10,5 @@ Here is a test contents.
 
 [Link to Cesar](cesar)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzAxMjk5NjddfQ==
+eyJoaXN0b3J5IjpbNzMxNzA0MDkwXX0=
 -->
