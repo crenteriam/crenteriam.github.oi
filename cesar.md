@@ -10,7 +10,7 @@ title: César
 
 XXXX.
 
-[Link to page]({{site.baseurl}}/test_link)
+[Link to page]({{site.baseurl}}/folder/test_link)
 
 <center>
 <i class="fas fa-at"></i><a href = "mailto: crenteria@albany.edu">crenteria@albany.edu</a>
