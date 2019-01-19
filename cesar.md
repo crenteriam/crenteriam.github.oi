@@ -13,7 +13,9 @@ XXXX.
 [Research]({{site.baseurl}}/research)
 
 <!--p>xxx: <a href="{{site.baseurl}}/_contents/test">test</a></p-->
-<p>xxx: <a href="{{site.baseurl}}/_contents/test2">test</a></p>
+<p>xxx: <a href="Link to page]({{site.baseurl}}/_contents/test_link)
+
+[Link 2]({{site.baseurl}}/_contents/test2">test</a></p>)
 
 <center>
 <i class="fas fa-at"></i><a href = "mailto: crenteria@albany.edu">crenteria@albany.edu</a>
@@ -22,6 +24,6 @@ XXXX.
 </center>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjA5MTY0OTUsLTE4MDE1MTM4NDgsLT
-EyOTUwODI5NDZdfQ==
+eyJoaXN0b3J5IjpbLTE3NjUxODgwNTEsLTIwMjA5MTY0OTUsLT
+E4MDE1MTM4NDgsLTEyOTUwODI5NDZdfQ==
 -->
