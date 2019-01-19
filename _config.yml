@@ -1,6 +1,7 @@
 # Permalinks. Use of `relative_permalinks` ensures post links from the index work properly.
-permalink: "/:title/"
-#permalink: "/:folder/"
+#permalink: "/:title/"
+permalink: pretty
+gems:                [jekyll-paginate]
 
 # Setup
 title:               Cesar Renteria
