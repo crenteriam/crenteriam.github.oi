@@ -13,9 +13,9 @@ XXXX.
 [Research]({{site.baseurl}}/research)
 
 <!--p>xxx: <a href="{{site.baseurl}}/_contents/test">test</a></p-->
-<p>xxx: <a href="Link to page]({{site.baseurl}}/_contents/test)></a></p>
+<p>xxx: <a href="Link to page]({{site.baseurl}}/_contents/test)>test</a></p>
 
-<p>xxx: <a href="Link to page]({{site.baseurl}}/_contents/test2)></a></p>
+<p>xxx: <a href="Link to page]({{site.baseurl}}/_contents/test2)>test2</a></p>
 
 [Link 2]({{site.baseurl}}/_contents/test2)
 
@@ -26,7 +26,7 @@ XXXX.
 </center>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDg5MTE0MCwxNzM5NTE0MzEyLC0xNz
+eyJoaXN0b3J5IjpbMTgwMzQxNDg0NiwxNzM5NTE0MzEyLC0xNz
 Y1MTg4MDUxLC0yMDIwOTE2NDk1LC0xODAxNTEzODQ4LC0xMjk1
 MDgyOTQ2XX0=
 -->
