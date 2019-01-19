@@ -17,7 +17,7 @@ XXXX.
 
 <p>xxx: <a href="{{site.baseurl}}/contents/test2">test2</a></p>
 
-[Link 2]({{site.baseurl}}/_contents/test2)
+[Link 2]({{site.baseurl}}/contents/test2)
 
 <center>
 <i class="fas fa-at"></i><a href = "mailto: crenteria@albany.edu">crenteria@albany.edu</a>
@@ -26,7 +26,7 @@ XXXX.
 </center>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDgwODU2NjQsMTczOTUxNDMxMiwtMT
-c2NTE4ODA1MSwtMjAyMDkxNjQ5NSwtMTgwMTUxMzg0OCwtMTI5
-NTA4Mjk0Nl19
+eyJoaXN0b3J5IjpbLTE2NzEzMDQwMSwtMTk0ODA4NTY2NCwxNz
+M5NTE0MzEyLC0xNzY1MTg4MDUxLC0yMDIwOTE2NDk1LC0xODAx
+NTEzODQ4LC0xMjk1MDgyOTQ2XX0=
 -->
