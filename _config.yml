@@ -1,7 +1,6 @@
 # Permalinks. Use of `relative_permalinks` ensures post links from the index work properly.
 #permalink: "/:title/"
 permalink: pretty
-gems:                [jekyll-paginate]
 
 # Setup
 title:               Cesar Renteria
@@ -17,7 +16,7 @@ author:
   email:             crenteria@albany.edu
 
 # Custom vars
-version:             5.0.1
+version:             1.0
 github:
 
 # ---------------------------------------------------------------
