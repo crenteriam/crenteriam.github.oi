@@ -1,7 +1,6 @@
 ---
-layout: contents
+layout: page
 title: Test
-permalink: /test_link
 ---
 
 
