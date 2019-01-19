@@ -12,7 +12,11 @@ XXXX.
 
 [Link to page]({{site.baseurl}}/_contents/test_link)
 
-[Link 2]({{site.baseurl}}/_contents/test)
+[Link 2](folder)
+
+[LinkA](folder/test2)
+
+[Linkb](research)
 
 <center>
 <i class="fas fa-at"></i><a href = "mailto: crenteria@albany.edu">crenteria@albany.edu</a>
