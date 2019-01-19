@@ -12,12 +12,9 @@ XXXX.
 
 [Research]({{site.baseurl}}/research)
 
-<!--p>xxx: <a href="{{site.baseurl}}/_contents/test">test</a></p-->
-<p>xxx: <a href="{{site.baseurl}}/contents/test">test</a></p>
+<!--p>xxx: <a href="{{site.baseurl}}/contents/test">test</a></p-->
 
-<p>xxx: <a href="{{site.baseurl}}/contents/test2">test2</a></p>
-
-[Link 2]({{site.baseurl}}/contents/test2)
+[Contents Test]({{site.baseurl}}/contents/test)
 
 <center>
 <i class="fas fa-at"></i><a href = "mailto: crenteria@albany.edu">crenteria@albany.edu</a>
@@ -26,7 +23,7 @@ XXXX.
 </center>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzEzMDQwMSwtMTk0ODA4NTY2NCwxNz
-M5NTE0MzEyLC0xNzY1MTg4MDUxLC0yMDIwOTE2NDk1LC0xODAx
-NTEzODQ4LC0xMjk1MDgyOTQ2XX0=
+eyJoaXN0b3J5IjpbLTEwODkyNjQ5OTIsLTE5NDgwODU2NjQsMT
+czOTUxNDMxMiwtMTc2NTE4ODA1MSwtMjAyMDkxNjQ5NSwtMTgw
+MTUxMzg0OCwtMTI5NTA4Mjk0Nl19
 -->
