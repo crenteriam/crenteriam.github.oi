@@ -10,7 +10,7 @@ title: César
 <center>
 <i class="fas fa-at"></i><a href = "mailto: crenteria@albany.edu">crenteria@albany.edu</a>
 
-<i class="fa fa-t"></i><a href = "https://twitter.com/crenteriama">twitter</a>
+<i class="fab fa-twitter"></i><a href = "https://twitter.com/crenteriama">twitter</a>
 </center>
 
 <!--stackedit_data:
