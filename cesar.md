@@ -10,11 +10,11 @@ title: César
 <center>
 <i class="fas fa-at"></i><a href = "mailto: crenteria@albany.edu">crenteria@albany.edu</a>
 
-<i class="fab fa-twitter"></i><a href = "https://twitter.com/crenteriama">twitter</a>
+<i class="fa fa-t"></i><a href = "https://twitter.com/crenteriama">twitter</a>
 </center>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjA5MTY0OTUsLTE5NDgwODU2NjQsMT
-czOTUxNDMxMiwtMTc2NTE4ODA1MSwtMjAyMDkxNjQ5NSwtMTgw
-MTUxMzg0OCwtMTI5NTA4Mjk0Nl19
+eyJoaXN0b3J5IjpbMTAxODE0NzU4NiwtMjAyMDkxNjQ5NSwtMT
+k0ODA4NTY2NCwxNzM5NTE0MzEyLC0xNzY1MTg4MDUxLC0yMDIw
+OTE2NDk1LC0xODAxNTEzODQ4LC0xMjk1MDgyOTQ2XX0=
 -->
