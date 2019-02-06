@@ -1,9 +1,9 @@
 ---
 layout: contents
-title: Taller Para Especialistas en Datos
+title: NULL
 ---
 
-[Teaching](teaching.md) &rarr; [Research](research.md) &rarr; Data Programmer
+[Teaching](../teaching.md) &rarr; [Research](../research.md) &rarr; Data Programmer
 
 [Presentacion](#Presentacion) | [Objetivos](#Objetivo) | [Sesiones](#Sesiones) |
 
