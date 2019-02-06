@@ -3,7 +3,7 @@ layout: contents
 title: NULL
 ---
 
-[Teaching](../teaching.md) &rarr; [Research](../research.md) &rarr; Data Programmer
+[Teaching](../teaching.md) &rarr; Data Programmer
 
 [Presentacion](#Presentacion) | [Objetivos](#Objetivo) | [Sesiones](#Sesiones) |
 
@@ -21,7 +21,7 @@ Las habilidades clave a desarrolar son: Conocimiento de las diferentes estructur
 -- Manipulacion de datos
 -- Entender los tipos de datos y sus estructuras
 
-### 3 Objetivos Especificos
+### Objetivos Especificos
 
 Habilidades Adquiridas:
 
@@ -53,13 +53,13 @@ Tipos de datos:
   - Web Scrapping
   - Texto
 
-### 5 Materiales de Ensen~anza
+### Materiales de Ensen~anza
 
-### 6 Bibliografia basica
+### Bibliografia basica
 
-### 7 Bibliografia Complementaria
+### Bibliografia Complementaria
 
-### 8 Un Curso Mas largo incorporaria
+### Un Curso Mas largo incorporaria
 -- Ampliacion de tipos de datos: strong data gethering from the Internet, from administrative data, open data, official/conventional survey data, and field work, social media, web scrapping, pdftopython, mechanical turk, sensors, big data, and crowdsourced data, GIS & Remote Sensing.
 -- Especializacion optativa de otros softwares: Python y Julia, QGIS.
 -- Version Control en Github.

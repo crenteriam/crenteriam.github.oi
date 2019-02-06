@@ -3,17 +3,19 @@ layout: contents
 title: Teaching
 ---
 
-[Teaching Interests](#Interests) | [Courses](#Courses) | [Workshops](#Workshops) | [Syllabi](#Syllabi) | [Teaching Statement](#Statement)
+[Teaching Interests](#Interests) | [Courses](#Cursos) | [Talleres](#Talleres) | [Teaching Statement](#Statement)
 
 
 ### <a name="Interests"></a>Teaching Interests
 
-### <a name="Interests">Courses
-
-### Workshops
+### <a name="Talleres">Talleres
 
 [Data Programmer](workshops/programmer.md)
 
-### Syllabi
+[Data Analyst](workshops/analyst.md)
+
+[Data Consumer](workshops/consumer.md)
+
+### <a name="Cursos">Cursos
 
 ### Teaching Statement
