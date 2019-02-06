@@ -1,10 +1,10 @@
 ---
-layout: pagex
+layout: contents
 title: Teaching
 ---
 
-Jump to:  
-  
+Jump to:
+
 [Teaching Interests](#Interests) | [Courses](#Courses) | [Workshops](#Workshops) | [Syllabi](#Syllabi) | [Teaching Statement](#Statement)
 
 
