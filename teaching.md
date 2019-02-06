@@ -3,12 +3,12 @@ layout: contents
 title: Teaching
 ---
 
-[Teaching Interests](#Interests) | [Courses](#Cursos) | [Talleres](#Talleres) | [Teaching Statement](#Statement)
+[Teaching Interests](#Interests) | [Cursos](#Cursos) | [Talleres](#Talleres) | [Teaching Statement](#Statement)
 
 
 ### <a name="Interests"></a>Teaching Interests
 
-### <a name="Talleres">Talleres
+### <a name="Talleres"></a>Talleres
 
 [Data Programmer](workshops/programmer.md)
 
@@ -16,12 +16,6 @@ title: Teaching
 
 [Data Consumer](workshops/consumer.md)
 
-### <a name="Cursos">Cursos
+### <a name="Cursos"></a>Cursos
 
 ### Teaching Statement
-
-
-```
-code here
-print (Code)
-```
