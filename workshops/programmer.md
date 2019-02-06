@@ -3,7 +3,7 @@ layout: contents
 title: Taller Para Especialistas en Datos
 ---
 
-## 1 Presentacion
+### Presentacion
 
 Un cientifico de datos tiene entrenamiento en manejo y analisis de datos. Este taller busca desarrollar habilidades de manejo de datos en los estudiantes. El manejo de datos requiere un conjunto mas amplio de habilidades que el analisis, ya que la produccion, adquisicion y procesamiento de datos puede crecer en complejidad muy facilmente. Se estima que entre el 70% y 80% del transcurso de un proyecto de investigacion o de analisis de datos se dedica al procesamiento de estos.
 
