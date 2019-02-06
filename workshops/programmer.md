@@ -9,7 +9,7 @@ Un cientifico de datos tiene entrenamiento en manejo y analisis de datos. Este t
 
 La especializacion en procesamiento de datos depende principalmente de habilidades, y por lo tanto es predominantemente practica. Por lo tanto, la estrategia para  el taller es proveer breves sesiones introductorias de aproximadamente diez minutos de cada tema, seguido por practicas de 20 minutos. Cada practica termina con una retroalimentacion (el profesor presentando la practica frente al grupo). Todos los ejercicios son trabajo en equipo.
 
-## 2 Objetivo General
+### 2 Objetivo General
 
 Las habilidades clave a desarrolar son: Conocimiento de las diferentes estructuras de datos y sus caracteristicas. Uso de software para adquisicion y procesamiento de datos. Adopcion de lineamientos de ciencia reproducible y data sequence workflow.
 
@@ -17,25 +17,27 @@ Las habilidades clave a desarrolar son: Conocimiento de las diferentes estructur
 -- Manipulacion de datos
 -- Entender los tipos de datos y sus estructuras
 
-## 3 Objetivos Especificos
+### 3 Objetivos Especificos
 
 Habilidades Adquiridas:
 
 Complementarias:
--- Software de Estadistica: R, Python, Julia
--- Software Editor Texto:   Latex/Markdown
----- Para estos necesitare cursos en linea
------ R: https://www.coursera.org/learn/intro-data-science-programacion-estadistica-r
------ R/Python: datacamp
------ Latex: Algo de Youtube.
+- Software de Estadistica: R, Python, Julia
+- Software Editor Texto:   Latex/Markdown
+- [Introduccion a Estadistica](https://www.coursera.org/learn/intro-data-science-programacion-estadistica-r)
+- R/Python: datacamp
+- Latex: Algo de Youtube.
 
-## 4 Contenido
+### 4 Sesiones
 
-### Bloque 1. Softare Estadistico R.
-
-Introduccion y primera practica en R.
-
-### Bloque 2. Datos.
+| Sesion       | Descripcion  |
+|:-------------:|--------------|
+| **1**         | **Introduccion** &nbsp;&nbsp; <!--a href="http://uc-r.github.io/data_wrangling/week-1" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a--> |
+|               | Software Estadistico R  |
+|               | Datos |
+| **2**         | **Datos** |
+|               |  Datos Estructurados |
+|               | Datos no Estructurados  |
 
 Tipos de datos:
 - Datos estructurados:
@@ -47,19 +49,24 @@ Tipos de datos:
   - Web Scrapping
   - Texto
 
-## 5 Materiales de Ensen~anza
+### 5 Materiales de Ensen~anza
 
-Lista de Ejercicios:
-  - X
+### 6 Bibliografia basica
 
-## 6 Bibliografia basica
+### 7 Bibliografia Complementaria
 
-## 7 Bibliografia Complementaria
-
-## 8 Un Curso Mas largo incorporaria
+### 8 Un Curso Mas largo incorporaria
 -- Ampliacion de tipos de datos: strong data gethering from the Internet, from administrative data, open data, official/conventional survey data, and field work, social media, web scrapping, pdftopython, mechanical turk, sensors, big data, and crowdsourced data, GIS & Remote Sensing.
 -- Especializacion optativa de otros softwares: Python y Julia, QGIS.
 -- Version Control en Github.
 -- Development of Userwritten packages in R (store it in Github)
 -- Understanding production of data throwm Measurement Technologies (i.e. drones, sensors)
 -- Essentials of Internet Research and Data Privacy.
+
+<u>Acknowledgments</u>: I have drawn ideas or readings from the following syllabi:
+
+* Bradley Boehmke
+* Garrett Grolemund & Hadley Wickham, [R for Data Science](http://r4ds.had.co.nz/index.html)
+* Jenny Bryan, [STAT 545: Data wrangling, exploration, and analysis with R](http://stat545.com/)
+* Lincoln Mullen, [HIST 688: Data and visualization in digital history](http://lincolnmullen.com/courses/data-dh.2016/)
+* Kieran Healy, [Soc 880: Data Visualization](http://socviz.github.io/soc880/)
