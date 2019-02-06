@@ -13,14 +13,10 @@ Jump to:
 
 ### Courses
 
+[Data Programmer](workshops/programmer.md)
+
 ### Workshops
 
 ### Syllabi
 
 ### Teaching Statement
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbODU5MTQyNjQsLTE0MTgzNTQzMTAsLTYxNj
-kyOTgyLC0xNTY1MTczOTkxLC0xODMwNDkwODYwXX0=
--->
