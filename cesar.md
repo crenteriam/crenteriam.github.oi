@@ -13,7 +13,7 @@ I earned a Master's degree in Public Administration and Policy at [CIDE](https:/
 <a href="mailto:boehmkbc@ucmail.uc.edu" target="_blank"><i class="fas fa-at" style="font-size:1em"></i></a>
 <!--i class="fas fa-at"></i><a href = "mailto: crenteria@albany.edu">crenteria@albany.edu</a-->
 
-<a href="https://twitter.com/crenteriama" target="_blank"><i class="fab fa-twitter"></i></a>
+<a href="https://twitter.com/crenteriama" target="_blank"><i class="fab fa-twitter" style="font-size:1em"></i></a>
 <!--i class="fab fa-twitter"></i><a href = "https://twitter.com/crenteriama">twitter</a-->
 </center>
 
