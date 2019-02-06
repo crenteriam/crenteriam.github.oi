@@ -3,13 +3,15 @@ layout: contents
 title: Taller Para Especialistas en Datos
 ---
 
-### Presentacion
+[Presentacion](#Presentacion) | [Objetivos](#Objetivo) | [Sesiones](#Workshops) |
+
+### <a name="Presentacion"></a>Presentacion
 
 Un cientifico de datos tiene entrenamiento en manejo y analisis de datos. Este taller busca desarrollar habilidades de manejo de datos en los estudiantes. El manejo de datos requiere un conjunto mas amplio de habilidades que el analisis, ya que la produccion, adquisicion y procesamiento de datos puede crecer en complejidad muy facilmente. Se estima que entre el 70% y 80% del transcurso de un proyecto de investigacion o de analisis de datos se dedica al procesamiento de estos.
 
 La especializacion en procesamiento de datos depende principalmente de habilidades, y por lo tanto es predominantemente practica. Por lo tanto, la estrategia para  el taller es proveer breves sesiones introductorias de aproximadamente diez minutos de cada tema, seguido por practicas de 20 minutos. Cada practica termina con una retroalimentacion (el profesor presentando la practica frente al grupo). Todos los ejercicios son trabajo en equipo.
 
-### 2 Objetivo General
+### <a name="Objetivo"></a>Objetivo General
 
 Las habilidades clave a desarrolar son: Conocimiento de las diferentes estructuras de datos y sus caracteristicas. Uso de software para adquisicion y procesamiento de datos. Adopcion de lineamientos de ciencia reproducible y data sequence workflow.
 
@@ -28,7 +30,7 @@ Complementarias:
 - R/Python: datacamp
 - Latex: Algo de Youtube.
 
-### 4 Sesiones
+### <a name="Sesiones"></a>Sesiones
 
 | Sesion       | Descripcion  |
 |:-------------:|--------------|

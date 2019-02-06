@@ -13,9 +13,9 @@ Jump to:
 
 ### Courses
 
-[Data Programmer](workshops/programmer.md)
-
 ### Workshops
+
+[Data Programmer](workshops/programmer.md)
 
 ### Syllabi
 
