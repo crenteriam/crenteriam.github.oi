@@ -3,7 +3,9 @@ layout: contents
 title: Taller Para Especialistas en Datos
 ---
 
-[Presentacion](#Presentacion) | [Objetivos](#Objetivo) | [Sesiones](#Workshops) |
+[Teaching](teaching.md) &rarr; [Research](research.md) &rarr; Data Programmer
+
+[Presentacion](#Presentacion) | [Objetivos](#Objetivo) | [Sesiones](#Sesiones) |
 
 ### <a name="Presentacion"></a>Presentacion
 
