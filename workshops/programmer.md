@@ -1,9 +1,7 @@
 ---
 layout: contents
-title: 500 Data Programmer
+title: Taller Para Especialistas en Datos
 ---
-
-# Taller Para Especialistas en Datos
 
 ## 1 Presentacion
 
