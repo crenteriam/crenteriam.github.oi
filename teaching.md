@@ -19,3 +19,9 @@ title: Teaching
 ### <a name="Cursos">Cursos
 
 ### Teaching Statement
+
+
+```
+code here
+print (Code)
+```
