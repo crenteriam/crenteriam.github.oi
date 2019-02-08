@@ -3,6 +3,10 @@ layout: contents
 title: NULL
 ---
 
+<a href="https://crenteriam.github.io/workshops/programmer/datos/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a>
+
+<a href="http://uc-r.github.io/data_wrangling/week-2" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
+
 [Teaching](../teaching.md) &rarr; Data Programmer
 
 [Presentacion](#Presentacion) | [Objetivos](#Objetivo) | [Sesiones](#Sesiones) |
@@ -38,7 +42,7 @@ Complementarias:
 |:-------------:|--------------|
 | **1**         | **Introduccion**  |
 |               | Software Estadistico R  |
-|               | Datos &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/programmer/datos/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
+|               | Datos &nbsp; &nbsp; <a href="https://crenteriam.github.io/workshops/programmer/datos/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
 | **2**         | **Datos**  |
 |               |  Datos Estructurados |
 |               | Datos no Estructurados  |
