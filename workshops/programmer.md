@@ -48,7 +48,7 @@ Complementarias:
 | Extra         | Internet Research and Data Privacy   |
 | Extra         | Data Production and Measurement Technologies (i.e. drones, sensors)   |
 | Extra         | Developing your Own Functions and Packages  |
-| Extra         | The Plain Text World &nbsp; <a href="https://crenteriam.github.io/workshops/programmer/plain-text/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a>  |
+| Extra         | The Plain Text World &nbsp; <a href="https://crenteriam.github.io/workshops/analyst/plain-text/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a>  |
 | Software      | R |
 | Software      | Python |
 | Software      | Julia  |
