@@ -42,7 +42,7 @@ Complementarias:
 | **2**         | **Datos**  |
 |               |  Datos Estructurados |
 |               | Datos no Estructurados  |
-| Extra         | Version control |
+| Extra         | Version control &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/programmer/version-control/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
 | Extra         | Internet Research and Data Privacy   |
 | Extra         | Data Production and Measurement Technologies (i.e. drones, sensors)   |
 | Extra         | Developing your Own Functions and Packages  |
