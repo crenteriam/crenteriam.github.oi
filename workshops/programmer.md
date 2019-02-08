@@ -36,10 +36,10 @@ Complementarias:
 
 | Sesion       | Descripcion  |
 |:-------------:|--------------|
-| **1**         | **Introduccion** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/programmer/datos/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| **1**         | **Introduccion**  |
 |               | Software Estadistico R  |
-|               | Datos |
-| **2**         | **Datos** |
+|               | Datos &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/programmer/datos/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| **2**         | **Datos**  |
 |               |  Datos Estructurados |
 |               | Datos no Estructurados  |
 | Extra         | Version control |

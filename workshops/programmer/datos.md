@@ -1,5 +1,6 @@
 ---
 title: Datos
+layout: contents
 ---
 
 [Teaching](../teaching.md) &rarr; [Data Programmer](../programmer.md) &rarr; Datos
