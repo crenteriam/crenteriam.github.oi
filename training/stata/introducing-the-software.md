@@ -7,7 +7,7 @@ tags: stata, introduction
 [Teaching](../teaching.md) &rarr; [Introduction to Stata](../training/stata/stata.md) &rarr; Introducing the Software
 
 <center>
-| Sesion       | Descripcion  |
+| Block         | Title  |
 |:-------------:|--------------|
 | **1**         | [Introduction](#Introduction)   |
 | **2**         | [Getting Help in Stata](#HelpStata)  |

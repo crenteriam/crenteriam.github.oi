@@ -18,4 +18,8 @@ title: Teaching
 
 ### <a name="Cursos"></a>Cursos
 
+### Traininig - Software
+
+[Introduction to Stata](../training/stata/stata.md)
+
 ### Teaching Statement
