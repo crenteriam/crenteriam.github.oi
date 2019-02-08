@@ -3,7 +3,7 @@ layout: contents
 title: NULL
 ---
 
-<i class="far fa-envelope"></i><a href = "mailto: crenteria@albany.edu">mail</a>
+<i class="fas fa-folder-open"></i><a href = "mailto: crenteria@albany.edu">mail</a>
 
 [Teaching](../teaching.md) &rarr; Data Programmer
 
