@@ -7,13 +7,9 @@ title: NULL
 
 <a href="http://uc-r.github.io/data_wrangling/week-2" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
 
-<a href="https://crenteriam.github.io/workshops/programmer/datos/" target="_blank"><i class="fas fa-folder-open" aria-hidden="true"></i></a>  &nbsp;
+<a href="https://crenteriam.github.io/workshops/programmer/datos/" target="_blank"><i class="fas fa-folder-open"></i></a>  &nbsp;
 
-<i class="fas fa-folder-open"></i>
 
-<i class="fa fa-folder-open"></i>
-
-<i class="fa fa-folder-open" aria-hidden="true"></i>
 
 [Teaching](../teaching.md) &rarr; Data Programmer
 
