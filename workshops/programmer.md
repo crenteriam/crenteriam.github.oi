@@ -3,13 +3,7 @@ layout: contents
 title: NULL
 ---
 
-<a href="https://crenteriam.github.io/workshops/programmer/datos/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a>
-
-<a href="http://uc-r.github.io/data_wrangling/week-2" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a>
-
-<a href="https://crenteriam.github.io/workshops/programmer/datos/" target="_blank"><i class="fas fa-folder-open"></i></a>  &nbsp;
-
-
+<i class="far fa-envelope"></i><a href = "mailto: crenteria@albany.edu">mail</a>
 
 [Teaching](../teaching.md) &rarr; Data Programmer
 
