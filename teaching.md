@@ -20,6 +20,6 @@ title: Teaching
 
 ### Traininig - Software
 
-[Introduction to Stata](../training/stata/stata.md)
+[Introduction to Stata](training/stata/stata.md)
 
 ### Teaching Statement

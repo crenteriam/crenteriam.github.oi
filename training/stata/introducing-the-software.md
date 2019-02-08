@@ -4,7 +4,7 @@ layout: contents
 tags: stata, introduction
 ---
 
-[Teaching](../../../teaching.md) &rarr; [Introduction to Stata](stata.md) &rarr; Introducing the Software
+[Teaching](../../../teaching) &rarr; [Introduction to Stata](stata.md) &rarr; Introducing the Software
 
 <center>
 | Block         | Title  |

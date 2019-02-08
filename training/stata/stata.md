@@ -3,7 +3,7 @@ title: Introduction to Stata
 layout: contents
 ---
 
-[Teaching](../teaching.md) &rarr; Introduction to Stata
+[Teaching](../teaching) &rarr; Introduction to Stata
 
 | Module       | Descripcion  |
 |:-------------:|--------------|
