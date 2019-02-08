@@ -36,41 +36,29 @@ Complementarias:
 
 | Sesion       | Descripcion  |
 |:-------------:|--------------|
-| **1**         | **Introduccion** &nbsp;&nbsp; <!--a href="http://uc-r.github.io/data_wrangling/week-1" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a--> |
+| **1**         | **Introduccion** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/programmer/datos/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
 |               | Software Estadistico R  |
 |               | Datos |
 | **2**         | **Datos** |
 |               |  Datos Estructurados |
 |               | Datos no Estructurados  |
-
-Tipos de datos:
-- Datos estructurados:
-  - Tipica matriz de datos (p. ej. encuestas)
-  - Datos relacionales
-  - Datos geoespaciales
-- Datos no estructurados:
-  - API
-  - Web Scrapping
-  - Texto
+| Extra         | Version control |
+| Extra         | Internet Research and Data Privacy   |
+| Extra         | Data Production and Measurement Technologies (i.e. drones, sensors)   |
+| Extra         | Developing your Own Functions and Packages  |
+| Software      | R |
+| Software      | Python |
+| Software      | Julia  |
+| Software      | QGIS   |
 
 ### Materiales de Ensen~anza
 
 ### Bibliografia basica
+* Garrett Grolemund & Hadley Wickham, [R for Data Science](http://r4ds.had.co.nz/index.html)
+* Jenny Bryan, [STAT 545: Data wrangling, exploration, and analysis with R](http://stat545.com/)
+
 
 ### Bibliografia Complementaria
 
-### Un Curso Mas largo incorporaria
--- Ampliacion de tipos de datos: strong data gethering from the Internet, from administrative data, open data, official/conventional survey data, and field work, social media, web scrapping, pdftopython, mechanical turk, sensors, big data, and crowdsourced data, GIS & Remote Sensing.
--- Especializacion optativa de otros softwares: Python y Julia, QGIS.
--- Version Control en Github.
--- Development of Userwritten packages in R (store it in Github)
--- Understanding production of data throwm Measurement Technologies (i.e. drones, sensors)
--- Essentials of Internet Research and Data Privacy.
-
-<u>Acknowledgments</u>: I have drawn ideas or readings from the following syllabi:
-
-* Bradley Boehmke
-* Garrett Grolemund & Hadley Wickham, [R for Data Science](http://r4ds.had.co.nz/index.html)
-* Jenny Bryan, [STAT 545: Data wrangling, exploration, and analysis with R](http://stat545.com/)
-* Lincoln Mullen, [HIST 688: Data and visualization in digital history](http://lincolnmullen.com/courses/data-dh.2016/)
-* Kieran Healy, [Soc 880: Data Visualization](http://socviz.github.io/soc880/)
+<u>Agradecimientos</u>: Este documento fue elaborado con ideas de:
+* Bradley Boehmke, [R Programming Guide](http://uc-r.github.io/)
