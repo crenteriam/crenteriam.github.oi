@@ -2,9 +2,9 @@
 layout: page
 title: Research
 ---
-<!-- ACADEMICONS-->
+<!-- ACADEMICONS>
 <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"-->
 
 <!--TEXT STARTS HERE-->
 My primary area of interest is the adoption and use of information technologies in organizations. Currently my research have focused on governments, where the use of information technologies can be used for improving citizen engagement, decision-making and the quality of public service delivery.
