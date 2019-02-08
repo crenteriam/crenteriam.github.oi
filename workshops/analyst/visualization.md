@@ -1,5 +1,6 @@
 ---
 title: Visualizacion
+layout: contents
 ---
 
 [Teaching](../teaching.md) &rarr; [Data Analyst](../analyst.md) &rarr; Visualizacion
