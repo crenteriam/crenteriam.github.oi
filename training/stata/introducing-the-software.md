@@ -4,9 +4,9 @@ layout: contents
 tags: stata, introduction
 ---
 
-[Teaching](../../../teaching) &rarr; [Introduction to Stata](stata.md) &rarr; Introducing the Software
-
 <a name="SectionMenu"></a>
+
+[Teaching](../../../teaching) &rarr; [Introduction to Stata](stata.md) &rarr; Introducing the Software
 
 | Block         | Title  |
 |:-------------:|--------------|
