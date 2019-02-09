@@ -1,5 +1,5 @@
 ---
-title: Introduction to Stata
+title: Getting Started with Stata
 layout: contents
 ---
 
