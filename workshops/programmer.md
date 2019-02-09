@@ -7,8 +7,6 @@ title: NULL
 
 [Teaching](../teaching.md) &rarr; Data Programmer
 
-[Presentacion](#Presentacion) | [Objetivos](#Objetivo) | [Sesiones](#Sesiones) |
-
 | Seccion       | Titulo  |
 |:-------------:|--------------|
 | **1**         | [Presentacion](#Presentacion) |

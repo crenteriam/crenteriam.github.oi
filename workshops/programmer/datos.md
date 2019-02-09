@@ -3,7 +3,7 @@ title: Datos
 layout: contents
 ---
 
-[Teaching](../../teaching) &rarr; [Data Programmer](../programmer) &rarr; Datos
+[Teaching](../../../teaching) &rarr; [Data Programmer](../../programmer) &rarr; Datos
 
 Tipos de datos:
 - Datos estructurados:

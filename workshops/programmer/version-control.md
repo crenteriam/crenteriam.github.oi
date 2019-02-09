@@ -3,6 +3,6 @@ title: Version Control en Github
 layout: contents
 ---
 
-[Teaching](../../../teaching) &rarr; [Data Programmer](../programmer) &rarr; Version Control
+[Teaching](../../../teaching) &rarr; [Data Programmer](../../programmer) &rarr; Version Control
 
 ### Literatura
