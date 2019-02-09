@@ -83,6 +83,8 @@ Keep that in mind, but for the purposes of this course, most of the problems you
 
 1.	Use the command `help` in the *Command Window* to review the Documentation of the commands: `summarize`, `regress`, and `generate`.
 
+[Go Up](#SectionMenu)
+
 <a name="StataSyntax"></a>
 ### Stata Syntax
 
@@ -97,6 +99,8 @@ Watch the mini-lectures Introduction to Stata - Syntax and then Command Line Syn
 3.	Generate a numeric variable named "NewPrice" where the new variable "Expensive" is equal to the values of the variable price times three.
 
 4.	By reading the documentation for the command `regress`, do the following: `regress` the variable `price` on the variable `mileage` if the car is domestic AND if the weight is above 3015.
+
+[Go Up](#SectionMenu)
 
 <a name="Load"></a>
 ### Load, Import, and Save
@@ -124,6 +128,8 @@ Finally, in many occasions, we will use some built-in datasets. This is handy be
 
 5.	Open Stata again and import your `.csv` file `qog_2018.csv` You can use the drop-down menu if you want. Remember to use the first row for variable names.
 
+[Go Up](#SectionMenu)
+
 <a name="DataEditor"></a>
 ### Data Editor, Variables Manager and Variable Types
 
@@ -132,3 +138,5 @@ The Data Editor is the window that will display the dataset. The most common way
 Another window is the *Variables Manager*, which allow you to edit label over variables and values. Watch the mini-lecture How to label variables. Review the examples in 12.6 Dataset, variable and value labels. Then, review 12.9 Data Editor and Variables Manager.
 
 **41 Commands everybody should know.** Read 41 Commands Everybody Should Know. This is a list of commands you should be familiar with for the first part of the class.
+
+[Go Up](#SectionMenu)
