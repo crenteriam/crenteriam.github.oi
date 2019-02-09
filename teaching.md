@@ -9,7 +9,7 @@ title: Teaching
 <a name="Talleres"></a>
 ### Talleres
 
-| Talleres       ||
+| Talleres      |              |
 |:-------------:|--------------|
 |               | [Data Programmer](workshops/programmer.md) |
 | **X**         | [Data Analyst](workshops/analyst.md) |
@@ -17,7 +17,9 @@ title: Teaching
 
 
 
-| Training       ||
+| Online Tutorials  |    |
 |:-------------:|--------------|
-|          | [Introduction to Stata](training/stata/stata.md) |
-| **X**         |  |
+| [Getting Started with Stata](training/stata/stata.md)  |  |
+| [Dynamic Documents with Stata]()   |   |
+| [Learning Statistics with Simulations](training/dynamic-documents/dynamicdocs-stata.md)   |   |
+|   |   |
