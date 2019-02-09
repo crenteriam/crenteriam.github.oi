@@ -6,7 +6,6 @@ tags: stata, introduction
 
 [Teaching](../../../teaching) &rarr; [Introduction to Stata](stata.md) &rarr; Introducing the Software
 
-<center>
 | Block         | Title  |
 |:-------------:|--------------|
 | **1**         | [Introduction](#Introduction)   |
@@ -14,7 +13,14 @@ tags: stata, introduction
 | **3**         | [Stata Syntax](#StataSyntax)  |
 | **4**         | [Load, Import, and Save](#Load)  |
 | **5**         | [Data Editor, Variables Manager and Variable Types](#DataEditor)  |
-</center>
+
+<a href="/teaching">Teaching Menu</a>
+
+<a onclick="window.history.back()">Back</a>
+
+[Home2]({{ site.url }}/)
+
+<a href='{{site.url}}/'>Home3</a>
 
 <a name="Introduction"></a>
 ### Introduction
@@ -61,13 +67,6 @@ summarize
 summarize price
 summarize weight-foreign
 ```
-<a href="/blog">Up</a>
-
-<a onclick="window.history.back()">Back2</a>
-
-[Back3]({{ site.url }}/)
-
-<a href='{{site.url}}/'>Back4</a>
 
 <a name="HelpStata"></a>
 ### Getting Help in Stata
