@@ -6,6 +6,8 @@ tags: stata, introduction
 
 [Teaching](../../../teaching) &rarr; [Introduction to Stata](stata.md) &rarr; Introducing the Software
 
+<a name="SectionMenu"></a>
+
 | Block         | Title  |
 |:-------------:|--------------|
 | **1**         | [Introduction](#Introduction)   |
@@ -13,16 +15,13 @@ tags: stata, introduction
 | **3**         | [Stata Syntax](#StataSyntax)  |
 | **4**         | [Load, Import, and Save](#Load)  |
 | **5**         | [Data Editor, Variables Manager and Variable Types](#DataEditor)  |
-
+<!-- NAVIGATION TOOLS
 <a href="/teaching">Teaching Menu</a>
-
 <a onclick="window.history.back()">Back</a>
-
 [Home2]({{ site.url }}/)
-
 <a href='{{site.url}}/'>Home3</a>
+<a name="Introduction"></a-->
 
-<a name="Introduction"></a>
 ### Introduction
 The goal of this module is to give you a first introduction to the software. After this module you must be familiar with Stata's environment and having programmed basic commands. In this module, you will learn: 1) Stata's software environment, 2) getting help in Stata, 3) programming syntax, and 4) manage files (load, import, and save).
 Introduction to the Environment. Watch the mini-lecture Getting Started with Stata. Then, watch Stephen Weinberg’s video Introduction to Stata to see some examples and extended lecture about Stata’s environment.
@@ -67,6 +66,7 @@ summarize
 summarize price
 summarize weight-foreign
 ```
+[Go Up](#SectionMenu)
 
 <a name="HelpStata"></a>
 ### Getting Help in Stata
