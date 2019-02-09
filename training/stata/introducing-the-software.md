@@ -15,6 +15,9 @@ tags: stata, introduction
 | **3**         | [Stata Syntax](#StataSyntax)  |
 | **4**         | [Load, Import, and Save](#Load)  |
 | **5**         | [Data Editor, Variables Manager and Variable Types](#DataEditor)  |
+
+
+
 <!-- NAVIGATION TOOLS
 <a href="/teaching">Teaching Menu</a>
 <a onclick="window.history.back()">Back</a>
