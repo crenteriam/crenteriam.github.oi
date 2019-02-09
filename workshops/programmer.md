@@ -3,11 +3,21 @@ layout: contents
 title: NULL
 ---
 
+<a name="SectionMenu"></a>
+
 [Teaching](../teaching.md) &rarr; Data Programmer
 
 [Presentacion](#Presentacion) | [Objetivos](#Objetivo) | [Sesiones](#Sesiones) |
 
-### <a name="Presentacion"></a>Presentacion
+| Seccion       | Titulo  |
+|:-------------:|--------------|
+| **1**         | [Presentacion](#Presentacion) |
+| **2**         | [Objetivos](#Objetivo) |
+| **3**         | [Sesiones](#Sesiones) |
+
+
+<a name="Presentacion"></a>
+### Presentacion
 
 Un cientifico de datos tiene entrenamiento en manejo y analisis de datos. Este taller busca desarrollar habilidades de manejo de datos en los estudiantes. El manejo de datos requiere un conjunto mas amplio de habilidades que el analisis, ya que la produccion, adquisicion y procesamiento de datos puede crecer en complejidad muy facilmente. Se estima que entre el 70% y 80% del transcurso de un proyecto de investigacion o de analisis de datos se dedica al procesamiento de estos.
 
@@ -15,7 +25,10 @@ La especializacion en procesamiento de datos depende principalmente de habilidad
 
 [checar imagen Segasi](http://segasi.com.mx/cursos/mcb/)
 
-### <a name="Objetivo"></a>Objetivo General
+[Arriba](#SectionMenu)
+
+<a name="Objetivo"></a>
+### Objetivo General
 
 Las habilidades clave a desarrolar son: Conocimiento de las diferentes estructuras de datos y sus caracteristicas. Uso de software para adquisicion y procesamiento de datos. Adopcion de lineamientos de ciencia reproducible y data sequence workflow.
 
@@ -34,7 +47,10 @@ Complementarias:
 - R/Python: datacamp
 - Latex: Algo de Youtube.
 
-### <a name="Sesiones"></a>Sesiones
+[Arriba](#SectionMenu)
+
+<a name="Sesiones"></a>
+### Sesiones
 
 | Sesion       | Descripcion  |
 |:-------------:|--------------|
@@ -54,7 +70,11 @@ Complementarias:
 | Software      | Julia  |
 | Software      | QGIS   |
 
+[Arriba](#SectionMenu)
+
 ### Materiales de Ensen~anza
+
+[Arriba](#SectionMenu)
 
 ### Bibliografia
 * Garrett Grolemund & Hadley Wickham, [R for Data Science](http://r4ds.had.co.nz/index.html) y sy version en espan~ol [R para Ciencia de Datos](http://es.r4ds.hadley.nz/)
@@ -63,3 +83,5 @@ Complementarias:
 
 <u>Agradecimientos</u>: Este documento fue elaborado con ideas de:
 * Bradley Boehmke, [R Programming Guide](http://uc-r.github.io/)
+
+[Arriba](#SectionMenu)

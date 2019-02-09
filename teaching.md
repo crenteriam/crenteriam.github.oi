@@ -3,12 +3,11 @@ layout: contents
 title: Teaching
 ---
 
-[Teaching Interests](#Interests) | [Cursos](#Cursos) | [Talleres](#Talleres) | [Teaching Statement](#Statement)
+<a name="Interests"></a>
+### Teaching Interests
 
-
-### <a name="Interests"></a>Teaching Interests
-
-### <a name="Talleres"></a>Talleres
+<a name="Talleres"></a>
+### Talleres
 
 [Data Programmer](workshops/programmer.md)
 
@@ -16,9 +15,10 @@ title: Teaching
 
 [Data Consumer](workshops/consumer.md)
 
-### <a name="Cursos"></a>Cursos
+<a name="Cursos"></a>
+### Cursos
 
-### Traininig - Software
+### Traininig
 
 [Introduction to Stata](training/stata/stata.md)
 
