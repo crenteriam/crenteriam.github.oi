@@ -49,6 +49,7 @@ Conocimientos:
 
 [Arriba](#Contenido)
 
-<iframe width="550" height="281" align="middle"
-src="https://www.youtube.com/watch?v=Id7tXouypEE">
+<center>
+<iframe width="550" height="281" src="https://www.youtube.com/watch?v=Id7tXouypEE">
 </iframe>
+</center>
