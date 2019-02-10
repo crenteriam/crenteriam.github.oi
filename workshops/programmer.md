@@ -96,7 +96,7 @@ La especializacion en procesamiento de datos depende principalmente de habilidad
 <u>Websites de cursos similares:<u/>
 * Jennifer Bryan, [STAT 545: Data wrangling, exploration, and analysis with R](http://stat545.com/)
 * [University of Carolina R Programming Guide](http://uc-r.github.io/)
-
+* https://dssg.uchicago.edu/
 <u>Agradecimientos</u>: Este documento fue elaborado con ideas tomadas de [Bradley Boehmke](http://uc-r.github.io/), y [Matthew Ingram](http://mattingram.net/).
 
 [Arriba](#Contenido)

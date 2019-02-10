@@ -1,5 +1,6 @@
 ---
 title: Wilcoxon-Mann-White Test in R. An Example
+layout: post
 tag: Wilcoxon-Mann-White, t-test, R, example
 ---
 

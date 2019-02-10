@@ -1,3 +1,8 @@
+---
+layout: post
+title: Shanti
+---
+
 ## Non-Linear Interaction Effects in R and Stata
 
 
