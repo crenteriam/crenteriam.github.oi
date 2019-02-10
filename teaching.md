@@ -10,7 +10,7 @@ title: Teaching
 
 | Talleres 2019  |
 |:-------------:|
-| [Big Data Ciencias Sociales](workshops/programmer.md) |
+| [Big Data para Ciencias Sociales](workshops/programmer.md) |
 | [Ciencia de Datos para Politicas Publicas](workshops/analyst.md) |
 | [Data Consumer](workshops/consumer.md)  |
 

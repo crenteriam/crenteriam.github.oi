@@ -57,12 +57,17 @@ La especializacion en procesamiento de datos depende principalmente de habilidad
 | Extra         | Data Production and Measurement Technologies (i.e. drones, sensors)   |
 | Extra         | Developing your Own Functions and Packages  |
 | Extra         | The Plain Text World &nbsp; <a href="https://crenteriam.github.io/workshops/analyst/plain-text/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a>  |
-| Software      | R |
-| Software      | Python |
-| Software      | Julia  |
-| Software      | QGIS   |
-| Editor de Texto  | Markdown <a href="https://crenteriam.github.io/training/markdown/markdown/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
-| Editor de Texto  | Latex <a href="https://crenteriam.github.io/training/latex/latex/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a>  |
+
+
+### Talleres de Software
+| Tipo de Software | Taller |
+| Software estadistico bajo licencia | Stata Python <a href="https://crenteriam.github.io/training/stata/stata/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
+| Software estadisitico abierto | R <a href="https://crenteriam.github.io/training/r/r/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
+|  | Python <a href="https://crenteriam.github.io/training/python/python/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a>  |
+|  | Julia <a href="https://crenteriam.github.io/workshops/training/julia/julia/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a>   |
+| Analisis Georreferenciado (GIS) | QGIS <a href="https://crenteriam.github.io/workshops/analyst/plain-text/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a>   |
+| Editores de Texto  | Markdown <a href="https://crenteriam.github.io/training/markdown/markdown/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
+|   | Latex <a href="https://crenteriam.github.io/training/latex/latex/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a>  |
 
 [Arriba](#SectionMenu)
 
