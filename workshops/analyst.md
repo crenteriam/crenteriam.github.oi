@@ -3,11 +3,16 @@ layout: contents
 title: NULL
 ---
 
-Titulos: Data Science for Public Policy |
+| :Titulos: Data Science for Public Policy: |
 
 [Teaching](../teaching.md) &rarr; Data Analyst
 
-[Presentacion](#Presentacion) | [Objetivos](#Objetivo) | [Sesiones](#Sesiones) |
+| Contenido |
+| --- |
+| [Presentacion](#Presentacion) |
+| [Objetivos](#Objetivo) |
+| [Sesiones](#Sesiones) |
+
 
 <a name="Presentacion"></a>
 ### Presentacion
@@ -26,11 +31,7 @@ Conocimientos:
 - Undertand measurements, concept formation, types of variables, building composite indexes, data classification
 - other: performance measurement, monitoring and evaluation literature, scoreboard cards, etc.
 
-
-
-
-
-### <a name="Sesiones"></a>Sesiones
+### Sesiones {#Sesiones}
 
 | Sesion       | Descripcion  |
 |:-------------:|--------------|
