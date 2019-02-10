@@ -50,6 +50,5 @@ Conocimientos:
 [Arriba](#Contenido)
 
 <center>
-<iframe width="550" height="281" src="https://www.youtube.com/watch?v=Id7tXouypEE">
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Id7tXouypEE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
