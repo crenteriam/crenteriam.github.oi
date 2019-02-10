@@ -17,9 +17,9 @@ title: Teaching
 
 
 
-| Online Tutorials  |    |
-|:-------------:|--------------|
-| [Getting Started with Stata](training/stata/stata.md)  |  |
-| [Dynamic Documents with Stata]()   |   |
-| [Learning Statistics with Simulations](training/dynamic-documents/dynamicdocs-stata.md)   |   |
-|   |   |
+| Online Tutorials  |
+|:-------------:|
+| [Getting Started with Stata](training/stata/stata.md)  |
+| [Dynamic Documents with Stata](training/dynamic-documents/dynamicdocs-stata.md)   |
+| [Learning Statistics with Simulations]()   |
+|   |
