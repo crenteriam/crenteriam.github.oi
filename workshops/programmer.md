@@ -60,7 +60,9 @@ La especializacion en procesamiento de datos depende principalmente de habilidad
 
 
 ### Talleres de Software
+
 | Tipo de Software | Taller |
+| --- | --- |
 | Software estadistico bajo licencia | Stata Python <a href="https://crenteriam.github.io/training/stata/stata/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
 | Software estadisitico abierto | R <a href="https://crenteriam.github.io/training/r/r/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
 |  | Python <a href="https://crenteriam.github.io/training/python/python/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a>  |
