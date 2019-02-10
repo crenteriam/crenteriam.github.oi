@@ -8,11 +8,11 @@ title: Teaching
 
 ### Talleres {#Talleres}
 
-| Talleres      |              |
-|:-------------:|--------------|
-|               | [Data Programmer](workshops/programmer.md) |
-| **X**         | [Data Analyst](workshops/analyst.md) |
-|               | [Data Consumer](workshops/consumer.md)  |
+| Talleres 2019  |
+|:-------------:|
+| [Big Data Ciencias Sociales](workshops/programmer.md) |
+| [Ciencia de Datos para Politicas Publicas](workshops/analyst.md) |
+| [Data Consumer](workshops/consumer.md)  |
 
 
 | Tutorials  |
