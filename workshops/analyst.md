@@ -3,12 +3,12 @@ layout: contents
 title: NULL
 ---
 
-| :Titulos: Data Science for Public Policy: |
+| Titulos: Data Science for Public Policy |
 
 [Teaching](../teaching.md) &rarr; Data Analyst
 
 | Contenido |
-| --- |
+| :---: |
 | [Presentacion](#Presentacion) |
 | [Objetivos](#Objetivo) |
 | [Sesiones](#Sesiones) |
