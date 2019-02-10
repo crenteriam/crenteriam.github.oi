@@ -3,7 +3,7 @@ layout: contents
 title: NULL
 ---
 
-Titulos: Data Science for Public Policy | 
+Titulos: Data Science for Public Policy |
 
 [Teaching](../teaching.md) &rarr; Data Analyst
 
@@ -34,12 +34,15 @@ Conocimientos:
 
 | Sesion       | Descripcion  |
 |:-------------:|--------------|
-| **1**         | **Introduccion** &nbsp;&nbsp; <!--a href="http://uc-r.github.io/data_wrangling/week-1" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a--> |
+| **1**         | **Introduccion** |
+|               | Analisis de Politica Publica y Ciencia de Datos  |
 |               | Software Estadistico R  |
-|               | Datos |
-| **2**         | **Datos** |
-|               |  Datos Estructurados |
-|               | Datos no Estructurados  |
+| **2**         | **Analisis de Datos** |
+| **3**   | Visualizacion de Datos   |
+| **4**   | Comunicacion de Evidencia Estadistica  |
+| **5**   | Comunicacion escrita analisis de politica publica  |
+|         | Ejercicios seciencia: analisis -> comunicacion   |
+
 
 ### Referencias
 
