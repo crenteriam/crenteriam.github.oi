@@ -7,13 +7,22 @@ title: NULL
 
 [Presentacion](#Presentacion) | [Objetivos](#Objetivo) | [Sesiones](#Sesiones) |
 
-### <a name="Presentacion"></a>Presentacion
+<a name="Presentacion"></a>
+### Presentacion
 
-### <a name="Objetivo"></a>Objetivo General
+<a name="Objetivos"></a>
+### Objetivos
 
-### Objetivos Especificos
+Habilidades:
+- Critical assessment of scientific articles and policy/research reports
+- Evidence-Based Policy-Making vs Policy-Based Evidence-Making. How to tell the difference?
+- Critical thinking and theoretical contributions
 
-### <a name="Sesiones"></a>Sesiones
+Conocimientos:
+- Entendimiento de fundamentos de metodos cuantitativos: measurements, causal inference, concept formation, endogeneity. To read academic papers must understand the cores of methods (e.g. endogeneity, exogenous intervention, assumptions), language of coefficients (z-score, log-linear models, probabilty, count data, etc.)
+
+<a name="Sesiones"></a>
+### Sesiones
 
 | Sesion       | Descripcion  |
 |:-------------:|--------------|

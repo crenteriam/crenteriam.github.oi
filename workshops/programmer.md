@@ -3,6 +3,7 @@ layout: contents
 title: NULL
 ---
 
+Titulos: Programming for Public Policy | Programador en Big Data | Big Data for Public Policy/Social Sciences
 <a name="SectionMenu"></a>
 
 [Teaching](../teaching.md) &rarr; Data Programmer
@@ -30,7 +31,7 @@ La especializacion en procesamiento de datos depende principalmente de habilidad
 
 <u>Habilidades a desarrollar:<u/>
 - Uso de R para manipulacion.
-- Adopcion de practicas de [Ciencia Reproducible](../../training/ciencia-reproducible) y secuencia (*workflow*) de manipulacion y analisis de datos.
+- Adopcion de practicas de [Ciencia Reproducible](../../workshops/ciencia-reproducible) y secuencia (*workflow*) de manipulacion y analisis de datos.
 
 <u>Conocimientos:<u/>
 - Conocimiento de las diferentes estructuras de datos y sus caracteristicas.
@@ -87,10 +88,10 @@ La especializacion en procesamiento de datos depende principalmente de habilidad
 * Blank
 
 
-* <u>Websites utiles<u/>
+<u>Websites de cursos similares:<u/>
 * Jennifer Bryan, [STAT 545: Data wrangling, exploration, and analysis with R](http://stat545.com/)
 * [University of Carolina R Programming Guide](http://uc-r.github.io/)
 
-<u>Agradecimientos</u>: Este documento fue elaborado con ideas tomadas de [Bradley Boehmke](http://uc-r.github.io/), and [Matthew Ingram](http://mattingram.net/).
+<u>Agradecimientos</u>: Este documento fue elaborado con ideas tomadas de [Bradley Boehmke](http://uc-r.github.io/), y [Matthew Ingram](http://mattingram.net/).
 
 [Arriba](#SectionMenu)
