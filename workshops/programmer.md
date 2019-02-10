@@ -4,19 +4,19 @@ title: NULL
 ---
 
 Titulos: Programming for Public Policy | Programador en Big Data | Big Data for Public Policy/Social Sciences
-<a name="SectionMenu"></a>
+
+<a name="Contenido"></a>
 
 [Teaching](../teaching.md) &rarr; Data Programmer
 
-| Seccion       | Titulo  |
-|:-------------:|--------------|
-| **1**         | [Presentacion](#Presentacion) |
-| **2**         | [Objetivos](#Objetivo) |
-| **3**         | [Sesiones](#Sesiones) |
+| Contenido |
+| :---: |
+| [Presentacion](#Presentacion) |
+| [Objetivos](#Objetivos) |
+| [Sesiones](#Sesiones) |
 
 
-<a name="Presentacion"></a>
-### Presentacion
+### Presentacion {#Presentacion}
 
 Un cientifico de datos tiene entrenamiento en manejo y analisis de datos. Este taller busca desarrollar habilidades de manejo de datos en los estudiantes. El manejo de datos requiere un conjunto mas amplio de habilidades que el analisis, ya que la produccion, adquisicion y procesamiento de datos puede crecer en complejidad muy facilmente. Se estima que entre el 70% y 80% del transcurso de un proyecto de investigacion o de analisis de datos se dedica al procesamiento de estos.
 
@@ -24,10 +24,9 @@ La especializacion en procesamiento de datos depende principalmente de habilidad
 
 [checar imagen Segasi](http://segasi.com.mx/cursos/mcb/)
 
-[Arriba](#SectionMenu)
+[Arriba](#Contenido)
 
-<a name="Objetivo"></a>
-### Objetivo General
+### Objetivo General {#Objetivos}
 
 <u>Habilidades a desarrollar:<u/>
 - Uso de R para manipulacion.
@@ -39,10 +38,9 @@ La especializacion en procesamiento de datos depende principalmente de habilidad
 
 ### Objetivos Especificos
 
-[Arriba](#SectionMenu)
+[Arriba](#Contenido)
 
-<a name="Sesiones"></a>
-### Sesiones
+### Sesiones {#Sesiones}
 
 | Sesion       | Descripcion  |
 |:-------------:|--------------|
@@ -78,7 +76,7 @@ La especializacion en procesamiento de datos depende principalmente de habilidad
 - [Introduccion a Estadistica en R](https://www.coursera.org/learn/intro-data-science-programacion-estadistica-r)
 
 
-[Arriba](#SectionMenu)
+[Arriba](#Contenido)
 
 ### Bibliografia
 
@@ -101,4 +99,4 @@ La especializacion en procesamiento de datos depende principalmente de habilidad
 
 <u>Agradecimientos</u>: Este documento fue elaborado con ideas tomadas de [Bradley Boehmke](http://uc-r.github.io/), y [Matthew Ingram](http://mattingram.net/).
 
-[Arriba](#SectionMenu)
+[Arriba](#Contenido)

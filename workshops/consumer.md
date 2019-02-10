@@ -3,15 +3,21 @@ layout: contents
 title: NULL
 ---
 
+<a name="Contenido"></a>
+
 [Teaching](../teaching.md) &rarr; Data Consumer
 
-[Presentacion](#Presentacion) | [Objetivos](#Objetivo) | [Sesiones](#Sesiones) |
+| Contenido |
+| :---: |
+| [Presentacion](#Presentacion) |
+| [Objetivos](#Objetivo) |
+| [Sesiones](#Sesiones) |
 
-<a name="Presentacion"></a>
-### Presentacion
+### Presentacion {#Presentacion}
 
-<a name="Objetivos"></a>
-### Objetivos
+[Arriba](#Contenido)
+
+### Objetivos {#Objetivos}
 
 Habilidades:
 - Critical assessment of scientific articles and policy/research reports
@@ -21,8 +27,7 @@ Habilidades:
 Conocimientos:
 - Entendimiento de fundamentos de metodos cuantitativos: measurements, causal inference, concept formation, endogeneity. To read academic papers must understand the cores of methods (e.g. endogeneity, exogenous intervention, assumptions), language of coefficients (z-score, log-linear models, probabilty, count data, etc.)
 
-<a name="Sesiones"></a>
-### Sesiones
+### Sesiones {#Sesiones}
 
 | Sesion       | Descripcion  |
 |:-------------:|--------------|
@@ -33,13 +38,13 @@ Conocimientos:
 |               |  Datos Estructurados |
 |               | Datos no Estructurados  |
 
-### Materiales de Ensen~anza
+[Arriba](#Contenido)
 
-### Bibliografia basica
+### Referencias
 
-### Bibliografia Complementaria
+[Arriba](#Contenido)
 
-### Un Curso Mas largo incorporaria
+### Websites
+* Blank
 
-
-<u>Acknowledgments</u>: I have drawn ideas or readings from the following syllabi:
+[Arriba](#Contenido)

@@ -4,12 +4,17 @@ layout: contents
 tags: reproducible science, ciencia reproducible
 ---
 
-<a name="SectionMenu"></a>
+<a name="Contenido"></a>
 
 [Teaching](../../teaching) &rarr; Ciencia reproducible
 
+| Contenido |
+| :---: |
+| [Presentacion](#Presentacion) |
+| [Objetivos](#Objetivo) |
+| [Sesiones](#Sesiones) |
 
-
+[Arriba](#Contenido)
 
 ### Libros
 * Long's book workflow
@@ -17,3 +22,5 @@ tags: reproducible science, ciencia reproducible
 
 ### Websites
 * Project TIER
+
+[Arriba](#Contenido)
