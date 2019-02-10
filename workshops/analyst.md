@@ -45,10 +45,10 @@ Conocimientos:
 |               | Software estadistico R  |
 | **2**         | **Analisis de datos** |
 | **3**   | Visualizacion de datos   |
-| **4**   | **Comunicacion para la toma de decisiones  |
+| **4**   | **Comunicacion para la toma de decisiones**  |
 |         | Comunicacion de evidencia estadistica   |
 |         | Comunicacion escrita analisis de politica publica  |
-| **5**   | Workfolow   |
+| **5**   | **Workfolow**   |
 
 [Arriba](#Contenido)
 
