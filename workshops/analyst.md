@@ -36,13 +36,14 @@ Conocimientos:
 | Sesion       | Descripcion  |
 |:-------------:|--------------|
 | **1**         | **Introduccion** |
-|               | Analisis de Politica Publica y Ciencia de Datos  |
-|               | Software Estadistico R  |
-| **2**         | **Analisis de Datos** |
-| **3**   | Visualizacion de Datos   |
-| **4**   | Comunicacion de Evidencia Estadistica  |
-| **5**   | Comunicacion escrita analisis de politica publica  |
-|         | Ejercicios seciencia: analisis -> comunicacion   |
+|               | Analisis de politica publica y Ciencia de Datos  |
+|               | Software estadistico R  |
+| **2**         | **Analisis de datos** |
+| **3**   | Visualizacion de datos   |
+| **4**   | **Comunicacion para la toma de decisiones  |
+|         | Comunicacion de evidencia estadistica   |
+|         | Comunicacion escrita analisis de politica publica  |
+| **5**   | Workfolow   |
 
 
 ### Referencias
