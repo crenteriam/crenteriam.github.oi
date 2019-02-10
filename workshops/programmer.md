@@ -28,22 +28,15 @@ La especializacion en procesamiento de datos depende principalmente de habilidad
 <a name="Objetivo"></a>
 ### Objetivo General
 
-Las habilidades clave a desarrolar son: Conocimiento de las diferentes estructuras de datos y sus caracteristicas. Uso de software para adquisicion y procesamiento de datos. Adopcion de lineamientos de ciencia reproducible y data sequence workflow.
+<u>Habilidades a desarrollar:<u/>
+- Uso de R para manipulacion.
+- Adopcion de practicas de [Ciencia Reproducible](../../training/ciencia-reproducible) y secuencia (*workflow*) de manipulacion y analisis de datos.
 
--- Producir o encontrar fuentes de datos para su procesamiento y analisis.
--- Manipulacion de datos
--- Entender los tipos de datos y sus estructuras
+<u>Conocimientos:<u/>
+- Conocimiento de las diferentes estructuras de datos y sus caracteristicas.
+- Conocimiento de fuentes de datos disponibles para su procesamiento y analisis.
 
 ### Objetivos Especificos
-
-Habilidades Adquiridas:
-
-Complementarias:
-- Software de Estadistica: R, Python, Julia
-- Software Editor Texto:   Latex/Markdown
-- [Introduccion a Estadistica](https://www.coursera.org/learn/intro-data-science-programacion-estadistica-r)
-- R/Python: datacamp
-- Latex: Algo de Youtube.
 
 [Arriba](#SectionMenu)
 
@@ -67,19 +60,37 @@ Complementarias:
 | Software      | Python |
 | Software      | Julia  |
 | Software      | QGIS   |
+| Editor de Texto  | Markdown <a href="https://crenteriam.github.io/training/markdown/markdown/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
+| Editor de Texto  | Latex <a href="https://crenteriam.github.io/training/latex/latex/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a>  |
 
 [Arriba](#SectionMenu)
 
 ### Materiales de Ensen~anza
 
+- [Introduccion a Estadistica en R](https://www.coursera.org/learn/intro-data-science-programacion-estadistica-r)
+
+
 [Arriba](#SectionMenu)
 
 ### Bibliografia
-* Garrett Grolemund & Hadley Wickham, [R for Data Science](http://r4ds.had.co.nz/index.html) y sy version en espan~ol [R para Ciencia de Datos](http://es.r4ds.hadley.nz/)
-* Jennifer Bryan, [STAT 545: Data wrangling, exploration, and analysis with R](http://stat545.com/)
-* * Garret Grolemund, [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
 
-<u>Agradecimientos</u>: Este documento fue elaborado con ideas de:
-* Bradley Boehmke, [R Programming Guide](http://uc-r.github.io/)
+<u>Estructuras de Datos<u/>
+
+<u>Manipulacion de datos en R<u/>:
+* Garrett Grolemund & Hadley Wickham, [R for Data Science](http://r4ds.had.co.nz/index.html) y sy version en espan~ol [R para Ciencia de Datos](http://es.r4ds.hadley.nz/)
+* Garret Grolemund, [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
+
+<u>Manipulacion de datos en Python<u/>:
+* Blank
+
+<u>Manipulacion de datos en Julia<u/>:
+* Blank
+
+
+* <u>Websites utiles<u/>
+* Jennifer Bryan, [STAT 545: Data wrangling, exploration, and analysis with R](http://stat545.com/)
+* [University of Carolina R Programming Guide](http://uc-r.github.io/)
+
+<u>Agradecimientos</u>: Este documento fue elaborado con ideas tomadas de [Bradley Boehmke](http://uc-r.github.io/), and [Matthew Ingram](http://mattingram.net/).
 
 [Arriba](#SectionMenu)

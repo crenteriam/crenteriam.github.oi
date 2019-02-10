@@ -5,7 +5,6 @@ tags: stata, introduction
 ---
 
 <a name="SectionMenu"></a>
-
 [Teaching](../../../teaching) &rarr; [Introduction to Stata](stata.md) &rarr; Introducing the Software
 
 | Block         | Title  |
@@ -17,15 +16,7 @@ tags: stata, introduction
 | **5**         | [Data Editor, Variables Manager and Variable Types](#DataEditor)  |
 
 
-
-<!-- NAVIGATION TOOLS
-<a href="/teaching">Teaching Menu</a>
-<a onclick="window.history.back()">Back</a>
-[Home2]({{ site.url }}/)
-<a href='{{site.url}}/'>Home3</a-->
-
-<a name="Introduction"></a>
-### Introduction
+### Introduction {#Introduction}
 The goal of this module is to give you a first introduction to the software. After this module you must be familiar with Stata's environment and having programmed basic commands. In this module, you will learn: 1) Stata's software environment, 2) getting help in Stata, 3) programming syntax, and 4) manage files (load, import, and save).
 Introduction to the Environment. Watch the mini-lecture Getting Started with Stata. Then, watch Stephen Weinberg’s video Introduction to Stata to see some examples and extended lecture about Stata’s environment.
 
@@ -105,7 +96,7 @@ Watch the mini-lectures Introduction to Stata - Syntax and then Command Line Syn
 <a name="Load"></a>
 ### Load, Import, and Save
 
-Stata’s native file extension is `.dta`. These are the files you are referring to, when telling to Stata to open or save a dataset. If you want to load a dataset that is originally not in a .dta extension (for example, `.xlsx`, `.csv`, `.sav`), the you tell Stata to import the dataset. If you want to save a running dataset into a file extension different than `.dta`, then you must tell stata to export it. Watch the mini-lecture Opening a Dataset for opening `.dta` and importing `.xls` and `.csv` files. To save Stata files, watch the mini-lecture Saving Data in Stata. Here is an example of using these commands. Note that there is another file extension related to Stata (the file `.do`). This is not a dataset, it is a programming file that is commonly known as **Do-File**. We will review this in [Module 2](using-do-files.md).
+Stata’s native file extension is `.dta`. These are the files you are referring to, when telling to Stata to open or save a dataset. If you want to load a dataset that is originally not in a .dta extension (for example, `.xlsx`, `.csv`, `.sav`), the you tell Stata to import the dataset. If you want to save a running dataset into a file extension different than `.dta`, then you must tell stata to export it. Watch the mini-lecture Opening a Dataset for opening `.dta` and importing `.xls` and `.csv` files. To save Stata files, watch the mini-lecture Saving Data in Stata. Here is an example of using these commands. Note that there is another file extension related to Stata (the file `.do`). This is not a dataset, it is a programming file that is commonly known as **Do-File**. We will review this in [Module 2](using-dofiles.md).
 
 Make sure you know how to save datasets in Stata version 13. Based on our previous experiences, we will have a variety of versions running among student’s computers. `.dta` files saved in Stata 14 or 15 won’t open in Stata 13 or less. To make sure we won’t have this problem, all files must be saved as Stata 13 version (teach yourself how to do it by typing help saveold in the *Command Window*). Also notice the replace option when saving files. If the file name already exists, Stata will send you an error message; to avoid this, use the option replace when saving.
 

@@ -6,8 +6,7 @@ title: Teaching
 <a name="Interests"></a>
 ### Teaching Interests
 
-<a name="Talleres"></a>
-### Talleres
+### Talleres {#Talleres}
 
 | Talleres      |              |
 |:-------------:|--------------|
@@ -16,10 +15,17 @@ title: Teaching
 |               | [Data Consumer](workshops/consumer.md)  |
 
 
-
-| Online Tutorials  |
+| Tutorials  |
 |:-------------:|
 | [Getting Started with Stata](training/stata/stata.md)  |
 | [Dynamic Documents with Stata](training/dynamic-documents/dynamicdocs-stata.md)   |
 | [Learning Statistics with Simulations]()   |
 |   |
+
+
+
+<!-- NAVIGATION TOOLS
+<a href="/teaching">Teaching Menu</a>
+<a onclick="window.history.back()">Back</a>
+[Home2]({{ site.url }}/)
+<a href='{{site.url}}/'>Home3</a-->
