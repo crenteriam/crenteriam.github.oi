@@ -44,7 +44,7 @@ Conocimientos:
 |               | Analisis de politica publica y Ciencia de Datos  |
 |               | Software estadistico R  |
 | **2**         | **Analisis de datos** |
-| **3**   | Visualizacion de datos   |
+| **3**   | **Visualizacion de datos**   |
 | **4**   | **Comunicacion para la toma de decisiones**  |
 |         | Comunicacion de evidencia estadistica   |
 |         | Comunicacion escrita analisis de politica publica  |
