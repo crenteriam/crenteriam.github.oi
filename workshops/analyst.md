@@ -55,17 +55,17 @@ Conocimientos:
 ### Referencias
 
 <u>Visualizacion de Datos:<u/>
-* Kieran Healy, [Data Visualization](https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624)
-* etc.
+- Kieran Healy, [Data Visualization](https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624)
+- etc.
 
 <u>Writing Clearly:<u/>
-* On Writing Well, Draft 4, Journalist Writing, Stylish Academic Writing, etc.
+- On Writing Well, Draft 4, Journalist Writing, Stylish Academic Writing, etc.
 
 [Arriba](#Contenido)
 
 ### Websites
-* Blank
-
+- Blank
+- http://people.stat.sfu.ca/~raltman/stat402/
 <u>Acknowledgments</u>: I have drawn ideas or readings from the following syllabi:
 
 [Arriba](#Contenido)

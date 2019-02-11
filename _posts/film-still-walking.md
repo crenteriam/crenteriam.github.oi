@@ -1,6 +1,7 @@
 ---
-layout: contents
+layout: post
 title: Still Walking
+tag: still walking review, hirokazu koreeda, unanumo, tragic sense of life
 ---
 
 Plot Here.
@@ -8,7 +9,7 @@ Plot Here.
 
 Inability to overcome mourning.
 - long-term mourning
-- inability to scape dolor y mourning. Inability to accept the tragic sense of life
+- inability to scape dolor y mourning. Inability to accept the tragic sense of life, never found consolation on tragedy
 - trapped in anger dad, and trapped in confusion, depression and revenge/blame mom
 - both overlooking and underestimating taking care of those beloved ones who are still Walking
 - as the movie goes, the characters did not find the way to accept the tragic sense of exterior world, and embrace reconciliation with the past, with other (other professions),
@@ -24,6 +25,9 @@ Still Walking.
 - meanwhile those who are still walking take care of each other (cite the women)
 - fighting each other until the very last day... helplessly never reconciliated with tragedy.
 
+
+> “Warmth, warmth, more warmth! For we	are dying of cold and not darkness. It is not the night that kills, but the frost.”
+> ― Miguel de Unamuno, Tragic Sense of Life
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Id7tXouypEE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
