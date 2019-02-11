@@ -22,6 +22,9 @@ Un cientifico de datos tiene entrenamiento en manejo y analisis de datos. Este t
 
 La especializacion en procesamiento de datos depende principalmente de habilidades, y por lo tanto es predominantemente practica. Por lo tanto, la estrategia para  el taller es proveer breves sesiones introductorias de aproximadamente diez minutos de cada tema, seguido por practicas de 20 minutos. Cada practica termina con una retroalimentacion (el profesor presentando la practica frente al grupo). Todos los ejercicios son trabajo en equipo.
 
+- Where do I get Big Data? What does it look like? How do I make gygabytes of words and numbers into something meaningful?
+- https://icosbigdatacamp.github.io/2017-summer-camp/slides/Jerry%20big%20data%20intro%202017.pdf
+
 [checar imagen Segasi](http://segasi.com.mx/cursos/mcb/)
 
 [Arriba](#Contenido)
@@ -35,6 +38,7 @@ La especializacion en procesamiento de datos depende principalmente de habilidad
 <u>Conocimientos:<u/>
 - Conocimiento de las diferentes estructuras de datos y sus caracteristicas.
 - Conocimiento de fuentes de datos disponibles para su procesamiento y analisis.
+
 
 ### Objetivos Especificos
 
@@ -83,20 +87,22 @@ La especializacion en procesamiento de datos depende principalmente de habilidad
 <u>Estructuras de Datos<u/>
 
 <u>Manipulacion de datos en R<u/>:
-* Garrett Grolemund & Hadley Wickham, [R for Data Science](http://r4ds.had.co.nz/index.html) y sy version en espan~ol [R para Ciencia de Datos](http://es.r4ds.hadley.nz/)
-* Garret Grolemund, [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
+- Garrett Grolemund & Hadley Wickham, [R for Data Science](http://r4ds.had.co.nz/index.html) y sy version en espan~ol [R para Ciencia de Datos](http://es.r4ds.hadley.nz/)
+- Garret Grolemund, [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
 
 <u>Manipulacion de datos en Python<u/>:
-* Blank
+- Blank
 
 <u>Manipulacion de datos en Julia<u/>:
-* Blank
+- Blank
 
 
 <u>Websites de cursos similares:<u/>
-* Jennifer Bryan, [STAT 545: Data wrangling, exploration, and analysis with R](http://stat545.com/)
-* [University of Carolina R Programming Guide](http://uc-r.github.io/)
-* https://dssg.uchicago.edu/
+- Jennifer Bryan, [STAT 545: Data wrangling, exploration, and analysis with R](http://stat545.com/)
+- [University of Carolina R Programming Guide](http://uc-r.github.io/)
+- https://dssg.uchicago.edu/
+- https://sites.lsa.umich.edu/css/category/reading-and-resources/
+
 <u>Agradecimientos</u>: Este documento fue elaborado con ideas tomadas de [Bradley Boehmke](http://uc-r.github.io/), y [Matthew Ingram](http://mattingram.net/).
 
 [Arriba](#Contenido)
