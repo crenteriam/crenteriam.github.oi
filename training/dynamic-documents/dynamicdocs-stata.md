@@ -6,26 +6,25 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 | Tools for Integrating Your Research Workflow |
 
 
-<a name="SectionMenu"></a>
+<a name="Contents"></a>
 [Teaching](../../../teaching) &rarr; Dynamic Documents with Stata
 
-| Block         | Title  |
-|:-------------:|--------------|
-| **1**         | [Workflow](#DoFiles)   |
-| **2**         | Software  |
+This is a set of working files for a book that I am preparing on Reproducible Research with Stata. Origionally it was a buch of files that I collected from my teaching assistantship, and I started to put them together into these files.
+
+
+
+
+| **Part I - The Basics** |
+| :---: |
+| **1**         | **[Reproducible Research]()**   |
+| **2**         | **Software**  |
 |               | Stata  |
 |               | Text Compiler  |
-| **3**         | Text Editors   |
-|               | Latex |
-|               | Markdown  |
-| **4**         | Produce Tables  |
-| **5**         | Produce Figures |
-| **6**         | Reporting   |
-|               | Compiling Article  |
-|               | Bibliography   |
-|               | Formatting in Latex  |
-
-[Place the PDF here](linktopdf)
-
-<a name="XXXX"></a>
-### XXX
+|               | Text Editors    |
+| **Part II - The Structure of the Do-File** |
+| **4**         | **Environment Setup**  |
+| **5**         | **Writing a Report** |
+| **6**         | **Data Management**   |
+| **7**         | **Graphics**  |
+| **8**         | **Tables**   |
+| **9**         | **Collaboration and Version Control**  |
