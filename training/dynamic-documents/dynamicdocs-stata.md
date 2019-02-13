@@ -14,17 +14,16 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 
 
 
-| **Part I - The Basics** |
-| :---: |
+| **Part I**    |  **The Basics** |
 | **1**         | **[Reproducible Research]()**   |
 | **2**         | **Software**  |
 |               | Stata  |
 |               | Text Compiler  |
 |               | Text Editors    |
-| **Part II - The Structure of the Do-File** |
+| **Part II**   | **The Structure of the Do-File** |
 | **4**         | **Environment Setup**  |
 | **5**         | **Writing a Report** |
 | **6**         | **Data Management**   |
-| **7**         | **Graphics**  |
-| **8**         | **Tables**   |
+| **7**         | [**Graphics**](graphics.md)  |
+| **8**         | [**Tables**](tables.md)   |
 | **9**         | **Collaboration and Version Control**  |
