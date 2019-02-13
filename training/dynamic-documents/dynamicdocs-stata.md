@@ -1,7 +1,11 @@
 ---
 title: Dynamic Documents with Stata
 layout: contents
+tag: dynamic documents, stata, research workflow, research reproducibility, reproducible research, social sciences
 ---
+| Tools for Integrating Your Research Workflow |
+| :---: |
+
 <a name="SectionMenu"></a>
 [Teaching](../../../teaching) &rarr; Dynamic Documents with Stata
 
