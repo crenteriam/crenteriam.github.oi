@@ -27,15 +27,11 @@ For further details on the packages, please refer to the full documentation of [
 Install the package with the command `ssc install estout`. For this tutorial, we are going to use the built-in dataset auto. Load it with the line
 `sysuse auto`.
 
-To make our publishable tables, we will need three packages. The first one is
-`estimates store`; this is a Stata's official command. Then, the command
-`estpost` will help us to create the Descriptive Statistics table, whereas
-the command `esttab` will help us to create the Regression tables.
+To make our publishable tables, we will need three packages. The first one is `estimates store`; this is a Stata's official command. Then, the command `estpost` will help us to create the Descriptive Statistics table, whereas the command `esttab` will help us to create the Regression tables.
 
 ### Regression Tables
 
-To make a regression table, first run the regression model. In this case, we will
-start with a bivariate model of mileages per hour on price.
+To make a regression table, first run the regression model. In this case, we will start with a bivariate model of mileages per hour on price.
 
 ```latex
 \begin{Verbatim}[formatcom=\color{stata}]
@@ -44,9 +40,7 @@ setwd "Your Working Directory Path" // See section of Workflow.
 quietly reg price mpg weight
 \end{Verbatim}
 ```
-The results are stored in temporary memory. We must save the results with the
-command `estimates store`. To do that, type `estimates store` and then
-give the results a name (e.g. Model1).
+The results are stored in temporary memory. We must save the results with the command `estimates store`. To do that, type `estimates store` and then give the results a name (e.g. Model1).
 
 ```latex
 \begin{Verbatim}[formatcom=\color{stata}]
@@ -54,7 +48,7 @@ estimates store Model1
 \end{Verbatim}
 ```
 
-Now, produce the .tex file for this table. Use the command \verb|esttab|. Then, name the stored model you want to include in the table. In this case, we want our stored `Model1`. after the word `using` name the file path and the file name (if you are using a working directory, you only need the latter, as in the example below). Include the option `replace`.
+Now, produce the .tex file for this table. Use the command `esttab`. Then, name the stored model you want to include in the table. In this case, we want our stored `Model1`. after the word `using` name the file path and the file name (if you are using a working directory, you only need the latter, as in the example below). Include the option `replace`.
 
 ```latex
 \begin{Verbatim}[formatcom=\color{stata}]
@@ -112,13 +106,14 @@ The new `Table3.tex` file will produce this table:
 
 **Additional statistics.** Yo can include more information on the regression table, such as F-statistic (`F`, Adjusted R Squared `ar2`, number of observations (`N`), etc. (see [esttab](http://repec.sowi.unibe.ch/stata/estout/esttab.html)). You can also add ad hoc estimations to the regression table (e.g. [Chow test](http://personal.rhul.ac.uk/uhte/006/ec5040/chow\%20test.pdf), [estadd](http://repec.sowi.unibe.ch/stata/estout/estadd.html)).
 
-
+```latex
 \vspace{4mm} \noindent
 \textbf{Selected independent variables (keep and drop).}
 \vspace{4mm} \noindent
 \textbf{Parameter statistics (stars, t-statistic, s.e., etc.)} se conf interv, p-value, t-statistic, stars.
 \vspace{4mm} \noindent
 \textbf{Number of decimals displayed.}
+```
 
 This section presented Stata's commands to edit the output to be presented in the regression table. Complementary Latex commands might be needed to fit the table in the PDF. See Section [Personalized Tables](tables-personalized.md).
 
