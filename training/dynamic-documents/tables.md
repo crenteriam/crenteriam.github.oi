@@ -8,9 +8,9 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 <a name="Contents"></a>
 [Teaching](../../../teaching) &rarr; [Dynamic Documents with Stata](dynamicdocs-stata.md)  &rarr; Tables
 
-| Sections |
-| [Descriptive Statistics](../tables-descriptives) |
-| [Regression Outputs](../tables-ols)   |
+| Jump to sub-sections: |
+| [Descriptive Statistics Tables](../tables-descriptives) |
+| [Regression Tables](../tables-ols)   |
 | [Personalized Tables](../tables-personalized)  |
 
 ### Introduction
@@ -21,8 +21,11 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 
 ### Creating the Table in Stata
 
+[Up](#Contents)
+
 ### Storing the Table in the Working Directory
--
+
+[Up](#Contents)
 
 ### Linking the Table to the Latex Documents
 
@@ -38,11 +41,11 @@ The basic syntax to create a table in Latex is:
 \end{table}
 ```
 
-The whole table enviornment is contained between the lines `\begin{table}` and `\end{table}`. The `table` environment contains information about the title, a label for hyperreference, the horizonta and positioning, among others.
+The whole table enviornment is contained between the lines `\begin{table}` and `\end{table}`. The environment ***table*** contains information about the title, a label for hyperreference, the horizonta and positioning, among others.
 
 Note that there is an `[h]` at the right side of `\begin{table}`. This XXXXX.
 
-But the environment table does not contain the *actual table*, only the *metadata* of the table. The *actual table* is contained within the environment `\begin{tabular}` and `\end{tabular}`. At the right side of `\begin{tabular}`, says `{c|c}`. This is the instruction of the number of columns you want to the table to have. But instead of giving a number, we are providing a letter per each column, The letters mean the positioning of the text within the column; `c` stands for centered, `r` for right, and `l` for left. The pipe `|` means you want to draw a vertical line between columns. If you want no lines between colums, leave a blank space. For example in `{c c c}` I am speficying a table with three columns without vertical lines.
+But the environment ***table*** does not contain the *actual table*, only the *metadata* of the table. The *actual table* is contained within the environment ***tabular*** which is contained between `\begin{tabular}` and `\end{tabular}`. At the right side of `\begin{tabular}`, says `{c|c}`. This is the instruction of the number of columns you want to the table to have. But instead of giving a number, we are providing a letter per each column, The letters mean the positioning of the text within the column; `c` stands for centered, `r` for right, and `l` for left. The pipe `|` means you want to draw a vertical line between columns. If you want no lines between colums, leave a blank space. For example in `{l c c}` I am speficying a table with three columns without vertical lines. In the first column, the text will be left-sided, and centered in the remaning two columns.
 
 The number of rows XXXX.
 
