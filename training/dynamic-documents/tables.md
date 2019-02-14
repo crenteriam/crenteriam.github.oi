@@ -13,6 +13,11 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 
 </p>
 
+
+ <center>[Previous section] &larr; Tables &rarr; [Next section]()</center>
+
+
+
 | Jump to sub-sections: |
 | [Descriptive Statistics Tables](../tables-descriptives) |
 | [Regression Tables](../tables-ols)   |
