@@ -22,7 +22,8 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 | **5**         | **Writing a Report** |
 | **6**         | **Data Management**   |
 | **7**         | [**Graphics**](graphics.md)  |
-| **8**         | [**Tables**](tables.md)   |
+| **8**         | **Tables**   |
+|               | [Latex Syntax for Tables](tables.md)  |
 |               | [Descriptive Statistics Tables](tables-descriptives.md)  |
 |               | [Regression Tables](tables-ols.md)  |
 |               | [Personalized Tables](tables-personalized.md)  |
