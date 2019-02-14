@@ -3,7 +3,7 @@ title: Tables
 layout: contents
 tag: dynamic documents, stata, research workflow, research reproducibility, reproducible research, social sciences
 ---
-| [**Dynamic Documents with Stata.**]() Tools for Integrating Your Research Workflow |
+| [**Dynamic Documents with Stata.**](dynamicdocs-stata.md) Tools for Integrating Your Research Workflow |
 
 <a name="Contents"></a>
 <center>
