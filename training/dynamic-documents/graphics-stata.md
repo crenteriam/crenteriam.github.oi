@@ -10,7 +10,7 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
  <a href="#">Previous section</a> &larr; Graphics &rarr; <a href="#">Next section</a>
 </p>
 
-### Creating Figures in Stata
+### Create Graphics in Stata
 
 First, load the data `auto`, run a scatterplot to compare `mpg` and `price`, and export it as a Portable Networks Graphics (.png) file in your folder `figures` (graph export can be read as "save as..."). We will name it `Graph1.png`.
 
@@ -21,9 +21,9 @@ graph export ".\figures\Graph1.png", replace
 graph close
 ```
 
-### Storing Figures in Stata
+### Store Graphics in Stata
 
-### Manipulate Figures in Stata
+### Manipulate Graphics in Stata
 
 Required packages:
 - Stata: none

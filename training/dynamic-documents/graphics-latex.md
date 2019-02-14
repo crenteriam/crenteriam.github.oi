@@ -11,9 +11,9 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
  <a href="#">Previous section</a> &larr; Graphics &rarr; <a href="#">Next section</a>
 </p>
 
-### Displaying Figures in your Latex File
+### Display Graphics Latex
 
-There are not Latex packages needed for displaying a graph in Latex, but we recommend `graphicsx`, and `float`. We will come to that in [below](#Edit).
+There are not Latex packages needed for displaying a graph in Latex, but we recommend `graphicsx`, and `float`. We will come to that [below](#Edit).
 
 The graph is now saved as a .png file in the folder `figures`. Next, we need to call the file in the Latex document by beginning an object type `figure` (see first line below).
 The next line is `centering` the object. Centering means that the figure will be centered in the page.
