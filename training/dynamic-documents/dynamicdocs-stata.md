@@ -11,9 +11,6 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 
 This is a set of working files for a book that I am preparing on Reproducible Research with Stata. Origionally it was a buch of files that I collected from my teaching assistantship, and I started to put them together into these files.
 
-
-
-
 | **Part I**    |  **The Basics** |
 | **1**         | **[Reproducible Research]()**   |
 | **2**         | **Software**  |
@@ -26,4 +23,7 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 | **6**         | **Data Management**   |
 | **7**         | [**Graphics**](graphics.md)  |
 | **8**         | [**Tables**](tables.md)   |
+|               | [Descriptive Statistics Tables](tables-descriptives.md)  |
+|               | [Regression Tables](tables-ols.md)  |
+|               | [Personalized Tables](tables-personalized.md)  |
 | **9**         | **Collaboration and Version Control**  |
