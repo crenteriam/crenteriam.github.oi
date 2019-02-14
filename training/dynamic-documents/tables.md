@@ -41,26 +41,38 @@ The basic syntax to create a table in Latex is:
 \end{table}
 ```
 
-The whole table enviornment is contained between the lines `\begin{table}` and `\end{table}`. The environment ***table*** contains information about the title, a label for hyperreference, the horizonta and positioning, among others.
+The whole table enviornment is contained between the lines `\begin{table}` and `\end{table}`. The ***table*** environment contains information about the title, a label for hyperreference, the horizonta and positioning, among others.
 
-Note that there is an `[h]` at the right side of `\begin{table}`. This XXXXX.
+Note that there is an `[h]` at the right side of `\begin{table}`. This XXXXX. Also, at the beginning of the ***table*** environment, the command `\centering` is telling Latex to print the table centered.
 
-But the environment ***table*** does not contain the *actual table*, only the *metadata* of the table. The *actual table* is contained within the environment ***tabular*** which is contained between `\begin{tabular}` and `\end{tabular}`. At the right side of `\begin{tabular}`, says `{c|c}`. This is the instruction of the number of columns you want to the table to have. But instead of giving a number, we are providing a letter per each column, The letters mean the positioning of the text within the column; `c` stands for centered, `r` for right, and `l` for left. The pipe `|` means you want to draw a vertical line between columns. If you want no lines between colums, leave a blank space. For example in `{l c c}` I am speficying a table with three columns without vertical lines. In the first column, the text will be left-sided, and centered in the remaning two columns.
+But the environment ***table*** does not contain the *actual table*, only the *metadata* of the table. The *actual table* is contained within the environment ***tabular*** which is contained between `\begin{tabular}` and `\end{tabular}`. At the right side of `\begin{tabular}`, says `{c|c}`. This is the instruction of the number of columns you want to the table to have. But instead of giving a number, we are providing a letter per each column, The letters mean the positioning of the text within the column; `c` stands for centered, `r` for right, and `l` for left. The pipe `|` means you want to draw a vertical line between columns. If you want no lines between colums, leave a blank space. For example, in `{l c c}` I am speficying a table with three columns without vertical lines. In the first column, the text will be left-sided, and centered in the remaning two columns.
 
-The number of rows XXXX.
+The rows have a different logics. Between , each programming line is a row. Each row has to end with `\\` which is equivalent to hit enter in your word processor. For example, from the code chunk above `Cell A & Cell B \\` represents the first row of the table. As for that chunk we definded two columns, *Cell A* will be the text contained in the first row and first column. The symbol `&` will tell Latex to move to the next column, within the same row. Therefore, `Cell B` will be the contents of the second column. As we only have two columns, the next step is to end the line with `\\`.
 
 - graphicsx package
 - what is a float in footnote.
 - bring this from latex book.
--
+
 
 [Up](#Contents)
 
 ### Elementary Table Editing in Latex
 
+**Caption.**
 
-- size, float H, caption, label, tabular vs tabularx
-- links to sideways, longtable
+**Label.**
+
+**Vertical Positioning**
+- float H
+### Table Size
+
+There are three common issues related with the table size. Typically, the table width is wider than the text width. Also, the table could be longer than a page. Or you might want to print the table rotated. The environment ***tabular*** completely fails to meet these requirements. Therefore, you will need to use other environments.
+
+**The table is wider than the text width.**
+
+**The table is longer than the page length.**
+
+**How can I rotate the table to be printed horizontally?**
 
 [Up](#Contents)
 

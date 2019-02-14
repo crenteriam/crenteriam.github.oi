@@ -34,8 +34,7 @@ To make our publishable tables, we will need three packages. The first one is `e
 To make a regression table, first run the regression model. In this case, we will start with a bivariate model of mileages per hour on price.
 
 ```latex
-\begin{Verbatim}[formatcom=\color{stata}]
-sysuse auto
+\begin{Verbatim}
 setwd "Your Working Directory Path" // See section of Workflow.
 quietly reg price mpg weight
 \end{Verbatim}

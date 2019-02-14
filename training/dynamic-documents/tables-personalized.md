@@ -9,35 +9,37 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 [Teaching](../../../teaching) &rarr; [Dynamic Documents with Stata](dynamicdocs-stata.md)  &rarr; [Tables](tables.md) &rarr; Display Personalized Tables in Latex Documents
 
 
-% VERBATIM ===================================================
+```latex
 \begin{Verbatim}
 \begin{tabular}{|c|c|c|}
     Row 1, Column 1 & Row 1, Column 2 & Row 1, Column 3 \\
     Row 2, Column 1 & Row 2, Column 2 & Row 2, Column 3 \\
 \end{tabular}
 \end{Verbatim}
-% VERBATIM ===================================================
-
+```
+```latex
 \begin{tabular}{|c|c|c|}
     Row 1, Column 1 & Row 1, Column 2 & Row 1, Column 3 \\
     Row 2, Column 1 & Row 2, Column 2 & Row 2, Column 3 \\
 \end{tabular}
+```
 
-% VERBATIM ===================================================
+```latex
 \begin{Verbatim}
 \begin{tabular}{ l c r }
     Row 1, Column 1 & Row 1, Column 2 & Row 1, Column 3 \\
     Row 2, Column 1 & Row 2, Column 2 & Row 2, Column 3 \\
 \end{tabular}
 \end{Verbatim}
-% VERBATIM ===================================================
-
+```
+```latex
 \begin{tabular}{ l c r }
     Row 1, Column 1 & Row 1, Column 2 & Row 1, Column 3 \\
     Row 2, Column 1 & Row 2, Column 2 & Row 2, Column 3 \\
 \end{tabular}
+```
 
-% VERBATIM ===================================================
+```latex
 \begin{Verbatim}
 \begin{tabular}{ l c r }
     \hline
@@ -48,8 +50,9 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
     \hline
 \end{tabular}
 \end{Verbatim}
-% VERBATIM ===================================================
+```
 
+```latex
 \begin{tabular}{ l c r }
     \hline
     Header 1 & Header 2 & Header 3 \\
@@ -58,9 +61,9 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
     Row 2, Column 1 & Row 2, Column 2 & Row 2, Column 3 \\
     \hline
 \end{tabular}
+```
 
-
-% VERBATIM ===================================================
+```latex
 \begin{Verbatim}
 \begin{table}
 \centering
@@ -76,8 +79,9 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 \label{ref:tab1}
 \end{table}
 \end{Verbatim}
-% VERBATIM ===================================================
+```
 
+```latex
 \begin{table}[H]
 \centering
 \begin{tabular}{ l c r }
@@ -91,19 +95,17 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 \caption{Titlefor the Table}
 \label{ref:tab1}
 \end{table}
+```
 
-\therule
 Further reading for doing tables:
 
 https://tex.stackexchange.com/questions/146127/how-can-i-insert-simple-table-notes/146129?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
-\therule
 
+### Making a table fit the page margins
 
-\subsubsection{Making a table fit the page margins}
+A common problem when doing personalized tables is that the table does not fit the page. Usually this is because Latex strictly maintains the column width of the text in the column. For example, if you only have YES/NO answers in the table, the column will be small, but if you have a cell with a sentence like this "This is a dichotomous variable indicating whether or not the group adheres to a religious ideology, but not ethnic." that will be the width of your column and will spread beyond the paper margins. See below:
 
-A common problem when doing personalized tables is that the table does not fit the page. Usually this is because \LaTeX\ strictly maintains the column width of the text in the column. For example, if you only have YES/NO answers in the table, the column will be small, but if you have a cell with a sentence like this "This is a dichotomous variable indicating whether or not the group adheres to a religious ideology, but not ethnic." that will be the width of your column and will spread beyond the paper margins. See below:
-
-% VERBATIM ===================================================
+```latex
 \begin{Verbatim}
 \begin{table}[H]
 \centering
@@ -134,8 +136,9 @@ with other terrorist organizations. \\
 \end{tabular}
 \end{table}
 \end{Verbatim}
-% VERBATIM ===================================================
+```latex
 
+```latex
 \begin{table}[H]
 \centering
 \caption{Variables used in the regression}
@@ -149,17 +152,18 @@ Number of Network Connections & Degree & Yes & This variable is retrieved from t
 \hline
 \end{tabular}
 \end{table}
+```
+There are two ways to fix it. First is by changing the option center `c` by a fixed width. For example, the table above will be reformatted by changing `\begin{tabular}{ c c c c }` by:
 
-There are two ways to fix it. First is by changing the option center \verb|c| by a fixed width. For example, the table above will be reformatted by changing \verb|\begin{tabular}{ c c c c }| by:
-
-% VERBATIM ===================================================
+```latex
 \begin{Verbatim}
 \begin{tabular}{ p{3cm} p{3cm} p{3cm} p{7cm} }
 \end{Verbatim}
-% VERBATIM ===================================================
+```
 
 Where the first three columns are 3 centimeters wide, and the fourth is 7 centimeters wide. See the result below:
 
+```latex
 \begin{table}[H]
 \centering
 \caption{Variables used in the regression}
@@ -173,10 +177,11 @@ Number of Network Connections & Degree & Yes & This variable is retrieved from t
 \hline
 \end{tabular}
 \end{table}
+```
 
-The second alternative is by using the package \verb|tabularx|. By using this package, we can fit the table to exactly align with text margins. X divides the whole table into equal parts and that will be the width for every column marked with X. You might want to use this with the long, columns, but not with the shorts. I took out the pipe to take out the vertical lines. I used textwidth to say that I want the table so it reaches the wide margins. When using tabularx, you must specify the length of the table in the second bracket. For example, here the second bracket specifies it as textwidth: \verb|\begin{tabularx}{\textwidth}{X X X X}|.
+The second alternative is by using the package `tabularx`. By using this package, we can fit the table to exactly align with text margins. X divides the whole table into equal parts and that will be the width for every column marked with X. You might want to use this with the long, columns, but not with the shorts. I took out the pipe to take out the vertical lines. I used textwidth to say that I want the table so it reaches the wide margins. When using tabularx, you must specify the length of the table in the second bracket. For example, here the second bracket specifies it as textwidth: `\begin{tabularx}{\textwidth}{X X X X}`.
 
-% VERBATIM ===================================================
+```latex
 \begin{Verbatim}
 \begin{table}[H]
 \centering
@@ -206,8 +211,10 @@ other terrorist organizations. \\
 \end{tabularx}
 \end{table}
 \end{Verbatim}
-% VERBATIM ====================================================
+```
 
+
+```latex
 \begin{table}[H]
 \centering
 \caption{Variables used in the regression}
@@ -222,23 +229,25 @@ Number of Network Connections & Degree & Yes & This variable is retrieved from t
 \hline
 \end{tabularx}
 \end{table}
+```
 
-You can also mix with the first strategy. For example, you can change the column type \verb|X| by \verb|c| or \verb|p{3cm}|. For example, the we substituted the line:
+You can also mix with the first strategy. For example, you can change the column type `X` by `c` or `p{3cm}`. For example, the we substituted the line:
 
-% VERBATIM ===================================================
-\begin{Verbatim}[gobble=1]
+```latex
+\begin{Verbatim}
 %\begin{tabularx}{\textwidth}{ X X X X }
 \end{Verbatim}
-% VERBATIM ===================================================
+```
 
 By the line:
 
-% VERBATIM ===================================================
+```latex
 \begin{Verbatim}[gobble=1]
 %\begin{tabularx}{\textwidth}{p{2cm} p{2cm} p{1cm} X}
 \end{Verbatim}
-% VERBATIM ===================================================
+```
 
+```latex
 \begin{table}[H]
 \centering
 \caption{Variables used in the regression}
@@ -252,8 +261,4 @@ Number of Network Connections & Degree & Yes & This variable is retrieved from t
 \hline
 \end{tabularx}
 \end{table}
-
-% ------------------------------------------------------------
-\subsubsection{Print a table in multiple pages}
-
-Use package longtable.
+```
