@@ -6,17 +6,9 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 | [**Dynamic Documents with Stata.**](dynamicdocs-stata.md) Tools for Integrating Your Research Workflow |
 
 <a name="Contents"></a>
-
 <p style="text-align: center;">
-
- <a href="#">Previous section</a> &larr; Tables &rarr; <a href="#">Previous section</a>
-
+ <a href="#">Previous section</a> &larr; Tables &rarr; <a href="#">Next section</a>
 </p>
-
-
- <center>[Previous section] &larr; Tables &rarr; [Next section]()</center>
-
-
 
 | Jump to sub-sections: |
 | [Descriptive Statistics Tables](../tables-descriptives) |
