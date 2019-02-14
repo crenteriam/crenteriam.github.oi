@@ -4,16 +4,16 @@ layout: contents
 tags: ciencias sociales computacionales, ciencia de datos, ciencias sociales, politicas publicas, ciencia politica
 ---
 
-<a name="SectionMenu"></a>
+<a name="Contenido"></a>
 
 [Teaching](../../teaching) &rarr; Ciencias Sociales Computacionales
 
 
-<a name="Presentacion"></a>
-### Presentacion
 
-<a name="Objetivos"></a>
-### Objetivos
+### Presentacion {#Presentacion}
+
+
+### Objetivos {#Objetivos}
 
 Habilidades:
 - Measurement and concept formation
@@ -39,3 +39,4 @@ Habilidades:
 - https://datascience.columbia.edu/computational-social-science
 - http://www.russellsage.org/call-proposals-computational-social-science
 - https://sites.lsa.umich.edu/css/category/reading-and-resources/
+- https://www.youtube.com/watch?v=oqfKz-PP9FU&t=1084s
