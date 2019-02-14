@@ -6,7 +6,7 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 | **Dynamic Documents with Stata.** Tools for Integrating Your Research Workflow |
 
 <a name="Contents"></a>
-[Teaching](../../../teaching) &rarr; [Dynamic Documents with Stata](../dynamicdocs-stata)  &rarr; [Graphics](../graphics) &rarr; Display Graphics in Latex Documents
+[Teaching](../../../teaching) &rarr; [Dynamic Documents with Stata](dynamicdocs-stata.md)  &rarr; [Graphics](graphics.md) &rarr; Display Graphics in Latex Documents
 
 
 Required packages:

@@ -6,7 +6,7 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 | **Dynamic Documents with Stata.** Tools for Integrating Your Research Workflow |
 
 <a name="Contents"></a>
-[Teaching](../../../teaching) &rarr; [Dynamic Documents with Stata](../dynamicdocs-stata)  &rarr; [Tables](../tables) &rarr; Display OLS Tables in Latex Documents
+[Teaching](../../../teaching) &rarr; [Dynamic Documents with Stata](dynamicdocs-stata.md)  &rarr; [Tables](tables.md) &rarr; Display OLS Tables in Latex Documents
 
 
 
@@ -43,7 +43,7 @@ quietly reg price mpg weight
 The results are stored in temporary memory. We must save the results with the command `estimates store`. To do that, type `estimates store` and then give the results a name (e.g. Model1).
 
 ```latex
-\begin{Verbatim}[formatcom=\color{stata}]
+\begin{Verbatim}
 estimates store Model1
 \end{Verbatim}
 ```
@@ -51,7 +51,7 @@ estimates store Model1
 Now, produce the .tex file for this table. Use the command `esttab`. Then, name the stored model you want to include in the table. In this case, we want our stored `Model1`. after the word `using` name the file path and the file name (if you are using a working directory, you only need the latter, as in the example below). Include the option `replace`.
 
 ```latex
-\begin{Verbatim}[formatcom=\color{stata}]
+\begin{Verbatim}
 esttab Model1 using ".\report\Table2.tex", replace
 \end{Verbatim}
 ```
@@ -59,7 +59,7 @@ esttab Model1 using ".\report\Table2.tex", replace
 The `.tex` file containing the table must be created at this moment. To insert the table in the document, follow the same process as with the descriptive statistics:
 
 ```latex
-\begin{Verbatim}[formatcom=\color{latex}]
+\begin{Verbatim}
 \begin{table}[H]
 \centering
 	\input{Table2}
@@ -78,7 +78,7 @@ The Regression Table will be displayed as below:
 Finally, we will expand the regression table. We will include more models and more options. We will create a `Model2`, which includes the independent variable `weight` and a `Model3` which includes the independent variables `weight` and `foreign`. Save the results with `estimates store` for each model:
 
 ```latex
-\begin{Verbatim}[formatcom=\color{stata}]
+\begin{Verbatim}
 quietly reg price mpg weight
 estimates store Model2
 quietly reg price mpg weight foreign
@@ -87,10 +87,10 @@ estimates store Model3
 ```
 ### Format Model Titles and Variable Labels
 
-To create the `.tex` file containing the table, we use again the command `esttab`. Now, we will include our three models stored. We will also include the options `nonumbers` (will take out the number in parenthesis from the headings row), `label` (will use Stata's labels in the variable colums, see [link to label subsection here](), and `mtitles` (to name the results colums with our own titles). We also want to add the r-squared by including the option `r2(2)`| (the number 2 in parenthesis tells Stata to display two decimals). You can add a note with the option `addnote`.
+To create the `.tex` file containing the table, we use again the command `esttab`. Now, we will include our three models stored. We will also include the options `nonumbers` (will take out the number in parenthesis from the headings row), `label` (will use Stata's labels in the variable colums, see [link to label subsection here](), and `mtitles` (to name the results colums with our own titles). We also want to add the r-squared by including the option `r2(2)` (the number 2 in parenthesis tells Stata to display two decimals). You can add a note with the option `addnote`.
 
 ```latex
-\begin{Verbatim}[formatcom=\color{stata}]
+\begin{Verbatim}
 esttab Model1 Model2 Model3 using ".\report\Table3.tex", ///
        r2(2) replace label nonumbers ///
        mtitles("Model 1" "Model 2" "Model 3") ///

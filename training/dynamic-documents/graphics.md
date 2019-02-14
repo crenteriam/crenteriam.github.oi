@@ -6,7 +6,7 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 | **Dynamic Documents with Stata.** Tools for Integrating Your Research Workflow |
 
 <a name="Contents"></a>
-[Teaching](../../../teaching) &rarr; [Dynamic Documents with Stata](../dynamicdocs-stata)  &rarr; Graphics
+[Teaching](../../../teaching) &rarr; [Dynamic Documents with Stata](dynamicdocs-stata.md)  &rarr; Graphics
 
 PAR1. This chapter will guide in creating figures in Stata, storing them into your project working directory and link them into your dynamic document.
 
