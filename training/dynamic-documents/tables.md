@@ -6,9 +6,9 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 | [**Dynamic Documents with Stata.**](dynamicdocs-stata.md) Tools for Integrating Your Research Workflow |
 
 <a name="Contents"></a>
-<center>
+<p style="text-align: center;">
  [Previous section] &larr; Tables &rarr; [Next section]()
-</center>
+</p>
 
 | Jump to sub-sections: |
 | [Descriptive Statistics Tables](../tables-descriptives) |
