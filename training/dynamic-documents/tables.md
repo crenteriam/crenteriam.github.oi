@@ -76,7 +76,7 @@ The rows have a different logics. Between , each programming line is a row. Each
 
 ### Table Size
 
-There are three common issues related with the table size. Typically, the table width is wider than the text width. Also, the table could be longer than a page. Or you might want to print the table rotated. The environment ***tabular*** completely fails to meet these requirements. Therefore, you will need to use other environments.
+There are three common issues related with the table size. Typically, the table width is <u>wider</u> than the text width. Also, the table could be <u>longer</u> than a page. Or you might want to print the table <u>rotated</u>. The environment ***tabular*** completely fails to meet these requirements. Therefore, you will need to use other environments.
 
 **The table is wider than the text width.** Here, main problem with the environment ***tabular*** is that it strictly respects the width of your character string in that cell. That means that if you have a string such as "This is a long string", ***tabular*** will not break down that sentence into multiple lines.
 
