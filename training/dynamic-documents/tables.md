@@ -9,7 +9,7 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 
 <p style="text-align: center;">
 
- [Previous section] &larr; Tables &rarr; [Next section]()
+ <a href="#">Previous section</a> &larr; Tables &rarr; <a href="#">Previous section</a>
 
 </p>
 
