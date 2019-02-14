@@ -19,6 +19,7 @@ The graph is now saved as a .png file in the folder `figures`. Next, we need to 
 The next line is `centering` the object. Centering means that the figure will be centered in the page.
 The next line, `includegraphics`, tells Latex to display the graph named `Graph1.png` (the name of the file `Graph1.png` is in curly braces). Within the brackets, you can define many features for the figure. In this case, we defined the width as 4.5 inches, and height as 3 inches.
 The command `caption` is used to title and number the graph.
+- notes: discuss aspect ration: how should i decide the aspect ration of the graph?
 
 ```latex
 \begin{figure}[h]
@@ -43,7 +44,8 @@ Describe some intermediate packages: longtable, tabularx.
 - - Controlling where your Graph apperas. H and float package
 - Controlling the size of your Graph. width, height, and textwidth.
 - Use graphicspath.
-- - latex The table doesn't display exactly in the place I want to || What is the [H symbol](https://www.sharelatex.com/learn/Positioning_of_Figures) that appears besides the command "begin table"?
+- latex The table doesn't display exactly in the place I want to
+- What is the [H symbol](https://www.sharelatex.com/learn/Positioning_of_Figures) that appears besides the command "begin table"?
 
 **graphicsx.** You can use this package to define the folder where all your graphics are stored. If you have been following the [Research Reproducibility organization](TBD) suggested, this will be the `figures` folder. To specify the figures directory, use the command `\graphicspath`, then within the brackets (note the beginning and ending brackets are repeated) include `./` which stands for your current working directory[^1]. Then, type the name of the folder where the figures are. Again, in the suggested organization the folder is `figures`. See the example below:
 
