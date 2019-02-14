@@ -15,7 +15,7 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 | **1**         | **[Reproducible Research]()**   |
 | **2**         | **Software**  |
 |               | Stata  |
-|               | Text Compiler  |
+|               | Text Compilers  |
 |               | Text Editors    |
 | **Part II**   | **The Structure of the Do-File** |
 | **4**         | **Environment Setup**  |
@@ -27,4 +27,6 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 |               | [Descriptive Statistics Tables](tables-descriptives.md)  |
 |               | [Regression Tables](tables-ols.md)  |
 |               | [Personalized Tables](tables-personalized.md)  |
-| **9**         | **Collaboration and Version Control**  |
+| **9**         | **Version Control and Collaboration**  |
+|               | [Version Control](git.md)  |
+|               | [Collaborative Work in Stata](collaboration.md)  |

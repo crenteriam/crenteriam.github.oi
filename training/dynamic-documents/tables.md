@@ -80,7 +80,7 @@ The rows have a different logics. Between , each programming line is a row. Each
 
 There are three common issues related with the table size. Typically, the table width is <u>wider</u> than the text width. Also, the table could be <u>longer</u> than a page. Or you might want to print the table <u>rotated</u>. The environment ***tabular*** completely fails to meet these requirements. Therefore, you will need to use other environments.
 
-**The table is wider than the text width.** Here, main problem with the environment ***tabular*** is that it strictly respects the width of your character string in that cell. That means that if you have a string such as "This is a long string", ***tabular*** will not break down that sentence into multiple lines.
+**The table is wider than the text width.** Here, main problem with the environment ***tabular*** is that it strictly respects the width of your character string in that cell. That means that if you have a string such as "This is a long string", ***tabular*** will not break down that sentence into multiple lines. [Extended explanation](https://tex.stackexchange.com/questions/10535/how-to-force-a-table-into-page-width).
 
 There are two ways to hack that problem. The first one is to **manually defining the with of the column.** To do so, you must replace the column letter (e.g., `c`) by `p{}` and define the lenght in points (px), centimeters (cm) or inches (in). For example, in the table below, the first column is fixed to 3 centimeters and the second column to 3 inches.
 
