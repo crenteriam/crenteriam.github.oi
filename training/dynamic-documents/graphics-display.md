@@ -1,12 +1,12 @@
 ---
-title: Display Graphics in your Latex Document
+title: Display Graphics in Latex Documents
 layout: contents
 tag: dynamic documents, stata, research workflow, research reproducibility, reproducible research, social sciences
 ---
 | **Dynamic Documents with Stata.** Tools for Integrating Your Research Workflow |
 
 <a name="Contents"></a>
-[Teaching](../../../teaching) &rarr; [Dynamic Documents with Stata](../dynamicdocs-stata)  &rarr; [Graphics](../graphics) &rarr; Display Graphics in your Latex Document
+[Teaching](../../../teaching) &rarr; [Dynamic Documents with Stata](../dynamicdocs-stata)  &rarr; [Graphics](../graphics) &rarr; Display Graphics in Latex Documents
 
 
 Required packages:
