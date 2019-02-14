@@ -11,9 +11,9 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 </p>
 
 | Jump to sub-sections: |
-| [Descriptive Statistics Tables](../tables-descriptives) |
-| [Regression Tables](../tables-ols)   |
-| [Personalized Tables](../tables-personalized)  |
+| [Descriptive Statistics Tables](tables-descriptives.md) |
+| [Regression Tables](tables-ols.d)   |
+| [Personalized Tables](tables-personalized.md)  |
 
 ### Introduction
 1. Creating the Table in stata
