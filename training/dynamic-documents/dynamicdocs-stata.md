@@ -21,7 +21,10 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 | **4**         | **Environment Setup**  |
 | **5**         | **Writing a Report** |
 | **6**         | **Data Management**   |
-| **7**         | [**Graphics**](graphics.md)  |
+| **7**         | **Graphics**  |
+|               | [Introduction](graphics.md)  |
+|               | [Create Graphics in Stata](graphics-stata.md)  |
+|               | [Display Graphics in Latex](graphics-latex.md)  |
 | **8**         | **Tables**   |
 |               | [Latex Syntax for Tables](tables.md)  |
 |               | [Descriptive Statistics Tables](tables-descriptives.md)  |
