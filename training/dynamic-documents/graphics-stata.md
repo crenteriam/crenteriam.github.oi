@@ -12,16 +12,25 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 
 ### Create Graphics in Stata
 
-First, load the data `auto`, run a scatterplot to compare `mpg` and `price`, and export it as a Portable Networks Graphics (.png) file in your folder `figures` (graph export can be read as "save as..."). We will name it `Graph1.png`.
+The first step is creating a graph, which command will vary depending on the type of graph you want to plot
+- here link with graph galleries, and the graphs book.
+
+To reproduce an example, first load the data set `auto` by typing `sysuse auto`. Then, run a scatterplot to compare `mpg` and `price` (see the code chunk below).
 
 ```stata
 sysuse auto
 scatter mpg price
-graph export ".\figures\Graph1.png", replace
-graph close
 ```
 
 ### Store Graphics in Stata
+
+xport it as a Portable Networks Graphics (.png) file in your folder `figures` (graph export can be read as "save as..."). We will name it `Graph1.png`.
+
+```stata
+scatter mpg price
+graph export "Graph1.png"
+graph close
+```
 
 ### Manipulate Graphics in Stata
 

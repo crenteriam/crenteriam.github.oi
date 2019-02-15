@@ -47,7 +47,11 @@ Describe some intermediate packages: longtable, tabularx.
 - latex The table doesn't display exactly in the place I want to
 - What is the [H symbol](https://www.sharelatex.com/learn/Positioning_of_Figures) that appears besides the command "begin table"?
 
-**graphicsx.** You can use this package to define the folder where all your graphics are stored. If you have been following the [Research Reproducibility organization](TBD) suggested, this will be the `figures` folder. To specify the figures directory, use the command `\graphicspath`, then within the brackets (note the beginning and ending brackets are repeated) include `./` which stands for your current working directory[^1]. Then, type the name of the folder where the figures are. Again, in the suggested organization the folder is `figures`. See the example below:
+### Latex Packages
+
+**float** describe
+
+**graphicsx.** You can use this package to define the folder where all your graphics are stored. If you have been following the [Research Reproducibility organization](TBD) suggested, this will be the `figures` folder. To specify the figures directory, use the command `\graphicspath`, then within the brackets (note the beginning and ending brackets are repeated) include `./` which stands for your current working directory.[^1] Then, type the name of the folder where the figures are. Again, in the suggested organization the folder is `figures`. See the example below:
 
 ```latex
 \documentclass{article}
