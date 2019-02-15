@@ -7,6 +7,8 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 <a name="Contents"></a>
 <p style="text-align: center;">
 <a href="#">Dynamic Documents with Stata</a>
+</p>
+<p style="text-align: center;">
 Tables &rarr; <a href="#">Latex Syntax</a> - <a href="#">Descriptive Stats</a> - <a href="#">Regression</a> - <a href="#">Personalized</a>
 </p>
 
@@ -83,10 +85,15 @@ Example <u>without</u> the estout options `label` `nonumbers` nor `nomtitle`:
 
 ```stata
 ```
+
+![Print table]()
+
 Example <u>with</u> the estout options `label` `nonumbers` nor `nomtitle`:
 
 ```stata
 ```
+![Print table]()
+
 [Up](#Contents)
 
 [^1]: Check out the Stata's [labeling variable](https://www.stata.com/manuals13/gsw9.pdf) documentation for further details.
