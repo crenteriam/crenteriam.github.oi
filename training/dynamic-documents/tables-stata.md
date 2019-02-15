@@ -16,9 +16,8 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 | [Personalized Tables](tables-personalized.md)  |
 
 ### Introduction
-1. Creating the Table in stata
-2. Storing the table in your workind directory
-3. Linking the Table in Latex
+In this section, we will provide information to create, and store tables in Stata in Latex format. We will create a .tex file that you will import in your Dynamic Document We will also present some basic Latex layout editing that you should do within Stata before importing the .tex file in your Dynamic Document.
+
 4. Basic editing of tables in Latex
 
 ### Creating the Table in Stata
@@ -79,25 +78,8 @@ The .tex file containing the table must be created at this moment.
 
 
 
-
-% NEXT STEPS -------------------------------------------------------------------
-\section{Extra functions}
-
-\begin{itemize}
-\item What is \href{https://www.sharelatex.com/learn/Positioning_of_Figures}{the [H]}
-symbol that appears besides the command "begin table"?
-
-\item To manipulate the table numeration use the package
-\href{https://tex.stackexchange.com/questions/28392/how-to-suppress-caption-numbering-in-a-table}{caption}
-
-\item For more fine-grained manipulation of estout tables, see
-\href{https://www.ssc.wisc.edu/sscc/pubs/stata_tables.htm#summary}{this documentation}.
-
-\item To use labels in Stata see \href{https://www.stata.com/manuals13/gsw9.pdf}{here}
+### extra
+- For more fine-grained manipulation of estout tables, see
+href{https://www.ssc.wisc.edu/sscc/pubs/stata_tables.htm#summary}{this documentation}.
+- item To use labels in Stata see \href{https://www.stata.com/manuals13/gsw9.pdf}{here}
 (it's better is you do this in the data management do-file).
-
-\item You can check out the companion do-file of this document on blackboard.
-
-\item My table doesn't fit the page. How can I
-\href{https://tex.stackexchange.com/questions/10535/how-to-force-a-table-into-page-width}{solve it}?
-\end{itemize}

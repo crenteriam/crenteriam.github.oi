@@ -48,7 +48,10 @@ The rows have a different logics. Between , each programming line is a row. Each
 **Horizontal Lines**
 
 **Vertical Positioning**
-- float H
+- float H. What is \href{https://www.sharelatex.com/learn/Positioning_of_Figures}{the [H]}
+symbol that appears besides the command "begin table"?
+- To manipulate the table numeration use the package
+\href{https://tex.stackexchange.com/questions/28392/how-to-suppress-caption-numbering-in-a-table}{caption}
 
 **Multiple Columns**
 
