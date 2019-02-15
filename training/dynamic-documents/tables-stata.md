@@ -42,6 +42,8 @@ esttab descriptivesauto using ".\report\Table1.tex", cell((mean() min() max())) 
 
 Now, you should have a `.tex` file in your folder. This is all you need to do in Stata for descriptive statistics. (but see below for editing options). This is the file you will need to call in your Dynamic document.
 
+[Up](#Contents)
+
 ### Create a regression table
 
 To make a regression table, first run the regression model. In this case, we will start with a bivariate model of mileages per hour on price.
@@ -67,6 +69,8 @@ esttab Model1 using ".\report\Table2.tex", replace
 
 The `.tex` file containing the table must be created at this moment.
 
+[Up](#Contents)
+
 ### Main formatting options in `estout`
 
 **label** The tables will print the name of the variable by default (e.g. *mpg*), but you may want to print a publishable mane for the variable, for example, *Mileage per Gallon*. The `estout` tables are fully compatible with the `label variable` command.[^1] To print labels, you need to label all the variables (we racommend you to do this in the *data_management.do* file), and then use the option `label` when running the command `esttab` for descriptives or `estpost` for regressions
@@ -83,5 +87,6 @@ Example <u>with</u> the estout options `label` `nonumbers` nor `nomtitle`:
 
 ```stata
 ```
+[Up](#Contents)
 
 [^1]: Check out the Stata's [labeling variable](https://www.stata.com/manuals13/gsw9.pdf) documentation for further details.
