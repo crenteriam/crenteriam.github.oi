@@ -10,25 +10,6 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
  <a href="#">Previous section</a> &larr; Tables &rarr; <a href="#">Next section</a>
 </p>
 
-| Jump to sub-sections: |
-| [Descriptive Statistics Tables](tables-descriptives.md) |
-| [Regression Tables](tables-ols.d)   |
-| [Personalized Tables](tables-personalized.md)  |
-
-### Introduction
-1. Creating the Table in stata
-2. Storing the table in your workind directory
-3. Linking the Table in Latex
-4. Basic editing of tables in Latex
-
-### Creating the Table in Stata
-
-[Up](#Contents)
-
-### Storing the Table in the Working Directory
-
-[Up](#Contents)
-
 ### Linking the Table to the Latex Documents
 
 The basic syntax to create a table in Latex is:

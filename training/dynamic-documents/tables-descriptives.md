@@ -8,6 +8,9 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 <a name="Contents"></a>
 [Teaching](../../../teaching) &rarr; [Dynamic Documents with Stata](dynamicdocs-stata.md)  &rarr; [Tables](tables.md) &rarr; Display Descriptive Statistics Tables in Latex Documents
 
+### Quick example
+
+### Other
 Load the `auto` dataset. Then, produce a descriptive statistics table for the variables mpg, price and weight with the command `estpost`.
 
 ```latex

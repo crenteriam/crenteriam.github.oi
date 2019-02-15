@@ -26,7 +26,8 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 |               | [Create Graphics in Stata](graphics-stata.md)  |
 |               | [Display Graphics in Latex](graphics-latex.md)  |
 | **8**         | **Tables**   |
-|               | [Latex Syntax for Tables](tables.md)  |
+|               | [Create and Store Tables in Stata](tables-stata.md)  |
+|               | [Latex Syntax for Tables](tables-latex.md)  |
 |               | [Descriptive Statistics Tables](tables-descriptives.md)  |
 |               | [Regression Tables](tables-ols.md)  |
 |               | [Personalized Tables](tables-personalized.md)  |
