@@ -7,13 +7,9 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 
 <a name="Contents"></a>
 <p style="text-align: center;">
- <a href="#">Previous section</a> &larr; Tables &rarr; <a href="#">Next section</a>
+Tables &larr; <a href="#">Latex Syntax</a> - <a href="#">Descriptive Stats</a> - <a href="#">Regression</a>
 </p>
 
-| Jump to sub-sections: |
-| [Descriptive Statistics Tables](tables-descriptives.md) |
-| [Regression Tables](tables-ols.d)   |
-| [Personalized Tables](tables-personalized.md)  |
 
 ### Introduction
 In this section, we will provide information to create, and store tables in Stata in Latex format. We will create a .tex file that you will import in your Dynamic Document We will also present some basic Latex layout editing that you should do within Stata before importing the .tex file in your Dynamic Document.
