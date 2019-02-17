@@ -6,17 +6,17 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 
 <a name="Contents"></a>
 <p style="text-align: center;">
-<a href="#">Dynamic Documents with Stata</a>
+<a href="https://crenteriam.github.io/training/dynamic-documents/dynamicdocs-stata/">Dynamic Documents with Stata</a>
 </p>
 <p style="text-align: center;">
-Tables &rarr; <a href="#">Latex Syntax</a> - <a href="#">Descriptive Stats</a> - <a href="#">Regression</a> - <a href="#">Personalized</a>
+Tables &rarr; <a href="https://crenteriam.github.io/training/dynamic-documents/tables-latex/">Latex Syntax</a> - <a href="https://crenteriam.github.io/training/dynamic-documents/tables-descriptives/">Descriptive Stats</a> - <a href="https://crenteriam.github.io/training/dynamic-documents/tables-ols/">Regression</a> - <a href="https://crenteriam.github.io/training/dynamic-documents/tables-personalized/">Personalized</a>
 </p>
 
 
 ### Introduction
 In this section, we will provide information to create, and store tables in Stata in Latex format. We will create a .tex file that you will import in your Dynamic Document We will also present some basic Latex layout editing that you should do within Stata before importing the .tex file in your Dynamic Document.
 
-To create Latex tables in Stata you must install the user-written packages `estout` or `outreg2.` The package `outreg2` has an easier markup syntax than `estuout,` and therefore easier to learn and use. However, `outreg` is more robust and has a neat integration with Latex formatting features. In this chapter, we will rely on `estout` to produce publishable tables in Latex. (For further details, see the full documentations of [estout](http://repec.sowi.unibe.ch/stata/estout/) and [outreg](http://repec.org/bocode/o/outreg2.html)).
+To create Latex tables in Stata you must install the user-written packages `estout` or `outreg2`. The package `outreg2` has an easier markup syntax than `estuout`, and therefore easier to learn and use. However, `outreg` is more robust and has a neat integration with Latex formatting features. In this chapter, <u>we will only use `estout` to produce publishable tables in Latex.</u> (For further details, see the full documentations of [estout](http://repec.sowi.unibe.ch/stata/estout/) and [outreg](http://repec.org/bocode/o/outreg2.html)). If you want to integrate Stata with Markdown, instead of `estout`, you will need to use [webdoc](http://repec.sowi.unibe.ch/stata/webdoc/index.html).
 
 ### Getting started
 
