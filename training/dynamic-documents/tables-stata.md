@@ -12,6 +12,7 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 Tables &rarr; <a href="https://crenteriam.github.io/training/dynamic-documents/tables-latex/">Latex Syntax</a> - <a href="https://crenteriam.github.io/training/dynamic-documents/tables-descriptives/">Descriptive Stats</a> - <a href="https://crenteriam.github.io/training/dynamic-documents/tables-ols/">Regression</a> - <a href="https://crenteriam.github.io/training/dynamic-documents/tables-personalized/">Personalized</a>
 </p>
 
+Download an [example Do-File](TBD) of this section.
 
 ### Introduction
 In this section, we will provide information to create, and store tables in Stata in Latex format. We will create a .tex file that you will import in your Dynamic Document We will also present some basic Latex layout editing that you should do within Stata before importing the .tex file in your Dynamic Document.
@@ -30,16 +31,16 @@ First load the *auto* data. Then use `estpost` and `summarize` to print a summar
 
 ```Stata
 sysuse auto
-quietly estpost summarize mpg price weight
+estpost summarize mpg price weight
 ```
 
-Then use `estimates store` to save the table you just have printed, and give it a name (say `descriptivesauto`).
+Then use `estimates store` to save the table you just have printed, and give it a name (we will name it `DescriptivesAuto`).
 
 Then, use the command `esttab` to save the table as a Latex file. In this case, I named it `Table1.tex` and stored it within the folder report in my working directory. (don't worry about the options now). See below:
 
 ```stata
-estimates store descriptivesauto
-esttab descriptivesauto using ".\report\Table1.tex", cell((mean() min() max())) nonumber nomtitle replace
+estimates store DescriptivesAuto
+esttab descriptivesauto using ".\report\Table1.tex", cell((mean() min() max()))
 ```
 
 Now, you should have a `.tex` file in your folder. This is all you need to do in Stata for descriptive statistics. (but see below for editing options). This is the file you will need to call in your Dynamic document.
@@ -51,11 +52,10 @@ Now, you should have a `.tex` file in your folder. This is all you need to do in
 To make a regression table, first run the regression model. In this case, we will start with a bivariate model of mileages per hour on price.
 
 The results are stored in temporary memory. We must save the results with the
-command `estimates store`. To do that, type `estimates store` and then
-give the results a name (e.g. Model1).
+command `estimates store` and give the results a name. Below, we named the results `Model1`.
 
 ```stata
-quietly reg price mpg weight
+reg price mpg weight
 estimates store Model1
 ```
 
@@ -69,7 +69,9 @@ example below). Include the option `replace`.
 esttab Model1 using ".\report\Table2.tex", replace
 ```
 
-The `.tex` file containing the table must be created at this moment.
+The `.tex` file containing the table must be created at this moment. This table is only a ***tabular*** environment.
+
+![Table from above](TBD)
 
 [Up](#Contents)
 
