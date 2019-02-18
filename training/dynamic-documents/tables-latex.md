@@ -14,7 +14,7 @@ Tables &rarr; - <a href="https://crenteriam.github.io/training/dynamic-documents
 
 ### Linking the Table to the Latex Documents
 
-The basic syntax to create a table in Latex is:
+The code chunk below represents a simple Latex table with two columns and two rows.
 
 ```latex
 \begin{table}[h]
@@ -27,7 +27,7 @@ The basic syntax to create a table in Latex is:
 
 The whole ***table*** enviornment is contained between the lines `\begin{table}` and `\end{table}`. But the environment ***table*** does not contain the *actual table*, only the *metadata*, such as the title, a label for hyperreference, the horizonta and positioning, among others (as we will see below).
 
-The *actual table* is contained within the environment ***tabular*** which is contained between `\begin{tabular}` and `\end{tabular}`. At the right side of `\begin{tabular}`, says `{c|c}`. This is the instruction of the number of <u>columns<u/> you want to the table to have. But instead of giving a number, we are providing a letter per each column, The letters mean the positioning of the text within the column; `c` stands for centered, `r` for right, and `l` for left. The pipe `|` means you want to draw a vertical line between columns. If you want no lines between colums, leave a blank space. For example, in `{l c c}` I am speficying a table with three columns without vertical lines. In the first column, the text will be left-sided, and centered in the remaning two columns.
+The *actual table* is contained within the environment ***tabular*** which is contained between `\begin{tabular}` and `\end{tabular}`. At the right side of `\begin{tabular}`, says `{c|c}`. This is the instruction of the number of <u>columns</u> you want to the table to have. But instead of giving a number, we are providing a letter per each column, The letters mean the positioning of the text within the column; `c` stands for centered, `r` for right, and `l` for left. The pipe `|` means you want to draw a vertical line between columns. If you want no lines between colums, leave a blank space. For example, in `{l c c}` I am speficying a table with three columns without vertical lines. In the first column, the text will be left-sided, and centered in the remaning two columns.
 
 
 Note that there is an `[h]` at the right side of `\begin{table}`. This is an option indicating that the table should be placed *here*.
