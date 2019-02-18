@@ -18,7 +18,6 @@ The basic syntax to create a table in Latex is:
 
 ```latex
 \begin{table}[h]
-    \centering
     \begin{tabular}{c|c}
         Cell A & Cell B \\
         Cell C & Cell D \\
@@ -26,13 +25,15 @@ The basic syntax to create a table in Latex is:
 \end{table}
 ```
 
-The whole table enviornment is contained between the lines `\begin{table}` and `\end{table}`. The ***table*** environment contains information about the title, a label for hyperreference, the horizonta and positioning, among others.
+The whole ***table*** enviornment is contained between the lines `\begin{table}` and `\end{table}`. But the environment ***table*** does not contain the *actual table*, only the *metadata*, such as the title, a label for hyperreference, the horizonta and positioning, among others (as we will see below).
 
-Note that there is an `[h]` at the right side of `\begin{table}`. This XXXXX. Also, at the beginning of the ***table*** environment, the command `\centering` is telling Latex to print the table centered.
+The *actual table* is contained within the environment ***tabular*** which is contained between `\begin{tabular}` and `\end{tabular}`. At the right side of `\begin{tabular}`, says `{c|c}`. This is the instruction of the number of <u>columns<u/> you want to the table to have. But instead of giving a number, we are providing a letter per each column, The letters mean the positioning of the text within the column; `c` stands for centered, `r` for right, and `l` for left. The pipe `|` means you want to draw a vertical line between columns. If you want no lines between colums, leave a blank space. For example, in `{l c c}` I am speficying a table with three columns without vertical lines. In the first column, the text will be left-sided, and centered in the remaning two columns.
 
-But the environment ***table*** does not contain the *actual table*, only the *metadata* of the table. The *actual table* is contained within the environment ***tabular*** which is contained between `\begin{tabular}` and `\end{tabular}`. At the right side of `\begin{tabular}`, says `{c|c}`. This is the instruction of the number of columns you want to the table to have. But instead of giving a number, we are providing a letter per each column, The letters mean the positioning of the text within the column; `c` stands for centered, `r` for right, and `l` for left. The pipe `|` means you want to draw a vertical line between columns. If you want no lines between colums, leave a blank space. For example, in `{l c c}` I am speficying a table with three columns without vertical lines. In the first column, the text will be left-sided, and centered in the remaning two columns.
 
-The rows have a different logics. Between , each programming line is a row. Each row has to end with `\\` which is equivalent to hit enter in your word processor. For example, from the code chunk above `Cell A & Cell B \\` represents the first row of the table. As for that chunk we definded two columns, *Cell A* will be the text contained in the first row and first column. The symbol `&` will tell Latex to move to the next column, within the same row. Therefore, `Cell B` will be the contents of the second column. As we only have two columns, the next step is to end the line with `\\`.
+Note that there is an `[h]` at the right side of `\begin{table}`. This is an option indicating that the table should be placed *here*.
+
+
+The <u>rows</u> have a different logics. Between , each programming line is a row. Each row has to end with `\\` which is equivalent to hit enter in your word processor. For example, from the code chunk above `Cell A & Cell B \\` represents the first row of the table. As for that chunk we definded two columns, *Cell A* will be the text contained in the first row and first column. The symbol `&` will tell Latex to move to the next column, within the same row. Therefore, `Cell B` will be the contents of the second column. As we only have two columns, the next step is to end the line with `\\`.
 
 - graphicsx package
 - what is a float in footnote.
@@ -43,24 +44,42 @@ The rows have a different logics. Between , each programming line is a row. Each
 
 ### Elementary Table Editing in Latex
 
-**Caption.**
+**Caption.** Use the command `\caption{}` to generate the title of the table. Type the command before `\begin{tabular}` to place the title above the table, or type `\caption{}` after `\end{tabular}` to place the title below the table.
 
-**Label.**
+**Label.** The command `\label{}` helps you creating a reference key to reference a table in the text. For example, when you write 'The Table 1 shows that...' instead of typing the Table number, you can type the table key reference by using the command `\ref{}`, which will automatically display the number, according to its current appearance in the text.
 
-**Horizontal Lines**
+**Centering.** This command is used at the begining of the ***table*** environment to place the table horizontally centered.
+
+**Horizontal Lines** Add horizontal lines to the table with the command `\hline`. This command should be used within the ***tabular*** environment. You can also use the alternatives `toprule`, `midrule`, and `bottomrule`, which are available after loading the package `xxx`
+
+The example below applies all the edits previously discussed:
+
+```latex
+\begin{table}[h]
+\centering
+    \begin{tabular}{c|c}
+        \hline
+        Column A & Column B \\
+        \hline
+        Cell A & Cell B \\
+        Cell C & Cell D \\
+        \hline
+    \end{tabular}
+    \caption{Title of the Table}
+    \label{tab:example}
+\end{table}
+
+The Table \ref{tab:example} shows that...
+```
 
 **Vertical Positioning**
 - float H. What is \href{https://www.sharelatex.com/learn/Positioning_of_Figures}{the [H]}
-symbol that appears besides the command "begin table"?
-- To manipulate the table numeration use the package
-\href{https://tex.stackexchange.com/questions/28392/how-to-suppress-caption-numbering-in-a-table}{caption}
 
 **Multiple Columns**
-
 **Multiple Rows**
-
 **Rotating Text**
 
+- To manipulate the <u>table numeration</u>, use the package [caption](https://tex.stackexchange.com/questions/28392/how-to-suppress-caption-numbering-in-a-table).
 
 ### Table Size
 
@@ -86,8 +105,8 @@ There are two ways to hack that problem. The first one is to **manually defining
 
 [Up](#Contents)
 
-### Easier workflow
+### Workflow Best Practices
 
--table as separate file, and then use input. show some screens with this. Also helps bc R and Stata will provide table as separate file.
+- table as separate file, and then use input. show some screens with this. Also helps bc R and Stata will provide table as separate file.
 
 [Up](#Contents)
