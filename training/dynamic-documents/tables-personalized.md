@@ -3,7 +3,6 @@ title: Display Personalized Tables in Latex Documents
 layout: contents
 tag: dynamic documents, stata, research workflow, research reproducibility, reproducible research, social sciences
 ---
-| **Dynamic Documents with Stata.** Tools for Integrating Your Research Workflow |
 
 <a name="Contents"></a>
 <p style="text-align: center;">
