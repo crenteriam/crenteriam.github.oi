@@ -85,10 +85,10 @@ The `.tex` file containing the table must be created at this moment. This table 
 **depvars/nodepvars** use/do not use use dependent variables as model titles.
 
  # Table Environment
-***title()*** Specify a title for your table.
-***addnotes()*** Add notes to your table.
+**title()** Specify a title for your table.
+**addnotes()** Add notes to your table.
 
-***longtable*** Use the option longable when your table is too long to fit in one page. The ***longtable*** environment replaces the ***table*** environment, not the ***tabular***. This  option also requires you to use the Latex package longtable.
+**longtable** Use the option longable when your table is too long to fit in one page. The ***longtable*** environment replaces the **table** environment, not the ***tabular***. This  option also requires you to use the Latex package longtable.
 
 Example <u>without</u> the estout options `label` `nonumbers` nor `nomtitle`:
 
