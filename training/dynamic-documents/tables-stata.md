@@ -79,9 +79,16 @@ The `.tex` file containing the table must be created at this moment. This table 
 
 **label** The tables will print the name of the variable by default (e.g. *mpg*), but you may want to print a publishable mane for the variable, for example, *Mileage per Gallon*. The `estout` tables are fully compatible with the `label variable` command.[^1] To print labels, you need to label all the variables (we racommend you to do this in the *data_management.do* file), and then use the option `label` when running the command `esttab` for descriptives or `estpost` for regressions
 
-**nonumbers**
+**nonumbers** Do not print model numbers in the table header.
+**nomtitle** nomtitles          disable model titles
+**mtitles** Specify a title for the moodel.
+**depvars/nodepvars** use/do not use use dependent variables as model titles.
 
-**nomtitle**
+ # Table Environment
+***title()*** Specify a title for your table.
+***addnotes()*** Add notes to your table.
+
+***longtable*** Use the option longable when your table is too long to fit in one page. The ***longtable*** environment replaces the ***table*** environment, not the ***tabular***. This  option also requires you to use the Latex package longtable.
 
 Example <u>without</u> the estout options `label` `nonumbers` nor `nomtitle`:
 
@@ -95,6 +102,9 @@ Example <u>with</u> the estout options `label` `nonumbers` nor `nomtitle`:
 ```stata
 ```
 ![Print table]()
+
+Complementary Readings:
+- Ben Jann, [Making regression tables from stored estimates](http://www.soz.unibe.ch/unibe/portal/fak_wiso/c_dep_sowi/inst_soz/content/e39893/e48983/e131227/e131228/e131246/e131269/estout_ger.pdf).
 
 [Up](#Contents)
 
