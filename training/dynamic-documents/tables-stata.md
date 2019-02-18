@@ -1,7 +1,7 @@
 ---
 title: Creating a Latex table in Stata
 layout: contents
-tag: dynamic documents, stata, research workflow, research reproducibility, reproducible research, social sciences
+tag: tables, latex, stata, research reproducibility, estout, webdoc, outreg2
 ---
 
 <a name="Contents"></a>
@@ -15,15 +15,13 @@ Tables &rarr; <a href="https://crenteriam.github.io/training/dynamic-documents/t
 Download an [example Do-File](TBD) of this section.
 
 ### Introduction
-In this section, we will provide information to create, and store tables in Stata in Latex format. We will create a .tex file that you will import in your Dynamic Document We will also present some basic Latex layout editing that you should do within Stata before importing the .tex file in your Dynamic Document.
+In this section, we will provide information to create, and store tables in Stata in Latex format. We will create a `.tex` file containing a table to be placed in your Dynamic Document. We will also present some basic Latex layout editing that you should do within Stata before importing the .tex file in your Dynamic Document.
 
-To create Latex tables in Stata you must install the user-written packages `estout` or `outreg2`. The package `outreg2` has an easier markup syntax than `estuout`, and therefore easier to learn and use. However, `outreg` is more robust and has a neat integration with Latex formatting features. In this chapter, <u>we will only use `estout` to produce publishable tables in Latex.</u> (For further details, see the full documentations of [estout](http://repec.sowi.unibe.ch/stata/estout/) and [outreg](http://repec.org/bocode/o/outreg2.html)). If you want to integrate Stata with Markdown, instead of `estout`, you will need to use [webdoc](http://repec.sowi.unibe.ch/stata/webdoc/index.html).
+To create Latex tables in Stata you must install the user-written packages `estout` or `outreg2`. The package `outreg2` has an easier markup syntax than `estuout`, and therefore easier to learn and use. However, `outreg` is more robust and has a neat integration with Latex formatting features. In this chapter, <u>we will only use</u> `estout` to produce publishable tables in Latex. (For further details, see the full documentations of [estout](http://repec.sowi.unibe.ch/stata/estout/) and [outreg](http://repec.org/bocode/o/outreg2.html)). If you want to integrate Stata with Markdown, instead of `estout`, you will need to use the package `webdoc`. This book, however, is only dedicated to creating Dynamic Documents in Latex. If you want to create Dynamic Documents in Markdown, we recommend you to find tutorials in this [website](http://repec.sowi.unibe.ch/stata/webdoc/index.html).
 
 ### Getting started
 
-Install the package with the command line `ssc install estout`. Now, open the dataset *auto* with `sysuse auto`. To produce the Latex table in Stata, we will need three commands. First, `estimates store`, is a Stata's official command to store your regression results. Then, you need to print these results through `outreg` commands. For descriptive statistics, you must use the command `estpost`, whereas the command `esttab` will print regression results.
-
-Check out [this website](https://www.ssc.wisc.edu/sscc/pubs/stata_tables.htm#summary) for further tutorials on using estout in Stata.
+Install the package with the command line `ssc install estout`. Now, open the dataset *auto* with `sysuse auto`. To produce the Latex table in Stata, we will need three commands. First, `estimates store`, which is a command to store regression results. Then, we will need to print these results by using the `outreg` package. For descriptive statistics, we must use the command `estpost`, whereas the command `esttab` will print regression results.
 
 ### Create a descriptive statistics table
 
@@ -36,52 +34,54 @@ estpost summarize mpg price weight
 
 Then use `estimates store` to save the table you just have printed, and give it a name (we will name it `DescriptivesAuto`).
 
-Then, use the command `esttab` to save the table as a Latex file. In this case, I named it `Table1.tex` and stored it within the folder report in my working directory. (don't worry about the options now). See below:
+Then, use the command `esttab` to save the table as a Latex file. In this case, I named it `Table1.tex` and stored it within the folder report in my working directory. (don't worry about the options now). Finally, the option `cell((mean() min() max()))` is telling Stata to print the mean in the first column, the minimum in the second, and the maximum in the third. See below:
 
 ```stata
 estimates store DescriptivesAuto
-esttab descriptivesauto using ".\report\Table1.tex", cell((mean() min() max()))
+esttab DescriptivesAuto using ".\report\Table1.tex", cell((mean() min() max()))
 ```
 
-Now, you should have a `.tex` file in your folder. This is all you need to do in Stata for descriptive statistics. (but see below for editing options). This is the file you will need to call in your Dynamic document.
+Now, you should have a `.tex` file in your `report` folder. This is all we need to do in Stata for getting the descriptive statistics table in Latex format for the Dynamic Document. However, this is a basic table, and further editing in Stata may be needed for a fully publishable table.
 
 [Up](#Contents)
 
 ### Create a regression table
 
-To make a regression table, first run the regression model. In this case, we will start with a bivariate model of mileages per hour on price.
-
-The results are stored in temporary memory. We must save the results with the
-command `estimates store` and give the results a name. Below, we named the results `Model1`.
+For the regression table, let's first run the regression `reg price mpg weight`. Then, let's save the results as `Model1`:
 
 ```stata
 reg price mpg weight
 estimates store Model1
 ```
 
-Now, produce the `.tex` file for this table. Use the command `esttab`. Then,
-name the stored model you want to include in the table. In this case, we want our
-stored `Model1`. after the word `using` name the file path and the file
-name (if you are using a working directory, you only need the latter, as in the
-example below). Include the option `replace`.
+Now, to produce a basic table with Latex format, use the command `esttab`. Then call the results stored as `Model1` and then specify the file path where you want to save the `.tex` file (and don't forget the option `replace`):
 
 ```stata
 esttab Model1 using ".\report\Table2.tex", replace
 ```
 
-The `.tex` file containing the table must be created at this moment. This table is only a ***tabular*** environment.
+Now, you should have a `Table2.tex` file in your `report` folder. Your regression table is ready to be used in your Dynamic Document. Note, however, that the table created out of this basic example is not a ***table*** environment, but a ***tabular*** environment. This means that you will have to define the ***table*** environment in Latex, and all the ***table*** features (e.g., table title, table positioning, and the reference key).
 
 ![Table from above](TBD)
 
 [Up](#Contents)
 
-### Main formatting options in `estout`
+### Basic Table Formatting within `estout`
 
 **label** The tables will print the name of the variable by default (e.g. *mpg*), but you may want to print a publishable mane for the variable, for example, *Mileage per Gallon*. The `estout` tables are fully compatible with the `label variable` command.[^1] To print labels, you need to label all the variables (we racommend you to do this in the *data_management.do* file), and then use the option `label` when running the command `esttab` for descriptives or `estpost` for regressions
 
-**nonumbers** Do not print model numbers in the table header.
-**nomtitle** nomtitles          disable model titles
-**mtitles** Specify a title for the moodel.
+```stata
+esttab Model1 using ".\report\Table2.tex", replace label
+```
+
+**nonumbers** For regression tables, do not print model numbers in the table header. For descriptive statistics tables, do not print column number in the table header.
+**nomtitle** Disable the model titles, or the column titles.
+
+```stata
+esttab Model1 using ".\report\Table2.tex", replace label nonnumbers nomtitle
+```
+
+**mtitles** Specify a title for the model.
 **depvars/nodepvars** use/do not use use dependent variables as model titles.
 
  # Table Environment
@@ -105,6 +105,7 @@ Example <u>with</u> the estout options `label` `nonumbers` nor `nomtitle`:
 
 Complementary Readings:
 - Ben Jann, [Making regression tables from stored estimates](http://www.soz.unibe.ch/unibe/portal/fak_wiso/c_dep_sowi/inst_soz/content/e39893/e48983/e131227/e131228/e131246/e131269/estout_ger.pdf).
+- Check out [this website](https://www.ssc.wisc.edu/sscc/pubs/stata_tables.htm#summary) for further tutorials on using estout in Stata.
 
 [Up](#Contents)
 
