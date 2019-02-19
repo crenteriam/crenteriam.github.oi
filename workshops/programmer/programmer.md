@@ -82,8 +82,8 @@ La especializacion en procesamiento de datos es una habilidad predominantemente 
 <u>Websites de cursos similares:<u/>
 - Jennifer Bryan, [STAT 545: Data wrangling, exploration, and analysis with R](http://stat545.com/)
 - [University of Carolina R Programming Guide](http://uc-r.github.io/)
-- https://dssg.uchicago.edu/
-- https://sites.lsa.umich.edu/css/category/reading-and-resources/
+- Chicago University, [Data Science for Social Good](https://dssg.uchicago.edu/)
+- Michigan University, [Computational Social Sciences](https://sites.lsa.umich.edu/css/category/reading-and-resources/)
 - [ICOS Big Data Summer Camp](https://icosbigdatacamp.github.io/2017-summer-camp/)
 
 <u>Agradecimientos</u>: Este taller contiene elementos tomados de [Matthew Ingram](http://mattingram.net/), [Bradley Boehmke](http://uc-r.github.io/), [ICOS Big Data Summer Camp](https://icosbigdatacamp.github.io/2017-summer-camp/).
