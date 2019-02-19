@@ -12,7 +12,8 @@ title: Teaching
 |:-------------:|
 | [Programador de Big Data para Politicas Publicas](workshops/programmer/programmer.md) |
 | [Ciencia de Datos para Politicas Publicas](workshops/analyst.md) |
-| [Data Consumer](workshops/consumer.md)  |
+| [Consumidor de Datos](workshops/consumer.md)  |
+| [Ciencias Sociales Computacionales](training/ciencias-sociales-computacionales.md)   |
 
 | Book |
 | :---:  |
@@ -21,9 +22,8 @@ title: Teaching
 | Tutorials  |
 |:-------------:|
 | [Getting Started with Stata](training/stata/stata.md)  |
-
 | [Learning Statistics with Simulations]()   |
-|   |
+
 
 
 
