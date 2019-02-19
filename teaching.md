@@ -12,7 +12,7 @@ title: Teaching
 |:-------------:|
 | [Programador de Big Data para Politicas Publicas](workshops/programmer/programmer.md) |
 | [Ciencia de Datos para Politicas Publicas](workshops/analyst/analyst.md) |
-| [Consumidor de Datos](workshops/consumer/consumer.md)  |
+| [Consumo de Datos para Toma de Decisiones](workshops/consumer/consumer.md)  |
 | [Ciencias Sociales Computacionales](training/ciencias-sociales-computacionales.md)   |
 
 | Book |

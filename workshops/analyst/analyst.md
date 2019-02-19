@@ -1,13 +1,11 @@
 ---
 layout: contents
-title: NULL
+title: Ciencia de Datos para Politicas Publicas
 ---
-
-| Titulos: Data Science for Public Policy |
 
 <a name="Contenido"></a>
 
-[Teaching](../teaching.md) &rarr; Data Analyst
+[Teaching](../../teaching.md) &rarr; Ciencia de Datos para Politicas Publicas
 
 | Contenido |
 | :---: |

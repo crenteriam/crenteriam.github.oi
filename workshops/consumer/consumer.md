@@ -1,11 +1,11 @@
 ---
 layout: contents
-title: NULL
+title: Consumo de Datos para Toma de Decisiones
 ---
 
 <a name="Contenido"></a>
 
-[Teaching](../teaching.md) &rarr; Data Consumer
+[Teaching](../../teaching.md) &rarr; Consumo de Datos para Toma de Decisiones
 
 | Contenido |
 | :---: |
