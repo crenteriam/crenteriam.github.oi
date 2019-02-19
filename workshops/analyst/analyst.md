@@ -47,15 +47,16 @@ title: Ciencia de Datos para Politicas Publicas
 [Arriba](#Contenido)
 
 ### Referencias
+
 - Peter Flach, [Machine Learning: The Art and Science of Algorithms that Make Sense of Data](https://www.amazon.com/Machine-Learning-Science-Algorithms-Sense/dp/1107422221)
-- Berk, Statistical Learning from a Regression Perspective
+- Berk, [Statistical Learning from a Regression Perspective](https://www.amazon.com/Statistical-Learning-Regression-Perspective-Statistics/dp/3319440470)
 - Johnson Applied Predictive Modeling
 - Hastie, Elements of Statistical Learning
 - Schutt & O'Neil, Doing Data Science
 
 <u>Machine Learning en Python</u>
-- Randal & Olson Python Machine Learning
-- Harrington, Machine Learning in Action
+- Randal & Olson [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka-ebook/dp/B00YSILNL0)
+- Harrington, [Machine Learning in Action](https://www.amazon.com/Machine-Learning-Action-Peter-Harrington/dp/1617290181)
 
 <u>Machine Learning en R</u>
 - James et al - An Introduction fo Statistical Learning in R
@@ -65,8 +66,10 @@ title: Ciencia de Datos para Politicas Publicas
 [Arriba](#Contenido)
 
 ### Websites
-- [check out](http://www.rayidghani.com/teaching)
-- http://people.stat.sfu.ca/~raltman/stat402/
+- [Rayid Ghani](http://www.rayidghani.com/teaching)
+- [STAT 402 - Generalized Linear and Nonlinear Modelling](http://people.stat.sfu.ca/~raltman/stat402/)
+- Coursera [Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python)
+
 <u>Acknowledgments</u>: I have drawn ideas or readings from the following syllabi: [Rayid Ghani](http://www.rayidghani.com/teaching).
 
 [Arriba](#Contenido)
