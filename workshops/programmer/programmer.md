@@ -3,7 +3,6 @@ layout: contents
 title: Programador de Big Data para Politicas Publicas
 ---
 
-Titulos: Programming for Public Policy | Programador en Big Data | Big Data for Public Policy/Social Sciences
 
 <a name="Contenido"></a>
 

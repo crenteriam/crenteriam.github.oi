@@ -10,12 +10,12 @@ title: Teaching
 
 | Talleres 2019  |
 |:-------------:|
-| [Big Data para Ciencias Sociales](workshops/programmer/programmer.md) |
+| [Programador de Big Data para Politicas Publicas](workshops/programmer/programmer.md) |
 | [Ciencia de Datos para Politicas Publicas](workshops/analyst.md) |
 | [Data Consumer](workshops/consumer.md)  |
 
 | Book |
-| ---  |
+| :---:  |
 | [Dynamic Documents with Stata](training/dynamic-documents/dynamicdocs-stata.md)   |
 
 | Tutorials  |
