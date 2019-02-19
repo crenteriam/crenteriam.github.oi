@@ -41,7 +41,7 @@ Conocimientos:
 | Sesion       | Descripcion  |
 |:-------------:|--------------|
 | **1**   | **Transformacion de Datos** |
-|         | Analisis de politica publica y Ciencia de Datos  |
+|         | Ciencia de datos y analisis de politica publica  |
 | **2**   | **Visualizacion de Datos** |
 | **3**   | **Modelacion**    |
 |         | Estadistica       |
