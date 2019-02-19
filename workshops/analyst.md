@@ -69,3 +69,5 @@ Conocimientos:
 <u>Acknowledgments</u>: I have drawn ideas or readings from the following syllabi:
 
 [Arriba](#Contenido)
+
+[imagen de segasi para todo el proceso de ciencia de datos](http://segasi.com.mx/cursos/mcb/)

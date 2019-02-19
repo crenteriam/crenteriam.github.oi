@@ -32,7 +32,6 @@ The *actual table* is contained within the environment ***tabular*** which is co
 
 Note that there is an `[h]` at the right side of `\begin{table}`. This is an option indicating that the table should be placed *here*.
 
-
 The <u>rows</u> have a different logics. Between , each programming line is a row. Each row has to end with `\\` which is equivalent to hit enter in your word processor. For example, from the code chunk above `Cell A & Cell B \\` represents the first row of the table. As for that chunk we definded two columns, *Cell A* will be the text contained in the first row and first column. The symbol `&` will tell Latex to move to the next column, within the same row. Therefore, `Cell B` will be the contents of the second column. As we only have two columns, the next step is to end the line with `\\`.
 
 - graphicsx package
@@ -71,6 +70,8 @@ The example below applies all the edits previously discussed:
 
 The Table \ref{tab:example} shows that...
 ```
+
+<div style="text-align:center"><img src ="..." /></div>
 
 **Vertical Positioning**
 - float H. What is \href{https://www.sharelatex.com/learn/Positioning_of_Figures}{the [H]}

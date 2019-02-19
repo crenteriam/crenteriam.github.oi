@@ -26,6 +26,7 @@ Habilidades:
 - Software: R and Latex.
 - Reading tables and figures
 - Workflow, open and reproducible science
+- Collaboration: git
 
 ### References
 - [Lazer Article](http://science.sciencemag.org/content/323/5915/721)
@@ -40,3 +41,15 @@ Habilidades:
 - http://www.russellsage.org/call-proposals-computational-social-science
 - https://sites.lsa.umich.edu/css/category/reading-and-resources/
 - https://www.youtube.com/watch?v=oqfKz-PP9FU&t=1084s
+
+### Talleres de Software
+
+| Tipo de Software | Taller |
+| --- | --- |
+| Software estadistico bajo licencia | <a href="https://crenteriam.github.io/training/stata/stata/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> Stata  |
+| Software estadisitico abierto | <a href="https://crenteriam.github.io/training/r/r/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> R  |
+|  | <a href="https://crenteriam.github.io/training/python/python/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> Python   |
+|  | <a href="https://crenteriam.github.io/workshops/training/julia/julia/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> Julia    |
+| Analisis Georreferenciado (GIS) | <a href="https://crenteriam.github.io/workshops/analyst/plain-text/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> QGIS |
+| Editores de Texto  | <a href="https://crenteriam.github.io/training/markdown/markdown/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> Markdown  |
+|   | <a href="https://crenteriam.github.io/training/latex/latex/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> Latex   |

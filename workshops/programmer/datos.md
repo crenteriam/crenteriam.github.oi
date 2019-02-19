@@ -14,5 +14,6 @@ Tipos de datos:
   - API
   - Web Scrapping
   - Texto
+- Data Production and Measurement Technologies (i.e. drones, sensors)
 
 -- Ampliacion de tipos de datos: strong data gethering from the Internet, from administrative data, open data, official/conventional survey data, and field work, social media, web scrapping, pdftopython, mechanical turk, sensors, big data, and crowdsourced data, GIS & Remote Sensing.
