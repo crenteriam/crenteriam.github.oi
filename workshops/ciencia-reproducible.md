@@ -17,10 +17,10 @@ tags: reproducible science, ciencia reproducible
 [Arriba](#Contenido)
 
 ### Libros
-* Long's book workflow
-* etc
+- Scott Long, [The Workflow of Data Analysis Using Stata](https://www.stata.com/bookstore/workflow-data-analysis-stata/)
+- Scott Long, [Video - Principles of Workflow in Data Analysis](https://media.dlib.indiana.edu/media_objects/6h440x04w)
 
 ### Websites
-* Project TIER
+- [Project TIER](https://www.projecttier.org/)
 
 [Arriba](#Contenido)

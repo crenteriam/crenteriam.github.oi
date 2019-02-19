@@ -58,7 +58,7 @@ La especializacion en procesamiento de datos es una habilidad predominantemente 
 
 - [Introduccion a Estadistica en R](https://www.coursera.org/learn/intro-data-science-programacion-estadistica-r)
 - Ejercicio 1. Bases de Datos INEGI
-- Ejercicio 2. Datos de Twitter
+- Ejercicio 2. Datos de Twitter (*text mining*)
 - Ejercicio 3. API de Redalyc
 - Ejercicio 4. Datos de Sensores (ambiental, agua, trafico, Waze)
 

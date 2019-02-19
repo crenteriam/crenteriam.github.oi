@@ -40,15 +40,18 @@ Conocimientos:
 
 | Sesion       | Descripcion  |
 |:-------------:|--------------|
-| **1**         | **Introduccion** |
-|               | Analisis de politica publica y Ciencia de Datos  |
-|               | Software estadistico R  |
-| **2**         | **Analisis de datos** |
-| **3**   | **Visualizacion de datos**   |
+| **1**   | **Transformacion de Datos** |
+|         | Analisis de politica publica y Ciencia de Datos  |
+| **2**   | **Visualizacion de Datos** |
+| **3**   | **Modelacion**    |
+|         | Estadistica       |
+|         | Aprendizaje de Maquina       |
+|         | Natural Language Processing  |
 | **4**   | **Comunicacion para la toma de decisiones**  |
 |         | Comunicacion de evidencia estadistica   |
 |         | Comunicacion escrita analisis de politica publica  |
-| **5**   | **Workfolow**   |
+|         | Editores de Texto Plano  |
+|         | Workflow, Git & Colaboracion  |
 
 [Arriba](#Contenido)
 

@@ -10,3 +10,12 @@ title: Open Press
 ### <a name="Objetivo"></a>Objetivo
 
 ### <a name="Estrategias"></a>Estrategias
+
+
+
+### Libros
+
+1. Estadistica Posgrado
+2. Estadistica Pregrado
+3. Ciencia Reproducible
+4. Ciencias Sociales Computacionales
