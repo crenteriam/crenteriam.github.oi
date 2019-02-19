@@ -44,11 +44,18 @@ La especializacion en procesamiento de datos es una habilidad predominantemente 
 |               | Big Data y Politicas Publicas &nbsp; <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
 |               | Datos &nbsp; <a href="https://crenteriam.github.io/workshops/programmer/datos/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
 |               | R &nbsp; <a href="https://crenteriam.github.io/training/r/r/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
-| **2**         | **Manipulacion de Datos: INEGI**  |
-| **3**         | **Manipulacion de Datos: Twitter**  |
-| **4**         | **Manipulacion de Datos: API Redalyc**  |
+| **2**         | **Manipulacion de Datos**  |
+|               | Ejercicio. INEGI   |
+|               | Ejercicio. Datos de Redes     |
+|               | Ejercicio. Datos Geograficos  |
+| **3**         | **Manipulacion de Texto**  |
+|               | Ejercicio. Twitter  |
+|               | Ejercicio. Web Scrapping | Boletines Diputados |
+|               | Ejercicio. Wikipedia | Boletines Diputados  |
+| **4**         | **Manipulacion de API**  |
+|               | Ejercicio. Redalyc  |
 |               | Creacion de Funciones y Paquetes en R  |
-| **4**         | **Manipulacion de Datos: Sensors**  |
+| **4**         | **Datos de Sensores**  |
 
 - Extra: Git & Version Control - Internet Research and Data Privacy - Developing your Own Functions and Packages - The Plain Text World
 

@@ -1,0 +1,8 @@
+- University of Massachussets [Center for Data Science](https://ds.cs.umass.edu/research/impact)
+- University of Michigan, [Michigan Institute for Data Science](https://midas.umich.edu/)
+- Berkeley, [Institute for Data Science](https://vcresearch.berkeley.edu/datascience)
+- University of Delawere, [Data Science Institute](https://dsi.udel.edu/)
+- NYU, [Center for Data Science](https://cds.nyu.edu/)
+- American University, [Center for Data Science](https://www.american.edu/spa/data-science/)
+- University of Chicago, [Master in Computational Analysis and Public Policy](https://capp.uchicago.edu/)
+- University of Chicago, [Center for Data Science and Public Policy](https://dsapp.uchicago.edu/)

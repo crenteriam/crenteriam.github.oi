@@ -6,6 +6,7 @@ layout: contents
 [Teaching](../../../teaching.md) &rarr; Analisis Estadistico con R I (Principiantes)
 
 - sera sesion unica
+- https://opensource.com/article/16/11/python-vs-r-machine-learning-data-analysis
 
 ### Objetivos
 
