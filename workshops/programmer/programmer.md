@@ -41,9 +41,9 @@ La especializacion en procesamiento de datos es una habilidad predominantemente 
 | Sesion       | Descripcion  |
 |:-------------:|--------------|
 | **1**         | **Introduccion**  |
-|               | Big Data y Politicas Publicas  |
+|               | Big Data y Politicas Publicas &nbsp; <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
 |               | Datos &nbsp; <a href="https://crenteriam.github.io/workshops/programmer/datos/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
-|               | Software Estadistico R  |
+|               | R &nbsp; <a href="https://crenteriam.github.io/training/r/r/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
 | **2**         | **Manipulacion de Datos: INEGI**  |
 | **3**         | **Manipulacion de Datos: Twitter**  |
 | **4**         | **Manipulacion de Datos: API Redalyc**  |
@@ -56,7 +56,7 @@ La especializacion en procesamiento de datos es una habilidad predominantemente 
 
 ### Materiales de Ensen~anza
 
-- [Introduccion a Estadistica en R](https://www.coursera.org/learn/intro-data-science-programacion-estadistica-r)
+
 - Ejercicio 1. Bases de Datos INEGI
 - Ejercicio 2. Datos de Twitter (*text mining*)
 - Ejercicio 3. API de Redalyc
@@ -64,19 +64,7 @@ La especializacion en procesamiento de datos es una habilidad predominantemente 
 
 [Arriba](#Contenido)
 
-### Bibliografia
-
-<u>Estructuras de Datos<u/>
-
-<u>Manipulacion de datos en R<u/>:
-- Garrett Grolemund & Hadley Wickham, [R for Data Science](http://r4ds.had.co.nz/index.html) y sy version en espan~ol [R para Ciencia de Datos](http://es.r4ds.hadley.nz/)
-- Garret Grolemund, [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
-
-<u>Manipulacion de datos en Python<u/>:
-- Blank
-
-<u>Manipulacion de datos en Julia<u/>:
-- Blank
+### Referencias
 
 
 <u>Websites de cursos similares:<u/>

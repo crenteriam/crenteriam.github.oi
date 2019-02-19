@@ -29,6 +29,11 @@ https://www.youtube.com/watch?v=6qCH7Y2rc_w
 - los otros python y R son de early 70s y 70s
 - Si realmente te vas a meter a Big Data, R y Python the van a quitar mucho tiempo.
 
+#### Referencias
 
-#### Websites
+<u>Manipulacion de datos en Julia<u/>:
+- Blank
+
+
+
 - https://www.youtube.com/channel/UCOjD18EJYcsBog4IozkF_7w

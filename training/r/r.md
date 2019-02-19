@@ -29,4 +29,10 @@ Bloque I: Loading R packages.
 • Calculating grouped summaries.
 • Combining (merging and concatenating) multiple datasets.
 
-### Literatura
+### Referencias
+
+- [Introduccion a Estadistica en R](https://www.coursera.org/learn/intro-data-science-programacion-estadistica-r)
+
+<u>Manipulacion de datos en R<u/>:
+- Garrett Grolemund & Hadley Wickham, [R for Data Science](http://r4ds.had.co.nz/index.html) y sy version en espan~ol [R para Ciencia de Datos](http://es.r4ds.hadley.nz/)
+- Garret Grolemund, [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)

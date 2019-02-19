@@ -13,7 +13,6 @@ title: Ciencia de Datos para Politicas Publicas
 | [Objetivos](#Objetivo) |
 | [Sesiones](#Sesiones) |
 
-
 ### Presentacion {#Presentacion}
 
 
