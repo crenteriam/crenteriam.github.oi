@@ -14,7 +14,7 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 | **Part I**    |  **The Basics** |
 | **1**         | **[Reproducible Research]()**   |
 | **2**         | **Software**  |
-|               | [Stata](../../training/stata/stata)  |
+|               | [Stata](../../stata/stata)  |
 |               | Text Compilers  |
 |               | Text Editors    |
 | **Part II**   | **Execute** |
