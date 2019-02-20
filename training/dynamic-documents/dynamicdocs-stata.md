@@ -14,11 +14,11 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 | **Part I**    |  **The Basics** |
 | **1**         | **[Reproducible Research]()**   |
 | **2**         | **Software**  |
-|               | Stata  |
+|               | [Stata](../../training/stata/stata)  |
 |               | Text Compilers  |
 |               | Text Editors    |
-| **Part II**   | **The Structure of the Do-File** |
-| **4**         | **Environment Setup**  |
+| **Part II**   | **Execute** |
+| **4**         | **Structure of the Do-File**  |
 | **5**         | **Writing a Report** |
 | **6**         | **Data Management**   |
 | **7**         | **Graphics**  |
