@@ -15,6 +15,7 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 | **1**         | **[Reproducible Research]()**   |
 | **2**         | **Software**  |
 |               | [Stata](../../stata/stata)  |
+|               | [Latex](../../latex/latex)  |
 |               | Text Compilers  |
 |               | Text Editors    |
 | **Part II**   | **Execute** |
@@ -25,6 +26,7 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 |               | [Introduction](graphics.md)  |
 |               | [Create Graphics in Stata](graphics-stata.md)  |
 |               | [Display Graphics in Latex](graphics-latex.md)  |
+|               | [Advanced Graphics in Stata](TBD)  |
 | **8**         | **Tables**   |
 |               | [Create and Store Tables in Stata](tables-stata.md)  |
 |               | [Latex Syntax for Tables](tables-latex.md)  |
