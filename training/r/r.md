@@ -30,6 +30,8 @@ Bloque I: Loading R packages.
 • Calculating grouped summaries.
 • Combining (merging and concatenating) multiple datasets.
 
+[when to use python and when to use R](https://opensource.com/article/16/11/python-vs-r-machine-learning-data-analysis)
+
 ### Referencias
 
 - [Introduccion a Estadistica en R](https://www.coursera.org/learn/intro-data-science-programacion-estadistica-r)

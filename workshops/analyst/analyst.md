@@ -62,6 +62,10 @@ title: Ciencia de Datos para Politicas Publicas
 - James et al - An Introduction fo Statistical Learning in R
 - [Books for Machine Learning with R](https://machinelearningmastery.com/books-for-machine-learning-with-r/)
 - [CRAN Task View](https://cran.r-project.org/web/views/MachineLearning.html)
+- [Videos (ESP) - Introduccion ML con Python](https://www.youtube.com/playlist?list=PLJjOveEiVE4Dk48EI7I-67PEleEC5nxc3)
+
+<u>NLP</u>
+- [NLP Video](https://www.youtube.com/watch?v=8S3qHHUKqYk&t=441s)
 
 [Arriba](#Contenido)
 

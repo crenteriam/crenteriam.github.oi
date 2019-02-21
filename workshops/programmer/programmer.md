@@ -81,6 +81,10 @@ La especializacion en procesamiento de datos es una habilidad predominantemente 
 - Michigan University, [Computational Social Sciences](https://sites.lsa.umich.edu/css/category/reading-and-resources/)
 - [ICOS Big Data Summer Camp](https://icosbigdatacamp.github.io/2017-summer-camp/)
 
+<u>Procesamiento de datos con Python</u>
+- [Videos - Curso Preprocesamiento de datos](https://www.youtube.com/playlist?list=PLJjOveEiVE4BK9Vnnl99H2IlYGhmokn1V)
+- [Videos - Curso Visualizacion de datos](https://www.youtube.com/channel/UCLJV54sFqPiH4MYcJKvGesg)
+
 <u>Agradecimientos</u>: Este taller contiene elementos tomados de [Matthew Ingram](http://mattingram.net/), [Bradley Boehmke](http://uc-r.github.io/), [ICOS Big Data Summer Camp](https://icosbigdatacamp.github.io/2017-summer-camp/).
 
 [Arriba](#Contenido)
