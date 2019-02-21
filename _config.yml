@@ -6,7 +6,7 @@ permalink: pretty
 title:               Cesar Renteria
 tagline:             Ph.D. Student
 description:         'Ph.D. Student in Public Administration & Policy'
-url:                 "https://crenteriam.github.io"         
+url:                 "https://crenteriam.github.io"
 paginate:            5
 
 # About/contact
@@ -44,23 +44,3 @@ font:
   headings:
     external: true
     family: Roboto Slab
-
-  # Font settings for posts
-  # Fallback to `global` font settings.
-  #posts:
-    #external: true
-    #family:
-
-  # Font settings for Logo
-  # Fallback to `global` font settings.
-  # The `size` option use `px` as unit
-  #logo:
-    #external: true
-    #family:
-    #size:
-
-  # Font settings for <code> and code blocks.
-  #codes:
-    #external: true
-    #family:
-    #size:
