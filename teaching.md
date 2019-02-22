@@ -25,6 +25,7 @@ title: Teaching
 | Tutorials  |
 |:-------------:|
 | [Getting Started with Stata](training/stata/stata.md)  |
+
 <!--| [Learning Statistics with Simulations]()   |-->
 
 
