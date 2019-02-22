@@ -11,9 +11,10 @@ title: Teaching
 | Talleres 2019  |
 |:-------------:|
 | [Programador de Big Data para Politicas Publicas](workshops/programmer/programmer.md) |
-| [Ciencia de Datos para Politicas Publicas](workshops/analyst/analyst.md) |
-| [Consumo de Datos para Toma de Decisiones](workshops/consumer/consumer.md)  |
-| [Ciencias Sociales Computacionales](training/ciencias-sociales-computacionales.md)   |
+| [Ciencia de Datos para el Analisis de Politicas Publicas](workshops/analyst/analyst.md) |
+| [Visualizacion de Datos](TBD)   |
+<!--| [Consumo de Datos para Toma de Decisiones](workshops/consumer/consumer.md)  |
+| [Ciencias Sociales Computacionales](training/ciencias-sociales-computacionales.md)   |-->
 
 | Book |
 | :---:  |
@@ -22,7 +23,7 @@ title: Teaching
 | Tutorials  |
 |:-------------:|
 | [Getting Started with Stata](training/stata/stata.md)  |
-| [Learning Statistics with Simulations]()   |
+<!--| [Learning Statistics with Simulations]()   |-->
 
 
 
