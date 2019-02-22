@@ -39,21 +39,21 @@ La especializacion en procesamiento de datos es una habilidad predominantemente 
 ### Sesiones {#Sesiones}
 
 | Sesion        | Descripcion  |       |
-|:-------------:|--------------| :---: |
+|:-------------:|--------------| :--- |
 | **1**         | **Introduccion**  |
 |               | Big Data y Politicas Publicas | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
 |               | Datos | <a href="https://crenteriam.github.io/workshops/programmer/datos/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
 |               | R | <a href="https://crenteriam.github.io/training/r/r/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
 | **2**         | **Manipulacion de Datos**  |
-|               | Introduccion  |
+|               | Introduccion  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
 |               | Ejercicio. INEGI   |
 | **3**         | **Manipulacion de Texto**  |
-|               | Introduccion  |
+|               | Introduccion  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
 |               | Ejercicio. Twitter  |
 |               | Ejercicio. Web Scrapping (Boletines Diputados) |
 |               | Ejercicio. Wikipedia (Boletines Diputados)  |
 | **4**         | **Manipulacion de API**  |
-|               | Introduccion  |
+|               | Introduccion  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
 |               | Ejercicio. Redalyc  |
 |               | Creacion de Funciones y Paquetes en R  |
 | **X**         | **Otros Datos**  |
