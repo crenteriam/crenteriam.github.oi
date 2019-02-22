@@ -30,21 +30,21 @@ title: Ciencia de Datos para Politicas Publicas
 | **1**   | **Introduccion** |
 |         | Ciencia de datos y analisis de politica publica | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a>  |
 |         | Python | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
-| **3**   | **Supervised Machine Learning**    |
-|         | Logistic Regression       |
-|         | K Nearest Neighboors (KNN)       |
-|         | Decision Tree |
-|         | Support Vector Machines (SVM)  |
+| **3**   | **Supervised Machine Learning**    | |
+|         | Logistic Regression       | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
+|         | K Nearest Neighboors (KNN)       | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
+|         | Decision Trees | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
+|         | Support Vector Machines (SVM)  | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
 |         | Ensemble Learners  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
 | **4**   | **Refinacion de Modelos**  |
-|         | Building a Good Training Set  |
-|         | Dimensionality Reduction  |
-|         | Model Evaluation  |
+|         | Building a Good Training Set  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
+|         | Dimensionality Reduction  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
+|         | Model Evaluation  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
 |         | Big Data and MapReduce  |
 | **X**   | **Unsupervised Machine Learning** |
 |         | Clustering  |
 |         | Association Rules  |
-|         | PCA  |
+|         | Principal Component Analysis  |
 
 
 [Arriba](#Contenido)

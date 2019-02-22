@@ -59,19 +59,13 @@ La especializacion en procesamiento de datos es una habilidad predominantemente 
 | **X**         | **Otros Datos**  |
 |               | Analisis de Redes  |
 |               | Sismas de Informacion Georreferenciada (GIS)  |
-|               | Datos de Sensores  |
+|               | Datos de Sensores (ambiental, agua, trafico, Waze)  |
 
 - Extra: Git & Version Control - Internet Research and Data Privacy - Developing your Own Functions and Packages - The Plain Text World
 
 [Arriba](#SectionMenu)
 
 ### Materiales de Ensen~anza
-
-
-- Ejercicio 1. Bases de Datos INEGI
-- Ejercicio 2. Datos de Twitter (*text mining*)
-- Ejercicio 3. API de Redalyc
-- Ejercicio 4. Datos de Sensores (ambiental, agua, trafico, Waze)
 
 [Arriba](#Contenido)
 
