@@ -4,11 +4,12 @@ layout: contents
 tag: dynamic documents, stata, research workflow, research reproducibility, reproducible research, social sciences
 ---
 
-| [**Dynamic Documents with Stata.**](dynamicdocs-stata.md) Tools for Integrating Your Research Workflow |
-
 <a name="Contents"></a>
 <p style="text-align: center;">
- <a href="#">Previous section</a> &larr; Graphics &rarr; <a href="#">Next section</a>
+<a href="https://crenteriam.github.io/training/dynamic-documents/dynamicdocs-stata/">Dynamic Documents with Stata</a>
+</p>
+<p style="text-align: center;">
+Graphics &rarr; <a href="#">Graphics in Stata</a> - <a href="#">Display Graphics in Latex</a>
 </p>
 
 ### Display Graphics Latex
