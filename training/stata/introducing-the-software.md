@@ -4,7 +4,7 @@ layout: contents
 tags: stata, introduction
 ---
 
-<a name="SectionMenu"></a>
+<a name="Contents"></a>
 [Teaching](../../../teaching) &rarr; [Introduction to Stata](stata.md) &rarr; Introducing the Software
 
 | Block         | Title  |
@@ -15,10 +15,11 @@ tags: stata, introduction
 | **4**         | [Load, Import, and Save](#Load)  |
 | **5**         | [Data Editor, Variables Manager and Variable Types](#DataEditor)  |
 
-
-### Introduction {#Introduction}
 The goal of this module is to give you a first introduction to the software. After this module you must be familiar with Stata's environment and having programmed basic commands. In this module, you will learn: 1) Stata's software environment, 2) getting help in Stata, 3) programming syntax, and 4) manage files (load, import, and save).
-Introduction to the Environment. Watch the mini-lecture Getting Started with Stata. Then, watch Stephen Weinberg’s video Introduction to Stata to see some examples and extended lecture about Stata’s environment.
+
+### Introduction to the Environment.
+
+Watch the mini-lecture [Getting Started with Stata](https://www.youtube.com/watch?v=Y2qrqCxvV8k&t=321s). Then, watch Stephen Weinberg’s video [Introduction to Stata](https://vimeo.com/85223391) to see some examples and extended lecture about Stata’s environment.
 
 <u>Practice I</u>
 
@@ -60,26 +61,25 @@ summarize
 summarize price
 summarize weight-foreign
 ```
-[Go Up](#SectionMenu)
+[Go Up](#Contents)
 
-<a name="HelpStata"></a>
-### Getting Help in Stata
+### Getting Help in Stata {#HelpStata}
 
-Watch the mini-lecture Getting Help in Stata. Now, go through the examples and explanations provided by Dr. Weinberg in his video Help Files and Documentation. Help files are not so intuitive to read. It may take you a little bit to get used to them. Weinberg's video will provide you a good starting point on that. There are two types of help documentation. The first is the one that shows up immediately after you type help in the Command Window, whereas the second is a PDF document. PDF Documentations contain more extended remarks than Stata's quick help interphase. In many cases, the PDF help documentation is very useful as statistical studying materials. It provides explanations of the statistical method, examples, suggested readings, and technical notes (which explain how the command is performing the statistical calculation). These materials could be helpful for you in the case you are struggling with some concepts reviewed in class, since they provide explanations followed by simple examples.
+Watch the mini-lecture [Getting Help in Stata.](https://www.youtube.com/watch?v=1Io2-wSdJMs) Now, go through the examples and explanations provided by Dr. Weinberg in his video [Help Files and Documentation.](https://vimeo.com/85260658) Help files are not so intuitive to read. It may take you a little bit to get used to them. Weinberg's video will provide you a good starting point on that. There are two types of help documentation. The first is the one that shows up immediately after you type help in the Command Window, whereas the second is a PDF document. PDF Documentations contain more extended remarks than Stata's quick help interphase. In many cases, the PDF help documentation is very useful as statistical studying materials. It provides explanations of the statistical method, examples, suggested readings, and technical notes (which explain how the command is performing the statistical calculation). These materials could be helpful for you in the case you are struggling with some concepts reviewed in class, since they provide explanations followed by simple examples.
 
-Other great sources for help are the Stata’s documentation. One of the best references for this course is Stata User’s Guide. Stata's documentation is not the only source of help (and, for data management troubleshooting it may not be very useful). Look for help in Statalist (the official Stata's listserv). Statalist is a very active forum where people post questions, and experts help providing great advice. Experts tend also to respond on substantive statistical questions in advanced topics in statistics. In Statalist, there is sort of an etiquette that you must consider if you want to have a helpful feedback (or feedback at all). So, if you are looking for help in Statalist, check out the recommendations here and here. Previous students have successfully used Statalist to get advice during the replication assignments or other statistical projects.
+Other great sources for help are the Stata’s documentation. One of the best references for this course is Stata User’s Guide. Stata's documentation is not the only source of help (and, for data management troubleshooting it may not be very useful). Look for help in Statalist (the official Stata's listserv). Statalist is a very active forum where people post questions, and experts help providing great advice. Experts tend also to respond on substantive statistical questions in advanced topics in statistics. In Statalist, there is sort of an etiquette that you must consider if you want to have a helpful feedback (or feedback at all). So, if you are looking for help in Statalist, check out the recommendations [here](https://www.stata.com/support/faqs/resources/statalist-faq/#advice) and [here.](https://blog.stata.com/2010/12/14/how-to-successfully-ask-a-question-on-statalist/) Previous students have successfully used Statalist to get advice during the replication assignments or other statistical projects.
+
 Keep that in mind, but for the purposes of this course, most of the problems you might encounter were surely asked already. Thus, your major task (most likely) must be to hone your search skills and get to the right answered posts in Statalist. Finally, do not underestimate YouTube videos or blogs. There is a lot of materials in these platforms produced by institutions (i.e. Stata Corporation), or other professors. You might find (believe it or not) posts or YouTube videos for very specific steps or commands. Stata's community is vibrant.
 
 <u>Practice I</u>
 
 1.	Use the command `help` in the *Command Window* to review the Documentation of the commands: `summarize`, `regress`, and `generate`.
 
-[Go Up](#SectionMenu)
+[Go Up](#Contents)
 
-<a name="StataSyntax"></a>
-### Stata Syntax
+### Stata Syntax {#StataSyntax}
 
-Watch the mini-lectures Introduction to Stata - Syntax and then Command Line Syntax. Some parts repeat; nevertheless, if you are not familiar with Stata’s syntax, repetition is good. For further review and examples, check Stata User’s Guide 11 Language Syntax and sections 13.1 to 13.3 (pp.s 1-7) in 13 Functions and expressions.
+Watch the mini-lectures [Introduction to Stata - Syntax](https://www.youtube.com/watch?v=jTtIREfhyEY) and then [Command Line Syntax.](https://vimeo.com/105252076) Some parts repeat; nevertheless, if you are not familiar with Stata’s syntax, repetition is good. For further review and examples, check [Stata User’s Guide 11 Language Syntax](https://www.stata.com/manuals/u11.pdf) and sections 13.1 to 13.3 (pp.s 1-7) in [13 Functions and expressions.](https://www.stata.com/manuals/u13.pdf)
 
 <u>Practice I<u/>
 
@@ -91,12 +91,11 @@ Watch the mini-lectures Introduction to Stata - Syntax and then Command Line Syn
 
 4.	By reading the documentation for the command `regress`, do the following: `regress` the variable `price` on the variable `mileage` if the car is domestic AND if the weight is above 3015.
 
-[Go Up](#SectionMenu)
+[Go Up](#Contents)
 
-<a name="Load"></a>
-### Load, Import, and Save
+### Load, Import, and Save {#Load}
 
-Stata’s native file extension is `.dta`. These are the files you are referring to, when telling to Stata to open or save a dataset. If you want to load a dataset that is originally not in a .dta extension (for example, `.xlsx`, `.csv`, `.sav`), the you tell Stata to import the dataset. If you want to save a running dataset into a file extension different than `.dta`, then you must tell stata to export it. Watch the mini-lecture Opening a Dataset for opening `.dta` and importing `.xls` and `.csv` files. To save Stata files, watch the mini-lecture Saving Data in Stata. Here is an example of using these commands. Note that there is another file extension related to Stata (the file `.do`). This is not a dataset, it is a programming file that is commonly known as **Do-File**. We will review this in [Module 2](using-dofiles.md).
+Stata’s native file extension is `.dta`. These are the files you are referring to, when telling to Stata to open or save a dataset. If you want to load a dataset that is originally not in a .dta extension (for example, `.xlsx`, `.csv`, `.sav`), the you tell Stata to import the dataset. If you want to save a running dataset into a file extension different than `.dta`, then you must tell stata to export it. Watch the mini-lecture [Opening a Dataset](https://www.youtube.com/watch?v=3CjXMC2hFEA) for opening `.dta` and importing `.xls` and `.csv` files. To save Stata files, watch the mini-lecture [Saving Data in Stata.](https://www.youtube.com/watch?v=WSMVhcJawvM) Here is [an example of using](https://data.library.virginia.edu/stata-basics-data-import-use-and-export/) these commands. Note that there is another file extension related to Stata (the file `.do`). This is not a dataset, it is a programming file that is commonly known as **Do-File**. We will review this in [Module 2](using-dofiles.md).
 
 Make sure you know how to save datasets in Stata version 13. Based on our previous experiences, we will have a variety of versions running among student’s computers. `.dta` files saved in Stata 14 or 15 won’t open in Stata 13 or less. To make sure we won’t have this problem, all files must be saved as Stata 13 version (teach yourself how to do it by typing help saveold in the *Command Window*). Also notice the replace option when saving files. If the file name already exists, Stata will send you an error message; to avoid this, use the option replace when saving.
 
@@ -113,21 +112,23 @@ Finally, in many occasions, we will use some built-in datasets. This is handy be
 
 2.	Load the built-in dataset `census`, save it in your computer as a `.dta` file Version 13. Name it `census_statav13.dta` and close Stata. Then, go to the file `census_statav13` that you have created and open it.
 
-3.	Go to the Quality of Government Standard Data website, download the Stata file for the The QoG Cross-Section Data, and open it. Export it in your computer as a `.csv` file with the name `qog_2018.csv` Then, load the file from Excel.
+3.	Go to the Quality of Government Standard Data [website](https://qog.pol.gu.se/data/datadownloads/qogstandarddata), download the Stata file for the The QoG Cross-Section Data, and open it. Export it in your computer as a `.csv` file with the name `qog_2018.csv` Then, load the file from Excel.
 
-4.	Import this `.csv` file: `http://www.qogdata.pol.gu.se/data/qog_std_cs_jan18.csv`. Take a brief look on it (use commands describe, browse, etc.). And then close Stata without saving the dataset.
+4.	Import this `.csv` file:
+```http://www.qogdata.pol.gu.se/data/qog_std_cs_jan18.csv```
+
+Take a brief look on it (use commands describe, browse, etc.). And then close Stata without saving the dataset.
 
 5.	Open Stata again and import your `.csv` file `qog_2018.csv` You can use the drop-down menu if you want. Remember to use the first row for variable names.
 
-[Go Up](#SectionMenu)
+[Go Up](#Contents)
 
-<a name="DataEditor"></a>
-### Data Editor, Variables Manager and Variable Types
+### Data Editor, Variables Manager and Variable Types {#DataEditor}
 
-The Data Editor is the window that will display the dataset. The most common way to access it is to type browse in the *Command Window*. Watch the mini-lecture Using *Data Editor* to see how to access it. Review the example Stata Data Sets, and make sure you know what colors displayed in the cells mean in the Data Editor. Then, review 12.1 Data and datasets and 12.2 Numbers.
+The Data Editor is the window that will display the dataset. The most common way to access it is to type browse in the *Command Window*. Watch the mini-lecture [Using Data Editor](https://www.youtube.com/watch?v=AWbhKykx87Y) to see how to access it. Review the example [Stata Data Sets](https://www.ssc.wisc.edu/sscc/pubs/sfs/sfs-data.htm), and make sure you know what colors displayed in the cells mean in the Data Editor. Then, review [12.1 Data and datasets](https://www.stata.com/manuals/u12.pdf) and [12.2 Numbers](https://www.stata.com/manuals/u12.pdf).
 
-Another window is the *Variables Manager*, which allow you to edit label over variables and values. Watch the mini-lecture How to label variables. Review the examples in 12.6 Dataset, variable and value labels. Then, review 12.9 Data Editor and Variables Manager.
+Another window is the *Variables Manager*, which allow you to edit label over variables and values. Watch the mini-lecture [How to label variables](https://www.youtube.com/watch?v=l5QM2RzU3VM). Review the examples in [12.6 Dataset](https://www.stata.com/bookstore/users-guide/), variable and value labels. Then, review [12.9 Data Editor and Variables Manager](https://www.stata.com/manuals/u12.pdf).
 
-**41 Commands everybody should know.** Read 41 Commands Everybody Should Know. This is a list of commands you should be familiar with for the first part of the class.
+**41 Commands everybody should know.** Read [41 Commands Everybody Should Know](https://www.stata.com/manuals/u27.pdf). This is a list of commands you should be familiar with for the first part of the class.
 
-[Go Up](#SectionMenu)
+[Go Up](#Contents)
