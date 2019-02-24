@@ -62,52 +62,8 @@ summarize price
 summarize weight-foreign
 ```
 
-<pre>
-<code class="Wrangler-css">
-
-    table foreign
-
-</code>
-</pre>
-
-<pre>
-<code class="Wrangler">
-
-    table foreign
-
-</code>
-</pre>
-
-<pre>
-<code class="Wrangler-javascript">
-
-    table foreign
-
-</code>
-</pre>
-
-<pre>
-<code class="Statax-css">
-
-    table foreign
-
-</code>
-</pre>
-
-<pre>
-<code class="Statax">
-
-    table foreign
-
-</code>
-</pre>
-
-<pre>
-<code class="Statax-javascript">
-
-    table foreign
-
-</code>
+<pre class="sh_stata" >
+      summarize price
 </pre>
 
 [Go Up](#Contents)
