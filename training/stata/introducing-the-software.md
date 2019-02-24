@@ -62,16 +62,21 @@ summarize price
 summarize weight-foreign
 ```
 
-```Wrangler
-sysuse auto
-```
-```statax
-table foreign
-```
+<pre>
+<code class="Wrangler-css">
 
-```Statax
-table foreign
-```
+    table foreign
+
+</code>
+</pre>
+
+<pre>
+<code class="Wrangler">
+
+    table foreign
+
+</code>
+</pre>
 
 <pre>
 <code class="Statax-css">
