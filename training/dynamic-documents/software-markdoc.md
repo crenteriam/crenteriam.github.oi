@@ -47,8 +47,10 @@ If you dont find the folder, you can type sysdir in the console and look for the
 
 ![print screen of sysdir]()
 
-
-
 Download the practice Do-File [First Mardoc Practice](first-practice-markdoc.do)
 
-[^1]: This is a package that allows you to install packages directly from github. The `gitbut` and (the related) `git` packages are a great improvent for the Stata community. They expand the repositories available for developing and sharing user-written packages. Most importantly, version control platforms, like github, allow the users and developers to access all the versions of a package. In contrast, any update in the `ssc install` repository automatically replaces previous versions (so you can only install the latest version of a package.). See the [github package documentation](https://github.com/haghish/github).
+### Pandoc, Knitr and Sweave
+
+
+
+[^1]: This is a package that allows you to install packages directly from github. The `github` and (the related) `git` packages are a great improvent for the Stata community. They expand the repositories available for developing and sharing user-written packages. Most importantly, version control platforms, like github, allow the users and developers to access all the versions of a package. In contrast, any update in the `ssc install` repository automatically replaces previous versions (so you can only install the latest version of a package.). See the [github package documentation](https://github.com/haghish/github).

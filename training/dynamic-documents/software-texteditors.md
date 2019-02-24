@@ -16,3 +16,9 @@ Software &rarr; <a href="#">Stata</a> - <a href="#">Latex</a> - <a href="#">Mark
 - what are the features of a good text Editor
 - disadvantages of dofile text Editor
 - other te: emacs/vim, sublime text and atom.
+- Rmd rmarkdown
+- a note on overleaf
+- text editors vs word processors
+
+flow:
+data -> editor (md, tex, do, r, rmd) -> document (html,rft,word, html, epub,pdf)
