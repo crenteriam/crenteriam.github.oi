@@ -74,7 +74,15 @@ table foreign
 ```
 
 <pre>
-<code class="Wrangler-css">
+<code class="Statax-css">
+
+    look at my html stuff here
+
+</code>
+</pre>
+
+<pre>
+<code class="Statax">
 
     look at my html stuff here
 
