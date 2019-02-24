@@ -65,6 +65,7 @@ x
 
 <pre class="sh_stata" >
       summarize price
+      * comment
 </pre>
 
 [Go Up](#Contents)
