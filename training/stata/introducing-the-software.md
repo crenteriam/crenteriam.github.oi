@@ -46,7 +46,7 @@ For Practice II, you must first load a dataset into Stata. We will load a built-
 
 This is an introduction to basic data reporting commands. The commands `browse` and `edit` will pop up the *Data Editor*; `edit` allows you to edit the values in the dataset, whereas `browse` doesn’t (never edit your original dataset, always use `browse`). Now, explore the dataset typing each of the following lines:
 
-```Statax
+```stata
 describe
 describe price make
 codebook
@@ -61,6 +61,14 @@ summarize
 summarize price
 summarize weight-foreign
 ```
+
+```Wrangler
+sysuse auto
+```
+```statax
+table foreign
+```
+
 [Go Up](#Contents)
 
 ### Getting Help in Stata {#HelpStata}
