@@ -73,6 +73,14 @@ table foreign
 table foreign
 ```
 
+<pre>
+<code class="Wrangler-css">
+
+    look at my html stuff here
+
+</code>
+</pre>
+
 [Go Up](#Contents)
 
 ### Getting Help in Stata {#HelpStata}
