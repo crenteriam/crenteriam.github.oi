@@ -69,6 +69,10 @@ sysuse auto
 table foreign
 ```
 
+```Statax
+table foreign
+```
+
 [Go Up](#Contents)
 
 ### Getting Help in Stata {#HelpStata}
