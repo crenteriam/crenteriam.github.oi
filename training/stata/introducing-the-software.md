@@ -61,6 +61,7 @@ summarize
 summarize price
 summarize weight-foreign
 ```
+x
 
 <pre class="sh_stata" >
       summarize price
