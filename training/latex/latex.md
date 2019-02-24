@@ -11,7 +11,6 @@ layout: contents
 Software &rarr; <a href="#">Stata</a> - <a href="#">Latex</a> - <a href="#">Markdoc</a> - <a href="#">Markdown</a> - <a href="#">Text Editors</a>
 </p>
 
-
 ### Introducing Latex
 
 Latex is a typesetting system. As Python or R are programming languages designed to compute calculations, Latex is a programming language to compute typesetting. This means that Latex allows you to control the way your documents appear, including margins, headers, footers, font, sections and chapters, and other formatting issues.
