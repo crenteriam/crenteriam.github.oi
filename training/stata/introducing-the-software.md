@@ -4,6 +4,8 @@ layout: tutorial
 tags: stata, introduction
 ---
 
+<script type="text/javascript" src='http://haghish.com/statax/Statax.js'></script>
+
 <a name="Contents"></a>
 [Teaching](../../../teaching) &rarr; [Introduction to Stata](stata.md) &rarr; Introducing the Software
 
@@ -61,7 +63,7 @@ summarize
 summarize price
 summarize weight-foreign
 ```
-x
+m
 
 <pre class="sh_stata" >
       summarize price
