@@ -32,8 +32,8 @@ title: Ciencia de Datos para Politicas Publicas
 |         | Python | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
 | **3**   | **Supervised Machine Learning**    | |
 |         | Logistic Regression       | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
-|         | K Nearest Neighboors (KNN)       | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
-|         | Decision Trees | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
+|         | K Nearest Neighboors (KNN)       | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
+|         | Decision Trees | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
 |         | Support Vector Machines (SVM)  | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
 |         | Ensemble Learners  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
 | **4**   | **Refinacion de Modelos**  |
