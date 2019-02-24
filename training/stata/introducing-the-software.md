@@ -76,7 +76,7 @@ table foreign
 <pre>
 <code class="Statax-css">
 
-    look at my html stuff here
+    table foreign
 
 </code>
 </pre>
@@ -84,7 +84,7 @@ table foreign
 <pre>
 <code class="Statax">
 
-    look at my html stuff here
+    table foreign
 
 </code>
 </pre>
