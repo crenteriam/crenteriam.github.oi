@@ -1,7 +1,7 @@
 ---
 title:
 layout: contents
-tag:
+tags:
 ---
 
 <a name="Contents"></a>
@@ -12,9 +12,7 @@ tag:
 Software &rarr; <a href="#">Stata</a> - <a href="#">Latex</a> - <a href="#">Markdoc</a> - <a href="#">Markdown</a> - <a href="#">Text Editors</a>
 </p>
 
-https://data.princeton.edu/stata/markdown/examples
-https://www.markdownguide.org/extended-syntax/#tables
-http://repec.sowi.unibe.ch/stata/webdoc/tables.html
-https://data.princeton.edu/stata/markdown/examples
-
-http://u.arizona.edu/~selisker/post/workflow/
+- dofile is a text Editor
+- what are the features of a good text Editor
+- disadvantages of dofile text Editor
+- other te: emacs/vim, sublime text and atom.

@@ -1,1 +1,0 @@
-- troubleshooting in stata

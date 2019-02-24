@@ -3,17 +3,25 @@ title: Latex
 layout: contents
 ---
 
-[Teaching](../../../teaching.md) &rarr; Latex
+<a name="Contents"></a>
+<p style="text-align: center;">
+<a href="https://crenteriam.github.io/training/dynamic-documents/dynamicdocs-stata/">Dynamic Documents with Stata</a>
+</p>
+<p style="text-align: center;">
+Software &rarr; <a href="#">Stata</a> - <a href="#">Latex</a> - <a href="#">Markdoc</a> - <a href="#">Markdown</a> - <a href="#">Text Editors</a>
+</p>
 
-### Literatura
 
-- Latex: Algo de Youtube.
+### Introducing Latex
+- use latex notes from Matthew.
 
+### Getting Started
 
 - defaults first indenting noindent
 - explain basic grammar
 - what is documentclass and what options do i have
 - what is being document, what do you begin and end
+- https://www.youtube.com/watch?v=Y-kXtWdjtmw
 
 ```latex
 \documentclass{article}
@@ -22,7 +30,36 @@ Printed text in the document.
 \end{document}
 ```
 
+### Compiling a Latex File
+
+### Main Packages and commands
+
+PAR.
+
+| Package      | Description       |
+| ---          | ---               |
+| float        |                   |
+| comment      |                   |
+| graphicsx    |                   |
+| tabularx     |                   |
+| Geometry     |                   |
+
+- Quotation Mark
+
+| Command      | Description       |
+| ---          | ---               |
+section, caption, begin figure and table, input, title, date, today, author, maketitle,
+textit, textbold,.
+
+### Troubleshooting in Latex
+
+
+### Videos
+https://www.youtube.com/watch?v=7HC9xEZsqdM
+https://www.youtube.com/watch?v=SoDv0qhyysQ&list=PLTejunv6WZfG-b9a0o0OcVMRpIJIlcHhF
+
 ### References
+- [Overleaf Documentation](https://www.overleaf.com/learn)
 - [Latex Wikibook Website](https://en.wikibooks.org/wiki/LaTeX)
 - http://math.hws.edu/gassert/LaTeX_Guide_Title.pdf
 - https://www.deleidscheflesch.nl/assets/uploads/2017/09/instructions.pdf
