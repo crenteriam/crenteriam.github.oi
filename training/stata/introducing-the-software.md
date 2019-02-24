@@ -79,6 +79,14 @@ summarize weight-foreign
 </pre>
 
 <pre>
+<code class="Wrangler-javascript">
+
+    table foreign
+
+</code>
+</pre>
+
+<pre>
 <code class="Statax-css">
 
     table foreign
@@ -88,6 +96,14 @@ summarize weight-foreign
 
 <pre>
 <code class="Statax">
+
+    table foreign
+
+</code>
+</pre>
+
+<pre>
+<code class="Statax-javascript">
 
     table foreign
 
