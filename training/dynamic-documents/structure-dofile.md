@@ -21,3 +21,8 @@ then begin log
 - graph close _all
 - run Latex
 - End (useful to remind yourself you did something on purpose, in this case is not an unfinished dofile) (is like "this page is intentionally blank") (also give my example in parts where i intentionally did nothing).
+
+```stata
+!pdflatex  assignment2Ainclass.tex -output-directory="./output/"
+!pdflatex  assignment2Ainclass.tex -output-directory= "./output/"
+```
