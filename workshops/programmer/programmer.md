@@ -58,10 +58,15 @@ La especializacion en procesamiento de datos es una habilidad predominantemente 
 |               | Creacion de Funciones y Paquetes en R  |
 | **X**         | **Otros Datos**  |
 |               | Analisis de Redes  |
-|               | Sismas de Informacion Georreferenciada (GIS)  |
+|               | Sistemas de Informacion Georreferenciada (GIS) & Remote Sensing  |
 |               | Datos de Sensores (ambiental, agua, trafico, Waze)  |
+| **X**         | **Avanzado**  |
+|               | Computo Paralelo  |
+|               | Git & Version Control  |
+|               | Internet Research and Data Privacy  |
+|               | Developing Functions & Packages  |
+|               | Text Editors  |
 
-- Extra: Git & Version Control - Internet Research and Data Privacy - Developing your Own Functions and Packages - The Plain Text World
 
 [Arriba](#Contenido)
 
