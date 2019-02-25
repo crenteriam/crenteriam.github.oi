@@ -78,10 +78,12 @@ PAR.
 | Package      | Description       |
 | ---          | ---               |
 | float        |                   |
-| comment      |                   |
 | graphicsx    |                   |
-| tabularx     |                   |
 | Geometry     |                   |
+| hyperref     |                   |
+| comment      |                   |
+| longtable    |                   |
+| tabularx     |                   |
 
 - Quotation Mark
 

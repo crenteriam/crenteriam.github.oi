@@ -13,7 +13,7 @@ Tables &rarr; - <a href="https://crenteriam.github.io/training/dynamic-documents
 </p>
 
 ### Quick example
-
+http://repec.org/bocode/e/estout/estpost.html#estpost101
 ### Other
 Load the `auto` dataset. Then, produce a descriptive statistics table for the variables mpg, price and weight with the command `estpost`.
 
