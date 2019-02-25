@@ -3,10 +3,10 @@ title: Getting Started with Stata
 layout: contents
 ---
 
-[Teaching](../../../teaching) &rarr; Introduction to Stata
+[Teaching](../../../teaching) &rarr; Getting Started with Stata
 
 | Jump to:  |
-|:-------------:|
+|:-------------|
 | **1** [Introducing the Software](introducing-the-software.md) |
 | **2** [Using Do-Files](using-dofiles.md) |
 
@@ -18,7 +18,7 @@ The University has currently installed Stata Version 15 in all its computers. Yo
 
 Other great sources for help are the [Stata’s Documentation](https://www.stata.com/features/documentation/). One of the best references for this course is [Stata User’s Guide](https://www.stata.com/bookstore/users-guide/). All you need to know for getting started with Stata is in [Getting Started with Stata for Windows](https://www.stata.com/bookstore/getting-started-windows/) and [Getting Started with Stata for Mac](https://www.stata.com/bookstore/getting-started-mac/). All topics reviewed here are covered in that guide. Also, check out these [cheat sheets](http://geocenter.github.io/StataTraining/portfolio/01_resource/). It will be very useful to have them close when doing the assignments.
 
-<u>Reference materials:</u>
+<u>Online Tutorials:</u>
 
 -	Stephen Weinberg’s [Stata Lecture Videos](https://vimeo.com/user10003546)
 -	Matthew Ingram’s [Stata, R and & Workflow Workshops](http://mattingram.net/teaching/#Workshops)
