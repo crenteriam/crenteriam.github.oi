@@ -12,7 +12,7 @@ capture quietly log using MyLog, replace
 * BEGINNING OF LATEX DOCUMENT  -------------------------------------------------
 /***
 \documentclass{article}
-\usepackage{graphicx,float}
+\usepackage{graphicx}
 \graphicspath{ {./} }
 \begin{document}
 
@@ -60,7 +60,7 @@ Finally, produce and print a Figure in Latex. The commands \verb|//OFF| and
 * everything typed below //OFF will be executed in the console
 * but not recorded in the log file
 scatter mpg price
-graph export "graph1.png"
+graph export "graph1.png", replace
 //ON
 
 * After //ON, the lines below will be recorded in the log file
@@ -71,7 +71,7 @@ display "markdoc is a literate programming package"
 
 Below, the graph produced from the hidden code chunk.
 
-\begin{figure}[H]
+\begin{figure}[h!]
   \centering
   \includegraphics[width=8cm]{graph1.png}
   \caption{Title of the Figure}

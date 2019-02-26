@@ -65,7 +65,7 @@ sysuse auto
 * everything typed below //OFF will be executed in the console
 * but not recorded in the log file
 scatter mpg price
-graph export "graph1.png"
+graph export "graph1.png", replace
 //ON
 
 * After //ON, the lines below will be recorded in the log file
