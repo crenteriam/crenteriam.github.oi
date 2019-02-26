@@ -85,7 +85,7 @@ summarize mpg price
 \end{verbatim}
 ```
 
-Download the practice Do-File [First Practice Mardoc](https://crenteriam.github.io/training/files/tutorials/first-practice-markdoc.do)
+Download the practice Do-File [First Practice Mardoc](https://crenteriam.github.io/files/tutorials/first-practice-markdoc.do)
 
 [Up](#Contents)
 
