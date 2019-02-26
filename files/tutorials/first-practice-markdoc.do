@@ -79,7 +79,7 @@ Below, the graph produced from the hidden code chunk.
 
 \end{document}
 ***/
-* Switch to stata
+* Switch to Stata
 
 quietly log close
 graph close _all
