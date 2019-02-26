@@ -14,7 +14,7 @@ Software &rarr; <a href="#">Stata</a> - <a href="#">Latex</a> - <a href="#">Mark
 
 ### What is Markdoc?
 
-[Markdoc](https://github.com/haghish/markdoc) "literate programming" package, which is a fancy slogan for creating your research document within a plain text editor. Markdoc is an add-on to expand the functionality of the Do-File Editor to become a text formatting editor and produces document outputs (e.g., html, latex, markdown, or Word). It is an Stata package created by E.F. Haghish and supports several markup languages, including Latex and Markdown.
+[Markdoc](https://github.com/haghish/markdoc) is a "literate programming" package, which is a fancy way to say it's a tool for creating dynamic documents within the Do-File Editor. Markdoc expands the functionality of the Do-File Editor, making it a text formatting editor capable of producing markup-based documents (e.g., html, pdf or Word). Markdoc is primarily based in two markup languages, Latex and Markdown.
 
 ### Installing Markdoc
 
@@ -85,7 +85,7 @@ summarize mpg price
 \end{verbatim}
 ```
 
-Download the practice Do-File [First Practice Mardoc](https://crenteriam.github.io/files/tutorials/first-practice-markdoc.do)
+Download the practice Do-File [First Practice Mardoc](https://crenteriam.github.io/files/tutorials/first-practice-markdoc.do).
 
 [Up](#Contents)
 
