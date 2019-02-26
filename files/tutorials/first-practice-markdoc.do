@@ -30,7 +30,7 @@ quietly display "markdoc is a literate programming package"
 * The line below will hide the programming line AND the output
 /**/ quietly display "markdoc is a literate programming package"
 
-* (2) Practice //OFF and // ON  ------------------------------------------------
+
 * The command below will be recorded in the log file
 sysuse auto
 
@@ -44,7 +44,7 @@ We are printing directly from stata both the programming line and the output.
 ***/
 * Swtich to Stata
 
-* (3) Practice verbatim -------------------------------------------------------
+* (2) Practice verbatim -------------------------------------------------------
 sysuse auto
 summarize mpg price
 /***
@@ -55,6 +55,8 @@ Finally, produce and print a Figure in Latex. The commands \verb|//OFF| and
 \verb|//ON|, will hide both the programming line and the output.
 ***/
 * Switch to Stata
+
+* (3) Practice //OFF and // ON  ------------------------------------------------
 
 //OFF
 * everything typed below //OFF will be executed in the console
