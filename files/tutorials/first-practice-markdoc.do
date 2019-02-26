@@ -1,9 +1,9 @@
 * For this practice Do-File, you will need to:
 * (1) Change the working directory in line XX
 * (2) Having installed a Latex Distribution
-* Having installed the markdoc packages (github, markdoc, statax, and weaver)
+* (3) Having installed the markdoc packages (github, markdoc, statax, and weaver)
 
-cd "C:\Users\César\Desktop\test"
+cd "C:\YOUR_WORKING_DIRECTORY"
 log close _all
 * Begin Latex syntax
 
