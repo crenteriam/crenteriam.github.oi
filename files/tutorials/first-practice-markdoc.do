@@ -1,5 +1,5 @@
 * For this practice Do-File, you will need to:
-* (1) Change the working directory in line XX
+* (1) Change the working directory in line 6
 * (2) Having installed a Latex Distribution
 * (3) Having installed the markdoc packages (github, markdoc, statax, and weaver)
 
@@ -49,6 +49,7 @@ sysuse auto
 summarize mpg price
 /***
 % Switch to Latex
+
 \end{verbatim}
 
 Finally, produce and print a Figure in Latex. The commands \verb|//OFF| and
@@ -88,5 +89,6 @@ graph close _all
 markdoc MyLog, export(latex) replace
 
 * Only for Windows: compile and open the file
+* If you are working in Mac, you will need to compile in your Latex/Text Editor
 !pdflatex Mylog.tex
 !explorer MyLog.pdf
