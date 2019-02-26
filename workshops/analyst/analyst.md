@@ -34,9 +34,10 @@ El curso esta orientado al ejercicio practico. Por lo tanto, la mayoria del tiem
 | **1**   | **Introduccion** |
 |         | Ciencia de datos y analisis de politica publica | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a>  |
 |         | Python | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
-| **3**   | **Supervised Machine Learning**    | |
+| **2**   | **Supervised Machine Learning I**    | |
 |         | Logistic Regression       | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
 |         | K Nearest Neighboors (KNN)       | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
+| **3**   | **Supervised Machine Learning II** |
 |         | Decision Trees | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
 |         | Support Vector Machines (SVM)  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
 |         | Ensemble Learners  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
@@ -44,12 +45,13 @@ El curso esta orientado al ejercicio practico. Por lo tanto, la mayoria del tiem
 |         | Building a Good Training Set  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
 |         | Dimensionality Reduction  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
 |         | Model Evaluation  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
-|         | Big Data and MapReduce  |
 | **X**   | **Unsupervised Machine Learning** |
 |         | Clustering  |
 |         | Association Rules  |
 |         | Principal Component Analysis  |
-
+| **X**   | **Advanced**  |
+|         | Big Data and MapReduce  |
+|         | Computo Paralelizado y [Centro de Supercómputo] (http://www.udg.mx/es/noticia/inauguran-centro-supercomputo-cucea) |
 
 [Arriba](#Contenido)
 
