@@ -98,3 +98,5 @@ The new \verb|Table3.tex| file will produce this table:
 Here is a [link to the do-file to run the examples above.](TBD).
 
 http://repec.org/bocode/e/estout/hlp_esttab.html
+
+[Up](#Contents)

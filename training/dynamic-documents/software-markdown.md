@@ -16,5 +16,7 @@ https://data.princeton.edu/stata/markdown/examples
 https://www.markdownguide.org/extended-syntax/#tables
 http://repec.sowi.unibe.ch/stata/webdoc/tables.html
 https://data.princeton.edu/stata/markdown/examples
-
+https://www.youtube.com/watch?v=hpAJMSS8pvs
 http://u.arizona.edu/~selisker/post/workflow/
+
+[Up](#Contents)

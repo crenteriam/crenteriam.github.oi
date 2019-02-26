@@ -47,3 +47,5 @@ Required packages:
 \href{https://www.ssc.wisc.edu/sscc/pubs/stata_tables.htm#summary}{this documentation}.
 - Use Stata's labels to improve the readabilit of your variables \href{https://www.stata.com/manuals13/gsw9.pdf}{here}
 (it's better is you do this in the data management do-file).
+
+[Up](#Contents)
