@@ -72,7 +72,7 @@ graph export "./figures/graph1.png"
 display "markdoc is a literate programming package"
 ```
 
-Finally, sometimes you may want to pring some stata output directly in your dynamic document. For example, a summary statistics table. Printing Stata's output may generate problems to Latex, for example, the underscore---commonly used in variable names (e.g., `avg_age_2004`) will yield an error in Latex, because the [underscore is a command](TBD). Therefore, you may want to use the Latex command `verbatim` to play safe.
+Finally, sometimes you may want to pring some stata output directly in your dynamic document. For example, a summary statistics table. Printing Stata's output may generate problems to Latex, for example, the underscore---commonly used in variable names (e.g., `avg_age_2004`)---will yield an error in Latex, because the [underscore is a command](TBD). Therefore, you may want to use the Latex command `verbatim` to play safe.
 
 Line by line, the chunk below switches from Latex to Stata, and back to Latex, and reads as: `\begin{verbatim}` begin reading the following as non-Latex text; `***/` switch from Latex to Stata; write some stata code; `/***` switch back from Stata to Latex; `\end{verbatim}` start reading again the next lines as Latex text. It may be awkward at the beginning, but little by little it will become natural to you.
 
