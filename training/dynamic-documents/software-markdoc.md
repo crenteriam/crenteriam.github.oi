@@ -20,7 +20,7 @@ Software &rarr; <a href="#">Stata</a> - <a href="#">Latex</a> - <a href="#">Mark
 
 To install markdoc first, you need to install the package `github`.[^1] Then, from the newly installed `github` package, use the command `github install` to install the `markdoc`, but make sure to install the version "3.8.0". Newer versions will automatically write some latex code for you, but will restrict your options on managing Latex.
 
-You must install two more packages. [**Statax**](https://github.com/haghish/statax) and []**Weeaver**](https://github.com/haghish/weaver) are markup syntax highlighters. They are supportive packages for rentering the markup syntax in the dynamic documents.
+You must install two more packages. [**Statax**](https://github.com/haghish/statax) and [**Weeaver**](https://github.com/haghish/weaver) are markup syntax highlighters. They are supportive packages for rentering the markup syntax in the dynamic documents.
 
 ```stata
 net install github, from("https://haghish.github.io/github/") replace
