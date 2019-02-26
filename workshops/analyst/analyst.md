@@ -50,8 +50,7 @@ El curso esta orientado al ejercicio practico. Por lo tanto, la mayoria del tiem
 |         | Association Rules  |
 |         | Principal Component Analysis  |
 | **X**   | **Advanced**  |
-|         | Big Data and MapReduce  |
-|         | Computo Paralelizado y [Centro de Supercómputo] (http://www.udg.mx/es/noticia/inauguran-centro-supercomputo-cucea) |
+|         | *Big Data*, Computo Paralelizado y [Centro de Supercómputo] (http://www.udg.mx/es/noticia/inauguran-centro-supercomputo-cucea) |
 
 [Arriba](#Contenido)
 
