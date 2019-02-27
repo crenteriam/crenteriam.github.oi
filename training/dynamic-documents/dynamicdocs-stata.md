@@ -17,8 +17,8 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 |               | [Stata](../../stata/stata)  |
 |               | [Latex](../../latex/latex)  |
 |               | [Markdoc](software-markdoc.md)  |
-|               | [Markdown]()  |
-|               | [Text Editors]()    |
+|               | [Markdown](software-markdown.md)  |
+|               | [Text Editors](software-other.md)    |
 | **Part II**   | **Execute** |
 | **4**         | **Structure of the Do-File**  |
 | **5**         | **Writing a Report** |
