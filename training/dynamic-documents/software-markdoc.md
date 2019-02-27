@@ -85,6 +85,22 @@ summarize mpg price
 \end{verbatim}
 ```
 
+Finally, take in consideration that `markdoc` creates the `.tex` file by using the log file `.scml` that you created at the beginning of the Do-File with the line `capture quetly log MyLog, replace`, and closed it by using the line `log close` at the end of the Do-File. Therefore, when creating the `.tex` file, you <u>must use the same name as the log file</u>. See a short illustration below:
+
+```stata
+capture quetly log MyLog, replace
+* a chunk of code would be between log MyLog and log close
+log close
+markdoc MyLog, export(tex) markup(tex) replace
+```
+Alternatively, if you are using Windows...
+
+```stata
+!pdflatex MyLog.tex
+!pdflatex MyLog.tex
+!exporer  MyLog.pdf
+```
+
 Download the practice Do-File [First Practice Mardoc](https://crenteriam.github.io/files/tutorials/first-practice-markdoc.do).
 
 [Up](#Contents)
