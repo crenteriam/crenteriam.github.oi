@@ -20,7 +20,7 @@ Software &rarr; <a href="https://crenteriam.github.io/training/stata/stata/">Sta
 
 To install markdoc first, you need to install the package `github`.[^1] Then, from the newly installed `github` package, use the command `github install` to install the `markdoc`, but make sure to install the version "3.8.0". Newer versions will automatically write some latex code for you, but will restrict your options on managing Latex.
 
-You must install two more packages. [**Statax**](https://github.com/haghish/statax) and [**Weaver**](https://github.com/haghish/weaver) are markup syntax highlighters. They are supportive packages for rentering the markup syntax in the dynamic documents.
+You must install two more packages. [**Statax**](https://github.com/haghish/statax) and [**Weaver**](https://github.com/haghish/weaver) are markup syntax highlighters. They are supportive packages for rentering the markup syntax in the dynamic documents. `markdocpandoc` is an userwritten command within the `markdoc` package that installs some pandoc features (see [sub-section "others"](software-markdoc.md)). This will help you export your dynamic document into several formats.
 
 ```stata
 net install github, from("https://haghish.github.io/github/") replace

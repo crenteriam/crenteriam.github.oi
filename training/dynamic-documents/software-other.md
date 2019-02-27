@@ -12,28 +12,20 @@ tag:
 Software &rarr; <a href="https://crenteriam.github.io/training/stata/stata/">Stata</a> - <a href="https://crenteriam.github.io/training/latex/latex/">Latex</a> - <a href="https://crenteriam.github.io/training/dynamic-documents/software-markdoc/">Markdoc</a> - <a href="https://crenteriam.github.io/training/markdown/markdown/">Markdown</a> - <a href="https://crenteriam.github.io/training/dynamic-documents/software-texteditors/">Text Editors</a>
 </p>
 
+### Other Integratin Tools
 
+### Pandoc {#Pandoc}
 
-### Pandoc
+[Pandoc](https://pandoc.org/index.html) is a tool to produce documents in a variety of formats. Pandoc transforms, for example, a Latex markup language into Markdown. Therefore, by using a single markup language (e.g., `.tex`), you can export to several document (e.g., pdf, docx or html) by using the same source file.
 
-Markup format
-
-[Pandoc](https://pandoc.org/index.html) is a tool to produce documents in a variety of formats. Pandoc transforms, for example, a Latex markup language into Markdown. Therefore you can produce different document (e.g., pdf, docx or html) by using the same source file.
-
-`markdocpandoc` is an userwritten command within the `markdoc` package that installs some pandoc features. This will help you export your dynamic document into several formats.
-
-You can run pandoc directly from Stata by using the commands below
-- formats, docx, rft, odt can be open in Word.
+Once installed, you can run pandoc within your Do-File and compile on the fly, among others, `.docx`, `.rtf`, and `.odt` documents (you an open all of them in Microsft Word). The Stata command `!` instructs Stata to interact with the operating system's shell. In other words, you are using Stata as a computer's terminal. By doing so, you can run other softwares within Stata. For example, in the lines below, `!pandoc` is running the software pandoc; then pandoc takes the source `-s` (MyLog.tex) and stores the output `-o` (MyLog.docx).
 
 ```stata
-!pandoc -s XXX.tex -o XXX.docx
-!pandoc -s XXX.tex -o XXX.rtf
-!pandoc -s XXX.tex -o XXX.odt
-!pandoc -s XXX.tex -o XXX.epub
+!pandoc -s MyLog.tex -o MyLog.docx
+!pandoc -s MyLog.tex -o MyLog.rtf
+!pandoc -s MyLog.tex -o MyLog.odt
+!pandoc -s MyLog.tex -o MyLog.epub
 ```
-
-
-
 
 ### Knitr
 
