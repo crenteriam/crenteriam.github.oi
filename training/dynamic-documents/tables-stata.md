@@ -109,6 +109,8 @@ Complementary Readings:
 
 [Making Regression Tables from Stored Estimates](http://www.soz.unibe.ch/unibe/portal/fak_wiso/c_dep_sowi/inst_soz/content/e39893/e48983/e131227/e131228/e131246/e131269/estout_ger.pdf)
 
+Download the [practice Do-File on Tables from Stata](https://crenteriam.github.io/files/tutorials/tables-stata.do).
+
 [Up](#Contents)
 
 - table as separate file, and then use input. show some screens with this. Also helps bc R and Stata will provide table as separate file.

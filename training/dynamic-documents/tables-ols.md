@@ -95,7 +95,7 @@ The new \verb|Table3.tex| file will produce this table:
 \caption{Summary Statistics}
 \end{table}
 
-Here is a [link to the do-file to run the examples above.](TBD).
+Download the [practice Do-File on Tables OLS](https://crenteriam.github.io/files/tutorials/tables-ols.do).
 
 http://repec.org/bocode/e/estout/hlp_esttab.html
 

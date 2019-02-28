@@ -125,6 +125,8 @@ To rotate a table to be printed horizontally or as **landscape-like**, you will 
 % landscape solution
 ```
 
+Download the [practice Do-File on Tables OLS](https://crenteriam.github.io/files/tutorials/tables-latex.do).
+
 [Up](#Contents)
 
 [^1]: This stackexchange tread has about everything you need to know about [how to influence the position of float environments like figure and table in Latex](https://tex.stackexchange.com/questions/39017/how-to-influence-the-position-of-float-environments-like-figure-and-table-in-lat)

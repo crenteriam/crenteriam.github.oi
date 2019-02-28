@@ -101,7 +101,7 @@ Alternatively, if you are using Windows...
 !exporer  MyLog.pdf
 ```
 
-Download the practice Do-File [First Practice Mardoc](https://crenteriam.github.io/files/tutorials/first-practice-markdoc.do).
+Download the [practice Do-File on Mardoc](https://crenteriam.github.io/files/tutorials/first-practice-markdoc.do).
 
 [Up](#Contents)
 
