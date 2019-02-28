@@ -54,7 +54,7 @@ Disadvantages of Do-File Editor as text editor:
 - No Troubleshooting tools
 - Licensed software.
 
-
+[Using Atom as a Latex Editor](https://medium.com/@lucasrebscher/using-atom-as-a-latex-editor-93756de3d726)
 [markup language](https://en.wikipedia.org/wiki/Markup_language)
 
 data -> editor (md, tex, do, r, rmd) -> document (html,rft,word, html, epub,pdf)

@@ -17,7 +17,7 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 |               | [Stata](../../stata/stata)  |
 |               | [Latex](../../latex/latex)  |
 |               | [Markdoc](software-markdoc.md)  |
-|               | [Markdown](software-markdown.md)  |
+|               | [Markdown]()  |
 |               | [Text Editors](software-texteditors.md)    |
 |               | [Other Integration Tools](software-other.md)  |
 | **Part II**   | **Execute** |
@@ -36,5 +36,5 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 |               | [Regression Tables](tables-ols.md)  |
 |               | [Personalized Tables](tables-personalized.md)  |
 | **9**         | **Version Control and Collaboration**  |
-|               | [Version Control](git.md)  |
-|               | [Collaborative Work in Stata](collaboration.md)  |
+|               | [Version Control]()  |
+|               | [Collaborative Work in Stata]()  |
