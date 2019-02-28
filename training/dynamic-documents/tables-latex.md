@@ -25,17 +25,15 @@ The code chunk below represents a simple Latex table with two columns and two ro
 \end{table}
 ```
 
-The whole ***table*** enviornment is contained between the lines `\begin{table}` and `\end{table}`. But the environment ***table*** does not contain the *actual table*, only the *metadata*, such as the title, a label for hyperreference, the horizonta and positioning, among others (as we will see below).
+The whole ***table*** enviornment is contained between the lines `\begin{table}` and `\end{table}`. But the environment ***table*** does not contain the *actual table*, only the *metadata of the table*, such as the title, a a reference key, and the horizontal and vertical positioning, among others (all will be discussed below).
 
-The *actual table* is contained within the environment ***tabular*** which is contained between `\begin{tabular}` and `\end{tabular}`. At the right side of `\begin{tabular}`, says `{c|c}`. This is the instruction of the number of <u>columns</u> you want to the table to have. But instead of giving a number, we are providing a letter per each column, The letters mean the positioning of the text within the column; `c` stands for centered, `r` for right, and `l` for left. The pipe `|` means you want to draw a vertical line between columns. If you want no lines between colums, leave a blank space. For example, in `{l c c}` I am speficying a table with three columns without vertical lines. In the first column, the text will be left-sided, and centered in the remaning two columns.
+The *actual table* is contained within the environment ***tabular*** which is contained between `\begin{tabular}` and `\end{tabular}`. And the environment ***taular*** is placed within the environment ***table***.
 
-Note that there is an `[h]` at the right side of `\begin{table}`. This is an option indicating that the table should be placed *here*. (See full explanation below in [vertical positioning (floats)](#floats)).
+Above, in the chunk code, at the right side of `\begin{tabular}`, says `{c|c}`. This is the instruction of the number of <u>columns</u> you want to the table to have. But instead of providing the number of columns, we are providing letters. Each letter counts for one column, and the letter carries meaning. The letters indicates the alignment of the text within the column. For example, `c` stands for centered text, `r` for right-sided text, and `l` for left-sided text. The pipe `|` means you want to draw a vertical line between columns. But if you don't want to print verical lines between the columns, you must leave a blank space instead. For example, if I type `{l c c}`, I am speficying a ***tabular*** with three columns without vertical lines. The first column will have left-sided text, and the remaining two will center the text.
 
-The <u>rows</u> have a different logics. Between , each programming line is a row. Each row has to end with `\\` which is equivalent to hit enter in your word processor. For example, from the code chunk above `Cell A & Cell B \\` represents the first row of the table. As for that chunk we definded two columns, *Cell A* will be the text contained in the first row and first column. The symbol `&` will tell Latex to move to the next column, within the same row. Therefore, `Cell B` will be the contents of the second column. As we only have two columns, the next step is to end the line with `\\`.
+Note that there is an `[h]` at the right side of `\begin{table}`. This indicates the vertical position of the table---`h` means the table should be placed *here*. (See full explanation below about [vertical positioning (floats)](#floats)).
 
-- graphicsx package
-- bring this from latex book.
-
+The <u>rows</u> have a different logics. Each programming line is a row. Each row has to end with `\\` which is equivalent to hit enter in your word processor. For example, from the code chunk above `Cell A & Cell B \\` represents the first row of the table. As for that chunk we definded two columns, *Cell A* will be the text contained in the first row and first column. The symbol `&` separates columns within the same row. For example, in the chunk above, the text `Cell B` will be the contents of the second column, as it resides at the right of `&`. Since we only have two columns in the example, the next step is to end the line with `\\`. Naturally, indicating a different number of columns in the rows than the number indicated in `\begin{tabular}` will produce and error (which is happens often).
 
 [Up](#Contents)
 
@@ -43,13 +41,15 @@ The <u>rows</u> have a different logics. Between , each programming line is a ro
 
 **Caption.** Use the command `\caption{}` to generate the <u>title of the table.</u> Type the command before `\begin{tabular}` to place the title above the table, or type `\caption{}` after `\end{tabular}` to place the title below the table.
 
+The command `\caption{}` will automatically print the corresponding numeration of the table. Sometimes you may want to [title a table without numeration](https://tex.stackexchange.com/questions/28392/how-to-suppress-caption-numbering-in-a-table). In those casues, you must the command `\caption*{}` instead, which comes with the package `caption`.
+
 **Label.** The command `\label{}` helps you creating a reference key to reference a table in the text. For example, when you write 'The Table 1 shows that...' instead of typing the Table number, you can type the table key reference by using the command `\ref{}`, which will automatically display the number, according to its current appearance in the text.
 
-**Centering.** This command is used at the begining of the ***table*** environment to place the table horizontally centered.
+**Horizontal centering.** The command `\centering` is used at the begining of the ***table*** environment to arrange the table horizontally centered.
 
 **Horizontal Lines.** Add horizontal lines to the table with the command `\hline`. This command should be used within the ***tabular*** environment. You can also use the alternatives `\toprule`, `\midrule`, and `\bottomrule`, which are available after loading the package `booktabs`.
 <a name="floats"></a>
-**Vertical Positioning (floats).** Both Tables and Figures are [float environments](https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions) which means Latex is going to make some decisions on where to place them in the page. In the options after beginning any of these two enviornments, you can use a *placement specifier*. For example, `[h]` means *here*, or `[t]` means at the top of the page. See this brief [explanation from Overleaf Documentation]() about *placement specifiers*.[^1] The problem, however, is that none of these will always place *exactly here* the table of figure; <u>the best way to go is by using the *placement specifier* `[H]`, from the package `float`.</u> When stacking together multiple floats, this specifier tends lo leave too much space between floats, and `[h!]` may work better. (Almost) nothing is perfect.
+**Vertical Positioning (floats).** Both Tables and Figures are [float environments](https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions) which means Latex is going to make some decisions on where to place them in the page. In the options after beginning any of these two enviornments, you can use a *placement specifier*. For example, `[h]` means *here*, or `[t]` means at the top of the page. See this brief [explanation from Overleaf Documentation]() about *placement specifiers*.[^1] The problem, however, is that none of these will always place *exactly here* the table of figure; the best way to go is by using the *placement specifier* `[H]`, from the package `float`. When stacking together multiple floats, this specifier tends lo leave too much space between floats, and `[h!]` may work better. (Almost) nothing is perfect.
 
 <u>The example below applies all the edits previously discussed:</u>
 
@@ -73,13 +73,13 @@ The Table \ref{tab:example} shows that...
 
 <div style="text-align:center"><img src ="..." /></div>
 
-**Multiple Columns**
-**Multiple Rows**
-**Rotating Text**
+**Multiple Columns** TBD.
 
-- To manipulate the <u>table numeration</u>, use the package [caption](https://tex.stackexchange.com/questions/28392/how-to-suppress-caption-numbering-in-a-table).
+**Multiple Rows** TBD.
 
-### Table Size
+**Rotating Text** TBD.
+
+### Table Size {#TableSize}
 
 There are three common issues related with the table size. Typically, the table width can be <u>wider</u> than the page width; the table can be <u>longer</u> than one page; or you might want to rotate the table to be printed as <u>landscape-like</u>. The environment ***tabular*** cannot performe any of these tasks. Therefore you need one of the following alternatives.
 
@@ -124,12 +124,6 @@ To rotate a table to be printed horizontally or as **landscape-like**, you will 
 ```latex
 % landscape solution
 ```
-
-[Up](#Contents)
-
-### Workflow Best Practices
-
-- table as separate file, and then use input. show some screens with this. Also helps bc R and Stata will provide table as separate file.
 
 [Up](#Contents)
 

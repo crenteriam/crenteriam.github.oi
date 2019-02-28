@@ -111,4 +111,6 @@ Complementary Readings:
 
 [Up](#Contents)
 
+- table as separate file, and then use input. show some screens with this. Also helps bc R and Stata will provide table as separate file.
+
 [^1]: Check out the Stata's [labeling variable](https://www.stata.com/manuals13/gsw9.pdf) documentation for further details.
