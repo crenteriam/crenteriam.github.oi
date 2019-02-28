@@ -33,11 +33,11 @@ scatter mpg price
 
 xport it as a Portable Networks Graphics (.png) file in your folder `figures` (graph export can be read as "save as..."). We will name it `Graph1.png`.
 
-```stata
+<pre class="sh_stata">
 scatter mpg price
 graph export "Graph1.png"
 graph close
-```
+</pre>
 
 ### Manipulate Graphics in Stata
 
