@@ -1,6 +1,6 @@
 ---
 title: Create and Store Graphics in Stata
-layout: contents
+layout: tutorial
 tag: dynamic documents, stata, research workflow, research reproducibility, reproducible research, social sciences
 ---
 
@@ -19,10 +19,15 @@ The first step is creating a graph, which command will vary depending on the typ
 
 To reproduce an example, first load the data set `auto` by typing `sysuse auto`. Then, run a scatterplot to compare `mpg` and `price` (see the code chunk below).
 
-```stata
+<pre class="sh_stata">
 sysuse auto
 scatter mpg price
-```
+</pre>
+
+<!--script type="text/javascript" src='http://haghish.com/statax/Statax.js'></script-->
+
+
+
 
 ### Store Graphics in Stata
 

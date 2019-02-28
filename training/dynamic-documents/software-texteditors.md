@@ -12,13 +12,6 @@ tags:
 Software &rarr; <a href="https://crenteriam.github.io/training/stata/stata/">Stata</a> - <a href="https://crenteriam.github.io/training/latex/latex/">Latex</a> - <a href="https://crenteriam.github.io/training/dynamic-documents/software-markdoc/">Markdoc</a> - <a href="https://crenteriam.github.io/training/markdown/markdown/">Markdown</a>
 </p>
 
-<script type="text/javascript" src='http://haghish.com/statax/Statax.js'></script>
-
-<pre class="sh_stata">
-summarize auto
-display ("hi")
-</pre>
-
 ### What is a Text Editor?
 
 ### Why does it Matter?
