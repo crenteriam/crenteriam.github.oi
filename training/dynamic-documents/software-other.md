@@ -16,9 +16,9 @@ Software &rarr; <a href="https://crenteriam.github.io/training/stata/stata/">Sta
 
 ### Pandoc {#Pandoc}
 
-[Pandoc](https://pandoc.org/index.html) is a tool to produce documents in a variety of formats. Pandoc transforms, for example, a Latex markup language into Markdown. Therefore, by using a single markup language (e.g., `.tex`), you can export to several document (e.g., pdf, docx or html) by using the same source file.
+[Pandoc](https://pandoc.org/index.html) is a tool to produce documents in a variety of formats. Pandoc transforms, for example, a Latex markup language into Markdown. Therefore, by using a single markup language (e.g., `.tex`), you can export to several document (e.g., pdf, docx or html) by using the same source file. For example oyou can run pandoc within your Do-File to produce `.docx`, `.rtf`, and `.odt` documents (all these can be read by Microsft Word).
 
-Once installed, you can run pandoc within your Do-File and compile on the fly, among others, `.docx`, `.rtf`, and `.odt` documents (you an open all of them in Microsft Word). The Stata command `!` instructs Stata to interact with the operating system's shell. In other words, you are using Stata as a computer's terminal. By doing so, you can run other softwares within Stata. For example, in the lines below, `!pandoc` is running the software pandoc; then pandoc takes the source `-s` (MyLog.tex) and stores the output `-o` (MyLog.docx).
+To use pandoc within Stata, you need to call the Operating System's terminal. The Stata command `!` instructs Stata to interact with the operating system's shell. In other words, you are using Stata as a computer's terminal. By doing so, you can run other softwares within Stata. For example, in the lines below, `!pandoc` is running the software pandoc; then you are instructing pandoc to take the source file (`-s`) MyLog.tex and store it as the output file (`-o`) MyLog.docx.
 
 ```stata
 !pandoc -s MyLog.tex -o MyLog.docx
@@ -27,6 +27,4 @@ Once installed, you can run pandoc within your Do-File and compile on the fly, a
 !pandoc -s MyLog.tex -o MyLog.epub
 ```
 
-### Knitr
-
-### Sweave
+### Other integration tools (knitr and Sweave)
