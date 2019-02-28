@@ -111,7 +111,7 @@ There are two ways to hack that problem. The first one is to **manually defining
 \end{table}
 ```
 
-When you have a **table longer than the page length**, neither ***tabular*** nor ***tabularx*** are of help. You will need to use the package `longtable`. After installing this package, you will be able to use the environment ***longtable*** in replacement of the environment <u>***table***</u>.
+When you have a **table longer than the page length**, neither ***tabular*** nor ***tabularx*** are of help. You will need to use the package `longtable`. After installing this package, you will be able to use the environment ***longtable*** in replacement of the environment ***table***.
 
 ```latex
 % Using environment longtable
