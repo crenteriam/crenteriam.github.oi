@@ -43,13 +43,13 @@ The <u>rows</u> have a different logics. Each programming line is a row. Each ro
 
 The command `\caption{}` will automatically print the corresponding numeration of the table. Sometimes you may want to [title a table without numeration](https://tex.stackexchange.com/questions/28392/how-to-suppress-caption-numbering-in-a-table). In those casues, you must the command `\caption*{}` instead, which comes with the package `caption`.
 
-**Label.** The command `\label{}` helps you creating a reference key to reference a table in the text. For example, when you write 'The Table 1 shows that...' instead of typing the Table number, you can type the table key reference by using the command `\ref{}`, which will automatically display the number, according to its current appearance in the text.
+**Label.** The command `\label{}` helps you creating a cross-reference key to reference a table in the text. For example, when you write 'The Table 1 shows that...' instead of typing the Table number, you can type the table key reference by using the command `\ref{}`, which will automatically display the number, according to its current appearance in the text.
 
 **Horizontal centering.** The command `\centering` is used at the begining of the ***table*** environment to arrange the table horizontally centered.
 
 **Horizontal Lines.** Add horizontal lines to the table with the command `\hline`. This command should be used within the ***tabular*** environment. You can also use the alternatives `\toprule`, `\midrule`, and `\bottomrule`, which are available after loading the package `booktabs`.
 
-<a name="floats"></a> **Vertical Positioning (floats).** Both Tables and Figures are [float environments](https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions) which means Latex is going to make some decisions on where to place them in the page. In the options after beginning any of these two enviornments, you can use a *placement specifier*. For example, `[h]` means *here*, or `[t]` means at the top of the page. See this brief [explanation from Overleaf Documentation]() about *placement specifiers*.[^1] The problem, however, is that none of these will always place *exactly here* the table of figure; the best way to go is by using the *placement specifier* `[H]`, from the package `float`. When stacking together multiple floats, this specifier tends lo leave too much space between floats, and `[h!]` may work better. (Almost) nothing is perfect.
+<a name="floats"></a> **Vertical Positioning (floats).** Both Tables and Figures are [float environments](https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions#Floats) which means Latex is going to make some decisions on where to place them in the page. In the options after beginning any of these two enviornments, you can use a *placement specifier*. For example, `[h]` means *here*, or `[t]` means at the top of the page. See this brief [explanation from Overleaf Documentation]() about *placement specifiers*.[^1] The problem, however, is that none of these will always place *exactly here* the table of figure; the best way to go is by using the *placement specifier* `[H]`, from the package `float`. When stacking together multiple floats, this specifier tends lo leave too much space between floats, and `[h!]` may work better. Nothing is perfect.
 
 <u>The example below applies all the edits previously discussed:</u>
 
@@ -124,6 +124,8 @@ To rotate a table to be printed horizontally or as **landscape-like**, you will 
 ```latex
 % landscape solution
 ```
+
+Finally, here is [all else you need to know about Latex Tables](https://en.wikibooks.org/wiki/LaTeX/Tables#Floating_with_table).
 
 Download the [practice Do-File on Tables OLS](https://crenteriam.github.io/files/tutorials/tables-latex.do).
 
