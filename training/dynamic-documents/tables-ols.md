@@ -12,7 +12,9 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 Tables &rarr; - <a href="https://crenteriam.github.io/training/dynamic-documents/tables-stata/">Latex Table in Stata</a> - <a href="https://crenteriam.github.io/training/dynamic-documents/tables-latex/">Latex Syntax</a> - <a href="https://crenteriam.github.io/training/dynamic-documents/tables-descriptives/">Descriptive Stats</a> - <a href="https://crenteriam.github.io/training/dynamic-documents/tables-personalized/">Personalized</a>
 </p>
 
-
+### Basic OLS Table
+### Multiple models in one table
+### Basic layout editing
 
 Common problems:
 - Extended options. Titling. (titling in estout and titling in laex) The problem of double tabular in estout.
@@ -49,51 +51,43 @@ The new `Table3.tex` file will produce this table:
 
 **Additional statistics.** Yo can include more information on the regression table, such as F-statistic (`F`, Adjusted R Squared `ar2`, number of observations (`N`), etc. (see [esttab](http://repec.sowi.unibe.ch/stata/estout/esttab.html)). You can also add ad hoc estimations to the regression table (e.g. [Chow test](http://personal.rhul.ac.uk/uhte/006/ec5040/chow\%20test.pdf), [estadd](http://repec.sowi.unibe.ch/stata/estout/estadd.html)).
 
-```latex
-\vspace{4mm} \noindent
-\textbf{Selected independent variables (keep and drop).}
-\vspace{4mm} \noindent
-\textbf{Parameter statistics (stars, t-statistic, s.e., etc.)} se conf interv, p-value, t-statistic, stars.
-\vspace{4mm} \noindent
-\textbf{Number of decimals displayed.}
-```
+todo:
+- how to display fewer independent variables (keep and drop)
+- how to select parameter statistics for display (stars, t-statistic, s.e., -- se conf interv, p-value, t-statistic, stars.)
+- define number of decimals printed.
 
 This section presented Stata's commands to edit the output to be presented in the regression table. Complementary Latex commands might be needed to fit the table in the PDF. See Section [Personalized Tables](tables-personalized.md).
 
-Finally, we will expand the regression table. We will include more models and more
-options. We will create a \verb|Model2|, which includes the independent variable
-\verb|weight| and a \verb|Model3| which includes the independent variables
-\verb|weight| and \verb|foreign|. Save the results with \verb|estimates store|
-for each model:
-\begin{verbatim}
+Finally, we will expand the regression table. We will include more models and more options. We will create a `Model2`, which includes the independent variable `weight` and a `Model3` which includes the independent variables `weight` and `foreign`. Save the results with `estimates store` for each model:
+
+```latex
 ***/
 quietly reg price mpg weight
 estimates store Model2
 quietly reg price mpg weight foreign
 estimates store Model3
 /***
-\end{verbatim}
+```
 
-To create the .tex file containing the table, we use again the command \verb|esttab|.
-Now, we will include our three models stored. We will also include the options
-\verb|nonumbers| (will take out the number from the heading row), \verb|label|
-(will use Stata's labels in the variable colums), and \verb|mtitles| (to name
-the results colums with our own titles). We also want to add the r-squared by
-including the option \verb|r2(2)|.
-\begin{verbatim}
+To create the `.tex` file containing the table, we use again the command `esttab`. Now, we will include our three models stored. We will also include the options
+`nonumbers` (will take out the number from the heading row), `label` (will use Stata's labels in the variable colums), and `mtitles` (to name the results colums with our own titles). We also want to add the r-squared by including the option `r2(2)`.
+
+```latex
 ***/
 esttab Model1 Model2 Model3 using ".\report\Table3.tex", ///
 r2(2) replace label nonumbers mtitles("Model 1" "Model 2" "Model 3")
 /***
-\end{verbatim}
+```
 
-The new \verb|Table3.tex| file will produce this table:
+The new `Table3.tex` file will produce this table:
 
+```latex
 \begin{table}[H]
 \centering
 	\input{Table3}
 \caption{Summary Statistics}
 \end{table}
+```
 
 Download the [practice Do-File on Tables OLS](https://crenteriam.github.io/files/tutorials/tables-ols.do).
 
