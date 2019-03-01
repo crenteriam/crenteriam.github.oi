@@ -92,7 +92,15 @@ PAR.
 section, caption, begin figure and table, input, title, date, today, author, maketitle,
 textit, textbold,.
 
-### Troubleshooting Latex
+### Errors and Debugging in Latex
+
+Besides having a less human-readable programming syntax than Stata, Latex
+[art of problem solving](https://www.tug.org/TUGboat/tb26-1/schwartz.pdf)
+[teach me to debug](https://tex.stackexchange.com/questions/309010/teach-me-to-debug)
+[Latex for Complete Novices](https://www.dickimaw-books.com/latex/novices/)
+[Common Errors](https://www.dickimaw-books.com/latex/novices/html/commonerrors.html)
+
+
 
 Troubleshooting is one of the most time-consuming parts of learning compiling dynamic documents, specially in Latex. The best way to (avoid and) solve troubles is by using text editors. As explained in [Chapter X](), the Do-File Editor is very limited compared to others, and it is specially unhelpful for troubleshooting.
 
