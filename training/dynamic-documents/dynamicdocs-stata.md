@@ -22,6 +22,8 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 |               | [Other Integration Tools](software-other.md)  |
 | **Part II**   | **Execute** |
 | **4**         | **Structure of the Do-File**  |
+|               | Structure of the Do-File |
+|               | Programming Style  |
 | **5**         | **Writing a Report** |
 | **6**         | **Data Management**   |
 | **7**         | **Graphics**  |
