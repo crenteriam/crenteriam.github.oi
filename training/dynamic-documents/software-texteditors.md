@@ -16,16 +16,15 @@ Software &rarr; <a href="https://crenteriam.github.io/training/stata/stata/">Sta
 
 ### Why does it Matter?
 
-### Do-File Editor (text editor)
+### The Do-File Editor is a text editor
 
-- dofile is a text Editor
+So the Do-File Editor is indeed an instance of plain text editors. As it is still (up to Version 15) conceived only for Stata language, the Do-File Editor does a decent job handling only Stata programming syntax. Even with Stata syntax, it lacks many features, such as autocompletion of programming code and interactive in-line docmentation, and a folder/file navigation bar.
+
+When transitioning towards Dynamic Documents, you will be highly benefited from a text editor with syntax highlights for multiple languages, along with all the points mentioned below.
 
 ### Comparing Do-File Editor with others
 
-
-[text editors](https://en.wikipedia.org/wiki/List_of_text_editors)
-
-A Text Editor is a software that produces some output by just typing plain text. For example, the Do-File processes data and makes calculations thorugh an, essentially, data filled with plain text. For Windows users, the classic example of a text editor is Microsoft notepad. That is a great example of plain text.
+A Text Editor is a software that produces some output by just typing plain text. For example, the Do-File processes data and makes calculations thorugh an, essentially, data filled with plain text. For Windows users, the classic example of a text editor is Microsoft notepad. That is a great example of plain text. But there are [plenty of text editors](https://en.wikipedia.org/wiki/List_of_text_editors), most of them are open source.
 
 Text Editors contrast with rich text applications, such as word processors. In rich text applications, like Word, you can format and edit the text you are typing.
 
@@ -42,19 +41,30 @@ Overleaf deserves a worthy note...
 Features of a good Text Editor (for use in statistical programming and text processing:)
 - It's open source software. Not only the advantage of being *gratis*, and having your files usable across any platform and computer, but also because the community of users produce very useful add-ons.
 - It is supported across several platforms (Windows, Mac or Linux)
-- Supports several programming languages.
+- Supports multiple programming languages.
 - Programming syntax highlighters.
 - Autocompletion of programming code
 - Troubleshooting tools
 - Interactive inline documentation
 
-Disadvantages of Do-File Editor as text editor:
-- It only supports Stata syntax highlights.
-- It does not provide autocompletion of programming code
-- No Troubleshooting tools
-- Licensed software.
+
+
 
 [Using Atom as a Latex Editor](https://medium.com/@lucasrebscher/using-atom-as-a-latex-editor-93756de3d726)
 [markup language](https://en.wikipedia.org/wiki/Markup_language)
+
+### Latex editors
+
+A Latex Editor is simply a text editor specialized in Latex. By specializing in Latex, they are of much more help with autocompletion of Latex programming syntax, rendering previews of the document, and more importantly, when debugging errors. Most of the Latex Editors are a more friendly user interfase for writers (rather than programmers). In other words, they look more like Word (with buttons or shortcuts for italics, bold, bullet points, etc.) which, we think, is very, very welcomed for social science researchers. In summary, Latex Editors make using Latex a far less painful experience.
+
+Here is a [list](https://beebom.com/best-latex-editors/) of polular Latex Editors: TeXworks (installed by default with the Miktex distribution), TeXmaker, TeXstudio, and teXlipse.
+
+A notable mention are the cloud-based Latex Editors, such as overleaf (merged with the defunct ShareLatex) and Authorea. Cloud-based Latex Editors have many advantages, for example:
+
+1. A repository of open source templates for any type of documents (templates for hundreds of scientific journals, dissertations, CVs, handouts, etc.).
+2. Highly collaborative enviroments (Google Doc-like collaborative documents)
+3. A strong version control system. In fact, you can integrate your documents with github, which enhances the collaborativeness and version control of your projects.
+4. As the platforms have all distributions and packages in servers, you don't need to install anything. Therefore, any computer you use is ready for working in Latex (as long as you are connected to the Internet).
+
 
 data -> editor (md, tex, do, r, rmd) -> document (html,rft,word, html, epub,pdf)
