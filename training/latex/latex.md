@@ -23,7 +23,8 @@ PAR Tex editors – that is, software that enables you to enter and edit your te
 
 PAR Compiling. What is. Creating a viewable or printable document in its final format requires running the tex editor, that is, telling the tex editor to process the text and formatting commands you have entered. This is called “compiling”.
 
-PAR the grammar
+PAR the programming syntax
+-- Note: it seems a pattern - the more powerful a programming language is (i.e. computing efficient and general purpose), the most ackward the programming syntax is. Take a look on the most powerful programming languages c++, fortran, and even html. On the other hand, the most user-friendly, the most limited. Compare Markdown with html.. Latex, in our opinion, fall among the most powerful markup language, and therefore is are really awckward typesetting tool at the beginning.
 
 PAR - what is documentclass and what options do i have
 - what is being document, what do you begin and end

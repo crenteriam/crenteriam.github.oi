@@ -16,6 +16,14 @@ Software &rarr; <a href="https://crenteriam.github.io/training/stata/stata/">Sta
 
 ### Why does it Matter?
 
+Why Latex matters:
+- Suppose you sent to a journal and were rejected. Next step is sending to another journal. How much time would it take you to reformat.
+- Suppose you decide to change the font type of all your titles...
+- You are working with a very long report (+100 pages).
+- Hadley: "If you are writing a scholarly paper or
+a dissertation that incorporates data of any sort, and especially numerical data, a good text editor can make it easier to maintain control of things. Just as the actual numbers are crunched by your stats program—not your text editor—the typesetting of your paper is handled by a specialized application, too. at tool should automatically take care of things like entries in your bibliography, the labelling of tables and gures, and cross-references and other paraphernalia"
+- In sum, they are a productivity tool that helps the researcher by taking care of some burdensome tasks (bibliography, citation style, fonts, layout, and most importantly accurate data in tables and figures, math writing). It's not that these don't exist elsewhere. Word processors have many of these integrated tools and work just fine for most people. But we (and many other people) feel that writing up your research through integrating tools (integrating the whole research process), improves quality and productivity, compared with a non-integrated approach (Stats Software + Word Processor).
+
 ### The Do-File Editor is a text editor
 
 So the Do-File Editor is indeed an instance of plain text editors. As it is still (up to Version 15) conceived only for Stata language, the Do-File Editor does a decent job handling only Stata programming syntax. Even with Stata syntax, it lacks many features, such as autocompletion of programming code and interactive in-line docmentation, and a folder/file navigation bar.
@@ -30,7 +38,7 @@ Text Editors contrast with rich text applications, such as word processors. In r
 
 Latex, Markdown, and HTML are markup languages that will enrich the text visually represented in documents.
 
-- text editors vs word processors
+- [text editors vs word processors](http://ricardo.ecn.wfu.edu/~cottrell/wp.html)
 
 Computing programmers develop software in text processors. Although most of the text editors are targeted for a software developing audience, the spread of programming statistics have seen the integration of statistics programming languages incorporated into the capabilities of text editors.
 
@@ -46,6 +54,7 @@ Features of a good Text Editor (for use in statistical programming and text proc
 - Autocompletion of programming code
 - Troubleshooting tools
 - Interactive inline documentation
+- Will passively point out when you typed something wrong (sintactically) ["Lint, or a linter, is a tool that analyzes source code to flag programming errors, bugs, stylistic errors, and suspicious constructs"]
 
 
 
