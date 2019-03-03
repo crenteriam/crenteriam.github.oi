@@ -35,6 +35,8 @@ Note that there is an `[h]` at the right side of `\begin{table}`. This indicates
 
 The <u>rows</u> have a different logics. Each programming line is a row. Each row has to end with `\\` which is equivalent to hit enter in your word processor. For example, from the code chunk above `Cell A & Cell B \\` represents the first row of the table. As for that chunk we definded two columns, *Cell A* will be the text contained in the first row and first column. The symbol `&` separates columns within the same row. For example, in the chunk above, the text `Cell B` will be the contents of the second column, as it resides at the right of `&`. Since we only have two columns in the example, the next step is to end the line with `\\`. Naturally, indicating a different number of columns in the rows than the number indicated in `\begin{tabular}` will produce and error (which is happens often).
 
+[tutorial video for tables](https://www.youtube.com/watch?v=ZJy3EqSMKso&list=PLHRAARhM2yAwbJfd71VpqpvNzkBYEBSzt&index=8)
+
 [Up](#Contents)
 
 ### Basic Editing of Lates Tables

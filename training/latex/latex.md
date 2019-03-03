@@ -30,20 +30,25 @@ PAR - what is documentclass and what options do i have
 - what is being document, what do you begin and end
 - https://www.youtube.com/watch?v=Y-kXtWdjtmw
 
+Every Latex file starts with the command `\documentclass{}`, which specifies the type of document that will be rendered. The most common options are `article`, `report`, `memoir`, and `beamer`. For the whole book, we will only use `article`.
+
 ```latex
 \command[options]{target}
 ```
+The chunk below shows a very simple example of a Latex document. In this example, we are using an `article` type of document and defined the font size as `[12pt]`. For a visual example of this code running, watch the video [Learn Latex in 5 minutes](https://www.youtube.com/watch?v=Y-kXtWdjtmw) or [this if you are using Mac](https://www.youtube.com/watch?v=qFfZT8R5Tds&index=2&list=PLHRAARhM2yAwbJfd71VpqpvNzkBYEBSzt).
+
+[video abstract, footnotes etc](https://www.youtube.com/watch?v=JtmEhKGSvak&list=PLHRAARhM2yAwbJfd71VpqpvNzkBYEBSzt&index=5)
 
 ```latex
-\documentclass[12pt]{target}
+\documentclass[12pt]{article}
 % Preamble Section.
 % Everything by the left side of % are comments
 \begin{document}
 Body of the Document. This test will be printed.
+% Body of the document
 % Comments within the body of the document. Will not be printed.
 \end{document}
 ```
-
 ### Getting Started
 
 To get started, you need to have installed:
@@ -54,19 +59,23 @@ To get started, you need to have installed:
 Most distributions and editors require that you install software on your computer. However, there are also several web- or browser-based interfaces that do not require you to install anything on your computer (e.g., Sharelatex). Installing software on your computer will often make it easier for you to access the software when you need it, and make it easier to control
 what you want to do. Whatever you choose, I encourage you to look for free, open-source options.
 
+Watch the video [Starting a Report and Title Page](https://www.youtube.com/watch?v=7HC9xEZsqdM) to see how to help yourself making your first report (one that includes title, author, and sections).
+
+Alexander Baran-Harper have put on YouTube a nice, short and complete series of videos of [Latex Report Writing Tutorials](https://www.youtube.com/watch?v=FXujG7c9p8g&list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D). These videos go over all you need to know about Latex for this book.
+
 <u>Tex Distribution:</u>
 
 The most common distribution for <u>Windows</u> is [MiKTeX](https://miktex.org/). [Protex](http://www.tug.org/protext/) is also a very good option that comes along with TexStudio. For Mac, we recommmend the [MacTeX](http://tug.org/mactex/) distribution and [TeXshop](https://pages.uoregon.edu/koch/texshop/) as TeX Editor. For Linux users, the [TeXLive](https://www.tug.org/texlive/) distributon. Some installations of MacTex and TeXLive will automatically install the Text Editor.
 
 For <u>Text Editors</u> see section [Text Editors]().
 - TeX Editors.[^1]
-
 - The cloud service Overleaf is a great alternative.
+- watcxh this video for seing a latex editor running [x](https://www.youtube.com/watch?v=SoDv0qhyysQ&index=1&list=PLTejunv6WZfG-b9a0o0OcVMRpIJIlcHhF)
 
 ```latex
 \documentclass{article}
 \begin{document}
-Printed text in the document.
+This text will be printed in the body of the document.
 \end{document}
 ```
 
@@ -96,23 +105,16 @@ textit, textbold,.
 ### Errors and Debugging in Latex
 
 Besides having a less human-readable programming syntax than Stata, Latex
-[art of problem solving](https://www.tug.org/TUGboat/tb26-1/schwartz.pdf)
-[teach me to debug](https://tex.stackexchange.com/questions/309010/teach-me-to-debug)
-[Latex for Complete Novices](https://www.dickimaw-books.com/latex/novices/)
-[Common Errors](https://www.dickimaw-books.com/latex/novices/html/commonerrors.html)
-
-
+- [art of problem solving](https://www.tug.org/TUGboat/tb26-1/schwartz.pdf)
+- [teach me to debug](https://tex.stackexchange.com/questions/309010/teach-me-to-debug)
+- [Latex for Complete Novices](https://www.dickimaw-books.com/latex/novices/)
+- [Common Errors](https://www.dickimaw-books.com/latex/novices/html/commonerrors.html)
 
 Troubleshooting is one of the most time-consuming parts of learning compiling dynamic documents, specially in Latex. The best way to (avoid and) solve troubles is by using text editors. As explained in [Chapter X](), the Do-File Editor is very limited compared to others, and it is specially unhelpful for troubleshooting.
 
 The best troubleshooting alternatives are Overleaf, TexStudio. These are specialized text editors in Latex and will provide you the line with the problem and a concrete explanation. They also will automatically flag elementary problems, such as a closing `}` missing or things like that.
 
 Other ways to avoid troubleshooting in both Stata and Latex, is by writing your Do-Files from third party text editors. Recommended Atom and Sublime Texts. Old-School, highly robust alternatives are Vim and Emacs.
-
-
-### Videos
-https://www.youtube.com/watch?v=7HC9xEZsqdM
-https://www.youtube.com/watch?v=SoDv0qhyysQ&list=PLTejunv6WZfG-b9a0o0OcVMRpIJIlcHhF
 
 ### References
 - [Overleaf Documentation](https://www.overleaf.com/learn)

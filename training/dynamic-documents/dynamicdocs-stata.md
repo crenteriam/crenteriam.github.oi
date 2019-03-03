@@ -9,15 +9,15 @@ tag: dynamic documents, stata, research workflow, research reproducibility, repr
 <a name="Contents"></a>
 [Teaching](../../../teaching) &rarr; Dynamic Documents with Stata
 
-This is a set of working files for a book that I am preparing on Reproducible Research with Stata. Origionally it was a buch of files that I collected from my teaching assistantship, and I started to put them together into these files.
+This is a work in progress...
 
 | **Part I**    |  **Basics** |
-| **1**         | **[Reproducible Research]()**   |
+| **1**         | **[Reproducible Research*]()**   |
 | **2**         | **Software**  |
 |               | [Stata](../../stata/stata)  |
 |               | [Latex](../../latex/latex)  |
 |               | [Markdoc](software-markdoc.md)  |
-|               | [Markdown]()  |
+|               | [Markdown*]()  |
 |               | [Text Editors](software-texteditors.md)    |
 |               | [Other Integration Tools](software-other.md)  |
 | **Part II**   | **Execute** |
@@ -30,7 +30,7 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 |               | [Introduction](graphics.md)  |
 |               | [Create Graphics in Stata](graphics-stata.md)  |
 |               | [Display Graphics in Latex](graphics-latex.md)  |
-|               | [Advanced Graphics in Stata](TBD)  |
+|               | [Advanced Graphics in Stata*](TBD)  |
 | **8**         | **Tables**   |
 |               | [Create and Store Tables in Stata](tables-stata.md)  |
 |               | [Latex Syntax for Tables](tables-latex.md)  |
@@ -38,5 +38,5 @@ This is a set of working files for a book that I am preparing on Reproducible Re
 |               | [Regression Tables](tables-ols.md)  |
 |               | [Personalized Tables](tables-personalized.md)  |
 | **9**         | **Version Control and Collaboration**  |
-|               | [Version Control]()  |
-|               | [Collaborative Work in Stata]()  |
+|               | [Version Control*]()  |
+|               | [Collaborative Work in Stata*]()  |

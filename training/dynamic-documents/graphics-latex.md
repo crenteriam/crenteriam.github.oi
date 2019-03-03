@@ -61,6 +61,8 @@ Describe some intermediate packages: longtable, tabularx.
 \begin{document}
 ```
 
+[tutorial video for figures](https://www.youtube.com/watch?v=Br4vMpArpV0&list=PLHRAARhM2yAwbJfd71VpqpvNzkBYEBSzt&index=13)
+
 [Up](#Contents)
 
 [^1]: This command is compatible with Stata. Therefore, your working directory is the same you set with the Stata's commmand `cd`. Also, you can check out by typing `pwd` in the Stata Console.

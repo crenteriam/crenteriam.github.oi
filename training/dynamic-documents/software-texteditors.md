@@ -55,6 +55,7 @@ Features of a good Text Editor (for use in statistical programming and text proc
 - Troubleshooting tools
 - Interactive inline documentation
 - Will passively point out when you typed something wrong (sintactically) ["Lint, or a linter, is a tool that analyzes source code to flag programming errors, bugs, stylistic errors, and suspicious constructs"]
+- Aid for finding and replacing text
 
 
 
