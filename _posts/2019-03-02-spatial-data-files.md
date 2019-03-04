@@ -23,4 +23,4 @@ However, you might find data that comes in different formats. Besides Shapefiles
 - GeoJSON files may have an optional coordinate reference system.
 - There are some nice tools in the web for working with GeoJSON: geojsonlit to validate your data in a map; ogre.adc4gis.com for transforming from GeoJSON to Shapefile or viceversa; geojson.io for editing your map’s features.
 
-**OSM**. As GeoJSON and KML files, OSM can include multiple layers in one file. | Native file format for OSM.
+**OSM**. As GeoJSON and KML files, OSM can include multiple layers in one file. Native file format for OSM.
