@@ -43,6 +43,7 @@ As the `Table1.tex` is created in the chunk above creates a ***tabular*** eviron
 
 ```stata
 * The estout table way (1/2)
+* First, in Stata, do:
 reg price mpg
 estimates store Model1
 esttab Model1 using ".\tables\Table1.tex", title("Title for the Figure" \label{tab:table1}) replace
@@ -50,11 +51,13 @@ esttab Model1 using ".\tables\Table1.tex", title("Title for the Figure" \label{t
 
 ```latex
 % The estout table way (2/2)
+% Then, in Latex, do:
 \input{Table1}
 ```
 
 ```stata
 * The Latex table way (1/2)
+* First, in Stata, do:
 reg price mpg
 estimates store Model1
 esttab Model1 using ".\tables\Table1.tex", replace
@@ -62,6 +65,7 @@ esttab Model1 using ".\tables\Table1.tex", replace
 
 ```latex
 % The Latex table way (2/2)
+% Then, in Latex, do:
 \begin{table}[h]
 \input{Table1}
 \caption{Title for the Figure}
@@ -87,77 +91,59 @@ reg price mpg weight foreign
 estimates store Model3
 ```
 
-Now, place all the three models stored `Model1`, `Model2` and `Model3` as shown in the chunk below. In the option `mtitles()` title each of your models, the option `nonumbers` will get rid of the model numeration above the titles (if needed), and `r2(2)` will print the R2 squared with two decimal digits.
+Now, place all the three models stored `Model1`, `Model2` and `Model3` as shown in the chunk below. In the option `mtitles()` title each of your models, the option `nonumbers` will get rid of the model numeration above the titles (if needed), and `r2(2)` will print the R2 squared with two decimal digits. The output of the code below will produce a ***tabular***, not a ***table***. Then you have to choose either the *estout table way* or the *latex table way* to complete the step 2.
 
 ```stata
-esttab Model1 Model2 Model3 using \report\Table3.tex, mtitles("Model 1" "Model 2" "Model 3") r2(2) nonumbers replace
-```
-
-### Basic layout editing
-
-Common problems:
-- Extended options. Titling. (titling in estout and titling in laex) The problem of double tabular in estout.
-- How can I define the number of decimals in my table?
-- My table does not fit the page width. Textwidth. Tabularx.
-- My table does not fit in one page. Longtables. Compress tables.
-
-### Format Model Titles and Variable Labels
-
-To create the `.tex` file containing the table, we use again the command `esttab`. Now, we will include our three models stored. We will also include the options `nonumbers` (will take out the number in parenthesis from the headings row), `label` (will use Stata's labels in the variable colums, see [link to label subsection here](), and `mtitles` (to name the results colums with our own titles). We also want to add the r-squared by including the option `r2(2)` (the number 2 in parenthesis tells Stata to display two decimals). You can add a note with the option `addnote`.
-
-```stata
-esttab Model1 Model2 Model3 using ".\report\Table3.tex", ///
-       r2(2) replace label nonumbers ///
-       mtitles("Model 1" "Model 2" "Model 3") ///
-       addnote("This is a note.")
+esttab Model1 Model2 Model3 using "\tables\Table3.tex", mtitles("Model 1" "Model 2" "Model 3") r2(2) nonumbers replace
 ```
 
 The new `Table3.tex` file will produce this table:
 
-![Summary Statistics](Ancillary/Tables/04_01_Table3.tex)
+![OLS Table](image)
 
-### Expand/Reduce statistical information in the regression table
+### Tabular environment formatting within `estout`
 
-**Additional statistics.** Yo can include more information on the regression table, such as F-statistic (`F`, Adjusted R Squared `ar2`, number of observations (`N`), etc. (see [esttab](http://repec.sowi.unibe.ch/stata/estout/esttab.html)). You can also add ad hoc estimations to the regression table (e.g. [Chow test](http://personal.rhul.ac.uk/uhte/006/ec5040/chow\%20test.pdf), [estadd](http://repec.sowi.unibe.ch/stata/estout/estadd.html)).
+- **label**. The tables will print the name of the variable by default (e.g. *mpg*), but you may want to print a publishable mane for the variable, for example, *Mileage per Gallon*. The `estout` package is fully compatible with the Stata's `label variable` command.[^1] To print labels, you need to label all the variables (we racommend you to do this in the *data_management.do* file), and then use the option `label` when running the command `estpost` for descriptives or `esttab` for regressions.
+- **nonumbers**. Avoids printing the regression number in the tabular header. For descriptive statistics tables, do not print column number in the table header.
+- **nomtitle**. Disable the model titles, or the column titles.
+- **mtitles()**. Specify a title for the model.
+- **depvars/nodepvars**. Use/do not use use dependent variables as model titles. (the default is depvars).
+- **addnote()**. Add a note beneath the tabular.
+- **Regression Statistics**. Yo can include more information on the regression table, such as F-statistic (`F`, Adjusted R Squared `ar2`, number of observations (`N`), etc. (see [esttab](http://repec.sowi.unibe.ch/stata/estout/esttab.html) for more options). You can also add personalized estimations to the regression table (e.g. [Chow test](http://personal.rhul.ac.uk/uhte/006/ec5040/chow\%20test.pdf)) with the command [estadd](http://repec.sowi.unibe.ch/stata/estout/estadd.html).
+- **Hide independent variables**.
+- **Choose parameters to be displayed**. (stars, t-statistic, s.e., -- se conf interv, p-value, t-statistic, stars.)
+- **Number of decimals printed**.
 
-todo:
-- how to display fewer independent variables (keep and drop)
-- how to select parameter statistics for display (stars, t-statistic, s.e., -- se conf interv, p-value, t-statistic, stars.)
-- define number of decimals printed.
+Example <u>without</u> any estout options:
 
-This section presented Stata's commands to edit the output to be presented in the regression table. Complementary Latex commands might be needed to fit the table in the PDF. See Section [Personalized Tables](tables-personalized.md).
+![Print table]()
 
-Finally, we will expand the regression table. We will include more models and more options. We will create a `Model2`, which includes the independent variable `weight` and a `Model3` which includes the independent variables `weight` and `foreign`. Save the results with `estimates store` for each model:
+Example <u>with</u> the estout options `label` `nonumbers`, `nomtitle`, `addnote()`:
 
 ```stata
-quietly reg price mpg weight
-estimates store Model2
-quietly reg price mpg weight foreign
-estimates store Model3
+esttab DescriptivesAuto using ".\tables\Table2.tex", label nonumbers nomtitle addnote("This is a note.") replace
 ```
+![Print table]()
 
-To create the `.tex` file containing the table, we use again the command `esttab`. Now, we will include our three models stored. We will also include the options
-`nonumbers` (will take out the number from the heading row), `label` (will use Stata's labels in the variable colums), and `mtitles` (to name the results colums with our own titles). We also want to add the r-squared by including the option `r2(2)`.
+[Up](#Contents)
 
-```latex
-***/
-esttab Model1 Model2 Model3 using ".\report\Table3.tex", ///
-r2(2) replace label nonumbers mtitles("Model 1" "Model 2" "Model 3")
-/***
-```
+### Table environment formatting within `estout`
 
-The new `Table3.tex` file will produce this table:
+*Note: these options substantially change the nature of your table in Latex; they become table and not tabular environments. You must read the section [Syntax for Tables in Latex](tables-latex.md) before using any of these.*
 
-```latex
-\begin{table}[H]
-\centering
-	\input{Table3}
-\caption{Summary Statistics}
-\end{table}
-```
+- **title()**. Specify a title for your table.
+- **addnotes()**. Add notes to your table.
+- **longtable**. Use the option longable when your table is too long to fit in one page. - - The ***longtable*** environment. Replaces the **table** environment, not the ***tabular***. This  option also requires you to use the Latex package longtable.
+
+
+
+- NOTE:  My table does not fit the page width. Textwidth. Tabularx.
+- NOTE: My table does not fit in one page. Longtables. Compress tables.
 
 Download the [practice Do-File on Tables OLS](https://crenteriam.github.io/files/tutorials/tables-ols.do).
 
-http://repec.org/bocode/e/estout/hlp_esttab.html
+This section presented Stata's commands to edit the output to be presented in the regression table. Complementary Latex commands might be needed to fit the table in the PDF. See Section [Personalized Tables](tables-personalized.md).
+
+[helpesttab](http://repec.org/bocode/e/estout/hlp_esttab.html)
 
 [Up](#Contents)
