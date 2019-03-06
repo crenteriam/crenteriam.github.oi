@@ -27,7 +27,7 @@ Install the package with the command line `ssc install estout`. Now, open the da
 
 First load the *auto* data. Then use `estpost` and `summarize` to print a summary statistics table.
 
-```Stata
+```stata
 sysuse auto
 estpost summarize mpg price weight
 ```

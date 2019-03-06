@@ -13,6 +13,62 @@ Tables &rarr; - <a href="https://crenteriam.github.io/training/dynamic-documents
 </p>
 
 ### Basic OLS Table
+
+By using the data set `auto` (so you ca replicate in any computer), we will create a basic OLS table with `estout`. This task requires two steps. The first step is creating a `.tex` file **within Stata** that contains the table in Latex markup language. The second step is to print the `.tex` table within Latex.
+
+<u>Step 1</u>
+
+Run your regression and store your results. To store the regression results, you can use the command `estimates store` and then name the results. In this case, I used the name Model1. Alternatively, you can use the `estout` command `eststo`. Whatever fits you better.
+
+```stata
+* Alternative 1, with built-in command "estimates store"
+reg price mpg
+estimates store Model1
+
+* Alternative 2, with estout command "eststo"
+eststo Model1: reg price mpg
+```
+Now, we are going to use the results stored in `Model1` to create a `.tex` file that will contain the formatted regression table. To do so, we need the command `esttab`, then type Model1 (where the results are stored) followed by `using` and the file path and file name. In the example below, we stored the `.tex` file with the name `Table1` in the folder tables. (Don't forget the option replace).
+
+```stata
+esttab Model1 using ".\tables\Table1.tex", replace
+```
+<u>Step 2:</u>
+
+The step 1 produced the table and saved it as a `.tex` file, but will not print it in the document. To do so, you need to call the `Table1.tex` file within your Latex document. In Latex, the command `\input{}` runs another `.tex` file within a `.tex` file, just like the Stata commands `do`, `run` or `include` run another Do-File within your Do-File.
+
+As the `Table1.tex` is created in the chunk above creates a ***tabular*** evironment, not a ***table*** environment. You want to print a ***table*** environment in your Latex file. This is where the step 2 **becomes tricky** because you can do that in two ways. Let's call them the *estout table way* and the *latex table way*, and look at them in detail.
+
+*Note: before going further, we will assume that you know the differences between the tabular and table environments, which were explained in the section xxx*
+
+```stata
+* The estout table way (1/2)
+reg price mpg
+estimates store Model1
+esttab Model1 using ".\tables\Table1.tex", title("Title for the Figure" \label{tab:table1}) replace
+```
+
+```latex
+% The estout table way (2/2)
+\input{Table1}
+```
+
+```stata
+* The Latex table way (1/2)
+reg price mpg
+estimates store Model1
+esttab Model1 using ".\tables\Table1.tex", replace
+```
+
+```latex
+% The Latex table way (2/2)
+\begin{table}[h]
+\input{Table1}
+\caption{Title for the Figure}
+\label{tab:table1}
+\end{table}
+```
+
 ### Multiple models in one table
 ### Basic layout editing
 
@@ -27,9 +83,9 @@ Common problems:
 Finally, we will expand the regression table. We will include more models and more options. We will create a `Model2`, which includes the independent variable `weight` and a `Model3` which includes the independent variables `weight` and `foreign`. Save the results with `estimates store` for each model:
 
 ```stata
-quietly reg price mpg weight
+reg price mpg weight
 estimates store Model2
-quietly reg price mpg weight foreign
+reg price mpg weight foreign
 estimates store Model3
 ```
 ### Format Model Titles and Variable Labels
