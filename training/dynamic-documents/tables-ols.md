@@ -70,6 +70,29 @@ esttab Model1 using ".\tables\Table1.tex", replace
 ```
 
 ### Multiple models in one table
+
+Let'c create a table with multiple models. First, run each model and store the resulsts with `estimates store`.
+
+```stata
+* Model 1
+reg price mpg
+estimates store Model1
+
+* Model2
+reg price mpg weight
+estimates store Model2
+
+* Model 3
+reg price mpg weight foreign
+estimates store Model3
+```
+
+Now, place all the three models stored `Model1`, `Model2` and `Model3` as shown in the chunk below. In the option `mtitles()` title each of your models, the option `nonumbers` will get rid of the model numeration above the titles (if needed), and `r2(2)` will print the R2 squared with two decimal digits.
+
+```stata
+esttab Model1 Model2 Model3 using \report\Table3.tex, mtitles("Model 1" "Model 2" "Model 3") r2(2) nonumbers replace
+```
+
 ### Basic layout editing
 
 Common problems:
@@ -78,16 +101,6 @@ Common problems:
 - My table does not fit the page width. Textwidth. Tabularx.
 - My table does not fit in one page. Longtables. Compress tables.
 
-### Multiple Models in one Table
-
-Finally, we will expand the regression table. We will include more models and more options. We will create a `Model2`, which includes the independent variable `weight` and a `Model3` which includes the independent variables `weight` and `foreign`. Save the results with `estimates store` for each model:
-
-```stata
-reg price mpg weight
-estimates store Model2
-reg price mpg weight foreign
-estimates store Model3
-```
 ### Format Model Titles and Variable Labels
 
 To create the `.tex` file containing the table, we use again the command `esttab`. Now, we will include our three models stored. We will also include the options `nonumbers` (will take out the number in parenthesis from the headings row), `label` (will use Stata's labels in the variable colums, see [link to label subsection here](), and `mtitles` (to name the results colums with our own titles). We also want to add the r-squared by including the option `r2(2)` (the number 2 in parenthesis tells Stata to display two decimals). You can add a note with the option `addnote`.
@@ -103,7 +116,7 @@ The new `Table3.tex` file will produce this table:
 
 ![Summary Statistics](Ancillary/Tables/04_01_Table3.tex)
 
-### Expand/Reduce Regression Information
+### Expand/Reduce statistical information in the regression table
 
 **Additional statistics.** Yo can include more information on the regression table, such as F-statistic (`F`, Adjusted R Squared `ar2`, number of observations (`N`), etc. (see [esttab](http://repec.sowi.unibe.ch/stata/estout/esttab.html)). You can also add ad hoc estimations to the regression table (e.g. [Chow test](http://personal.rhul.ac.uk/uhte/006/ec5040/chow\%20test.pdf), [estadd](http://repec.sowi.unibe.ch/stata/estout/estadd.html)).
 
@@ -116,13 +129,11 @@ This section presented Stata's commands to edit the output to be presented in th
 
 Finally, we will expand the regression table. We will include more models and more options. We will create a `Model2`, which includes the independent variable `weight` and a `Model3` which includes the independent variables `weight` and `foreign`. Save the results with `estimates store` for each model:
 
-```latex
-***/
+```stata
 quietly reg price mpg weight
 estimates store Model2
 quietly reg price mpg weight foreign
 estimates store Model3
-/***
 ```
 
 To create the `.tex` file containing the table, we use again the command `esttab`. Now, we will include our three models stored. We will also include the options

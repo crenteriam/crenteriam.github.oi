@@ -75,12 +75,6 @@ The Table \ref{tab:example} shows that...
 
 <div style="text-align:center"><img src ="..." /></div>
 
-**Multiple Columns** TBD.
-
-**Multiple Rows** TBD.
-
-**Rotating Text** TBD.
-
 ### Table Size {#TableSize}
 
 There are three common issues related with the table size. Typically, the table width can be <u>wider</u> than the page width; the table can be <u>longer</u> than one page; or you might want to rotate the table to be printed as <u>landscape-like</u>. The environment ***tabular*** cannot performe any of these tasks. Therefore you need one of the following alternatives.
@@ -132,5 +126,7 @@ Finally, here is [all else you need to know about Latex Tables](https://en.wikib
 Download the [practice Do-File on Tables OLS](https://crenteriam.github.io/files/tutorials/tables-latex.do).
 
 [Up](#Contents)
+
+
 
 [^1]: This stackexchange tread has about everything you need to know about [how to influence the position of float environments like figure and table in Latex](https://tex.stackexchange.com/questions/39017/how-to-influence-the-position-of-float-environments-like-figure-and-table-in-lat)

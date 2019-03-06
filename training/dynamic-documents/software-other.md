@@ -28,3 +28,14 @@ To use pandoc within Stata, you need to call the Operating System's terminal. Th
 ```
 
 ### Other integration tools (knitr and Sweave)
+
+
+### note. Latex Tables Advanced
+
+**Multiple Columns** TBD.
+
+**Multiple Rows** TBD.
+
+**Rotating Text** TBD.
+
+-- Table editor.

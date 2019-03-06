@@ -28,15 +28,15 @@ This is a work in progress...
 | **6**         | **Data Management**   |
 | **7**         | **Graphics**  |
 |               | [Introduction](graphics.md)  |
-|               | [Create Graphics in Stata](graphics-stata.md)  |
-|               | [Display Graphics in Latex](graphics-latex.md)  |
-|               | [Advanced Graphics in Stata*](TBD)  |
+|               | [Syntax for Graphics in Stata](graphics-stata.md)  |
+|               | [Syntax for Graphics in Latex](graphics-latex.md)  |
+|               | [Advanced Graphics*](TBD)  |
 | **8**         | **Tables**   |
-|               | [Create and Store Tables in Stata](tables-stata.md)  |
-|               | [Latex Syntax for Tables](tables-latex.md)  |
+|               | [Syntax for Tables in Stata](tables-stata.md)  |
+|               | [Syntax for Tables in Latex](tables-latex.md)  |
 |               | [Descriptive Statistics Tables](tables-descriptives.md)  |
 |               | [Regression Tables](tables-ols.md)  |
-|               | [Personalized Tables](tables-personalized.md)  |
+|               | [Advanced Tables](tables-personalized.md)  |
 | **9**         | **Version Control and Collaboration**  |
 |               | [Version Control*]()  |
 |               | [Collaborative Work in Stata*]()  |
