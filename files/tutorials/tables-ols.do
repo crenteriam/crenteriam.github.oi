@@ -12,7 +12,7 @@ capture mkdir Tables
 * markdoc packages here.
 
 * BEGIN LATEX DOCUMENT  --------------------------------------------------------
-quietly log using LogTableOLS, replace
+quietly log using BasicTableOLS, replace
 /***
 % Switch to Latex
 \documentclass[12pt]{article}
@@ -41,16 +41,17 @@ esttab Model1 using ".\tables\Table1.tex", replace
 * The estout table way (1/2)
 * First, in Stata, do:
 
+*eststo Model1a:reg price mpg
 reg price mpg
-estimates store Model1
-esttab Model1 using ".\tables\Table1.tex", title("Title for the Figure" \label{tab:table1}) replace
+estimates store Model1a
+esttab Model1a using ".\tables\Table1a.tex", title("Title for the Figure" \label{tab:table1}) replace
 
 //ON
 /***
 % Switch to Latex
 \section{Printing Table with the \textit{estout table way}}
 
-\input{./tables/Table1}
+\input{./tables/Table1a}
 
 The Table \ref{tab:table1} shows that ...
 ***/
@@ -62,8 +63,8 @@ The Table \ref{tab:table1} shows that ...
 * First, in Stata, do:
 
 reg price mpg
-estimates store Model1
-esttab Model1 using ".\tables\Table1.tex", replace
+estimates store Model1b
+esttab Model1 using ".\tables\Table1b.tex", replace
 
 //ON
 /***
@@ -72,7 +73,8 @@ esttab Model1 using ".\tables\Table1.tex", replace
 \section{Printing Table with the \textit{Latex table way}}
 
 \begin{table}[h]
-\input{./tables/Table1}
+\centering
+\input{./tables/Table1b}
 \caption{Title for the Figure}
 \label{tab:table2}
 \end{table}
@@ -83,10 +85,10 @@ The Table \ref{tab:table2} shows that ...
 ***/
 * Switch to Stata
 /**/ quietly log close
-markdoc LogTableOLS, markup(latex) export(tex) replace
+markdoc BasicTableOLS, markup(latex) export(tex) replace
 
 * For Windows users, you can compile the pdf with the code below:
-!pdflatex LogTableOLS.tex
-!pdflatex LogTableOLS.tex
-!pdflatex LogTableOLS.tex
-!explorer LogTableOLS.pdf
+!pdflatex BasicTableOLS.tex
+!pdflatex BasicTableOLS.tex
+!pdflatex BasicTableOLS.tex
+!explorer BasicTableOLS.pdf
