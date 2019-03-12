@@ -104,6 +104,10 @@ textit, textbold,.
 
 ### Errors and Debugging in Latex
 
+Writing in Latex is a pain, specially because the errors are hard to catch (specially the simplest ones). Just to give you a sense, this is a [thread that one experienced programmer](https://tex.stackexchange.com/questions/309010/teach-me-to-debug) started in stackexchange about debugging:
+
+> Ok, 35 years of programming has not prepared me to debug tex errors. It's painful.
+
 Besides having a less human-readable programming syntax than Stata, Latex
 - [art of problem solving](https://www.tug.org/TUGboat/tb26-1/schwartz.pdf)
 - [teach me to debug](https://tex.stackexchange.com/questions/309010/teach-me-to-debug)
@@ -115,6 +119,35 @@ Troubleshooting is one of the most time-consuming parts of learning compiling dy
 The best troubleshooting alternatives are Overleaf, TexStudio. These are specialized text editors in Latex and will provide you the line with the problem and a concrete explanation. They also will automatically flag elementary problems, such as a closing `}` missing or things like that.
 
 Other ways to avoid troubleshooting in both Stata and Latex, is by writing your Do-Files from third party text editors. Recommended Atom and Sublime Texts. Old-School, highly robust alternatives are Vim and Emacs.
+
+### Bugs. Greatest Hits.
+The key problem is that the Latex error messages are kind of meaningless for human reading. To help making sense of that, here is our list of Greatest Bug Hits. Make sure you can read all of these error messages and you will be done with about 90% of the errors you will come across.
+
+1. Missing a closing curly bracket (}). Or missing (or wrong) closing an environment.
+2. Missing a Package
+3. Forgetting about special Characters
+4. Mispelled or wrong environment
+5.
+
+![Missing curly bracket](../../files/debugging/latex-missingbracket.png)
+
+### Special Characters
+
+This is very, very important as it is the most common bugs for novices. There are some "reserved" characters that Latex uses as commands for executing some markup. The special characters are:
+
+- \ : used to define the beginning of a command. For example, \input{}. It is also an "escape" symbol.
+- $ : used to mark the beginning of Math notation. When using it, you must use a second dollar sign to mark the end of Math notation.
+- % : used to beginn comment text (same as * or // in Stata).
+- {} : it has a couple of functions, mostly grouping characters for applying the same command (see the example of using underscore right below
+- _ : used to write underscript. For example the molecular formula of water would be H_{2}O. The {} symbols help applying the underscript only to the symbol 2, and not extend it to the symbol O. Underscripts and upperscripts must be used within the Math notation command (the dollar symbols explained above).
+- ^ : used to write upperscripts with the same logics as underscripts.
+- \# : TBD.
+
+To print any of these symbols in your document, you must use the "escape" symbol "\". For example, if you want to write use the dollar symbol for actually talking about dollars, then you must type in the text:
+
+```latex
+The financial report that came yesterday shows that the company Matt \& Cesar Co. had a yearly profit of \$165,000, which represents a 25\%.
+```
 
 ### References
 - [Overleaf Documentation](https://www.overleaf.com/learn)
