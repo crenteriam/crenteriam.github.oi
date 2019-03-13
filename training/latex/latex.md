@@ -124,10 +124,13 @@ Other ways to avoid troubleshooting in both Stata and Latex, is by writing your 
 The key problem is that the Latex error messages are kind of meaningless for human reading. To help making sense of that, here is our list of Greatest Bug Hits. Make sure you can read all of these error messages and you will be done with about 90% of the errors you will come across.
 
 <center>
-Missing a closing curly bracket (}). Or missing (or wrong) closing an environment.
+Missing a closing curly bracket (}).
 </center>
-
 ![Missing curly bracket](../../files/debugging/latex-missingbracket.png)
+
+<center>
+Missing (or wrong) closing an environment.
+</center>
 ![Missing Wrong Environment](../../files/debugging/latex-missingwrongendenvironment.png)
 
 <center>
