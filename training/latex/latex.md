@@ -108,6 +108,10 @@ Writing in Latex is a pain, specially because the errors are hard to catch (spec
 
 > Ok, 35 years of programming has not prepared me to debug tex errors. It's painful.
 
+So, the basics for reading the errors is displayed in the image below.[^2] First, the type of error is displayed after the `!` symbol. In the image below, the error is "undefined control sequence" (God knows...). At the beginning of the next line, after the `l.` you will see the line number (the Latex line, not the line shown in the Do-File editor). To check out the Latex line, by opening up the `.tex` file. Then, the error is displayed at the end of the line, in the case below is `\toady`, which we can clearly see is about a typo (must be `\today`).
+
+![Reading erros](../../files/debugging/latex-readerrors.png)
+
 Besides having a less human-readable programming syntax than Stata, Latex
 - [art of problem solving](https://www.tug.org/TUGboat/tb26-1/schwartz.pdf)
 - [teach me to debug](https://tex.stackexchange.com/questions/309010/teach-me-to-debug)
@@ -188,3 +192,4 @@ The financial report that came yesterday shows that the company Matt \& Cesar Co
 - https://upload.wikimedia.org/wikipedia/commons/2/2d/LaTeX.pdf
 
 [^1]: See [comparison of TeX Editors](https://en.wikipedia.org/wiki/Comparison_of_TeX_editors).
+[^2]: This image and the explanation is taken from [Dickimaw's website](https://www.dickimaw-books.com/latex/novices/html/commonerrors.html).
