@@ -128,13 +128,17 @@ Other ways to avoid troubleshooting in both Stata and Latex, is by writing your 
 The key problem is that the Latex error messages are kind of meaningless for human reading. To help making sense of that, here is our list of Greatest Bug Hits. Make sure you can read all of these error messages and you will be done with about 90% of the errors you will come across.
 
 <center>
-Missing a closing curly bracket (}).
+Missing a closing curly bracket.
+Error message: Paragraph ended before \\begin was complete.
 </center>
 ![Missing curly bracket](../../files/debugging/latex-missingbracket.png)
 
 <center>
 Missing (or wrong) closing an environment.
 </center>
+
+Read the error: the environment center that was begun at line 6, was ended until \\end{document} in line 10, which is clearly not the proper ending environment.
+
 ![Missing Wrong Environment](../../files/debugging/latex-missingwrongendenvironment.png)
 
 <center>
@@ -144,7 +148,7 @@ Missing a Package
 ![Missing Package](../../files/debugging/latex-missingpackage.png)
 
 <center>
-Forgetting about special Characters
+Forgetting using the escape command "\\" with special Characters
 </center>
 
 ![Special Characters](../../files/debugging/latex-amp.png)
