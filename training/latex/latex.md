@@ -194,6 +194,8 @@ To print any of these symbols in your document, you must use the "escape" symbol
 The financial report that came yesterday shows that the company Matt \& Cesar Co. had a yearly profit of \$165,000, which represents a 25\%.
 ```
 
+Note: also add spacing: // \par, vspace, smallspace, medskip, bigskip, noindent.
+
 ### References
 - [Overleaf Documentation](https://www.overleaf.com/learn)
 - [Latex Wikibook](https://en.wikibooks.org/wiki/LaTeX)
