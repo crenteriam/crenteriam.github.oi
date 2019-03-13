@@ -125,7 +125,7 @@ The key problem is that the Latex error messages are kind of meaningless for hum
 
 <center>
 Missing a closing curly bracket.
-Error message: Paragraph ended before \\begin was complete.
+Error message: Paragraph ended before \begin was complete.
 </center>
 ![Missing curly bracket](../../files/debugging/latex-missingbracket.png)
 
@@ -133,7 +133,7 @@ Error message: Paragraph ended before \\begin was complete.
 Missing (or wrong) closing an environment.
 </center>
 
-Read the error: the environment center that was begun at line 6, was ended until \\end{document} in line 10, which is clearly not the proper ending environment.
+Read the error: the environment center that was begun at line 6, was ended until \end{document} in line 10, which is clearly not the proper ending environment.
 
 ![Missing Wrong Environment](../../files/debugging/latex-missingwrongendenvironment.png)
 
@@ -144,7 +144,7 @@ Missing a Package
 ![Missing Package](../../files/debugging/latex-missingpackage.png)
 
 <center>
-Forgetting using the escape command "\\" with special Characters
+Forgetting using the escape command "\" with special Characters
 </center>
 
 ![Special Characters](../../files/debugging/latex-amp.png)
@@ -165,13 +165,13 @@ Non-existing file
 ![Nonexisting file](../../files/debugging/latex-nonexistingfile.png)
 
 <center>
-Forgot to insert \\end{document}
+Forgot to insert \end{document}
 Note: it doesn't even shows an error. Stops before running the preamble and body parts of Latex.
 </center>
 ![Nonexisting file](../../files/debugging/latex-noendocument.png)
 
 <center>
-Repeated \\documentclass (or repeated a command that must not be repeated)
+Repeated \documentclass (or repeated a command that must not be repeated)
 Note: if you installed one of the newest versions of markdoc you may encounter this problem because markdoc is going to write some Latex code without telling you.
 </center>
 ![Nonexisting file](../../files/debugging/latex-documentclass.png)
@@ -180,13 +180,13 @@ Note: if you installed one of the newest versions of markdoc you may encounter t
 
 This is very, very important as it is the most common bugs for novices. There are some "reserved" characters that Latex uses as commands for executing some markup. The special characters are:
 
-- \ : used to define the beginning of a command. For example, \input{}. It is also an "escape" symbol.
-- $ : used to mark the beginning of Math notation. When using it, you must use a second dollar sign to mark the end of Math notation.
-- % : used to beginn comment text (same as * or // in Stata).
-- {} : it has a couple of functions, mostly grouping characters for applying the same command (see the example of using underscore right below
-- _ : used to write underscript. For example the molecular formula of water would be H_{2}O. The {} symbols help applying the underscript only to the symbol 2, and not extend it to the symbol O. Underscripts and upperscripts must be used within the Math notation command (the dollar symbols explained above).
-- ^ : used to write upperscripts with the same logics as underscripts.
-- \# : Used as macro parameter
+- **\** : used to define the beginning of a command. For example, \input{}. It is also an "escape" symbol.
+- **$** : used to mark the beginning of Math notation. When using it, you must use a second dollar sign to mark the end of Math notation.
+- **%** : used to beginn comment text (same as * or // in Stata).
+- **{}** : it has a couple of functions, mostly grouping characters for applying the same command (see the example of using underscore right below
+- **_** : used to write underscript. For example the molecular formula of water would be H_{2}O. The {} symbols help applying the underscript only to the symbol 2, and not extend it to the symbol O. Underscripts and upperscripts must be used within the Math notation command (the dollar symbols explained above).
+- **^** : used to write upperscripts with the same logics as underscripts.
+- **\#** : Used as macro parameter
 
 To print any of these symbols in your document, you must use the "escape" symbol "\". For example, if you want to write use the dollar symbol for actually talking about dollars, then you must type in the text:
 
