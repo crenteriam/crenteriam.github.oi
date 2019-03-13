@@ -164,6 +164,18 @@ Non-existing file
 </center>
 ![Nonexisting file](../../files/debugging/latex-nonexistingfile.png)
 
+<center>
+Forgot to insert \\end{document}
+Note: it doesn't even shows an error. Stops before running the preamble and body parts of Latex.
+</center>
+![Nonexisting file](../../files/debugging/latex-noendocument.png)
+
+<center>
+Repeated \\documentclass (or repeated a command that must not be repeated)
+Note: if you installed one of the newest versions of markdoc you may encounter this problem because markdoc is going to write some Latex code without telling you.
+</center>
+![Nonexisting file](../../files/debugging/latex-documentclass.png)
+
 ### Special Characters
 
 This is very, very important as it is the most common bugs for novices. There are some "reserved" characters that Latex uses as commands for executing some markup. The special characters are:
