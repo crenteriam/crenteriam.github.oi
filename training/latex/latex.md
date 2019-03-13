@@ -110,13 +110,9 @@ Writing in Latex is a pain, specially because the errors are hard to catch (spec
 
 So, the basics for reading the errors is displayed in the image below.[^2] First, the type of error is displayed after the `!` symbol. In the image below, the error is "undefined control sequence" (God knows...). At the beginning of the next line, after the `l.` you will see the line number (the Latex line, not the line shown in the Do-File editor). To check out the Latex line, by opening up the `.tex` file. Then, the error is displayed at the end of the line, in the case below is `\toady`, which we can clearly see is about a typo (must be `\today`).
 
-![Reading erros](../../files/debugging/latex-readerrors.png)
+![Reading errors](../../files/debugging/latex-readerrors.png)
 
-Besides having a less human-readable programming syntax than Stata, Latex
-- [art of problem solving](https://www.tug.org/TUGboat/tb26-1/schwartz.pdf)
-- [teach me to debug](https://tex.stackexchange.com/questions/309010/teach-me-to-debug)
-- [Latex for Complete Novices](https://www.dickimaw-books.com/latex/novices/)
-- [Common Errors](https://www.dickimaw-books.com/latex/novices/html/commonerrors.html)
+It also worths checking Dickimaw's explanation about [common drrors](https://www.dickimaw-books.com/latex/novices/html/commonerrors.html), and [Latex for Complete Novices](https://www.dickimaw-books.com/latex/novices/). The stackexchange thread [teach me to debug](https://tex.stackexchange.com/questions/309010/teach-me-to-debug), and the file [art of problem solving](https://www.tug.org/TUGboat/tb26-1/schwartz.pdf).
 
 Troubleshooting is one of the most time-consuming parts of learning compiling dynamic documents, specially in Latex. The best way to (avoid and) solve troubles is by using text editors. As explained in [Chapter X](), the Do-File Editor is very limited compared to others, and it is specially unhelpful for troubleshooting.
 
@@ -178,7 +174,7 @@ This is very, very important as it is the most common bugs for novices. There ar
 - {} : it has a couple of functions, mostly grouping characters for applying the same command (see the example of using underscore right below
 - _ : used to write underscript. For example the molecular formula of water would be H_{2}O. The {} symbols help applying the underscript only to the symbol 2, and not extend it to the symbol O. Underscripts and upperscripts must be used within the Math notation command (the dollar symbols explained above).
 - ^ : used to write upperscripts with the same logics as underscripts.
-- \# : TBD.
+- \# : Used as macro parameter
 
 To print any of these symbols in your document, you must use the "escape" symbol "\". For example, if you want to write use the dollar symbol for actually talking about dollars, then you must type in the text:
 
