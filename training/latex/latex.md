@@ -123,13 +123,39 @@ Other ways to avoid troubleshooting in both Stata and Latex, is by writing your 
 ### Bugs. Greatest Hits.
 The key problem is that the Latex error messages are kind of meaningless for human reading. To help making sense of that, here is our list of Greatest Bug Hits. Make sure you can read all of these error messages and you will be done with about 90% of the errors you will come across.
 
-1. Missing a closing curly bracket (}). Or missing (or wrong) closing an environment.
-2. Missing a Package
-3. Forgetting about special Characters
-4. Mispelled or wrong environment
-5.
+<center>
+Missing a closing curly bracket (}). Or missing (or wrong) closing an environment.
+</center>
 
 ![Missing curly bracket](../../files/debugging/latex-missingbracket.png)
+![Missing Wrong Environment](../../files/debugging/latex-missingwrongendenvironment.png)
+
+<center>
+Missing a Package
+</center>
+
+![Missing Package](../../files/debugging/latex-missingpackage.png)
+
+<center>
+Forgetting about special Characters
+</center>
+
+![Special Characters](../../files/debugging/latex-amp.png)
+![Special Characters](../../files/debugging/latex-backslash.png)
+![Special Characters](../../files/debugging/latex-dollar.png)
+![Special Characters](../../files/debugging/latex-hash.png)
+![Special Characters](../../files/debugging/latex-underscore.png)
+
+<center>
+Mispelled or wrong environment
+</center>
+
+![Wrong Environment](../../files/debugging/latex-wrongenvironment.png)
+
+<center>
+Non-existing file
+</center>
+![Nonexisting file](../../files/debugging/latex-nonexistingfile.png)
 
 ### Special Characters
 
