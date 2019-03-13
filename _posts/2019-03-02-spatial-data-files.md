@@ -4,8 +4,9 @@ title: Common Open File Formats for Spatial Data
 tag: kml, shapefile, geojson, osm, spatial analysis, rgdal, spatial data, open file formats, Open Geospatial Consortium
 ---
 
-Shapefiles are the most common format for exchanging data, especially in social sciences.
-However, you might find data that comes in different formats. Besides Shapefiles, some of the most common file formats are KML and GeoJSON. KML and GeoJSON files are simpler and lighter than Shapefiles. If you’re working with Google platforms, it may well make sense to work directly with KML, as this is the standard file for such platforms.
+Shapefiles are the most common format for managing spatial data, but I find them annoying for managing vector spatial data. It's many files for each layer. When the projects require many layers, then the folders become messy. When taking [Matt](http://mattingram.net/)'s Spatial Analysis course, I came across better options. These are: `KML` and `GeoJSON`. KML and GeoJSON files are simpler and lighter than Shapefiles. You can keep as many layers as you want in one single spatial data file, and their file size is also lighter. Further, `KML` can store vector spatial data that neither Shapefiles nor GeoJSON can.
+
+Below are some highlights about different spatial files.
 
 ### Comparison of common Open Vector File Formats for Spatial Data
 
