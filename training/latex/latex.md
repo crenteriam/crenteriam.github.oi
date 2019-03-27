@@ -15,8 +15,6 @@ Software &rarr; <a href="#">Stata</a> - <a href="#">Latex</a> - <a href="#">Mark
 
 Latex is a typesetting system. As Python or R are programming languages designed to compute calculations, Latex is a programming language to compute typesetting. This means that Latex allows you to control the way your documents appear, including margins, headers, footers, font, sections and chapters, and other formatting issues.
 
-PAR Typesetting sytem vs Word Processor
-
 PAR To use Latex, you need both a Latex distribution and a Text Editor. Tex distributions are the collection of software and other tools that make Latex work.
 
 PAR Tex editors – that is, software that enables you to enter and edit your text along with LATEX commands – are the front-end interface that allow you to communicate with your Latex distribution. These programs are powerful text editors and typesetting tools that allow you to create and customize documents. The best editors are also contain efficiency and productivity tools like spell check, auto-completion, and prompts that help you remember the proper commands and formatting for LATEX syntax.
@@ -25,6 +23,23 @@ PAR Compiling. What is. Creating a viewable or printable document in its final f
 
 PAR the programming syntax
 -- Note: it seems a pattern - the more powerful a programming language is (i.e. computing efficient and general purpose), the most ackward the programming syntax is. Take a look on the most powerful programming languages c++, fortran, and even html. On the other hand, the most user-friendly, the most limited. Compare Markdown with html.. Latex, in our opinion, fall among the most powerful markup language, and therefore is are really awckward typesetting tool at the beginning.
+
+### Latex vs Word Processors
+PAR Typesetting sytem vs Word Processor. % Text editor
+A text editor is a software for working with plain text. Perhaps the most known and used text editors are the Windows' Notepad and Mac's TextEdit. The main feature of text editors is just that, you only see plain text. Any text markup (i.e. formatting, like alignment, font face or size, bolding or italicizing) must be written in plain text as well.
+
+In contrast to text editors, a word processor is a software for working with text that can be formatted and prepared for printing (or publishing in digital media). Word processors have embedded typesetting systems that apply "hidden formatting" information to control the page layout and text formatting. The most common characteristic of word processors is that formatting is a visual interaction that requires you to select the text and then choose the formatting though drop-down menus or shortcuts. Sometimes the word processor will automatically format or replace things for you. Therefore, on a word processor what you see is what you get (WYSIWYG). Full control also means full precission that is hard to get in word processors, like placing some figures at exacly x coordinates in the page, or exactly controlling the width of the columns in a table (other examples). A second strenght is automatization ...
+
+Let's compare text editors and word processors. The biggest value of word processors is the WYSIWYG and the user interphase. The biggest con is that all text formatting must be done, most of the times, by manually selecting the targeted text. The strongest point of text editors is that you have "full control" of everything is happening in your document. Another strong point is the automatization of formatting, which starts to prove its value when documents become bigger. In contrast, in text editors we have to write what is going to happen to the things we have written
+
+A weak point is that ir requires programming skills, where not many feel confortable with. Further, Latex is one of the most awkward programming languages around; for highly formatted.
+
+Remember we care about text editors because we will use Latex (precisely, the TeX programming language) through a text editor. So, in addition to the strenghts of text editors, we shall assess the strenghts and weaknesses of Latex. On the strengths side, Latex stands out for scienfic writting. The most evidente strenght is that is comparatively easier to handle math notation, but the best benefits are found in more mundane (but way more often) tasks. For example, adding metadata to figures and tables (title, table number, reference, notes, horizontal and vertical alignment, rotation), writing code chunks (snippets) that shows syntax highlighting, numbering of sections and subsections, and my very best favourite of all compiling a single file made up of several files (think about compiling a 6 chapter book, where you worked each chapter in a separate Word file).
+-- other: easy referencing (anologous to working with Mendeley or Zotero in Word), easier handling of hyperreferences.
+-- once you're advanced in Latex, it becomes unparalleled publishing quality mahcine (in fact, publishers use Latex rather than word). You get to formatting options that you can barely do in word processors.
+-- [Latex is a very awkward](https://tex.stackexchange.com/questions/222500/why-is-latex-so-complicated)
+
+
 
 PAR - what is documentclass and what options do i have
 - what is being document, what do you begin and end
@@ -121,31 +136,23 @@ The best troubleshooting alternatives are Overleaf, TexStudio. These are special
 Other ways to avoid troubleshooting in both Stata and Latex, is by writing your Do-Files from third party text editors. Recommended Atom and Sublime Texts. Old-School, highly robust alternatives are Vim and Emacs.
 
 ### Bugs. Greatest Hits.
-The key problem is that the Latex error messages are kind of meaningless for human reading. To help making sense of that, here is our list of Greatest Bug Hits. Make sure you can read all of these error messages and you will be done with about 90% of the errors you will come across.
+The key problem is that the Latex error messages are kind of meaningless for human reading. To help making sense of that, here is our list of Greatest Bug Hits. Memorize all these error messages and you may avoid about 90% of the errors that usually come across when working with Latex.
 
-<center>
-Missing a closing curly bracket.
-Error message: Paragraph ended before \begin was complete.
-</center>
+**Missing a closing curly bracket.** When we forget to close the curling brackeds in a Latex command, we are shown the error message:
+
+> Error message: Paragraph ended before \begin was complete.
+
 ![Missing curly bracket](../../files/debugging/latex-missingbracket.png)
 
-<center>
-Missing (or wrong) closing an environment.
-</center>
-
-Read the error: the environment center that was begun at line 6, was ended until \end{document} in line 10, which is clearly not the proper ending environment.
+**Missing (or wrong) closing an environment.** In this case, we started the [Latex environment](https://www.overleaf.com/learn/latex/Environments) `center` with the command `\begin{center}`. Then, we forgot write `\end{center}` to close the environment `center`. The way to read the error below is: the environment center that was begun at line 6, was ended until `\end{document}` in line 10. This means that because Latex did not find `\end{center}`, it went straigth until finding the next `\end{}` command, which in this case was `\end{document}`; they don't match.
 
 ![Missing Wrong Environment](../../files/debugging/latex-missingwrongendenvironment.png)
 
-<center>
-Missing a Package
-</center>
+**Missing a Package** TBD.
 
 ![Missing Package](../../files/debugging/latex-missingpackage.png)
 
-<center>
-Forgetting using the escape command "\" with special Characters
-</center>
+**Forgetting using the escape command "\" when using special Characters.** If you try to use [special characters](#special) as actual printed characters  and you forget to use the escape character, you will encounter these errors:
 
 ![Special Characters](../../files/debugging/latex-amp.png)
 ![Special Characters](../../files/debugging/latex-backslash.png)
@@ -153,30 +160,23 @@ Forgetting using the escape command "\" with special Characters
 ![Special Characters](../../files/debugging/latex-hash.png)
 ![Special Characters](../../files/debugging/latex-underscore.png)
 
-<center>
-Mispelled or wrong environment
-</center>
+**Mispelled or wrong environment** We typed the `graphics` environment, which does not exist.
 
 ![Wrong Environment](../../files/debugging/latex-wrongenvironment.png)
 
-<center>
-Non-existing file
-</center>
+**Non-existing file** We wrote a `.tex` file that does not exist. This is a common error, often because the name of the file is misspelled and therefore Latex cannot find it.
+
 ![Nonexisting file](../../files/debugging/latex-nonexistingfile.png)
 
-<center>
-Forgot to insert \end{document}
-Note: it doesn't even shows an error. Stops before running the preamble and body parts of Latex.
-</center>
+**Forgot to insert `\end{document}`** Another common mistake, but different than the one shown above about ending environments. When you forget to end the document, the compiler does not even show an error. It stops before running the preamble and body parts of Latex.
+
 ![Nonexisting file](../../files/debugging/latex-noendocument.png)
 
-<center>
-Repeated \documentclass (or repeated a command that must not be repeated)
-Note: if you installed one of the newest versions of markdoc you may encounter this problem because markdoc is going to write some Latex code without telling you.
-</center>
+**Repeated critical commands (e.g. `\documentclass`)** When you type certain commands twice, you will get a warning but not a fatal error. There are some commands, however, that cannot be repeated. See below. *Note: if you installed one of the newest versions of markdoc you may encounter this problem because markdoc is going to write some Latex code without telling you.*
+
 ![Nonexisting file](../../files/debugging/latex-documentclass.png)
 
-### Special Characters
+### Special Characters {#special}
 
 This is very, very important as it is the most common bugs for novices. There are some "reserved" characters that Latex uses as commands for executing some markup. The special characters are:
 
@@ -191,10 +191,10 @@ This is very, very important as it is the most common bugs for novices. There ar
 To print any of these symbols in your document, you must use the "escape" symbol "\". For example, if you want to write use the dollar symbol for actually talking about dollars, then you must type in the text:
 
 ```latex
-The financial report that came yesterday shows that the company Matt \& Cesar Co. had a yearly profit of \$165,000, which represents a 25\%.
+The financial report that came yesterday shows that the company Renteria \& Ingram Co. had a yearly profit of \$165,000, which represents a 25\%.
 ```
 
-Note: also add spacing: // \par, vspace, smallspace, medskip, bigskip, noindent.
+Several ways to add vertical space: `\par` initiate a new paragraph. `\vspace{}` add vertical space (within curly brackets specify the space in inches; centimeters or points); `\smallskip`, `\medskip`, `\bigskip` all three add built-in vertical skips with different lenght; `//` equivalent to hit enter in Word.
 
 ### References
 - [Overleaf Documentation](https://www.overleaf.com/learn)
