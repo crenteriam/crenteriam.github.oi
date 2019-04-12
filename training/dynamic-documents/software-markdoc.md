@@ -14,7 +14,11 @@ Software &rarr; <a href="https://crenteriam.github.io/training/stata/stata/">Sta
 
 ### What is Markdoc?
 
-[Markdoc](https://github.com/haghish/markdoc) is a "literate programming" package, which is a fancy way to say it's a tool for creating dynamic documents within the Do-File Editor. Markdoc expands the functionality of the Do-File Editor, making it a text formatting editor capable of producing markup-based documents (e.g., html, pdf or Word). Markdoc is primarily based in two markup languages, Latex and Markdown.
+[Markdoc](https://github.com/haghish/markdoc) is marketed as a "literate programming" package, which is a fancy way to say it's a tool for creating dynamic documents within the Do-File Editor. Markdoc expands the functionality of the Do-File Editor, making it a text formatting editor capable of producing markup-based documents (e.g., html, pdf or Word).
+
+Markdoc uses `pandoc` to render the contents stored in the Log File (extension `.scml`) into Markdown, Latex or HTML markup languages (extensions `.md`, `.tex`, and `html`). When we are writing into the Do-File, however, we will interweave Latex and Stata programming. In other words, we will have a bilingual Do-File. Through a combination of Markdoc commands (that we will review below), we will use both languages in the same file to produce the dynamic document. The only rules are (Quite obvious): (1) we cannot speak both languages in the same programming line, and (2) we must instruct Stata to switch between Stata and Latex languages by using Markdoc commands.
+
+In the next subsections, we will first review how to install markdoc in Stata. Then, we will review hoe to use Markdoc in Stata.
 
 ### Installing Markdoc
 
@@ -34,15 +38,53 @@ You may encounter an error that says that the `.ado` file already exists. To fix
 
 [Up](#Contents)
 
-### How does it work?
+### Using Markdoc
 
-By using the contents printed in the console, and stored in your log file (.scml), markdoc creates a markup file (.tex, .md or html). Markdoc uses pandoc to export the .scml contents into any of the markup files mentined above. Therefore, your task is to make the Do-File readable as a Latex file.
+following the bilingual methapor, we will start speaking Stata in the Do-File by default. First, we will lay down the traditional environment setup, and then we will create a Log File. As explained above, the Log File is absolutly crucial when working with Markdoc, since this is the file that Markdoc is going to use as input to render the `.tex` file. The chunk below shows the beginning of a dynamic document using Markdoc. Note that before creating the Log File, we are using the line `capture log close _all`. This line tells Stata to close any running Log File before creating our the file `MyLog.scml`. (it is common that log files keep open when re-running Do-Files). The command `capture` will help aviding an error if there is not a Log File needed to be closed. When creating the `MyLog.scml` is important to use the command `quietly` to avoid having the output of that command printed in your `.tex` file.
 
-Another way to see it is that markdoc makes your .do file bilingual, you are speaking Latex and Stata in the same file. The only rule is that you cannot be speaking both languages in the same programming line, and that you must tell Latex that you are switching languages.
+```stata
+* Environment setup
+clear all
+set more off
+version 15
 
-You will always start speaking Stata, and then instruct Stata to switch to latex with `/***`, which can be read as: move from Latex to Stata. This command should be in a single line. When you finish typing in Latex, switch back to Stata with `***/`: move from Stata to Latex.
+* Working directory
+cd "C:/Workingdirectory"
+mkdir data
+mkdir data/original
+mkdir data/working
+mkdir code
+mkdir figures
+mkdir tables
 
-Remember that what you see in the log file is what will be rendered as a markup document (`.tex`, `.md` or `html`). And this has some very important nuances. The log file records what is being printed in the console, which is both the *programming line* and the *output*. Often, we don't want any of them to be printed. To hide the *programming line* from the log file, use `/**/` before the programming line. To hide the *output*, use `quietly` before the programming line, and to hide both, combine them: `/**/ quietly`. See the chung below:
+* Start Log File
+capture log close _all
+quietly log MyLog, replace
+```
+Once the Log File is running, the most important step is to switch back and forth between Stata and Latex. To switch from stata language to Latex use the Markdoc command `/***` (imagine that the slash means "Stata" and the three stars mean "Latex"). Once you typed these characters in a single line, you are in Latex language. To switch back from Latex to Stata, use the Markdoc command `***/`. See the chunk below:
+
+```stata
+* Begin in Stata
+capture log close _all
+quielty log using MyLog, replace
+
+* The line below switches from Stata to Latex language
+/***
+% Now I am writing in Latex language (the sign % is to comment out, equivalent to the star in Stata)
+% In the lines below, I will create a basic Latex document.
+\documentclass{article}
+\begin{document}
+Text in the Document.
+\end{document}
+% Switch back from Latex to Stata
+***/
+* Now I am in Stata again
+log close
+markdoc MyLog, export(tex) markup(tex)
+```
+Remember that what is being recorded in the Log File is what will be rendered as a Markup document (`.tex`, `.md` or `html`). That's why in the last line from the chunk above, we use the Markdoc command `markdoc` to render the `.scml` file in to a `.tex` file.
+
+Is important to note that the Log File will record every Stata's *programming line* (except the comments) and its correspoding *output*---or what you see printed in the console. Often, we don't want any of them to be printed. To hide the *programming line* from the log file, use `/**/` before the programming line. To hide the *output*, use `quietly` before the programming line, and to hide both, combine them: `/**/ quietly`. See the chung below:
 
 ```stata
 * The line below will only hide the programming line
@@ -55,7 +97,7 @@ quietly display "markdoc is a literate programming package"
 /**/ quietly display "markdoc is a literate programming package"
 ```
 
-This procedure may be annoying when trying to hide whole chunks from both the *programming line* and the *output* (which is a common situation). There is a shortcut for that. Use `//OFF` to start hiding both the programming line and the output and start writing Stata code in the Do-File. This command will stop recording anything in the log file. When finishing writing Stata code, insert on `//ON` to enable again recording in your log file. For example:
+Alternatively, you can just simply use the markdoc command `//OFF` in the Stata language mode to stop recording in the Log File anything being executed in the console, and later use `//ON` to resume recording in the Log File. For example:
 
 ```stata
 * The command below will be recorded in the log file
@@ -72,9 +114,9 @@ graph export "graph1.png", replace
 display "markdoc is a literate programming package"
 ```
 
-Finally, sometimes you may want to pring some stata output directly in your dynamic document. For example, a summary statistics table. Printing Stata's output may generate problems to Latex, for example, the underscore---commonly used in variable names (e.g., `avg_age_2004`)---will yield an error in Latex, because the [underscore is a command](TBD). Therefore, you may want to use the Latex command `verbatim` to play safe.
+Sometimes it is necessary to print Stata output directly on the dynamic document. For example, printing short summary table or a list of few observations. The first step is keep recording in the Log File; in other word, do not use `//OFF` nor `//ON` or their equivalents. But printing Stata's output in a Latex document is problematic for two reasons. First, because Latex is going to render the Stata's characters into a Latex typesetting, and will make, for example, a Stata's text table appear in lines as regular text. Second, because some Stata's tables will come with Latex's special characters and will cause an error. This problem is common with variable names, which usually have an underscore---remember that the underscore is a special character in Latex. To avoid both problems, you must use the Latex environment `verbatim`.
 
-Line by line, the chunk below switches from Latex to Stata, and back to Latex, and reads as: `\begin{verbatim}` begin reading the following as non-Latex text; `***/` switch from Latex to Stata; write some stata code; `/***` switch back from Stata to Latex; `\end{verbatim}` start reading again the next lines as Latex text. It may be awkward at the beginning, but little by little it will become natural to you.
+The Latex environment `verbatim` will read any string of character as it is, and will not try to render it into the Latex typesetting. The chunk below uses the environment `verbatim` and switches from Latex to Stata, and back to Latex. It can be read: `\begin{verbatim}` begin printing the following text without Latex typesetting; `***/` switch from Latex to Stata; write some Stata code; `/***` switch back from Stata to Latex; `\end{verbatim}` stop printing text without Latex typesetting. This may look awkward at the beginnng, but later it will become natural.
 
 ```latex
 \begin{verbatim}
@@ -85,15 +127,15 @@ summarize mpg price
 \end{verbatim}
 ```
 
-Finally, take in consideration that `markdoc` creates the `.tex` file by using the log file `.scml` that you created at the beginning of the Do-File with the line `capture quetly log MyLog, replace`, and closed it by using the line `log close` at the end of the Do-File. Therefore, when creating the `.tex` file, <u>you must use the same name as the log file</u>. See a short illustration below:
+Finally, close your Log File by using the line `log close` at the end of the Do-File. Therefore, when creating the `.tex` file, <u>you must use the same name as the log file</u>. See a short illustration below:
 
 ```stata
-capture quetly log MyLog, replace
-* a chunk of code would be between log MyLog and log close
+* Closing the Log File
 quietly log close
 markdoc MyLog, export(tex) markup(tex) replace
 ```
-Alternatively, if you are using Windows...
+
+If you are using Windows, you can complie the Latex `.pdf` directly from the Do-File (once you have installed the Miktex distribution) by using the `!pdflatex` command and then type the name of the `.tex` file. You can even automatically open the new `.pdf` file by using the command `!explorer` and the name of the file. Se below:
 
 ```stata
 !pdflatex MyLog.tex
