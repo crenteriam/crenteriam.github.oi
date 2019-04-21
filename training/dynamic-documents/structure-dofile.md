@@ -12,10 +12,19 @@ tag:
 ### Create Variables - Recode Values (missing values robustness checks)
 then begin log
 
+PAR Introductory par that describes the figure below. Present each element.
 
-### BODY
+[figure organizing a dofile]
 
-### WRAP UP
+### File Information
+
+### Environment Setup
+
+### Body
+
+### Closing
+
+routinary commands:
 - log close
 - clear all
 - graph close _all

@@ -16,10 +16,9 @@ This is a work in progress...
 | **2**         | **Software**  |
 |               | [Stata](../../stata/stata)  |
 |               | [Latex](../../latex/latex)  |
-|               | [Markdoc](software-markdoc.md)  |
-|               | [Markdown*]()  |
 |               | [Text Editors](software-texteditors.md)    |
-|               | [Other Integration Tools](software-other.md)  |
+|               | [Markdoc](software-markdoc.md)  |
+|               | [Other Software](software-other.md)  |
 | **Part II**   | **Execute** |
 | **4**         | **Structure of the Do-File**  |
 |               | Structure of the Do-File |

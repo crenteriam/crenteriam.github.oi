@@ -14,6 +14,19 @@ Software &rarr; <a href="https://crenteriam.github.io/training/stata/stata/">Sta
 
 ### What is a Text Editor?
 
+Text Editors are *general purpose* software for working with plain text for a variety of purposes. Text Editors are typically used for programming, but they can also serve as interfaces for writing and formatting Latex documents. Perhaps the most known and used text editors are the Windows' Notepad and Mac's TextEdit. The main feature of text editors is just that, you only see plain text. Any text markup (i.e. formatting, like alignment, font face or size, bolding or italicizing) must be written in plain text as well.
+
+Remember that Latex (more precisely, TeX) is not a sotfware but a typesetting system; which is more of a *programming language*.
+
+ The best editors also contain efficiency and productivity tools like spell check, auto-completion, etc. There are some specialized Text Editors for Latex typesetting with syntax highlights and other prompts that help you remember the proper Latex commands and formatting syntax.
+
+ PAR The Do-File Editor as a Text Editor. As this is a book about research workflow using Stata, we will dedicate a subsection for integrating the stats processing and writing all within Stata. This means, we are using the dofile editor as text editor. We warn you, doing so, is not a great idea because you lose contact and insight of what Latex is.
+
+[to install] For <u>Text Editors</u> see section [Text Editors]().
+- TeX Editors.[^1]
+- The cloud service Overleaf is a great alternative.
+- watcxh this video for seing a latex editor running [x](https://www.youtube.com/watch?v=SoDv0qhyysQ&index=1&list=PLTejunv6WZfG-b9a0o0OcVMRpIJIlcHhF)
+
 ### Why does it Matter?
 
 Why Latex matters:

@@ -12,6 +12,8 @@ tag:
 Software &rarr; <a href="https://crenteriam.github.io/training/stata/stata/">Stata</a> - <a href="https://crenteriam.github.io/training/latex/latex/">Latex</a> - <a href="https://crenteriam.github.io/training/dynamic-documents/software-markdoc/">Markdoc</a> - <a href="https://crenteriam.github.io/training/markdown/markdown/">Markdown</a> - <a href="https://crenteriam.github.io/training/dynamic-documents/software-texteditors/">Text Editors</a>
 </p>
 
+### Markdown
+
 ### Other Integratin Tools
 
 ### Pandoc {#Pandoc}
