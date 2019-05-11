@@ -1,3 +1,9 @@
+---
+title: Debugging in Latex
+layout: contents
+tag:
+---
+
 ### Errors and Debugging in Latex
 
 Writing in Latex is a pain, specially because the errors are hard to catch (specially the simplest ones). Just to give you a sense, this is a [thread that one experienced programmer](https://tex.stackexchange.com/questions/309010/teach-me-to-debug) started in stackexchange about debugging:
