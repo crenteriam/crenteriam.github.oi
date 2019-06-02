@@ -19,7 +19,7 @@ path = file.path("C:/Users/Desk/sadc_2017_national/sadc_2017_national")
 channel.sadc <- odbcConnectAccess(path) # The object channel.sadc is an Access file.
 ```
 
-```{r}
+```r
 # To explore what tables are inside the sql file "channel.sadc", run the next line:
 sqlTables(channel.sadc)
 
@@ -28,7 +28,7 @@ data.sadc2017 <- sqlFetch(channel.sadc,"SADCQ")
 ```
 To save the file as Stata's `.dta`:
 
-```{r}
+```r
 # Write in Stata
 install.packages("haven")
 library(haven)
