@@ -10,7 +10,7 @@ Using the [Youth Risk Behavior Survey (YRBS)](https://www.cdc.gov/healthyyouth/d
 
 First, install and load the package `RODBC`. Then, use the function `odbcConnectAccess` on the `.mdb` file. The resulting object is a Access Database (with multiple tables). `sqlTables()` helps you explore the tables within the Access object, and `sqlFetch()` retrieves the desired table.
 
-```{r}
+```r
 # Use the package RODBC to open the Access file in R.
 # This package only works in 32-bit. Therefore run the program R i386 (in Windows).
 install.packages("RODBC")
