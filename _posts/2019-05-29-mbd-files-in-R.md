@@ -8,7 +8,7 @@ Microsoft Access Database (`.mdb`) is a database file format used by Microsoft A
 
 Using the [Youth Risk Behavior Survey (YRBS)](https://www.cdc.gov/healthyyouth/data/yrbs/data.htm) data as example, here is a piece of code that worked for me. The main problem is that you must use R in its 32-bit version. This means you must open the R base esecutable *R i386* (or try something more fancy with [Rstudio](https://www.dummies.com/programming/r/how-to-install-and-configure-rstudio/)).
 
-First, install and load the package `RODBC`. Then, use the function `odbcConnectAccess` on the `.mdb` file. The resulting object is a Access Database (with multiple tables). `sqlTables()` helps you explore the tables within the Access object, and `sqlFetch()` retrieves the desired table.
+First, install and load the package `RODBC`. Then, use the function `odbcConnectAccess` on the `.mdb` file.
 
 ```r
 # Use the package RODBC to open the Access file in R.
@@ -18,6 +18,8 @@ library(RODBC)
 path = file.path("C:/Users/Desk/sadc_2017_national/sadc_2017_national")
 channel.sadc <- odbcConnectAccess(path) # The object channel.sadc is an Access file.
 ```
+
+The resulting object is a Access Database (with multiple tables). `sqlTables()` helps you explore the tables within the Access object, and `sqlFetch()` retrieves the desired table.
 
 ```r
 # To explore what tables are inside the sql file "channel.sadc", run the next line:
