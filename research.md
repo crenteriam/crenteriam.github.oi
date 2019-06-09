@@ -8,7 +8,7 @@ title: Research
 
 
 <!--TEXT STARTS HERE-->
-My primary area of interest is the adoption and use of information technologies in organizations. Currently my research have focused on governments, where the use of information technologies can be used for improving citizen engagement, decision-making and the quality of public service delivery.
+My primary area of interest is the adoption and use of information technologies in organizations. Currently, I am studying information technologies to improve citizen participation, decision-making and public service delivery.
 
 <!--TEXT ENDS HERE-->
 <center>
