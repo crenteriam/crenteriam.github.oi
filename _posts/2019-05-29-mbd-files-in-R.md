@@ -4,35 +4,36 @@ title: Import .msb Files in R
 tag: microsoft access, .mdb, .accdb, r, rstudio, sql tables as data frames, sql table r statistical software, RODBC.
 ---
 
-Microsoft Access Database (`.mdb`) is a database file format used by Microsoft Access 2003 and earler (the newwer file extension is `.accdb`). The `.mdb` file may contain several databases. For some reason, some data providers store data in this format and it becomes difficult to manage in Stata or R.
+ome data providers store data in this format and it becomes difficult to manage in Stata or R. Here is a piece of code that worked for me using the [Youth Risk Behavior Survey (YRBS)](https://www.cdc.gov/healthyyouth/data/yrbs/data.htm) data as example.
 
-Using the [Youth Risk Behavior Survey (YRBS)](https://www.cdc.gov/healthyyouth/data/yrbs/data.htm) data as example, here is a piece of code that worked for me. The main problem is that you must use R in its 32-bit version. This means you must open the R base esecutable *R i386* (or try something more fancy with [Rstudio](https://www.dummies.com/programming/r/how-to-install-and-configure-rstudio/)).
-
-First, install and load the package `RODBC`. Then, use the function `odbcConnectAccess` on the `.mdb` file.
+First, install and load the package `RODBC`. You must use this package in the R base 32-bit version (*R i386* in Windows). Then, use the function `odbcConnectAccess` on the `.mdb` file to store the Access database in an object.
 
 ```r
 # Use the package RODBC to open the Access file in R.
-# This package only works in 32-bit. Therefore run the program R i386 (in Windows).
 install.packages("RODBC")
-library(RODBC)
+
+# Store the file path in an object
 path = file.path("C:/Users/Desk/sadc_2017_national/sadc_2017_national")
-channel.sadc <- odbcConnectAccess(path) # The object channel.sadc is an Access file.
+
+# odbcConnectAccess() stores an Access database in an object
+channel.sadc <- RODBC::odbcConnectAccess(path)
 ```
 
-The resulting object is a Access Database (with multiple tables). `sqlTables()` helps you explore the tables within the Access object, and `sqlFetch()` retrieves the desired table.
+The resulting object is a Access database (with multiple tables). You can explore the database with `sqlTables()`. To retrieve an specific dataset from the Access file, use `sqlFetch()`.
 
 ```r
-# To explore what tables are inside the sql file "channel.sadc", run the next line:
-sqlTables(channel.sadc)
+# Explore the tables in the object channel.sadc
+RODBC::sqlTables(channel.sadc)
 
-# It seems that among these tables, the one you need is SADCQ. The next line is going to open it as a data file.
-data.sadc2017 <- sqlFetch(channel.sadc,"SADCQ")
+# Retrieve the dataset SADCQ.
+data.sadc2017 <- RODBC::sqlFetch(channel.sadc,"SADCQ")
 ```
+Now, the object `data.sadc2017` should be a regular data frame.
+
 To save the file as Stata's `.dta`:
 
 ```r
-# Write in Stata
+# Save as .dta
 install.packages("haven")
-library(haven)
-write_dta(data.sadc2017, "C:/Users/Desk/SADC_2017_National.dta")
+haven::write_dta(data.sadc2017, "C:/Users/Desk/SADC_2017_National.dta")
 ```
