@@ -4,7 +4,7 @@ title: Import .msb Files in R
 tag: microsoft access, .mdb, .accdb, r, rstudio, sql tables as data frames, sql table r statistical software, RODBC.
 ---
 
-ome data providers store data in this format and it becomes difficult to manage in Stata or R. Here is a piece of code that worked for me using the [Youth Risk Behavior Survey (YRBS)](https://www.cdc.gov/healthyyouth/data/yrbs/data.htm) data as example.
+Some data is stored in `mfb` files, which makes it difficult to manage in Stata or R. Here is a piece of code that worked for me using the [Youth Risk Behavior Survey (YRBS)](https://www.cdc.gov/healthyyouth/data/yrbs/data.htm) data as example.
 
 First, install and load the package `RODBC`. You must use this package in the R base 32-bit version (*R i386* in Windows). Then, use the function `odbcConnectAccess` on the `.mdb` file to store the Access database in an object.
 
