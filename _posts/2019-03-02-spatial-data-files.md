@@ -4,19 +4,13 @@ title: Common Open File Formats for Spatial Data
 tag: kml, shapefile, geojson, osm, spatial analysis, rgdal, spatial data, open file formats, Open Geospatial Consortium
 ---
 
-Shapefiles are the most common format for managing spatial data, but I find them annoying for managing vector spatial data. It's many files for each layer. When the projects require many layers, then the folders become messy. When taking [Matt](http://mattingram.net/)'s Spatial Analysis course, I came across better options. These are: `KML` and `GeoJSON`. KML and GeoJSON files are simpler and lighter than Shapefiles. You can keep as many layers as you want in one single spatial data file, and their file size is also lighter. Further, `KML` can store vector spatial data that neither Shapefiles nor GeoJSON can.
+Shapefiles are widely use for managing vector spatial data, but I am not very fan of having several files for each layer. The folders become complicated when using several layers. When taking [Matt](http://mattingram.net/)'s cours on Spatial Analysis, I came across `KML` and `GeoJSON`, and really liked them. KML and GeoJSON files are simpler and lighter than Shapefiles. Also, these formats can keep several layers in a single file. Among these, `GeoJSON` is my favourite. Below I highlight a comparison between these file types.
 
-Below are some highlights about different spatial files.
-
-### Comparison of common Open Vector File Formats for Spatial Data
-
-**Shapefile**. This format is not a file, but a composition of several files. [The basic composition is](http://resources.arcgis.com/en/help/main/10.2/index.html#//005600000003000000): .shp stores the feature geometry; .shx stores the index of the feature geometry; .dbf stores the dataset associated.
-- This is the most common format for exchanging vector data, especially in social sciences.
-- Important files: .prj stores the coordinate system information; .xml stores metadata.
-- Other files: .sbn, .sbx, .fbn, and .fbx (spatial indexes); .ain, .aih, and .atx, (attribute indexes); .ixs, and .mxs (geocoding indexes).
+**Shapefile**. The Shapefile is the most common file format for vector data in social sciences. Each Shapefile contains the information of one layer and is composed by several files. [The basic composition of a Shapefile is](http://resources.arcgis.com/en/help/main/10.2/index.html#//005600000003000000): `.shp` stores the feature geometry; `.shx` stores the index of the feature geometry; `.dbf` stores the dataset associated. The `.prj` is also very important. It stores the coordinate system information; .xml stores metadata. Other files: .sbn, .sbx, .fbn, and .fbx (spatial indexes); .ain, .aih, and .atx, (attribute indexes); .ixs, and .mxs (geocoding indexes). See... too many files.
 
 **KML**. KML stands for Keyhole Markup Language, and was developed by Keyhole, Inc. (acquired by Google), the company that originally developed Google Earth.
-- Standard format file for working with Google’s platforms (Google Earth, Google Maps, etc.) KML by specification uses only a single projection, EPSG:4326. Every KML projection is based on this standard.
+
+- KML is the standard file format to work with Google’s platforms (Google Earth, Google Maps, etc.) - KML is restrained to a single projection standard (EPSG:4326), which makes things more simple when proyecting maps.
 - KML is an Open Geospatial Consortium (OGC) standard data format.
 - Complex datasets may be composed by various KML files and compressed in the KMZ format file.
 
