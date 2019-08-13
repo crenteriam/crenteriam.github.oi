@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Import .mdb Files in R
-tag: microsoft access, .mdb, .accdb, r, rstudio, sql tables as data frames, sql table r statistical software, RODBC.
+title: How to import .mdb Files in R
+tag: microsoft access, .mdb, .accdb, r, rstudio, sql tables as data frames, sql table r statistical software, RODBC, how to import .mdb
 ---
 
 Some data is stored in `mdb` files, which makes it difficult to manage in Stata or R. Here is a piece of code that worked for me using the [Youth Risk Behavior Survey (YRBS)](https://www.cdc.gov/healthyyouth/data/yrbs/data.htm) data as example.
