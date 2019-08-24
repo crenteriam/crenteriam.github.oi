@@ -1,6 +1,7 @@
 ---
 layout: post
-title: How to import .mdb Files in R
+title: Reading an .mdb file into R
+
 tag: microsoft access, .mdb, .accdb, r, rstudio, sql tables as data frames, sql table r statistical software, RODBC, how to import .mdb
 ---
 
