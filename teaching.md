@@ -25,7 +25,7 @@ title: Teaching
 | Tutorials  |
 |:-------------:|
 | [Getting Started with Stata](training/stata/stata.md)  |
-| [Accessing and Managing Spatial Data from OpenStreet Maps](tutorials/manage-osm.md) |
+| [Accessing and Managing Spatial Data from OpenStreet Maps](tutorials/getting-data-osm.md) |
 
 <!--| [Learning Statistics with Simulations]()   |-->
 

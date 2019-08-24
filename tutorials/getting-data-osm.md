@@ -1,19 +1,14 @@
 ---
+layout: contents
 title: "Accessing and Managing Spatial Data from OpenStreet Maps"
-author: "Cesar Renteria"
-date: "March 3, 2019"
-output:
-  md_document:
-    variant: markdown_github
+tag:
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 In this tutorial, I will intruce several ways to download data from OpenStreet Maps (OSM) into R. OSM is an open platform storing georeferenced data.[^1] The data in OSM is produced and managed by the people, and is freely available for visualization, query, download, and modification. OMS is especially useful for data at the city level.
 
 A great feature of OSM maps is the tagging. OSMincludes a richer georeferenced dataset for social research than other commercial or governmental maps (for instance, you can find georeferenced items such as biking routes, pharmacy location, tree location, etc.)[^2]
+
+This tutorial is divided in two parts. The [first part](), shows different ways to access data from OSM. The [second part], shows how to manage it into R.
 
 ## 1. Getting the Spatial Data
 
