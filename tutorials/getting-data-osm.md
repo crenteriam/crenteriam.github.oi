@@ -76,22 +76,29 @@ Sometimes the website crashes when trying to process the query. Be patient; if c
 To save the code used for the query, click `Export-> Query -> as text`.
 
 ## D. QGIS Interface
-Overpass Turbo is nice, allows you to get bigger map, but still it crashes often with big maps. Thus, an alternative for big maps is retrieving maps QGIS. QGIS is an open source GIS software, and among other things it’s very useful for getting and managing OSM data. With this method, you’re still working with OSM’s API. The steps to follow are:
 
-Step 1. Once you opened QGIS, click on Vector -> OpenStreetMap -> Download data. Now that you're familiar with the bounding box, just select "manual" and then type the coordinates of the personalized map you want to retrieve. Then select a name and location for your output file (is an .osm file).
+Although overpass Turbo offers an enhanced experience, compared with the previous options, it still has some difficulties with big OSM maps (either by map size or by density of information). QGIS is a great alternative for retrieving big maps. QGIS is an open source software for GIS; among its may features QGIS can interact with OSM's API. To do so, the steps to follow are:
+
+<u>Step 1.</u> Once you opened QGIS, click on `Vector -> OpenStreetMap -> Download data`. Select `manual` and then type the coordinates of the bounding box from the map you want to retrieve. Then select a name and location for the output file (it will be an `.osm` file format).
 
 ![QGIS retrieve data from OpenStreetMap](../files/tutorials/tutorial-osm/qgis-interface.png)
 
-Step 2. Click on Vector -> OpenStreetMap -> Import Topology from XML. In "Input XML file" place the .osm file you just have created. QGIS automatically will suggest you an output file name and location. Check the box "Create connection" and then click OK (keep the connection name suggested).
+<u>Step 2.</u> After downloading the `.osm` file, click on `Vector -> OpenStreetMap -> Import Topology from XML`. In `Input XML file` place the `.osm` file dowloaded. QGIS automatically will suggest you an output file name and location. Check the box `Create connection` and then click `OK` (keep the connection name suggested). This process will create a SpatialLite database file `.osm.db` and a SpatialLite file.
 
 ![QGIS retrieve data from OpenStreetMap](../files/tutorials/tutorial-osm/qgis-interfaceb.png)
 
-Step 3. Click on Vector -> OpenStreetMap -> "Export Topology to Spatial Lite". In the first field, insert the database you just have created in Step 2 (.osm.bd). In "Export type", select the type of layer you want: points, lines or polygons. The trick here is that the .osm file will have all of them; so, if you’re looking for highways, you will find this attribute in the layer lines. In the output layer name choose the name you want for your new GIS file. Then, click on "Load from DB". When you click here, you will see all the attributes available for either points, lines or polygons. Click on all the attributes you want to keep in your dataset. Then click OK and QGIS will display the map on the screen. The file will be exported as a SpatialLite file, but you can easily save it as Shapefile, GeoJSON, KML or whatever GIS file format that works better for you (see a file format comparison in Appendix 1).
+<u>Step 3.</u> Once you created the SpatialLite files, click on `Vector -> OpenStreetMap -> "Export Topology to Spatial Lite"`. In the first field, insert the SpatialLite database (`.osm.db`) you just have created in Step 2. The `.osm` file stores all the layers for points, lines and polygons, but you cannot export all these together into QGIS. You must export one by one. Therefore, in `Export type`, select the type of layer you want: points, lines or polygons. For example, if you are interested in highways, you will find this attribute in the layer lines.
+
+Then, select an file name for the layer to be exported and click on `Load from DB`. When you click here, you will see all the attributes available for either points, lines or polygons. Click on all the attributes you want to keep in your map and click `OK`. The file will be exported as a `SpatialLite` file, but you can easily save it as `Shapefile`, `GeoJSON`, `KML` or other GIS file format.
 
 ![QGIS retrieve data from OpenStreetMap](../files/tutorials/tutorial-osm/qgis-interfacec.png)
 
 ## E. Repositories
+
 All the options before are for small to medium maps. If you need to use regional maps (at national or international level), then you should get the data from repositories. There are many repositories and is easy to download the data.
-The first place you may want to visit is http://extract.bbbike.org/. This is an interface similar than Overpass Turbo that allows you to get personalized data with bigger dimensions. You can also download the file directly as ESRI’s Shapefile. Another great site is https://www.geofabrik.de. Here you can find GIS files (Shapefiles and .osm) at different levels, from continents to states. You can check out the complete list of repositories here: http://wiki.openstreetmap.org/wiki/Planet.osm.
+
+The first place you may want to visit is [BBBike.org](http://extract.bbbike.org/). This is an interface similar than Overpass Turbo that allows you to get personalized data with bigger dimensions. BBBike allows you to download the file directly as ESRI’s Shapefile. Another great site is [Geofabrik](https://www.geofabrik.de). Here you can find GIS files (`Shapefiles` and `.osm`) at different levels, from continents to states.
+
+Here is a [complete list of OpenStreetMap repositories](http://wiki.openstreetmap.org/wiki/Planet.osm).
 
 [^2]: See the [full catalog of features](http://wiki.openstreetmap.org/wiki/Map_Features).
