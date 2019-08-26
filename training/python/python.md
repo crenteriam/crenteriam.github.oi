@@ -14,7 +14,10 @@ Sin embargo, recomendamos la instalacion de [Anaconda](https://en.wikipedia.org/
 
 En algunas ocasiones, es necesario ejecutar ciertas funciones de Python desde la terminal de comandos. Esto es relativamente sencillo si se esta trabajando desde sistemas operativos basados en Unix, como Linux u OS, pero se complica un poco en Windows. Por ello, es importante tener en cuenta la posible necesidad de instalar [Cygwin], que es un software para emular la terminal de comandos del ambiente de Unix y que facilita considerablemente la gestion de funcionalidades de Python en Windows. De nuevo, este software no es fundamental, salvo ocasiones especiales, pero se puede descargar desde la [pagina de Cygwin](https://www.cygwin.com/)
 
-# Uso:
+# Python
+
+Trabajaremos en Python principalmente desde su interfas Grafica Spyder. Pero antes, nos familiarizaremos con dos formas de trabajar en Python: terminal e IDLE Python.
+
 python
 anaconda/conda promts
 cygwin
