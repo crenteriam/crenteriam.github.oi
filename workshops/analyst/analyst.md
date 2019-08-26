@@ -33,7 +33,7 @@ El curso esta orientado al ejercicio practico. Por lo tanto, la mayoria del tiem
 |:-------------:|--------------| :--- |
 | **1**   | **Introduccion** |
 |         | Ciencia de datos y analisis de politica publica | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a>  |
-|         | Python | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
+|         | Python | <a href="https://crenteriam.github.io/training/python/python/" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
 | **2**   | **Supervised Machine Learning I**    | |
 |         | Logistic Regression       | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
 |         | K Nearest Neighboors (KNN)       | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
