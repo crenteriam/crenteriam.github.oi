@@ -1,6 +1,3 @@
-[![](https://cranlogs.r-pkg.org/badges/importinegi)](https://cran.r-project.org/package=importinegi)
-
-[![](https://www.r-pkg.org/badges/version-last-release/importinegi)](https://cran.r-project.org/package=importinegi)
 
 This is a personal website for academic communication. The Website is based on [Lanyon](http://lanyon.getpoole.com/), a content-centered open Jekyll theme. I adapted some code from [Vitaly Repin's blog](http://vrepin.org/), [Bradley Boehmke's website](http://bradleyboehmke.github.io/), [Paul Len's Lagrange Theme](http://lenpaul.github.io/Lagrange/menu/about.html), and [University of Cincinnati's Business Analytics website](http://uc-r.github.io/).
 
