@@ -8,19 +8,16 @@ title: Teaching
 
 ### Talleres {#Talleres}
 
-| Talleres 2019  |
-|:-------------:|
-| [Programador de Big Data para Politicas Publicas](workshops/programmer/programmer.md) |
-| [Inteligencia Artificial para el Analisis de Políticas Públicas](workshops/ia_politicas/ia_politicas.md) |
-| [Visualizacion de Datos](TBD)   |
-
-
 <!--| [Consumo de Datos para Toma de Decisiones](workshops/consumer/consumer.md)  |
 | [Ciencias Sociales Computacionales](training/ciencias-sociales-computacionales.md)   |-->
 
 | Book |
 | :---:  |
-| [Dynamic Documents with Stata](training/dynamic-documents/dynamicdocs-stata.md)   |
+| [Dynamic Documents with Stata (Under Development)](training/dynamic-documents/dynamicdocs-stata.md)   |
+
+| Talleres |
+|:-------------:|
+| [Inteligencia Artificial para el Analisis de Políticas Públicas](workshops/ia_politicas/ia_politicas.md) |
 
 | Tutorials  |
 |:-------------:|

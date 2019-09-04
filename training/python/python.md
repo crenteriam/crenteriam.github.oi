@@ -53,5 +53,4 @@ conda install -c conda-forge mlxtend
 
 ### References
 
-- [Raschka (2015) Python Machine Learning](https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning-second-edition)
 - [VanderPlas (2016) Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)

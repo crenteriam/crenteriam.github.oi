@@ -1,6 +1,6 @@
 ---
 layout: contents
-title:
+title: Inteligencia Artificial para el Analisis de Políticas Públicas
 tag: inteligencia artificial, politicas publicas, ciencia de datos, inteligencia de datos, analisis de politicas, gobierno
 ---
 
@@ -59,8 +59,10 @@ El taller se divide en sesiones (cuatro por día), cada uno de 75 minutos más 1
 **Aplicaciones de software para el aprendizaje de máquina:**
 
 <u>Python</u>
+- [Raschka (2015) Python Machine Learning](https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning-second-edition)
 - Randal & Olson [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka-ebook/dp/B00YSILNL0)
 - Harrington, [Machine Learning in Action](https://www.amazon.com/Machine-Learning-Action-Peter-Harrington/dp/1617290181)
+
 
 <u>R</u>
 - James et al - An Introduction fo Statistical Learning in R
