@@ -35,15 +35,17 @@ El taller se divide en sesiones (cuatro por día), cada uno de 75 minutos más 1
 | **3**   | **Aprendizaje de Máquina Supervisado II** |
 |         | Árboles de Decisión | <a href="#" style="color:black;"><i class="fas fa-folder-open" style="font-size:1em"></i></a> |
 |         | *Ensemble Learners: Random Forest*  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
-| **4**   | **Aprendizaje de Máquina Supervisado (Otros)**  |
-| **5**   | **Aprendizaje de Máquina No Supervisado** |
+| **4**   | **Caso práctico I**  |
+| **5**   | **Aprendizaje de Máquina Supervisado (Otros)**  |
+| **6**   | **Aprendizaje de Máquina No Supervisado** |
 |         | *Clustering*  |
 |         | *Association Rules*  |
 |         | Analisis de Componentes Principales  |
-| **4**   | **Refinacion de Modelos**  |
+| **7**   | **Refinacion de Modelos**  |
 |         | Building a Good Training Set  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
 |         | Dimensionality Reduction  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
 |         | Model Evaluation  | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a> |
+| **8**   | **Caso práctico II**  |
 
 [Arriba](#Contenido)
 
