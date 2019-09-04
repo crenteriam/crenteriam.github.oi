@@ -6,11 +6,6 @@ title: Teaching
 <a name="Interests"></a>
 ### Teaching Interests
 
-### Talleres {#Talleres}
-
-<!--| [Consumo de Datos para Toma de Decisiones](workshops/consumer/consumer.md)  |
-| [Ciencias Sociales Computacionales](training/ciencias-sociales-computacionales.md)   |-->
-
 | Book |
 | :---:  |
 | [Dynamic Documents with Stata (Under Development)](training/dynamic-documents/dynamicdocs-stata.md)   |
@@ -18,6 +13,9 @@ title: Teaching
 | Talleres |
 |:-------------:|
 | [Inteligencia Artificial para el Analisis de Políticas Públicas](workshops/ia_politicas/ia_politicas.md) |
+
+<!--| [Consumo de Datos para Toma de Decisiones](workshops/consumer/consumer.md)  |
+| [Ciencias Sociales Computacionales](training/ciencias-sociales-computacionales.md)   |-->
 
 | Tutorials  |
 |:-------------:|

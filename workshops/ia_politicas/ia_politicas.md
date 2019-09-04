@@ -51,34 +51,35 @@ El taller se divide en sesiones (cuatro por día), cada uno de 75 minutos más 1
 
 ### Referencias {#Referencias}
 
-**Fundamentos estadisticos del aprendizaje de máquina:**
-- Trevor Hastie et. al., [Elements of Statistical Learning](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)
-- Richard Berk, [Statistical Learning from a Regression Perspective](https://www.amazon.com/Statistical-Learning-Regression-Perspective-Statistics/dp/3319440470)
-- Kuhn & Johnson [Applied Predictive Modeling](https://www.amazon.com/Applied-Predictive-Modeling-Max-Kuhn/dp/1461468485)
-- Peter Flach, [Machine Learning: The Art and Science of Algorithms that Make Sense of Data](https://www.amazon.com/Machine-Learning-Science-Algorithms-Sense/dp/1107422221)
-- Schutt & O'Neil, [Doing Data Science: Straight Talk from the Frontline](https://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659)
+**Inteligencia artificial:**
+- Schutt & O'Neil (2013) [Doing Data Science: Straight Talk from the Frontline](https://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659)
+- Peter Flach (2012) [Machine Learning: The Art and Science of Algorithms that Make Sense of Data](https://www.amazon.com/Machine-Learning-Science-Algorithms-Sense/dp/1107422221)
 
 **Aplicaciones de software para el aprendizaje de máquina:**
 
 <u>Python</u>
-- [Raschka (2015) Python Machine Learning](https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning-second-edition)
-- Randal & Olson [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka-ebook/dp/B00YSILNL0)
-- Harrington, [Machine Learning in Action](https://www.amazon.com/Machine-Learning-Action-Peter-Harrington/dp/1617290181)
-
+- Harrington (2012) [Machine Learning in Action](https://www.amazon.com/Machine-Learning-Action-Peter-Harrington/dp/1617290181)
+- Raschka (2015) [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka-ebook/dp/B00YSILNL0)
 
 <u>R</u>
-- James et al - An Introduction fo Statistical Learning in R
-- [Books for Machine Learning with R](https://machinelearningmastery.com/books-for-machine-learning-with-r/)
+- Lantz (2013) [Machine Learning with R](https://www.amazon.com/dp/1782162143?tag=inspiredalgor-20)
+- Zumel et al. (2013) [Practical Data Science with R](https://www.amazon.com/dp/1617291560?tag=inspiredalgor-20)
+- Torgo (2010) [Data Mining with R: Learning with Case Studies](https://www.amazon.com/dp/1439810184?tag=inspiredalgor-20)
+- James et al (2013) [An Introduction to Statistical Learning with Applications in R](https://www.springer.com/gp/book/9781461471370)
 - [CRAN Task View](https://cran.r-project.org/web/views/MachineLearning.html)
-- [Videos (ESP) - Introduccion ML con Python](https://www.youtube.com/playlist?list=PLJjOveEiVE4Dk48EI7I-67PEleEC5nxc3)
+
+**Fundamentos estadísticos del aprendizaje de máquina:**
+- Berk (2016) [Statistical Learning from a Regression Perspective](https://www.amazon.com/Statistical-Learning-Regression-Perspective-Statistics/dp/3319440470)
+- Kuhn & Johnson (2018) [Applied Predictive Modeling](https://www.amazon.com/Applied-Predictive-Modeling-Max-Kuhn/dp/1461468485)
+- Hastie et. al. (2016) [The Elements of Statistical Learning](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)
 
 [Arriba](#Contenido)
 
 ### Cursos en linea
 - University of Chicago, [Machine Learning for Public Policy](http://www.rayidghani.com/teaching)
-- [STAT 402 - Generalized Linear and Nonlinear Modelling](http://people.stat.sfu.ca/~raltman/stat402/)
 - Coursera [Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python)
 - Columbia University, [Master Data Science](https://datascience.columbia.edu/master-of-science-in-data-science)
+- Ligdi Gonzalez [Curso Machine Learning con Python](https://www.youtube.com/playlist?list=PLJjOveEiVE4Dk48EI7I-67PEleEC5nxc3)
 
 <!--[Rayid Ghani](http://www.rayidghani.com/teaching).-->
 
