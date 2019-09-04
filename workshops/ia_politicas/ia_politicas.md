@@ -1,6 +1,6 @@
 ---
 layout: contents
-title: Inteligencia Artificial para el Analisis de Políticas Públicas
+title: Inteligencia Artificial para el Análisis de Políticas Públicas
 tag: inteligencia artificial, politicas publicas, ciencia de datos, inteligencia de datos, analisis de politicas, gobierno
 ---
 
@@ -10,11 +10,11 @@ tag: inteligencia artificial, politicas publicas, ciencia de datos, inteligencia
 
 | Contenido |
 | :---: |
-| [Presentacion](#Presentacion) |
+| [Presentación](#Presentacion) |
 | [Sesiones](#Sesiones) |
 | [Referencias](#Referencias) |
 
-### Presentacion {#Presentacion}
+### Presentación {#Presentacion}
 
 Este es un taller para desarrollar habilidades básicas de las principales técnicas de inteligencia artificial para el análisis de políticas públicas y su aplicación en Python. El curso está diseñado para estudiantes de ciencias sociales interesados en el uso de *big data* para el análisis  de problemas sociales. En la última sesión de cada día, los estudiantes se enfrentarán al análisis y elaboración de recomendaciones de políticas públicas de un caso práctico con datos de la ciudad de Guadalajara.
 
@@ -24,7 +24,7 @@ El taller se divide en sesiones (cuatro por día), cada uno de 75 minutos más 1
 
 ### Sesiones {#Sesiones}
 
-| Sesion       | Descripcion  |       |
+| Sesión       | Descripción  |       |
 |:-------------:|--------------| :--- |
 | **1**   | **Introducción** |
 |         | Inteligencia artificial y análisis de políticas públicas | <a href="#" style="color:black;"><i class="fas fa-chalkboard-teacher" style="font-size:1em"></i></a>  |
