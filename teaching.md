@@ -11,7 +11,7 @@ title: Teaching
 | Talleres 2019  |
 |:-------------:|
 | [Programador de Big Data para Politicas Publicas](workshops/programmer/programmer.md) |
-| [Ciencia de Datos para el Analisis de Politicas Publicas](workshops/analyst/analyst.md) |
+| [Inteligencia Artificial para el Analisis de Políticas Públicas](workshops/ia_politicas/ia_politicas.md) |
 | [Visualizacion de Datos](TBD)   |
 
 
