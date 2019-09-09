@@ -8,7 +8,13 @@ title: Research
 
 
 <!--TEXT STARTS HERE-->
-My primary area of interest is the adoption and use of information technologies in organizations. Currently, I am studying information technologies to improve citizen participation, decision-making and public service delivery.
+My primary area of interest is information technologies in organizations. My research interests seek to contribute to three contemporary challenges of the public administration in which information technologies may play an important roleÑ
+
+- Improving the quality of decision-making in government
+- Improving the deliberative democracy and democratic institutions
+- Rebuild trust in government
+
+To addresse these challenges is necessary to better understand the evolution of bureaucracies in the XXI Century; the interactions between social and technological change, social mobilization, and citizen participation; and finally the causes and consequences of the declining trust in government.
 
 <!--TEXT ENDS HERE-->
 <center>
