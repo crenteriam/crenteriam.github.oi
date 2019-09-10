@@ -8,7 +8,7 @@ title: Research
 
 
 <!--TEXT STARTS HERE-->
-My primary area of interest is information technologies in organizations. My research interests seek to contribute to three contemporary challenges of the public administration in which information technologies may play an important roleÑ
+My primary area of interest is information technologies in organizations. My research interests seek to contribute to three contemporary challenges of the public administration in which information technologies may play an important role:
 
 - Improving the quality of decision-making in government
 - Improving the deliberative democracy and democratic institutions
