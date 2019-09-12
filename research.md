@@ -12,7 +12,7 @@ My primary area of interest is information technologies in organizations. I seek
 
 - Improving the quality of decision-making in government
 - Improving the deliberative democracy and democratic institutions
-- Rebuild trust in government
+- Recovering trust in government
 
 Seeking answers for these challenges, I explore
 the interactions between social and technological change, social mobilization, and citizen participation; the evolution of bureaucracies in the XXI Century; and the causes and consequences of the declining trust in government.
