@@ -15,7 +15,7 @@ My primary area of research is information technologies in organizations. I seek
 - Recovering trust in government
 
 Seeking answers for these challenges, I explore
-the interactions between social and technological change, social mobilization, and citizen participation; the evolution of bureaucracies in the XXI Century; and the causes and consequences of the declining trust in government.
+the interactions between social and technological change, social mobilization, and citizen participation; track the changes of bureaucracies in the XXI Century; and the causes and consequences of the declining trust in government.
 
 <!--TEXT ENDS HERE-->
 <center>
