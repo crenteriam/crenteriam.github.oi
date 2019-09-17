@@ -8,14 +8,14 @@ title: Research
 
 
 <!--TEXT STARTS HERE-->
-My primary area of research is information technologies in organizations. I seek to contribute to three contemporary challenges of public administration in which information technologies are drivers of change:
+My primary area of research is information technologies in organizations. I seek to contribute to three contemporary challenges of public administration in which information technologies are instruments for change:
 
 - Improving the quality of decision-making in government
 - Improving the deliberative democracy and democratic institutions
 - Recovering trust in government
 
 Seeking answers for these challenges, I explore
-the interactions between social and technological change, social mobilization, and citizen participation; track the changes of bureaucracies in the XXI Century; and the causes and consequences of the declining trust in government.
+the interactions between social and technological change, social mobilization, and citizen participation; track the changes of bureaucracies in the XXI Century; and study the causes and consequences of the declining trust in government.
 
 <!--TEXT ENDS HERE-->
 <center>
