@@ -42,7 +42,7 @@ Proporcionar a los estudiantes conocimiento comprensión y destreza en las nueva
 
 ## Sesiones {#Sesiones}
 
-| Sesión       | Descripción  | Lecturas y Videos asignados |
+| Sesión       | Descripción  | Lecturas y Videos |
 |:-------------:   | :-------------- | :---- |
 | **UNIDAD I** | **TECNOLOGÍA Y CAMBIO SOCIAL** | |
 | S1 | Introducción  | (1) [Colombo (2014)](), (2) ["Así recuperamos Internet."]() |
