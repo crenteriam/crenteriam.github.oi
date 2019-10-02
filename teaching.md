@@ -16,7 +16,7 @@ title: Teaching
 
 | Cursos  |
 |:-------------:|
-| [TIC, democracia y rendición de cuentas](courses-tic_democracia/tic_democracia.md)  |
+| [TIC, democracia y rendición de cuentas](courses/tic_democracia/tic_democracia.md)  |
 
 | Tutorials  |
 |:-------------:|
