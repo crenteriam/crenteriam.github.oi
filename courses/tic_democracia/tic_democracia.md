@@ -44,7 +44,7 @@ Proporcionar a los estudiantes conocimiento comprensión y destreza en las nueva
 
 | Sesión       | Descripción  | Lecturas y Videos |
 |:-------------:   | :-------------- | :---- |
-| **UNIDAD I** | <nobr>**TECNOLOGÍA Y CAMBIO SOCIAL**</nobr> | |
+| **UNIDAD I** | <nobr><b>TECNOLOGÍA Y CAMBIO SOCIAL</b></nobr> | |
 | S1 | Introducción  | (1) [Colombo (2014)](), (2) ["Así recuperamos Internet."]() |
 | S2 | Cambio tecnológico | Celorio (2016) |
 | S3 | Derechos Humanos en Internet | (1)	Straehle (2016), (2) González Quijano (2011) |
