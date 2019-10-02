@@ -45,22 +45,22 @@ Proporcionar a los estudiantes conocimiento comprensión y destreza en las nueva
 | Sesión       | Descripción  | Lecturas y Videos asignados |
 |:-------------:   | :-------------- | :---- |
 | **UNIDAD I** | **TECNOLOGÍA Y CAMBIO SOCIAL** | |
-| S1 | Introducción  | (1) [Colombo (2014)](), (2) [Entrevista a Edward Snowden (2014) "Así recuperamos Internet."]() |
+| S1 | Introducción  | (1) [Colombo (2014)](), (2) ["Así recuperamos Internet."]() |
 | S2 | Cambio tecnológico | Celorio (2016) |
 | S3 | Derechos Humanos en Internet | (1)	Straehle (2016), (2) González Quijano (2011) |
 | S4 | Una nueva generación política | Ninguna |
 | S5 | Teoría de redes | Ninguna |
-| S6 | La sociedad red | (1) Castells (2002), (2) Entrevista a [Manuel Castells en Vuelta de Tuerka](https://www.youtube.com/watch?v=dU-MD3NqmQ8&t=3410s) |
+| S6 | La sociedad red | (1) Castells (2002), (2) [Manuel Castells en Vuelta de Tuerka](https://www.youtube.com/watch?v=dU-MD3NqmQ8&t=3410s) |
 | **UNIDAD II** | **USO DE LAS TIC EN LA VIDA DEMOCRÁTICA** | |
-| S7 | Comunicación como medio de empoderamiento ciudadano | (1) Conferencia de Castells de su libro Comunicación y poder. [Opción 1](https://www.youtube.com/watch?v=31b6vD_cyh4), y [Opción 2](https://www.youtube.com/watch?v=wPNnSMSM5og), (2) Documental [el Mundo según Manuel Castells](https://www.youtube.com/watch?v=fUodIfrX6UE&t=1601s). |
-| S8 | Movimientos sociales en red | (1) Presentación del libro [Redes de indignación y esperanza](https://www.youtube.com/watch?v=S_7zOcnDvFs), (2) Conferencia de M. Castells [Redes de indignación y esperanza](https://www.youtube.com/watch?v=O4h-hrF2ObE), (3) Postill (2016) |
+| S7 | Comunicación como medio de empoderamiento ciudadano | (1) Conferencia: Comunicación y poder. [Opción 1](https://www.youtube.com/watch?v=31b6vD_cyh4), y [Opción 2](https://www.youtube.com/watch?v=wPNnSMSM5og), (2) [El Mundo según Manuel Castells](https://www.youtube.com/watch?v=fUodIfrX6UE&t=1601s). |
+| S8 | Movimientos sociales en red | (1) [Redes de indignación y esperanza](https://www.youtube.com/watch?v=S_7zOcnDvFs), (2) M. Castells [Redes de indignación y esperanza](https://www.youtube.com/watch?v=O4h-hrF2ObE), (3) Postill (2016) |
 | **UNIDAD III** | **LAS REFORMAS DE TRANSPARENCIA Y SU VINCULACIÓN CON LAS TIC** | |
-| S9 | Gobierno abierto | (1) Telefónica (2013) Capitulo 4. Las TIC en el gobierno abierto, (2) Olvera & Vera (2004) Rendición de Cuentas Fundamentos |
-| S10 | Tecnología y Rendición de cuentas social | Marce & Soler (2016) Amplificando la voz de los ciudadanos |
+| S9 | Gobierno abierto | (1) Telefónica (2013) (2) Olvera & Vera (2004) |
+| S10 | Tecnología y Rendición de cuentas social | Marce & Soler (2016) |
 | S10 | **Examen parcial (cubre solamente las Unidades I y II)** | |
-| S11 | Tecnologias Civicas I. Conceptos | Magallón (2014) Tecnologías cívicas y participación |
+| S11 | Tecnologias Civicas I. Conceptos | Magallón (2014) |
 | S12 | Tecnologías Cívicas II. Tipología y casos. | |
-| S13 | Tecnología, periodismo y rendición de cuentas. | Casero-Ripolles (2014) Redes sociales periodismo de datos y democracia monitorizada |
+| S13 | Tecnología, periodismo y rendición de cuentas. | Casero-Ripolles (2014) |
 | S14 | Teoría de la implementación de TIC en organizaciones. | |
 | S15 | Líneas estratégicas de acción. |
 | S16 | Gobierno Abierto. Tipología y Casos. | |
