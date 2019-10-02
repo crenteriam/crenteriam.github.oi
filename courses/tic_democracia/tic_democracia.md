@@ -3,6 +3,8 @@ layout: contents
 title: TIC, Democracia y rendición de cuentas
 ---
 
+## Contenido {#Contenido}
+
 | Contenido |
 | :---: |
 | [Presentación](#Presentacion) |
