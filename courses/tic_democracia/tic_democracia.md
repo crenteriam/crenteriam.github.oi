@@ -6,6 +6,8 @@ title: TIC, Democracia y rendición de cuentas
 | Contenido |
 | :---: |
 | [Presentación](#Presentacion) |
+| [Objetivo](#Objetivo) |
+| [Evaluación](#Evaluacion) |
 | [Sesiones](#Sesiones) |
 | [Referencias](#Referencias) |
 
@@ -59,7 +61,6 @@ Proporcionar a los estudiantes conocimiento comprensión y destreza en las nueva
 | **UNIDAD III** | **LAS REFORMAS DE TRANSPARENCIA Y SU VINCULACIÓN CON LAS TIC** | |
 | S9 | Gobierno abierto | (1) Telefónica (2013) (2) Olvera & Vera (2004) |
 | S10 | Tecnología y Rendición de cuentas social | Marce & Soler (2016) |
-| S10 | **Examen parcial (cubre solamente las Unidades I y II)** | |
 | S11 | Tecnologias Civicas I. Conceptos | Magallón (2014) |
 | S12 | Tecnologías Cívicas II. Tipología y casos. | |
 | S13 | Tecnología, periodismo y rendición de cuentas. | Casero-Ripolles (2014) |

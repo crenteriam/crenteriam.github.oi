@@ -14,6 +14,10 @@ title: Teaching
 <!--| [Consumo de Datos para Toma de Decisiones](workshops/consumer/consumer.md)  |
 | [Ciencias Sociales Computacionales](training/ciencias-sociales-computacionales.md)   |-->
 
+| Cursos  |
+|:-------------:|
+| [TIC, democracia y rendición de cuentas](courses-tic_democracia/tic_democracia.md)  |
+
 | Tutorials  |
 |:-------------:|
 | [Getting Started with Stata](training/stata/stata.md)  |
