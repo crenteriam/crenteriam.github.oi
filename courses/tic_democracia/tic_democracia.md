@@ -59,14 +59,16 @@ Proporcionar a los estudiantes conocimiento comprensión y destreza en las nueva
 | [S5](http://tuvalu.santafe.edu/~aaronc/slides/Clauset_2015_SFI_Networks_ShortCourse.pdf) | Teoría de redes | Ninguna |
 | [S6](/courses/tic_democracia/materiales/S5-La-Sociedad-Red-Web.md) | La sociedad red | (1) Castells (2002), (2) [Manuel Castells en Vuelta de Tuerka](https://www.youtube.com/watch?v=dU-MD3NqmQ8&t=3410s) |
 
-### UNIDAD II TECNOLOGIAS DE LA INFORMACION COMO HERRAMIENTA DE EMPODERAMIENTO CIUDADANO
+### UNIDAD II TIC COMO INSTRUMENTO DE EMPODERAMIENTO CIUDADANO
+
 | Sesión       | Descripción  | Lecturas y Videos |
 |:-------------:   | :-------------- | :---- |
 | S7 | Empoderamiento ciudadano | (1) Conferencia: Comunicación y poder. [Opción 1](https://www.youtube.com/watch?v=31b6vD_cyh4), y [Opción 2](https://www.youtube.com/watch?v=wPNnSMSM5og), (2) [El Mundo según Manuel Castells](https://www.youtube.com/watch?v=fUodIfrX6UE&t=1601s). |
 | S8 | Movimientos sociales en red | (1) [Redes de indignación y esperanza](https://www.youtube.com/watch?v=S_7zOcnDvFs), (2) M. Castells [Redes de indignación y esperanza](https://www.youtube.com/watch?v=O4h-hrF2ObE), (3) Postill (2016) |
 | S9 | Tecnologías de la información y rendición de cuentas social | Marce & Soler (2016) |
 
-### UNIDAD III HERRAMIENTAS TECNOLOGICAS
+### UNIDAD III HERRAMIENTAS TECNOLOGICAS PARA LA RENDICION DE CUENTAS
+
 | Sesión       | Descripción  | Lecturas y Videos |
 |:-------------:   | :-------------- | :---- |
 | S10 | Herramientas tecnologicas de nueva generacion |
