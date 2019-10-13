@@ -54,7 +54,7 @@ Proporcionar a los estudiantes conocimiento comprensión y destreza en las nueva
 |:-------------:   | :-------------- | :---- |
 | S1 | Introducción  | (1) [Colombo (2014)](), (2) ["Así recuperamos Internet."]() |
 | S2 | Cambio tecnológico | Celorio (2016) |
-| S3 | Derechos Humanos en Internet | (1)	Straehle (2016), (2) González Quijano (2011) |
+| S3 | Cambio económico |  |
 | S4 | Una nueva generación política | Ninguna |
 | [S5](http://tuvalu.santafe.edu/~aaronc/slides/Clauset_2015_SFI_Networks_ShortCourse.pdf) | Teoría de redes | Ninguna |
 | [S6](/courses/tic_democracia/materiales/S5-La-Sociedad-Red-Web.md) | La sociedad red | (1) Castells (2002), (2) [Manuel Castells en Vuelta de Tuerka](https://www.youtube.com/watch?v=dU-MD3NqmQ8&t=3410s) |
