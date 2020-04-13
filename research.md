@@ -8,7 +8,7 @@ title: Research
 
 
 <!--TEXT STARTS HERE-->
-Is remarkable how some technological innovations have impacted people's lifestyles and behaviors, organizational practices, and social dynamics. The Web 2.0, distributed computing, and artifical intelligence,[^1] for example, have transformed the production, storage, processing and transmission of information.
+Is remarkable how some technological innovations have impacted people's lifestyles and behaviors, organizational practices, and social dynamics. Web 2.0 applications,[^1] distributed computing, and artifical intelligence, for example, have transformed the production, storage, processing and transmission of information.
 
 I find joy understanding the implications of *information technologies in organizations*; how, for example, they transform citizen participation, managerial practices in workplaces, decision-making practices or *how* (and *how good*) public services are being delivered.
 
@@ -30,7 +30,7 @@ Seeking answers for these challenges, I analyze the interactions between social 
 
 </center>
 
-[^1]: Through all their children, e.g., platforms, social media, blogs, wikis, crowdsourcing, **collective intelligence**, live streaming, instant messaging, cloud computing, blockchain, predictive analytics, automated decision-making, etc.
+[^1]: Platforms, social media, blogs, wikis, crowdsourcing, **collective intelligence**, live streaming, instant messaging, cloud computing, blockchain, predictive analytics, automated decision-making, etc.
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjU2MTgxODY1LC0xMjQwNzU2MTY1XX0=
