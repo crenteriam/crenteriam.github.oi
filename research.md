@@ -8,11 +8,15 @@ title: Research
 
 
 <!--TEXT STARTS HERE-->
-My primary area of research is *information technologies in organizations*. I seek to contribute to three contemporary challenges of public administration in which information technologies are instruments for change:
+It is remarkable how some technological innovations have impacted people's lifestyles and behaviors, organizational practices, and social dynamics. The Web 2.0, distributed computing, and artifical intelligence,[^1] for example, have transformed the production, storage, processing and transmission of information.
 
-- Improving the quality of decision-making in government
+I find joy understanding the implications of **information technologies in organizations**; how, for example, they transform citizen participation, managerial practices in workplaces, decision-making practices or **how** (and **how good**) public services are being delivered.
+
+Thinking of information technologies as instruments for change, I do research seeking to address three contemporary challenges of public administration:
+
 - Improving citizen participation and governance mechanisms
-- Recovering trust in government
+- Improving the quality of decision-making in government
+- Stengthening democratic values in public institutions
 
 Seeking answers for these challenges, I analyze the interactions between social and technological change, social mobilization, and citizen participation; I explore the evolution of bureaucracies in the XXI century; and I study the causes and consequences of the declining trust in government.
 
@@ -26,6 +30,7 @@ Seeking answers for these challenges, I analyze the interactions between social 
 
 </center>
 
+[^1]: Through all their children, e.g., platforms, social media, blogs, wikis, crowdsourcing, **collective intelligence**, live streaming, instant messaging, cloud computing, blockchain, predictive analytics, automated decision-making, etc.
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjU2MTgxODY1LC0xMjQwNzU2MTY1XX0=
