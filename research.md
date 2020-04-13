@@ -10,7 +10,7 @@ title: Research
 <!--TEXT STARTS HERE-->
 It is remarkable how some technological innovations have impacted people's lifestyles and behaviors, organizational practices, and social dynamics. The Web 2.0, distributed computing, and artifical intelligence,[^1] for example, have transformed the production, storage, processing and transmission of information.
 
-I find joy understanding the implications of **information technologies in organizations**; how, for example, they transform citizen participation, managerial practices in workplaces, decision-making practices or **how** (and **how good**) public services are being delivered.
+I find joy understanding the implications of *information technologies in organizations*; how, for example, they transform citizen participation, managerial practices in workplaces, decision-making practices or *how* (and *how good*) public services are being delivered.
 
 Thinking of information technologies as instruments for change, I do research seeking to address three contemporary challenges of public administration:
 
