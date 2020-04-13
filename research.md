@@ -32,7 +32,7 @@ Seeking answers for these challenges, I analyze the interactions between social 
 
 <p>&nbsp;</p>
 
-[^1]: Platforms, social media, blogs, wikis, crowdsourcing, **collective intelligence**, live streaming, instant messaging, cloud computing, blockchain, predictive analytics, automated decision-making, etc.
+[^1]: Platforms, social media, blogs, wikis, crowdsourcing, *collective intelligence*, live streaming, instant messaging, cloud computing, blockchain, predictive analytics, automated decision-making, etc.
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjU2MTgxODY1LC0xMjQwNzU2MTY1XX0=
