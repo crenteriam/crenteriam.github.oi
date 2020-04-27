@@ -8,17 +8,15 @@ title: Research
 
 
 <!--TEXT STARTS HERE-->
-Is remarkable how some technological innovations have impacted people's lifestyles and behaviors, organizational practices, and social dynamics. Web 2.0 applications,[^1] distributed computing, and artifical intelligence, for example, have transformed the production, storage, processing and transmission of information.
+I find fascinating how some technological innovations have impacted people's lifestyles and behaviors, organizational practices, and social dynamics. Web 2.0 applications, distributed computing, and artifical intelligence, for example, have transformed the way we produce, storage, process and transmit information.
 
-I find joy understanding the implications of *information technologies in organizations*; how, for example, they transform citizen participation, managerial practices in workplaces, decision-making practices or *how* (and *how good*) public services are being delivered.
-
-Thinking of information technologies as instruments for change, I do research seeking to address three contemporary challenges of public administration:
+I find joy understanding the implications of these information technologies in organizations; how, for example, they transform citizen participation, managerial and decision-making practices or the delivery of public services. My research seeks to better understand the use of information technologies as instruments for addressing three contemporary challenges of public administration:
 
 - Improving citizen participation and governance mechanisms
 - Improving the quality of decision-making in government
 - Stengthening democratic values in public institutions
 
-Seeking answers for these challenges, I analyze the interactions between social and technological change, social mobilization, and citizen participation; I explore the evolution of bureaucracies in the XXI century; and I study the causes and consequences of the declining trust in government.
+Seeking answers for these challenges, I analyze the interactions between social and technological change, social mobilization, and citizen participation, and  I explore the evolution of bureaucracies in the XXI century.
 
 <!--TEXT ENDS HERE-->
 <center>
@@ -34,7 +32,7 @@ Seeking answers for these challenges, I analyze the interactions between social 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-[^1]: Platforms, social media, blogs, wikis, crowdsourcing, *collective intelligence*, live streaming, instant messaging, cloud computing, blockchain, predictive analytics, automated decision-making, etc.
+<!--[^1]: Platforms, social media, blogs, wikis, crowdsourcing, *collective intelligence*, live streaming, instant messaging, cloud computing, blockchain, predictive analytics, automated decision-making, etc.-->
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjU2MTgxODY1LC0xMjQwNzU2MTY1XX0=
