@@ -29,8 +29,6 @@ Seeking answers for these challenges, I analyze the interactions between social 
 </center>
 
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 
 <!--[^1]: Platforms, social media, blogs, wikis, crowdsourcing, *collective intelligence*, live streaming, instant messaging, cloud computing, blockchain, predictive analytics, automated decision-making, etc.-->
 

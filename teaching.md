@@ -16,6 +16,8 @@ title: Teaching
 
 | Cursos  |
 |:-------------:|
+| [Estimación de Máxima Verosimilitud](XXXX) |
+| [Implicaciones de las technologías disruptivas en el sector público](XXX.) |
 | [TIC, democracia y rendición de cuentas](courses/tic_democracia/tic_democracia.md)  |
 
 | Tutorials  |
