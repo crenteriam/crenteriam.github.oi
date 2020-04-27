@@ -16,7 +16,7 @@ I find joy understanding the implications of these information technologies in o
 - Improving the quality of decision-making in government
 - Stengthening democratic values in public institutions
 
-Seeking answers for these challenges, I analyze the interactions between social and technological change, social mobilization, and citizen participation, and  I explore the evolution of bureaucracies in the XXI century.
+Seeking answers for these challenges, I analyze the interactions between social and technological change, social mobilization, and citizen participation, and I explore the evolution of bureaucracies in the XXI century.
 
 <!--TEXT ENDS HERE-->
 <center>
