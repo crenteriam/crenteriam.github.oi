@@ -1,7 +1,10 @@
 ---
 layout: contents
-title: Estimación de Máxima Verosimilitud
+title: Estimacion de Maxima Verosimilitud
+tag:
 ---
+
+MLE
 
 ## Contenido {#Contenido}
 

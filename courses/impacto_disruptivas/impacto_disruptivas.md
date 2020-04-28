@@ -1,7 +1,10 @@
 ---
 layout: contents
 title: Minicurso: Impacto de las Tecnologías Disruptivas en el Sector Público
+tag:
 ---
+
+Minicurso
 
 ## Contenido {#Contenido}
 
