@@ -38,14 +38,14 @@ Organizar y sistematizar de una manera introductoria los posibles efectos disrup
 | Sesión       | Descripción  |
 |:-------------:   | :-------------- |
 | 1 | [Introducción: las tecnologías disruptivas en un contexto de la administración pública](/sesion1.md)  |
-| 2 | Promesas del blockchain |
-| 3 | Contratos inteligentes |
-| 4 | Introducción a la inteligencia artificial |
-| 5 | Inteligencia artificial y toma de decisiones |
-| 6 | *Big Data*: impacto en la toma de decisiones |
-| 7 | Singularidad |
-| 8 | Debates éticos y normativos sobre el uso de tecnologías disruptivas ]
-| 9 | Conclusión |
+| 2 | [Promesas del blockchain](/sesion2.md) |
+| 3 | [Contratos inteligentes](/sesion3.md) |
+| 4 | [Introducción a la inteligencia artificial](/sesion4.md) |
+| 5 | [Inteligencia artificial y toma de decisiones](/sesion5.md) |
+| 6 | [*Big Data*: impacto en la toma de decisiones](/sesion6.md) |
+| 7 | [Singularidad](/sesion7.md) |
+| 8 | [Debates éticos y normativos sobre el uso de tecnologías disruptivas](/sesion8.md) ]
+| 9 | [Conclusión](/sesion9.md) |
 
 [Arriba](#Contenido)
 
