@@ -19,7 +19,7 @@ This page preserves some of the courses, workshops or tutorials in which I have 
 | Cursos  |
 |:-------------:|
 | [Estimación de Máxima Verosimilitud](courses/mle/mle.md) |
-| [Implicaciones de las technologías disruptivas en el sector público](XXX.) |
+| [Implicaciones de las technologías disruptivas en el sector público](courses/Implicaciones_disruptivas/Implicaciones_disruptivas.md) |
 | [TIC, democracia y rendición de cuentas](courses/tic_democracia/tic_democracia.md)  |
 
 | Tutorials  |
