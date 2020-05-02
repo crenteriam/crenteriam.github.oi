@@ -6,10 +6,10 @@ tag:
 
 [Teaching](../../../teaching) &rarr; [Minicurso](implicaciones_disruptivas.md) &rarr; XXXXXX
 
-# Sesión X
-## XXXX
+# Sesión 7
+## Singularidad
 
-XXXXX.
+Resumen de la sesión: La posibilidad de que sistemas computacionales se desarrollen y aprendan para desplegar sistemas aún más potentes representa una idea que ha sido fuente de predicciones utópicas, pero también de distopias comunes. En la actualidad se han realizado distintas reflexiones sobre la singularidad. En la Administración Pública es un debate incipiente que debe considerarse por los efectos que tiene sobre las interacciones sociales en todos los niveles, desde las más básicas hasta la de ciudadanía-gobierno.
 
 <p>&nbsp;</p>
 
@@ -17,4 +17,7 @@ XXXXX.
 
 <p>&nbsp;</p>
 
-XXXXX.
+Lecturas:
+- Fukuyama, F. 2002. Our posthuman future. Nueva York. Picador
+- Kurzweil, R: 2005. Singularity is near. Nueva York. Penguin.
+- Sandel, M. 2007- The case against perfection. Cambridge. Harvard
