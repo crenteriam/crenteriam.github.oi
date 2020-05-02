@@ -1,7 +1,9 @@
 ---
-layout: contents
+layout: page
 title: Teaching
 ---
+
+This page preserves some of the courses, workshops or tutorials in which I have worked on.
 
 <!--| Book |
 | :---:  |
@@ -16,7 +18,7 @@ title: Teaching
 
 | Cursos  |
 |:-------------:|
-| [Estimación de Máxima Verosimilitud](XXXX) |
+| [Estimación de Máxima Verosimilitud](courses/mle/mle.md) |
 | [Implicaciones de las technologías disruptivas en el sector público](XXX.) |
 | [TIC, democracia y rendición de cuentas](courses/tic_democracia/tic_democracia.md)  |
 

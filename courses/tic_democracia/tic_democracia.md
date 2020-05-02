@@ -14,6 +14,7 @@ tag:
 | [Sesiones](#Sesiones) |
 | [Referencias](#Referencias) |
 
+Nota: Impartí este curso durante el calendario 2019-B para la Licenciatura en Administración Gubernamental y Políticas Públicas en el Centro Universitario de Ciencias Económicas y Administrativas (CUCEA), de la Universidad de Guadalajara. La versión completa del temario se encuentra en [este vínculo](courses/tic_democracia/materiales/tic_democracia_temario.pdf).
 
 ## Presentación {#Presentacion}
 
@@ -51,35 +52,35 @@ Proporcionar a los estudiantes conocimiento comprensión y destreza en las nueva
 
 ### UNIDAD I CAMBIO TECNOLOGICO Y CAMBIO SOCIAL
 
-| Sesión       | Descripción  | Lecturas y Videos |
-|:-------------:   | :-------------- | :---- |
-| S1 | Introducción  | (1) [Colombo (2014)](), (2) ["Así recuperamos Internet."]() |
-| S2 | Cambio tecnológico | Celorio (2016) |
-| S3 | Cambio económico |  |
-| S4 | Una nueva generación política | Ninguna |
-| [S5](http://tuvalu.santafe.edu/~aaronc/slides/Clauset_2015_SFI_Networks_ShortCourse.pdf) | Teoría de redes | Ninguna |
-| [S6](/courses/tic_democracia/materiales/S5-La-Sociedad-Red-Web.md) | La sociedad red | (1) Castells (2002), (2) [Manuel Castells en Vuelta de Tuerka](https://www.youtube.com/watch?v=dU-MD3NqmQ8&t=3410s) |
+| Sesión       | Descripción  |
+|:-------------:   | :-------------- |
+| S1 | Introducción  |
+| S2 | Cambio tecnológico |
+| S3 | Cambio económico |
+| S4 | Una nueva generación política |
+| [S5](http://tuvalu.santafe.edu/~aaronc/slides/Clauset_2015_SFI_Networks_ShortCourse.pdf) | Teoría de redes |
+| [S6](/courses/tic_democracia/materiales/S5-La-Sociedad-Red-Web.md) | La sociedad red |
 
 ### UNIDAD II TIC COMO INSTRUMENTO DE EMPODERAMIENTO CIUDADANO
 
-| Sesión       | Descripción  | Lecturas y Videos |
-|:-------------:   | :-------------- | :---- |
-| S7 | Empoderamiento ciudadano | (1) Conferencia: Comunicación y poder. [Opción 1](https://www.youtube.com/watch?v=31b6vD_cyh4), y [Opción 2](https://www.youtube.com/watch?v=wPNnSMSM5og), (2) [El Mundo según Manuel Castells](https://www.youtube.com/watch?v=fUodIfrX6UE&t=1601s). |
-| S8 | Movimientos sociales en red | (1) [Redes de indignación y esperanza](https://www.youtube.com/watch?v=S_7zOcnDvFs), (2) M. Castells [Redes de indignación y esperanza](https://www.youtube.com/watch?v=O4h-hrF2ObE), (3) Postill (2016) |
-| S9 | Tecnologías de la información y rendición de cuentas social | Marce & Soler (2016) |
+| Sesión       | Descripción  |
+|:-------------:   | :-------------- |
+| S7 | Empoderamiento ciudadano |
+| S8 | Movimientos sociales en red |
+| S9 | Tecnologías de la información y rendición de cuentas social |
 
 ### UNIDAD III HERRAMIENTAS TECNOLOGICAS PARA LA RENDICION DE CUENTAS
 
-| Sesión       | Descripción  | Lecturas y Videos |
-|:-------------:   | :-------------- | :---- |
+| Sesión       | Descripción  |
+|:-------------:   | :-------------- |
 | S10 | Herramientas tecnologicas de nueva generacion |
-| S11 | Gobierno abierto. Conceptos | (1) Telefónica (2013) (2) Olvera & Vera (2004) |
-| S12 | Gobierno abierto. Tipología y casos | |
-| S13 | Tecnologias Civicas. Conceptos | Magallón (2014) |
-| S14 | Tecnologías Cívicas. Tipología y casos | |
-| S15 | Tecnología, periodismo y rendición de cuentas | Casero-Ripolles (2014) |
-| S16 | Teoría de la implementación de TIC en organizaciones | |
-| S17 | Presentación de trabajos finales | |
+| S11 | Gobierno abierto. Conceptos |
+| S12 | Gobierno abierto. Tipología y casos |
+| S13 | Tecnologias Civicas. Conceptos |
+| S14 | Tecnologías Cívicas. Tipología y casos |
+| S15 | Tecnología, periodismo y rendición de cuentas |
+| S16 | Teoría de la implementación de TIC en organizaciones |
+| S17 | Presentación de trabajos finales |
 
 [Arriba](#Contenido)
 
