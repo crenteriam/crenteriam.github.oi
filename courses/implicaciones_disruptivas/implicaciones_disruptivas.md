@@ -35,7 +35,7 @@ Organizar y sistematizar de una manera introductoria los posibles efectos disrup
 
 | Sesión       | Descripción  |
 |:-------------:   | :-------------- |
-| 1 | [Introducción: las tecnologías disruptivas en un contexto de la administración pública](courses/implicaciones_disruptivas/sesion1.md)  |
+| 1 | [Introducción: las tecnologías disruptivas en un contexto de la administración pública](/sesion1.md)  |
 | 2 | Promesas del blockchain |
 | 3 | Contratos inteligentes |
 | 4 | Introducción a la inteligencia artificial |
