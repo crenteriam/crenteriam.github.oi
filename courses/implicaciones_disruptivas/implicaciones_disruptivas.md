@@ -4,7 +4,9 @@ title: Minicurso: Implicaciones de las Tecnologías Disruptivas en el Sector Pú
 tag:
 ---
 
-Note: Tuve el gusto de colaborar con la iniciativa del [Dr. David Arellano Gault]() y con Gabriel Rojas en la elaboración de este mini-curso virtual sobre las implicaciones de las tecnologias disruptivas en el sector público.  Fue una amena experiencia en la que aprendí mucho sobre tecnologías disruptivas. El mini-curso es completamente virtual; documenté todos los materiales en esta página para su fácil acceso.
+[Teaching](../../../teaching) &rarr; Minicurso: Implicaciones de las Tecnologías Disruptivas en el Sector Público
+
+Tuve el gusto de colaborar con la iniciativa del [Dr. David Arellano Gault]() y con Gabriel Rojas en la elaboración de este mini-curso virtual sobre las implicaciones de las tecnologias disruptivas en el sector público.  Fue una amena experiencia en la que aprendí mucho sobre tecnologías disruptivas. El mini-curso es completamente virtual; documenté todos los materiales en esta página para su fácil acceso.
 
 ## Contenido {#Contenido}
 
