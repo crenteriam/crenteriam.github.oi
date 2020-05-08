@@ -4,6 +4,8 @@ title: TIC, Democracia y rendición de cuentas
 tag:
 ---
 
+Impartí este curso durante el calendario 2019-B para la Licenciatura en Administración Gubernamental y Políticas Públicas en el Centro Universitario de Ciencias Económicas y Administrativas (CUCEA), de la Universidad de Guadalajara. La versión completa del temario se encuentra en [este vínculo](/materiales/tic_democracia_temario.pdf).
+
 ## Contenido {#Contenido}
 
 | Contenido |
@@ -13,8 +15,6 @@ tag:
 | [Evaluación](#Evaluacion) |
 | [Sesiones](#Sesiones) |
 | [Referencias](#Referencias) |
-
-Nota: Impartí este curso durante el calendario 2019-B para la Licenciatura en Administración Gubernamental y Políticas Públicas en el Centro Universitario de Ciencias Económicas y Administrativas (CUCEA), de la Universidad de Guadalajara. La versión completa del temario se encuentra en [este vínculo](courses/tic_democracia/materiales/tic_democracia_temario.pdf).
 
 ## Presentación {#Presentacion}
 

@@ -4,7 +4,7 @@ title: Estimacion de Maxima Verosimilitud
 tag:
 ---
 
-Nota: Impartí este curso para el Doctorado en Administración y Políticas Públicas en el Centro de Investigación y Docencia Económicas durante el calendario 2020-A. La versión completa del temario se encuentra en [este vínculo](courses/mle/materiales/mle_temario.pdf).
+Impartí este curso para el Doctorado en Administración y Políticas Públicas en el Centro de Investigación y Docencia Económicas durante el calendario 2020-A. La versión completa del temario se encuentra en [este vínculo](/materiales/mle_temario.pdf).
 
 ## Contenido {#Contenido}
 
