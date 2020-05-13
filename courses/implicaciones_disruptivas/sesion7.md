@@ -4,7 +4,7 @@ title: Minicurso: Implicaciones de las Tecnologías Disruptivas en el Sector Pú
 tag:
 ---
 
-[Teaching](../../../teaching) &rarr; [Minicurso](implicaciones_disruptivas.md) &rarr; XXXXXX
+[Teaching](../../../teaching) &rarr; [Minicurso](implicaciones_disruptivas.md) &rarr; Singularidad
 
 # Sesión 7
 ## Singularidad
@@ -17,7 +17,8 @@ Resumen de la sesión: La posibilidad de que sistemas computacionales se desarro
 
 <p>&nbsp;</p>
 
-Lecturas:
+## Referencias {#Referencias}
+
 - Fukuyama, F. 2002. Our posthuman future. Nueva York. Picador
 - Kurzweil, R: 2005. Singularity is near. Nueva York. Penguin.
 - Sandel, M. 2007- The case against perfection. Cambridge. Harvard

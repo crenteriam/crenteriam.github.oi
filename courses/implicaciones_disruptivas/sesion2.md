@@ -4,7 +4,7 @@ title: Minicurso: Implicaciones de las Tecnologías Disruptivas en el Sector Pú
 tag:
 ---
 
-[Teaching](../../../teaching) &rarr; [Minicurso](implicaciones_disruptivas.md) &rarr; XXXXXX
+[Teaching](../../../teaching) &rarr; [Minicurso](implicaciones_disruptivas.md) &rarr; Promesas del Blockchain
 
 # Sesión 2
 ## Promesas del Blockchain
@@ -17,5 +17,7 @@ Resumen de la sesión: En la primera sesión se explica cómo funciona la tecnol
 
 <p>&nbsp;</p>
 
-Lecturas: Atzori, M. (2017). Blockchain Technology and Decentralized Governance: is the State Still Necessary? Journal of Governance and Regulation, 6(1), 45-62. http://dx.doi.org/10.22495/jgr_v6_i1_p5
-Ølnes, Svein & Ubacht, Jolien & Janssen, Marijn. (2017). Blockchain in government: Benefits and implications of distributed ledger technology for information sharing. Government Information Quarterly. 34. 10.1016/j.giq.2017.09.007.
+## Referencias {#Referencias}
+
+- Atzori, M. (2017). Blockchain Technology and Decentralized Governance: is the State Still Necessary? Journal of Governance and Regulation, 6(1), 45-62.
+- Ølnes, Svein & Ubacht, Jolien & Janssen, Marijn. (2017). Blockchain in government: Benefits and implications of distributed ledger technology for information sharing. Government Information Quarterly. 34.

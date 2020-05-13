@@ -4,7 +4,7 @@ title: Minicurso: Implicaciones de las Tecnologías Disruptivas en el Sector Pú
 tag:
 ---
 
-[Teaching](../../../teaching) &rarr; [Minicurso](implicaciones_disruptivas.md) &rarr; XXXXXX
+[Teaching](../../../teaching) &rarr; [Minicurso](implicaciones_disruptivas.md) &rarr; Contratos inteligentes
 
 # Sesión 3
 ## Contratos inteligentes
@@ -17,5 +17,7 @@ Resumen de la sesión: A partir de la segunda sesión, los contratos inteligente
 
 <p>&nbsp;</p>
 
-Lecturas: Mik, E. (2017). Smart contracts: terminology, technical limitations and real-world complexity. Law, Innovation and technology, 2017 Vol. 9, No. 2, 269–300 https://doi.org/10.1080/17579961.2017.1378468
-Allende, Marco. 2018. Blockchain: Cómo desarrollar confianza en entornos complejos para generar valor de impacto social. Banco Interamericano de Desarrollo.
+## Referencias {#Referencias}
+
+- Mik, E. (2017). Smart contracts: terminology, technical limitations and real-world complexity. Law, Innovation and technology, 2017 Vol. 9, No. 2, 269–300
+- Allende, Marco. 2018. Blockchain: Cómo desarrollar confianza en entornos complejos para generar valor de impacto social. Banco Interamericano de Desarrollo.

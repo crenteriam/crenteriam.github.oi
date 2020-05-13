@@ -17,6 +17,6 @@ Resumen de la sesión: Presentación del curso con el objetivo central. Se expli
 
 <p>&nbsp;</p>
 
-Lectura: Bernd W. Wirtz, Jan C. Weyerer & Carolin Geyer (2019). Artificial Intelligence
-and the Public Sector—Applications and Challenges, International Journal of Public Administration,
-42:7, 596-615, DOI: 10.1080/01900692.2018.1498103
+## Referencias {#Referencias}
+
+- Bernd W. Wirtz, Jan C. Weyerer & Carolin Geyer (2019). Artificial Intelligence and the Public Sector—Applications and Challenges, International Journal of Public Administration, 42:7, 596-615

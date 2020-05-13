@@ -38,7 +38,3 @@ Este mini-curso es una discusión abierta sobre las implicaciones del blockchain
 | 9 | [Conclusión](/sesion9.md) |
 
 [Arriba](#Contenido)
-
-## Referencias {#Referencias}
-
-XXXXX.

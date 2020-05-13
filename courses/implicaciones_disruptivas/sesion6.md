@@ -6,10 +6,10 @@ tag:
 
 [Teaching](../../../teaching) &rarr; [Minicurso](implicaciones_disruptivas.md) &rarr; XXXXXX
 
-# Sesión X
-## XXXX
+# Sesión 6
+## Big Data
 
-XXXXX.
+Resumen de la sesión: El big data abre la posibilidad de procesar niveles de información a una escala transformadora. Para nuestro campo, esto implica la posibilidad de incorporar a nuestros análisis más información sobre fenómenos con menores costos y plazos para procesarla. De esta manera, los enfoques racionales de toma de decisiones surgen como una posibilidad más cercana. Sin embargo, esto no implica que se reduzcan los sesgos bajo posiciones políticas.
 
 <p>&nbsp;</p>
 
@@ -17,4 +17,4 @@ XXXXX.
 
 <p>&nbsp;</p>
 
-Resumen de la sesión: El big data abre la posibilidad de procesar niveles de información a una escala transformadora. Para nuestro campo, esto implica la posibilidad de incorporar a nuestros análisis más información sobre fenómenos con menores costos y plazos para procesarla. De esta manera, los enfoques racionales de toma de decisiones surgen como una posibilidad más cercana. Sin embargo, esto no implica que se reduzcan los sesgos bajo posiciones políticas.
+## Referencias {#Referencias}
