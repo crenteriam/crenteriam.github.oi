@@ -10,13 +10,9 @@ title: Research
 <!--TEXT STARTS HERE-->
 I find fascinating how some technological innovations have impacted people's lifestyles and behaviors, organizational practices, and social dynamics. Web 2.0 applications, distributed computing, and artifical intelligence, for example, have transformed the way we produce, storage, process and transmit information.
 
-I find joy understanding the implications of these information technologies in organizations; how, for example, they transform citizen participation, managerial and decision-making practices or the delivery of public services. My research seeks to better understand the use of information technologies as instruments for addressing three contemporary challenges of public administration:
+I find joy understanding the implications of these information technologies in organizations; how, for example, they transform citizen participation, managerial and decision-making practices or the delivery of public services. Through my research in this area, I seek to contribute addressing two contemporary challenges of public administration: improving citizen participation and improving the quality of decision-making in government.
 
-- Improving citizen participation and governance mechanisms
-- Improving the quality of decision-making in government
-- Stengthening democratic values in public institutions
-
-Seeking answers for these challenges, I analyze the interactions between social and technological change, social mobilization, and citizen participation, and I explore the evolution of bureaucracies in the XXI century.
+Seeking answers for these challenges, I analyze the interactions between social and technological change, social mobilization, and citizen participation; I also explore the evolution of bureaucracies in our evolving society.
 
 <!--TEXT ENDS HERE-->
 <center>
