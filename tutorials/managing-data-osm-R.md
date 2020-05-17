@@ -207,9 +207,9 @@ Alternatively, write a new shapefile with package maptools (without .prj)
 writePolyShape(highways, “highways\_noprj”)
 ===========================================
 
-[^7] Further details
+[^7]: Further details
 <a href="http://rstudio-pubs-static.s3.amazonaws.com/84577_d3eb8b4712b64dbdb810773578d3c726.html" class="uri">http://rstudio-pubs-static.s3.amazonaws.com/84577_d3eb8b4712b64dbdb810773578d3c726.html</a>
-[^8] See further details in RPOS 619 tutorial
+[^8]: See further details in RPOS 619 tutorial
 <a href="https://www.youtube.com/watch?v=oPsKeC_EMX0" class="uri">https://www.youtube.com/watch?v=oPsKeC_EMX0</a>
 Or “Read and write ESRI Shapefiles with R“:
 <a href="https://www.nceas.ucsb.edu/scicomp/usecases/ReadWriteESRIShapeFiles" class="uri">https://www.nceas.ucsb.edu/scicomp/usecases/ReadWriteESRIShapeFiles</a>
