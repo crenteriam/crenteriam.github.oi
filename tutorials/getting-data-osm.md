@@ -1,7 +1,7 @@
 ---
 layout: contents
 title: "Accessing and Managing Spatial Data from OpenStreet Maps"
-tag:
+tag: OpenStreetMap, R, SpatialLite, overpass turbo, GeoJSON, KML, QGIS, BBBike
 ---
 
 | [Getting Spatial Data](#Getting) |
