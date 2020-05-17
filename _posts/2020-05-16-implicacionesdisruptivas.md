@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Minicurso: Implicaciones de las tecnologías disruptivas en el sector público
+title: Minicurso. Implicaciones de las tecnologías disruptivas en el sector público
 tag: tecnologías disruptivas, gobierno, sector público, administración pública, inteligencia artificial, blockchain, singularidad, tecnoética, habermas, fukuyama, democracia, big data
 ---
 
