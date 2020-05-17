@@ -1,5 +1,8 @@
-2. Importing the Spatial Data in R
-==================================
+---
+layout: contents
+title: "Importing the Spatial Data in R"
+tag: OpenStreetMap, R, SpatialLite, overpass turbo, GeoJSON, KML, QGIS, BBBike
+---
 
 To import OSM spatial data into R, you can either make direct queries in
 the OSM’s API or you can download an OSM file an then open it into R.
@@ -24,11 +27,11 @@ library(osmar)
 
     ## Loading required package: geosphere
 
-    ## 
+    ##
     ## Attaching package: 'osmar'
 
     ## The following object is masked from 'package:utils':
-    ## 
+    ##
     ##     find
 
 ``` r
@@ -41,7 +44,7 @@ library(rgdal)
     ##  Geospatial Data Abstraction Library extensions to R successfully loaded
     ##  Loaded GDAL runtime: GDAL 2.2.3, released 2017/11/20
     ##  Path to GDAL shared files: C:/Users/rente/OneDrive/Documents/R/win-library/4.0/rgdal/gdal
-    ##  GDAL binary built with GEOS: TRUE 
+    ##  GDAL binary built with GEOS: TRUE
     ##  Loaded PROJ.4 runtime: Rel. 4.9.3, 15 August 2016, [PJ_VERSION: 493]
     ##  Path to PROJ.4 shared files: C:/Users/rente/OneDrive/Documents/R/win-library/4.0/rgdal/proj
     ##  Linking to sp version: 1.4-1
@@ -154,7 +157,7 @@ plot(area.albany)
 plot(street.albany,add=TRUE,col="green")
 ```
 
-### C. Importing from GeoJSON files\[^1\]
+### C. Importing from GeoJSON files[^7]
 
 To follow this example, you must download into your computer the
 follwing file
@@ -169,7 +172,7 @@ The option `wkbLineString` provides the attributes for the lines layer.
 
 ``` r
 ogrListLayers("highways.geojson")
-ogrInfo("highways.geojson", "OGRGeoJSON", require_geomType = "wkbLineString")\
+ogrInfo("highways.geojson", "OGRGeoJSON", require_geomType = "wkbLineString")
 
 # The alternative layers are require_geomType="wkbPoint" OR require_geomType="wkbPolygon"
 ```
@@ -189,7 +192,7 @@ class(highways)
 
 With the information provided above you would be allowed to do your
 spatial analysis. However, if you need to export the objects as ESRI’s
-Shapefiles, use one of the two following lines:\[^8\]
+Shapefiles, use one of the two following lines:[^8]
 
 write a new shapefile with package rgdal (including .prj component)
 ===================================================================
@@ -204,9 +207,9 @@ Alternatively, write a new shapefile with package maptools (without .prj)
 writePolyShape(highways, “highways\_noprj”)
 ===========================================
 
-\[^7\] Further details
+[^7] Further details
 <a href="http://rstudio-pubs-static.s3.amazonaws.com/84577_d3eb8b4712b64dbdb810773578d3c726.html" class="uri">http://rstudio-pubs-static.s3.amazonaws.com/84577_d3eb8b4712b64dbdb810773578d3c726.html</a>
-\[^8\] See further details in RPOS 619 tutorial
+[^8] See further details in RPOS 619 tutorial
 <a href="https://www.youtube.com/watch?v=oPsKeC_EMX0" class="uri">https://www.youtube.com/watch?v=oPsKeC_EMX0</a>
 Or “Read and write ESRI Shapefiles with R“:
 <a href="https://www.nceas.ucsb.edu/scicomp/usecases/ReadWriteESRIShapeFiles" class="uri">https://www.nceas.ucsb.edu/scicomp/usecases/ReadWriteESRIShapeFiles</a>
