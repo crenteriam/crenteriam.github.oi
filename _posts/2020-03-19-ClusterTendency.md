@@ -52,7 +52,7 @@ Hopkins statistic estimation begins by first sampling *n* points from
 the data set. Afterwards, for each observation (*p*<sub>*i*</sub>) a
 nearest neighbor (*p*<sub>*j*</sub>) is found and the distance is
 computed
-(*x*<sub>*i*</sub> = *d**i**s**t*(*p*<sub>*i*</sub>, *p*<sub>*j*</sub>)).
+(<img src="http://www.sciweavers.org/tex2img.php?eq=x_i%3D%20dist%28p_i%2Cp_j%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="x_i= dist(p_i,p_j)" width="125" height="21" />).
 Then, a second data set is created through a simulation yielding a
 random distribution (i.e. without a pattern or structure); then, the
 same process is computed
@@ -60,10 +60,11 @@ same process is computed
 The Hopkins statistic (H) is obtained by dividing the sum of nearest
 neighbors from *y*<sub>*i*</sub> by the combined sum of nearest
 neighbors *x*<sub>*i*</sub> + *y*<sub>*i*</sub>. An H value close to 0.5
-indicates that $\\sum\_{i=1}^{n}x\_i$ is close to a random distribution,
-and therefore there is not a cluster structure within the data. An H
-value close to 0 or 1 indicates a meaningful and relevant cluster
-structure within the data.
+indicates that
+<img src="http://www.sciweavers.org/tex2img.php?eq=%5Csum_%7Bi%3D1%7D%5E%7Bn%7Dx_i&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\sum_{i=1}^{n}x_i" width="43" height="50" />
+is close to a random distribution, and therefore there is not a cluster
+structure within the data. An H value close to 0 or 1 indicates a
+meaningful and relevant cluster structure within the data.
 
 <img src="http://www.sciweavers.org/tex2img.php?eq=%24%5Csum_%7Bi%3D1%7D%5E%7Bn%7Dx_i%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$\sum_{i=1}^{n}x_i$" width="60" height="26" />
 
@@ -77,14 +78,15 @@ the crowdsourcing initiatives, the resulting Hopkins Statistic was 0.36,
 indicating a weak cluster structure within the data.
 
 The VAT analysis uses the dissimilarity matrix between the observations
-from the data set and sorted by minimal distance . The resulting data,
+from the data set and sorted by minimal distance. The resulting data,
 known as Ordered Dissimilarity Matrix (ODM) is displayed through a heat
 map. If the data contains a cluster structure, then the visual
 representation of the ODM must have a discernible pattern.
 
-The Figure shows a pattern in the ODM, where the top side and left side
-show a cluster of blue values (i.e. high dissimilarity), while the rest
-of the Figure shows a cluster of red values (i.e. small dissimilarity).
+The Figure below shows a pattern in the ODM, where the top side and left
+side show a cluster of blue values (i.e. high dissimilarity), while the
+rest of the Figure shows a cluster of red values (i.e. small
+dissimilarity).
 
 ``` r
 # Visual Assessment of cluster Tendency (VAT)
@@ -175,8 +177,6 @@ is closer to 1 than to -1 and therefore indicates a good fit of every
 observation to their cluster.
 
 <img src="http://www.sciweavers.org/tex2img.php?eq=H%20%3D%20%5Cfrac%7B%5Csum_%7Bi%3D1%7D%5E%7Bn%7Dy_i%7D%7B%5Csum_%7Bi%3D1%7D%5E%7Bn%7Dx_i%20%2B%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7Dy_i%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="H = \frac{\sum_{i=1}^{n}y_i}{\sum_{i=1}^{n}x_i + \sum_{i=1}^{n}y_i}" width="172" height="56" />
-
-$$\\frac{\\sum\_{i=1}^{n}y\_i}{\\sum\_{i=1}^{n}x\_i + \\sum\_{i=1}^{n}y\_i}$$
 
 ``` r
 # Silhouette Statistics
