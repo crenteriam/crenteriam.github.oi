@@ -13,11 +13,11 @@ A partir de las tecnologías analizadas surgen preguntas, retos y reflexiones so
 
 <p>&nbsp;</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vdr3F6cDxis" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="XXXX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p>&nbsp;</p>
 
 ## Referencias {#Referencias}
 - Feenberg, A. 2002. Transforming technology. Oxford U Press.
 - Luppicini, R. y R. Adell. 2009. Handbook of research on technoethics. ISR. New York
-- Valkneburg, G. 2013. Technoethics and public reason. International Jpurnal of Technoethics. 4(2) 
+- Valkneburg, G. 2013. Technoethics and public reason. International Jpurnal of Technoethics. 4(2)

@@ -6,18 +6,7 @@ tag:
 
 [Teaching](../../../teaching) &rarr; Minicurso: Implicaciones de las Tecnologías Disruptivas en el Sector Público
 
-Tuve el gusto de colaborar con la iniciativa del [Dr. David Arellano Gault](Search Results
-Twitter results
-https://twitter.com/gaultin) y Gabriel Rojas en la elaboración de este mini-curso virtual sobre las implicaciones de las tecnologias disruptivas en el sector público.  Fue una amena experiencia en la que aprendí mucho sobre tecnologías disruptivas. El mini-curso es completamente virtual; documenté todos los materiales en esta página para su fácil acceso.
-
-## Contenido {#Contenido}
-
-| Contenido |
-| :---: |
-| [Presentación](#Presentacion) |
-| [Objetivo](#Objetivo) |
-| [Sesiones](#Sesiones) |
-| [Referencias](#Referencias) |
+Tuve el gusto de colaborar con la iniciativa del [Dr. David Arellano Gault](https://twitter.com/gaultin) y [Gabriel Rojas](https://twitter.com/gabrielrojassal) en la elaboración de este mini-curso virtual sobre las implicaciones de las tecnologias disruptivas en el sector público.  Fue una amena experiencia en la que aprendí mucho sobre tecnologías disruptivas. El mini-curso es completamente virtual; documenté todos los materiales en esta página para su fácil acceso.
 
 ## Presentación {#Presentacion}
 
@@ -36,5 +25,3 @@ Este mini-curso es una discusión abierta sobre las implicaciones del blockchain
 | 7 | [Singularidad](/sesion7.md) |
 | 8 | [Debates éticos y normativos sobre el uso de tecnologías disruptivas](/sesion8.md) |
 | 9 | [Conclusión](/sesion9.md) |
-
-[Arriba](#Contenido)

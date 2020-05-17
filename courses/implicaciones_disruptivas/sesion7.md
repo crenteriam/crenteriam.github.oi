@@ -13,7 +13,7 @@ Resumen de la sesión: La posibilidad de que sistemas computacionales se desarro
 
 <p>&nbsp;</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vdr3F6cDxis" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BUSOrTC1QME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p>&nbsp;</p>
 

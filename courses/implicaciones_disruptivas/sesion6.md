@@ -13,7 +13,7 @@ Resumen de la sesión: El big data abre la posibilidad de procesar niveles de in
 
 <p>&nbsp;</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vdr3F6cDxis" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NhZc5sQK_IM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p>&nbsp;</p>
 
