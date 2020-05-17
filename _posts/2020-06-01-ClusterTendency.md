@@ -71,17 +71,15 @@ nearest neighbor (*p*<sub>*j*</sub>) is found and the distance is
 computed (\\(x\_i = dist(p\_i,p\_j)\\)). Then, a second data set is
 created through a simulation yielding a random distribution
 (i.e. without a pattern or structure); then, the same process is
-computed
-(*y*<sub>*i*</sub> = *d**i**s**t*(*q*<sub>*i*</sub>, *q*<sub>*j*</sub>)).
-The Hopkins statistic (H) is obtained by dividing the sum of nearest
-neighbors from *y*<sub>*i*</sub> by the combined sum of nearest
-neighbors *x*<sub>*i*</sub> + *y*<sub>*i*</sub>. An H value close to 0.5
-indicates that $\\sum\_{i=1}^{n}x\_i$ is close to a random distribution,
-and therefore there is not a cluster structure within the data. An H
-value close to 0 or 1 indicates a meaningful and relevant cluster
-structure within the data.
+computed ((\\y\_i = dist(q\_i,q\_j)\\)). The Hopkins statistic (H) is
+obtained by dividing the sum of nearest neighbors from *y*<sub>*i*</sub>
+by the combined sum of nearest neighbors \\(x\_i + y\_i\\). An H value
+close to 0.5 indicates that $\\sum\_{i=1}^{n}x\_i$ is close to a random
+distribution, and therefore there is not a cluster structure within the
+data. An H value close to 0 or 1 indicates a meaningful and relevant
+cluster structure within the data.
 
-$ \\begin{equation} H = $
+$$H=\\frac{\\sum\_{i=1}^{n}y\_i}{\\sum\_{i=1}^{n}x\_i+\\sum\_{i=1}^{n}y\_i}$$
 
 ``` r
 # Compute Hopkins statistic with n = N-1
@@ -191,7 +189,7 @@ result of the calculation is an average Silhouette width of 0.22, which
 is closer to 1 than to -1 and therefore indicates a good fit of every
 observation to their cluster.
 
-\\\[ S\_i = \\\]
+\\\[S\_i=\\\]
 
 ``` r
 # Silhouette Statistics
