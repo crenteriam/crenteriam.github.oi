@@ -79,7 +79,7 @@ distribution, and therefore there is not a cluster structure within the
 data. An H value close to 0 or 1 indicates a meaningful and relevant
 cluster structure within the data.
 
-$$H=\\frac{\\sum\_{i=1}^{n}y\_i}{\\sum\_{i=1}^{n}x\_i+\\sum\_{i=1}^{n}y\_i}$$
+$$H=\\\\frac{\\\\sum\_{i=1}^{n}y\_i}{\\sum\_{i=1}^{n}x\_i+\\sum\_{i=1}^{n}y\_i}$$
 
 ``` r
 # Compute Hopkins statistic with n = N-1
