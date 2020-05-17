@@ -5,7 +5,7 @@ tag: OpenStreetMap, R, SpatialLite, overpass turbo, GeoJSON, KML, QGIS, BBBike
 ---
 
 | [Getting Spatial Data](#Getting) |
-| [Managing Spatial Data in R](tutorials/managing-data-osm.Rmd) |
+| [Managing Spatial Data in R](tutorials/managing-data-osm.md) |
 
 In this tutorial, I will intruce several ways to download data from [OpenStreet Maps (OSM)](https://www.e-education.psu.edu/geog585/node/738) into R. OSM is an open platform storing georeferenced data. The data in OSM is produced and managed by the people, and is freely available for visualization, query, download, and modification. OMS is especially useful for data at the city level.
 
