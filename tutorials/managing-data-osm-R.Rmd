@@ -1,7 +1,7 @@
 ---
 title: "Accessing and Managing Spatial Data from OpenStreet Maps"
 author: "Cesar Renteria"
-date: "March 3, 2019"
+date: "May , 2020"16
 output:
   md_document:
     variant: markdown_github
