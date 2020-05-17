@@ -74,12 +74,12 @@ created through a simulation yielding a random distribution
 computed ((\\y\_i = dist(q\_i,q\_j)\\)). The Hopkins statistic (H) is
 obtained by dividing the sum of nearest neighbors from *y*<sub>*i*</sub>
 by the combined sum of nearest neighbors \\(x\_i + y\_i\\). An H value
-close to 0.5 indicates that $\\sum\_{i=1}^{n}x\_i$ is close to a random
+close to 0.5 indicates that (\\\_{i=1}^{n}x\_i\\) is close to a random
 distribution, and therefore there is not a cluster structure within the
 data. An H value close to 0 or 1 indicates a meaningful and relevant
 cluster structure within the data.
 
-$$H=\\\\frac{\\\\sum\_{i=1}^{n}y\_i}{\\sum\_{i=1}^{n}x\_i+\\sum\_{i=1}^{n}y\_i}$$
+$$ H = \\frac{\\sum\_{i=1}^{n}y\_i}{\\sum\_{i=1}^{n}x\_i+\\sum\_{i=1}^{n}y\_i}$$
 
 ``` r
 # Compute Hopkins statistic with n = N-1
