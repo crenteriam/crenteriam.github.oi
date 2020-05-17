@@ -7,8 +7,6 @@ title: César
 
 I majored in Marketing from [Universidad de Guadalajara](http://www.udg.mx/) and obtained a Master's degree in Public Administration and Policy from CIDE. In 2011, I joined CIDE's Department of Public Administration and [TelecomCIDE](https://centrolatam.digital/)--a research group dedicated to telecommunications policy--where I worked for  Drs. [Judith Mariscal](http://cide.academia.edu/JudithMariscal) and [Ernesto Flores-Roux](http://www.teleadvs.com/flores/).
 
-Besides research, I teach statistics, and I have done consulting in telecommunications and adoption of information technologies in organizations.
-
 <center>
 <i class="fas fa-at"></i><a href = "mailto: crenteria@albany.edu">mail</a>
 <i class="fab fa-twitter"></i><a href = "https://twitter.com/crenteriama">twitter</a>
