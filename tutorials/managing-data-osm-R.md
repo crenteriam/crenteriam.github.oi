@@ -195,17 +195,10 @@ spatial analysis. However, if you need to export the objects as ESRI’s
 Shapefiles, use one of the two following lines:[^8]
 
 write a new shapefile with package rgdal (including .prj component)
-===================================================================
 
 ``` r
 writeOGR(highways, ".", "highways_prj", driver="ESRI Shapefile")
 ```
-
-Alternatively, write a new shapefile with package maptools (without .prj)
-=========================================================================
-
-writePolyShape(highways, “highways\_noprj”)
-===========================================
 
 [^7]: Further details
 <a href="http://rstudio-pubs-static.s3.amazonaws.com/84577_d3eb8b4712b64dbdb810773578d3c726.html" class="uri">http://rstudio-pubs-static.s3.amazonaws.com/84577_d3eb8b4712b64dbdb810773578d3c726.html</a>
