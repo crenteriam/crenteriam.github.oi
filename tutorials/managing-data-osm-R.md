@@ -1,7 +1,7 @@
 ---
 layout: contents
 title: "Importing the Spatial Data in R"
-tag: OpenStreetMap, R, SpatialLite, overpass turbo, GeoJSON, KML, QGIS, BBBike
+tag: OpenStreetMap, R, overpass turbo, GeoJSON, rgdal, osm, data, osmar, .osm, .geojson, download, import, load, packages
 ---
 
 To import OSM spatial data into R, you can either make direct queries in
