@@ -9,7 +9,7 @@ tag:
 # Sesión 7
 ## Singularidad
 
-Resumen de la sesión: La posibilidad de que sistemas computacionales se desarrollen y aprendan para desplegar sistemas aún más potentes representa una idea que ha sido fuente de predicciones utópicas, pero también de distopias comunes. En la actualidad se han realizado distintas reflexiones sobre la singularidad. En la Administración Pública es un debate incipiente que debe considerarse por los efectos que tiene sobre las interacciones sociales en todos los niveles, desde las más básicas hasta la de ciudadanía-gobierno.
+La posibilidad de que sistemas computacionales se desarrollen y aprendan para desplegar sistemas aún más potentes representa una idea que ha sido fuente de predicciones utópicas, pero también de distopias comunes. En la actualidad se han realizado distintas reflexiones sobre la singularidad. En la Administración Pública es un debate incipiente que debe considerarse por los efectos que tiene sobre las interacciones sociales en todos los niveles, desde las más básicas hasta la de ciudadanía-gobierno.
 
 <p>&nbsp;</p>
 

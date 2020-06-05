@@ -9,7 +9,7 @@ tag:
 # Sesión 1
 ## Introducción: las tecnologías disruptivas en un contexto de la administración pública
 
-Resumen de la sesión: Presentación del curso con el objetivo central. Se explican los dos principios que guían al curso: el concepto de racionalidad limitada y los contrapesos políticos inherentes a una democracia. Posteriormente, se explica qué son las tecnologías disruptivas y cuáles serán abordadas en el curso. La sesión concluye con la presentación de los temas de las siguientes sesiones.
+Presentación del curso con el objetivo central. Se explican los dos principios que guían al curso: el concepto de racionalidad limitada y los contrapesos políticos inherentes a una democracia. Posteriormente, se explica qué son las tecnologías disruptivas y cuáles serán abordadas en el curso. La sesión concluye con la presentación de los temas de las siguientes sesiones.
 
 <p>&nbsp;</p>
 

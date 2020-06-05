@@ -9,7 +9,7 @@ tag:
 # Sesión 5
 ## Inteligencia Artificial y toma de decisiones
 
-Resumen de la sesión: Una de las aplicaciones más relevantes de la IA para la acción gubernamental es la posibilidad de incorporar los algoritmos en la toma de decisiones. Su aplicación cuestiona el prerrequisito central de este curso: la racionalidad limitada. Estos mecanismos suponen que la toma de decisiones sea más objetiva y neutral. Sin embargo, los algoritmos pueden no estar exentos de sesgos y factores políticos que generan discrecionalidad, inequidad, entre otros efectos no previstos.
+Una de las aplicaciones más relevantes de la IA para la acción gubernamental es la posibilidad de incorporar los algoritmos en la toma de decisiones. Su aplicación cuestiona el prerrequisito central de este curso: la racionalidad limitada. Estos mecanismos suponen que la toma de decisiones sea más objetiva y neutral. Sin embargo, los algoritmos pueden no estar exentos de sesgos y factores políticos que generan discrecionalidad, inequidad, entre otros efectos no previstos.
 
 <p>&nbsp;</p>
 

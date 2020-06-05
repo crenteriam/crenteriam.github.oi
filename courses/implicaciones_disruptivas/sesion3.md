@@ -9,7 +9,7 @@ tag:
 # Sesión 3
 ## Contratos inteligentes
 
-Resumen de la sesión: A partir de la segunda sesión, los contratos inteligentes son software que entre otras cosas limitan la participación de un tercero, fungen como acuerdos que son cumplidos mediante algoritmos. Los efectos permiten pensar en la reducción de los costos de transacción, reducir el oportunismo e incluso permiten identificar actos de corrupción. En un contexto de contrataciones públicas, estas características son muy importantes y deben de considerarse. Sin embargo, estos contratos tienen distintas limitaciones que deben considerarse como la escalabilidad, que son sistemas trash in-trash out, entre otros.
+A partir de la segunda sesión, los contratos inteligentes son software que entre otras cosas limitan la participación de un tercero, fungen como acuerdos que son cumplidos mediante algoritmos. Los efectos permiten pensar en la reducción de los costos de transacción, reducir el oportunismo e incluso permiten identificar actos de corrupción. En un contexto de contrataciones públicas, estas características son muy importantes y deben de considerarse. Sin embargo, estos contratos tienen distintas limitaciones que deben considerarse como la escalabilidad, que son sistemas trash in-trash out, entre otros.
 
 <p>&nbsp;</p>
 

@@ -4,10 +4,12 @@ title: Minicurso: Implicaciones de las Tecnologías Disruptivas en el Sector Pú
 tag:
 ---
 
-[Teaching](../../../teaching) &rarr; [Minicurso](implicaciones_disruptivas.md) &rarr; Introducción a la Inteligengia Artificial
+[Teaching](../../../teaching) &rarr; [Minicurso](implicaciones_disruptivas.md) &rarr; Introducción a la Inteligencia Artificial
 
 # Sesión 4
 ## Introducción a la Inteligencia Artificial
+
+Una introducción al aprendizaje de máquina y al aprendizaje profundo.
 
 <p>&nbsp;</p>
 

@@ -16,7 +16,7 @@ Este mini-curso es una discusión abierta sobre las implicaciones del blockchain
 
 | Sesión       | Descripción  |
 |:-------------:   | :-------------- |
-| 1 | [Introducción: las tecnologías disruptivas en un contexto de la administración pública](/sesion1.md)  |
+| 1 | [Introducción](/sesion1.md)  |
 | 2 | [Promesas del blockchain](/sesion2.md) |
 | 3 | [Contratos inteligentes](/sesion3.md) |
 | 4 | [Introducción a la inteligencia artificial](/sesion4.md) |
