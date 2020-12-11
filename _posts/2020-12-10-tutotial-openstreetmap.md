@@ -10,5 +10,5 @@ OSM is an open platform storing georeferenced data. The data in OSM is produced 
 
 The first tutorial *Getting Spatial Data*, shows different ways to access data from OSM. The second one, *Managing Spatial data in R*, shows how to manage the data in R.
 
-| [Getting Spatial Data](tutorials/getting-data-osm.md) |
-| [Managing Spatial Data in R](tutorials/managing-data-osm.md) |
+| [Getting Spatial Data](./tutorials/getting-data-osm.md) |
+| [Managing Spatial Data in R](./tutorials/managing-data-osm.md) |
