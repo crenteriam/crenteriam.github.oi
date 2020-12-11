@@ -1,8 +1,10 @@
 ---
 layout: post
-title: TITLE HERE
-tag: TAG, TAG, TAG.
+title: Construcción de capacidades digitales para la Administración Pública
+tag: gobierno, inteligencia artificial, transformacion digital, liderazgo, capacidades organizacionales, codeando mexico, cminds, cide, google cloud, sector publico
 ---
+
+*Artificial Intelligence for Good Government*
 
 La inteligencia artificial está transformando la forma en que vemos, entendemos y cambiamos al mundo.
 
@@ -15,3 +17,5 @@ Para comprender cómo este escenario impacta la gestión del sector público, pa
 
 
 Aquí el [enlace del evento](https://cloudonair.withgoogle.com/events/ai-for-good-government-mx)
+
+Nota de [El Universal](https://www.eluniversal.com.mx/techbit/google-mostrara-el-potencial-de-la-inteligencia-artificial-en-el-sector-publico)
