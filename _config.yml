@@ -4,8 +4,8 @@ permalink: pretty
 
 # Setup
 title:               Cesar Renteria
-tagline:             Ph.D. Candidate
-description:         'Ph.D. Candidate in Public Administration & Policy'
+tagline:             Ph.D., Professor at CIDE
+description:         'Ph.D., Professor at CIDE'
 url:                 "https://crenteriam.github.io"
 paginate:            5
 
@@ -13,7 +13,7 @@ paginate:            5
 author:
   name:              Cesar Renteria
   url:               https://twitter.com/crenteriama
-  email:             crenteria@albany.edu
+  email:             cesar.renteria@cide.edu
 
 # Custom vars
 version:             1.0
