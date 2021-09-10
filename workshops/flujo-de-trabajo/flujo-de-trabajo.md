@@ -23,7 +23,7 @@ title: Técnicas de flujo de trabajo en la investigación
 
 | Sesión       | Descripción  |
 |:-------------:|--------------|
-| **1**         | **Introducción** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/flujo-de-trabajo/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| **1**         | **Introducción** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/introduccion/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
 |               | XXXXXX  |
 |               | Datos |
 | **2**         | **Reproducibilidad de la ciencia** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/flujo-de-trabajo/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
@@ -47,9 +47,12 @@ title: Técnicas de flujo de trabajo en la investigación
 
 [Arriba](#Contenido)
 
+### Presentaciones
+- Scott Long, [Video - Principles of Workflow in Data Analysis](https://media.dlib.indiana.edu/media_objects/6h440x04w)
+- MATTHEW INGRAM
+
 ### Libros
 - Scott Long, [The Workflow of Data Analysis Using Stata](https://www.stata.com/bookstore/workflow-data-analysis-stata/)
-- Scott Long, [Video - Principles of Workflow in Data Analysis](https://media.dlib.indiana.edu/media_objects/6h440x04w)
 
 ### Websites
 - [Project TIER](https://www.projecttier.org/)
