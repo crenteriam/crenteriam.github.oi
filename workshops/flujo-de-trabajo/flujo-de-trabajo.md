@@ -1,6 +1,6 @@
 ---
-layout: Técnicas de flujo de trabajo en la investigación
-title: NULL
+layout: contents
+title: Técnicas de flujo de trabajo en la investigación
 ---
 
 <a name="Contenido"></a>
@@ -21,9 +21,9 @@ title: NULL
 
 ### <a name="Sesiones"></a>Sesiones
 
-| Sesion       | Descripcion  |
+| Sesión       | Descripción  |
 |:-------------:|--------------|
-| **1**         | **Introduccion** &nbsp;&nbsp; <!--a href="http://uc-r.github.io/data_wrangling/week-1" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a--> |
+| **1**         | **Introducción** &nbsp;&nbsp; <!--a href="http://uc-r.github.io/data_wrangling/week-1" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a--> |
 |               | Software Estadistico R  |
 |               | Datos |
 | **2**         | **Datos** |
@@ -45,6 +45,17 @@ title: NULL
 ### Websites
 - [Project TIER](https://www.projecttier.org/)
 - [Enhancing reproducibility for computational methods](http://science.sciencemag.org/content/354/6317/1240)
+
+### Talleres de flujo de trabajo
+- [Workshop: Workflow and Research Transparency: Examples in Stata and R](http://mattingram.net/teaching/workshops/workflowRstata/)
+- [Workshop: Workflow in Stata using LaTeX and MarkDoc](http://mattingram.net/teaching/workshops/workflowstata/)
+
+### Talleres introductorios a Software
+- [Introduction to Stata (Matt Ingram)](http://mattingram.net/teaching/workshops/introstata/)
+- [Introduction to r (Matt Ingram)](http://mattingram.net/teaching/workshops/introR/)
+- [Introduction to Python (Matt Ingram)](http://mattingram.net/teaching/workshops/introPython/)
+- [Introduction to Jupyter (Matt Ingram)](http://mattingram.net/teaching/workshops/introjupyter/)
+- [Introduction to Latex (Matt Ingram)](http://mattingram.net/teaching/workshops/introlatex/)
 
 [Arriba](#Contenido)
 
