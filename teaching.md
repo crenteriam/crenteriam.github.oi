@@ -22,6 +22,10 @@ This page preserves some of the courses, workshops or tutorials in which I have 
 | [Implicaciones de las tecnologías disruptivas en el sector público](courses/implicaciones_disruptivas/implicaciones_disruptivas.md) |
 | [TIC, democracia y rendición de cuentas](courses/tic_democracia/tic_democracia.md)  |
 
+| Talleres  |
+|:-------------:|
+| [Técnicas de flujo de trabajo](workshops/research/flujo-de-trabajo.md) |
+
 | Tutorials  |
 |:-------------:|
 | [Getting Started with Stata](training/stata/stata.md)  |
