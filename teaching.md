@@ -24,7 +24,7 @@ This page preserves some of the courses, workshops or tutorials in which I have 
 
 | Talleres  |
 |:-------------:|
-| [Técnicas de flujo de trabajo](workshops/research/flujo-de-trabajo.md) |
+| [Técnicas de flujo de trabajo](workshops/flujo-de-trabajo/flujo-de-trabajo.md) |
 
 | Tutorials  |
 |:-------------:|
