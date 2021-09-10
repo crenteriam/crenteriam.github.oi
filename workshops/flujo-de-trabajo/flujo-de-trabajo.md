@@ -23,12 +23,21 @@ title: Técnicas de flujo de trabajo en la investigación
 
 | Sesión       | Descripción  |
 |:-------------:|--------------|
-| **1**         | **Introducción** &nbsp;&nbsp; <!--a href="http://uc-r.github.io/data_wrangling/week-1" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a--> |
-|               | Software Estadistico R  |
+| **1**         | **Introducción** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/flujo-de-trabajo/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+|               | XXXXXX  |
 |               | Datos |
-| **2**         | **Datos** |
+| **2**         | **Reproducibilidad de la ciencia** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/flujo-de-trabajo/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
 |               |  Datos Estructurados |
 |               | Datos no Estructurados  |
+| **3**         | **Principios de reproducibilidad y flujo de trabajo** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/flujo-de-trabajo/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+|               |  XXX |
+|               |  XXX  |
+| **4**         | **Estructura** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/flujo-de-trabajo/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+|               |  XXX |
+|               |  XXX  |
+| **5**         | **Estilo de programación** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/flujo-de-trabajo/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+|               |  XXX |
+|               |  XXX  |
 
 [Arriba](#Contenido)
 
@@ -46,6 +55,8 @@ title: Técnicas de flujo de trabajo en la investigación
 - [Project TIER](https://www.projecttier.org/)
 - [Enhancing reproducibility for computational methods](http://science.sciencemag.org/content/354/6317/1240)
 
+### Guías de estilo de programación
+-
 ### Talleres de flujo de trabajo
 - [Workshop: Workflow and Research Transparency: Examples in Stata and R](http://mattingram.net/teaching/workshops/workflowRstata/)
 - [Workshop: Workflow in Stata using LaTeX and MarkDoc](http://mattingram.net/teaching/workshops/workflowstata/)
