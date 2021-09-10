@@ -1,6 +1,6 @@
 ---
 layout: contents
-title: Técnicas de flujo de trabajo en la investigación
+title: Técnicas de flujo de trabajo para el análisis de datos
 ---
 
 <a name="Contenido"></a>
@@ -24,18 +24,25 @@ title: Técnicas de flujo de trabajo en la investigación
 | Sesión       | Descripción  |
 |:-------------:|--------------|
 | **1**         | **Introducción** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/introduccion/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
-|               | XXXXXX  |
-|               | Datos |
-| **2**         | **Reproducibilidad de la ciencia** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/flujo-de-trabajo/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+|               | Definiciones  |
+|               | Motivación |
+|               | ¿Por qué es relevante? |
+| **2**         | **Reproducibilidad de la ciencia** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/reproducibilidad-ciencia/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
 |               |  Datos Estructurados |
 |               | Datos no Estructurados  |
-| **3**         | **Principios de reproducibilidad y flujo de trabajo** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/flujo-de-trabajo/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| **3**         | **Principios de reproducibilidad y flujo de trabajo** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/reproducibilidad-principios/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
 |               |  XXX |
 |               |  XXX  |
-| **4**         | **Estructura** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/flujo-de-trabajo/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| **4**         | **Buenas prácticas de reproducibilidad** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/reproducibilidad-practicas/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+|               |  Documentos dinámicos |
+|               |  XXX  |
+| **4**         | **Documentos dinámicos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/training/dynamic-documents/dynamicdocs-stata/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+|               |  Documentos dinámicos |
+|               |  XXX  |
+| **5**         | **Análisis exploratorio de datos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/eda/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
 |               |  XXX |
 |               |  XXX  |
-| **5**         | **Estilo de programación** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/flujo-de-trabajo/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| **6**         | **Buenas prácticas de programación** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/programacion/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
 |               |  XXX |
 |               |  XXX  |
 
@@ -48,11 +55,13 @@ title: Técnicas de flujo de trabajo en la investigación
 [Arriba](#Contenido)
 
 ### Presentaciones
-- Scott Long, [Video - Principles of Workflow in Data Analysis](https://media.dlib.indiana.edu/media_objects/6h440x04w)
-- MATTHEW INGRAM
+- [Principles of Workflow in Data Analysis (Scott Long)](https://media.dlib.indiana.edu/media_objects/6h440x04w)
+- [Reproducibility Symposium: Building Transparency Into Research, Teaching, & Learning](https://www.youtube.com/watch?v=oVitDKKCLZ8&t=129s&ab_channel=ualbanylibrary)
 
-### Libros
+### Referencias bibliográficas
 - Scott Long, [The Workflow of Data Analysis Using Stata](https://www.stata.com/bookstore/workflow-data-analysis-stata/)
+- Ingram, M. C. (2021). Teaching transparency: principles and practical considerations with illustrations in R and Stata. In Teaching Research Methods in Political Science. Edward Elgar Publishing.
+- [Reproducibility Symposium: Building Transparency into Research, Teaching, & Learning](https://scholarsarchive.library.albany.edu/open_access_week/2019/schedule/2/)
 
 ### Websites
 - [Project TIER](https://www.projecttier.org/)
