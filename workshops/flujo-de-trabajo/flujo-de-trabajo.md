@@ -9,32 +9,31 @@ title: Técnicas de flujo de trabajo para el análisis de datos transparente y r
 
 | Sección       | Descripción  |
 |:-------------:|--------------|
-| **1**         | **Investigación reproducible** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/introduccion/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| **1**         | **Introducción** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/introduccion/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
 | 1.0       | Introducción  |
 | 1.1       | ¿Por qué me debería importar una técnica de flujo de trabajo? |
 | 1.2       | Principios del fujo de trabajo transparente y reproducible |
-<!--| **2**         | **Investigación reproducible** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/investigacion-reproducible/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |-->
-| **2**         | **Enfoques del proceso de análisis de datos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/enfoques-analisisdedatos/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
-| 2.1       | Enfoque secuencial |
-| 2.2       | Enfoque iterativo |
-| **3**         | **Organización de un proyecto de análisis de datos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/organizacion-proyectodeanalisis/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
-| 3.1       | Disposición de archivos en función de un esquema iterativo |
-| 3.2       | Organización del directorio y los archivos |
-| 3.3       | Convenciones de la nomenclatura de archivos |
-| 3.4       | Estructura básica de un archivo de códigos |
-| **4**         | **Gestión de los datos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/gestion-datos/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
-| 4.1       | Obtención y resguardo de los datos fuente |
-| 4.2       | Procesamiento de datos |
-| 4.3       | Diccionario de datos |
-| 4.4       | Publicación de compendio de investigación |
-| **5**         | **Gestión de la programación** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/gestion-programacion/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
-| 5.1       | Estilo de programación |
-| 5.2       | Documentación del código |
-| 5.3       | Automatización y código general |
-| 5.4       | Vincula todo |
-| **6**         | **Documentos dinámicos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/training/dynamic-documents/dynamicdocs-stata/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
-|               |  Documentos dinámicos |
-|               |  XXX  |
+| **2**         | **Investigación reproducible** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/investigacion-reproducible/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| **3**         | **Enfoques del proceso de análisis de datos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/enfoques-analisisdedatos/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| 3.1       | Enfoque secuencial |
+| 3.2       | Enfoque iterativo |
+| **4**         | **Organización de un proyecto de análisis de datos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/organizacion-proyectodeanalisis/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| 4.1       | Disposición de archivos en función de un esquema iterativo |
+| 4.2       | Organización del directorio y los archivos |
+| 4.3       | Convenciones de la nomenclatura de archivos |
+| 4.4       | Estructura básica de un archivo de códigos |
+| **5**         | **Gestión de los datos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/gestion-datos/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| 5.1       | Obtención y resguardo de los datos fuente |
+| 5.2       | Procesamiento de datos |
+| 5.3       | Diccionario de datos |
+| 5.4       | Publicación de compendio de investigación |
+| **6**         | **Gestión de la programación** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/gestion-programacion/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| 6.1       | Estilo de programación |
+| 6.2       | Documentación del código |
+| 6.3       | Automatización y código general |
+| 6.4       | Vincula todo |
+| **7**         | **Documentos dinámicos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/training/dynamic-documents/dynamicdocs-stata/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+
 
 ## Recursos
 
