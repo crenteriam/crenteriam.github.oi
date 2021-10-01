@@ -1,6 +1,6 @@
 ---
 layout: contents
-title: Técnicas de flujo de trabajo para el análisis de datos transparente y reproducible
+title: Técnicas de flujo de trabajo para la investigación transparente y reproducible
 ---
 
 <a name="Contenido"></a>
