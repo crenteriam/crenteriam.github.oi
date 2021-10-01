@@ -1,58 +1,42 @@
 ---
 layout: contents
-title: Técnicas de flujo de trabajo para el análisis de datos
+title: Técnicas de flujo de trabajo para el análisis de datos transparente y reproducible
 ---
 
 <a name="Contenido"></a>
 
-[Teaching](../../teaching) &rarr; Técnicas de flujo de trabajo
+[Teaching](../../teaching) &rarr; Flujo de trabajo para investigación reproducible
 
-| Contenido |
-| :---: |
-| [Presentacion](#Presentacion) |
-| [Objetivos](#Objetivo) |
-| [Sesiones](#Sesiones) |
-
-[Arriba](#Contenido)
-
-### <a name="Presentacion"></a>Presentacion
-
-### <a name="Objetivo"></a>Objetivo
-
-### <a name="Sesiones"></a>Sesiones
-
-| Sesión       | Descripción  |
+| Sección       | Descripción  |
 |:-------------:|--------------|
-| **1**         | **Introducción** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/introduccion/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
-|               | Definiciones  |
-|               | Motivación |
-|               | ¿Por qué es relevante? |
-| **2**         | **Reproducibilidad de la ciencia** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/reproducibilidad-ciencia/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
-|               |  Datos Estructurados |
-|               | Datos no Estructurados  |
-| **3**         | **Principios de reproducibilidad y flujo de trabajo** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/reproducibilidad-principios/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
-|               |  XXX |
-|               |  XXX  |
-| **4**         | **Buenas prácticas de reproducibilidad** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/reproducibilidad-practicas/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| **1**         | **Investigación reproducible** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/introduccion/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| 1.0       | Introducción  |
+| 1.1       | ¿Por qué me debería importar una técnica de flujo de trabajo? |
+| 1.2       | Principios del fujo de trabajo transparente y reproducible |
+<!--| **2**         | **Investigación reproducible** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/investigacion-reproducible/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |-->
+| **2**         | **Enfoques del proceso de análisis de datos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/enfoques-analisisdedatos/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| 2.1       | Enfoque secuencial |
+| 2.2       | Enfoque iterativo |
+| **3**         | **Organización de un proyecto de análisis de datos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/organizacion-proyectodeanalisis/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| 3.1       | Disposición de archivos en función de un esquema iterativo |
+| 3.2       | Organización del directorio y los archivos |
+| 3.3       | Convenciones de la nomenclatura de archivos |
+| 3.4       | Estructura básica de un archivo de códigos |
+| **4**         | **Gestión de los datos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/gestion-datos/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| 4.1       | Obtención y resguardo de los datos fuente |
+| 4.2       | Procesamiento de datos |
+| 4.3       | Diccionario de datos |
+| 4.4       | Publicación de compendio de investigación |
+| **5**         | **Gestión de la programación** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/gestion-programacion/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
+| 5.1       | Estilo de programación |
+| 5.2       | Documentación del código |
+| 5.3       | Automatización y código general |
+| 5.4       | Vincula todo |
+| **6**         | **Documentos dinámicos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/training/dynamic-documents/dynamicdocs-stata/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
 |               |  Documentos dinámicos |
 |               |  XXX  |
-| **4**         | **Documentos dinámicos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/training/dynamic-documents/dynamicdocs-stata/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
-|               |  Documentos dinámicos |
-|               |  XXX  |
-| **5**         | **Análisis exploratorio de datos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/eda/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
-|               |  XXX |
-|               |  XXX  |
-| **6**         | **Buenas prácticas de programación** &nbsp;&nbsp; <a href="https://crenteriam.github.io/workshops/flujo-de-trabajo/programacion/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
-|               |  XXX |
-|               |  XXX  |
 
-[Arriba](#Contenido)
-
-<a name="Contenido"></a>
-
-[Teaching](../../teaching) &rarr; Ciencia reproducible
-
-[Arriba](#Contenido)
+## Recursos
 
 ### Presentaciones
 - [Principles of Workflow in Data Analysis (Scott Long)](https://media.dlib.indiana.edu/media_objects/6h440x04w)
