@@ -34,7 +34,6 @@ title: Técnicas de flujo de trabajo para la investigación transparente y repro
 | 6.4       | Vincula todo |
 | **7**         | **Documentos dinámicos** &nbsp;&nbsp; <a href="https://crenteriam.github.io/training/dynamic-documents/dynamicdocs-stata/" style="color:black;"><i class="fa fa-folder-open" style="font-size:1em"></i></a> |
 
-
 ## Recursos
 
 ### Presentaciones
