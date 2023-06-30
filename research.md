@@ -8,11 +8,9 @@ title: Research
 
 
 <!--TEXT STARTS HERE-->
-I find fascinating how some technological innovations have impacted people's lifestyles and behaviors, organizational practices, and social dynamics. Web 2.0 applications, distributed computing, and artifical intelligence, for example, have transformed the way we produce, storage, process and transmit information.
+Emergent information technologies are transforming the way we produce, storage, process, and use information. These changes have the potential to transform how governments operate. For example, the spaces for citizen participation, the design of public policies, and the provision of public services are being renovated through the digital transformation.
 
-I find joy understanding the implications of these information technologies in organizations; how, for example, they transform citizen participation, managerial and decision-making practices or the delivery of public services. Through my research in this area, I seek to contribute addressing two contemporary challenges of public administration: improving citizen participation and improving the quality of decision-making in government.
-
-Seeking answers for these challenges, I analyze the interactions between social and technological change, social mobilization, and citizen participation; I also explore the evolution of bureaucracies in our evolving society.
+However, it is challenging to fulfill the promises of this digital transformation and achieve better government performance. We need to pitch in to clarify our minds about effective uses of emergent technologies in the public sector. I seek to contribute to this understanding through my research on information capacity, the use of artificial intelligence in the public sector, and public innovation.
 
 <!--TEXT ENDS HERE-->
 <center>
